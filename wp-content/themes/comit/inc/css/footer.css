@@ -1,0 +1,80 @@
+.site-footer{
+    
+    
+    
+}
+.footer-logo-section{
+    background-color: #0E130B;
+    padding: 30px 110px 0px 110px;
+}
+.footer-navi-section{
+    background-color: #0E130B;
+    padding: 30px 110px 0px 110px;
+}
+.footer-logo-section img{
+    max-width: 290px;
+}
+.footer-logo-section div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.footer-navi-section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.footer-navi-section h2{
+    font-family: 'Glegoo';
+    color: white;
+    opacity: 40%;
+    font-weight: 400;
+}
+.footer-navi-section ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.footer-navi-section ul{
+    padding: 0px;
+}
+.footer-navi-section ul li a{
+font-family: 'Lato';
+font-weight: 400;
+color: white;
+}
+.footer-navi-section ul li a:hover{
+    color: #76BA51;
+}
+.footer-navi-section ul li p{
+    font-family: 'Lato';
+    font-weight: 400;
+    color: white;
+    }
+.horizontal-line-footer{
+    padding-top: 1px;
+    background-color: white;
+    opacity: 40%;
+}
+.social-icon-ul{
+    display: flex;
+   
+}
+.social-icon-ul img{
+    max-width: 30px;
+    padding-right:15px;
+}
+.tel-number:hover{
+    color: #76BA51;
+}
+.footer-white-section{
+    padding: 0px 65px 0px 65px;
+}
+.footer-white-section p{
+    font-family: 'Glegoo';
+    font-weight: 400;
+    color: #0E130B;
+    font-size: 12px;
+    padding: 7px 0px 7px 0px;
+    margin: 0px;
+
+}
