@@ -1,0 +1,1444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Formidable Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-20T16:33:33+00:00\n"
+"PO-Revision-Date: 2021-07-14 14:53:43+0000\n"
+"Language: sr_RS\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+
+#: classes/controllers/FrmProSettingsController.php:256
+msgid "Show image"
+msgstr "Prikazivanje slike"
+
+#: classes/views/frmpro-form-actions/_stripe_address.php:8
+msgid "Address"
+msgstr "Adresi"
+
+#: classes/views/frmpro-entries/navigation.php:30
+#: classes/views/frmpro-entries/navigation.php:34
+msgid "Next page"
+msgstr "Следећа страна"
+
+#: classes/views/frmpro-statistics/show.php:42
+msgid "Apply"
+msgstr "Apply"
+
+#: classes/views/displays/where_row.php:38
+msgid "IP"
+msgstr "IP адреса"
+
+#: classes/helpers/FrmProFieldsHelper.php:2592
+msgid "Confirm"
+msgstr "Потврди"
+
+#: classes/views/displays/mb_dyncontent.php:49
+msgid "Disable visual editor for this view"
+msgstr "Onemogućite vizuelni editor za ovaj prikaz"
+
+#: classes/controllers/FrmProXMLController.php:49
+msgid "Choose a Formidable XML or any CSV file"
+msgstr "Izaberite Formidable XML ili bilo koji CSV fajl"
+
+#: classes/controllers/FrmProXMLController.php:42
+msgid "Upload your Formidable XML or CSV file to import forms, entries, and views into this site. Note: If your imported form/entry/view key and creation date match an item on your site, that item will be updated. You cannot undo this action."
+msgstr "Uploadujte svoj Formidable XML  ili CSV fajl za unos forme, unose i preglede u ovom sajtu . Napomena : Ako vaš unosna forma / unos / pregled ključ i datum stvaranja podudara sa stavkom na vašem sajtu , koje će  biti ažurirano . Vi ne možete da opozovete ovu radnju ."
+
+#: classes/views/xml/map_csv_fields.php:132
+msgid "Is Draft"
+msgstr "je Draft"
+
+#: classes/views/frmpro-fields/options-form-before.php:12
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Selektuj &mdash;"
+
+#: classes/models/fields/FrmProFieldToggle.php:33
+msgid "Yes"
+msgstr "Da"
+
+#: classes/models/fields/FrmProFieldToggle.php:34
+msgid "No"
+msgstr "Ne"
+
+#: classes/controllers/FrmProFormsController.php:991
+msgid "(no title)"
+msgstr "(nema naslova)"
+
+#: classes/views/frmpro-fields/back-end/default-placeholder.php:46
+msgid "Description"
+msgstr "Opsi"
+
+#: classes/helpers/FrmProFieldsHelper.php:4160
+#: classes/views/frmpro-form-actions/post_options.php:228
+#: js/admin/taxonomy/frm_application.js:743
+msgid "Name"
+msgstr "Ime"
+
+#: classes/widgets/FrmListEntries.php:233
+msgid "Views with a \"Both (Dynamic)\" format will show here."
+msgstr "Pregledi sa  \"Oba (Dinamično)\"  formatom će biti prikazani ovde"
+
+#: classes/widgets/FrmListEntries.php:223
+msgid "Use Settings from View"
+msgstr "Koristite postavke sa Pregleda"
+
+#: classes/views/xml/import_csv.php:27
+msgid "%1$s entries are importing"
+msgstr "%1$s unosi se importuju"
+
+#: classes/views/settings/messages.php:17
+msgid "The label on the submit button when editing and entry."
+msgstr "Oznaka na dugmetu za podnošenje kada editujete i unosite."
+
+#: classes/views/settings/messages.php:16
+msgid "Update Button"
+msgstr "Dugme za upadte."
+
+#: classes/views/settings/messages.php:9
+msgid "The default message seen when after an entry is updated."
+msgstr "Default poruke koje se vide kada se unos update-uje."
+
+#: classes/views/settings/messages.php:8
+msgid "Edit Message"
+msgstr "Edituj poruku"
+
+#: classes/views/frmpro-fields/back-end/calendar.php:9
+msgid "Use four digit years or +/- years to make it dynamic. For example, use -5 for the start year and +5 for the end year."
+msgstr "Koristite četvorocifrene godine ili + / - godina da bi bilo dinamično . Na primer, koristite -5 za polazne godine i +5 za krajnjeg godinu ."
+
+#: classes/views/frmpro-fields/back-end/visibility.php:8
+msgid "Visibility"
+msgstr "Vidljivost"
+
+#: classes/views/xml/map_csv_fields.php:122
+msgid "updated at"
+msgstr "updateovano na"
+
+#: classes/views/xml/map_csv_fields.php:122
+msgid "last updated"
+msgstr "poslednji update"
+
+#: classes/views/xml/map_csv_fields.php:22
+msgid "Map Fields"
+msgstr "Mapa polja"
+
+#: classes/views/xml/csv_opts.php:28
+msgid "Note: Only entries can by imported via CSV."
+msgstr "Beleška: Samo unos može biti importovan via CSV."
+
+#: classes/views/xml/import_csv.php:23
+msgid "Importing CSV"
+msgstr "Importovanje CSV"
+
+#: classes/controllers/FrmProFormsController.php:1135
+msgid "Even/Odd"
+msgstr "Jednako/Šanse"
+
+#: classes/views/xml/map_csv_fields.php:125
+msgid "updated by"
+msgstr "update-ovano od strane"
+
+#: classes/controllers/FrmProFormsController.php:385
+msgid "Increment"
+msgstr "Povećanje"
+
+#: classes/controllers/FrmProFormsController.php:728
+msgid "# Format"
+msgstr "# Format"
+
+#: classes/controllers/FrmProFormsController.php:1133
+msgid "Entry Count"
+msgstr "Unesite brojanje"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:95
+msgid "Check All Level %d"
+msgstr "Čekirati sve nivoe %d"
+
+#: classes/views/displays/mb_dyncontent.php:42
+msgid "The HTML for your page. If 'All Entries' is selected above, this content will be repeated for each entry. The field ID and Key work synonymously, although there are times one choice may be better. If you are panning to copy your view settings to other blogs, use the Key since they will be copied and the ids may differ from blog to blog."
+msgstr "HTML za vašu stranicu . Ako je iznad izabrano \" Svi unosi \" , ovaj sadržaj će se ponoviti za svaki unos . ID polje i ključ rade zajedno , mada postoje situacije kada jedan izbor može biti bolji . Ako panirate da kopirate postavke prikaza na drugim blogovma , koristite taster jer će biti kopirani i IDS se mogu razlikovati od bloga do bloga ."
+
+#: classes/helpers/FrmProEntriesHelper.php:411
+msgid "Download CSV"
+msgstr "Download-ovati CSV"
+
+#: classes/controllers/FrmProXMLController.php:250
+msgid "CSV cannot be opened."
+msgstr "CSV ne može da se otvori."
+
+#: classes/controllers/FrmProEntriesController.php:133
+msgid "Draft was Successfully Updated"
+msgstr "Draft je uspešno updateovan"
+
+#: classes/controllers/FrmProEntriesController.php:96
+msgid "Draft was Successfully Created"
+msgstr "Draft je uspešno stvoren"
+
+#: classes/views/frmpro-entries/new.php:30
+msgid "You did not add any fields to your form. %1$sGo back%2$s and add some."
+msgstr "Niste dodali nijedno polje u vašu formu. %1$sidite nazad%2$s i dodajte neke."
+
+#: classes/views/frmpro-entries/new.php:29
+msgid "Oops!"
+msgstr "Ups!"
+
+#: classes/controllers/FrmProSimpleBlocksController.php:31
+#: classes/controllers/FrmProXMLController.php:108
+#: js/admin/applications/applications.js:209
+#: js/admin/taxonomy/frm_application_list.js:103
+#: js/src/view/viewselect.js:39
+msgid "Views"
+msgstr "Pregledi"
+
+#: classes/views/frmpro-forms/add_form_button_options.php:10
+msgid "Update Button Text"
+msgstr "Update dugme sa tekstom"
+
+#: classes/views/frmpro-forms/add_form_options.php:93
+msgid "Allow logged-in users to save drafts"
+msgstr "Dozvolite ulogovanim korisnicima da sačuvaju draftove"
+
+#: classes/helpers/FrmProFormsHelper.php:569
+#: classes/helpers/FrmProFormsHelper.php:938
+msgid "Your draft has been saved."
+msgstr "vAŠ draft je sačuvan."
+
+#: classes/controllers/FrmProFormsController.php:635
+#: classes/helpers/FrmProFormsHelper.php:580
+#: classes/views/frmpro-forms/add_form_button_options.php:33
+msgid "Save Draft"
+msgstr "Sačuvati Draft"
+
+#: classes/controllers/FrmProEntriesController.php:1889
+#: classes/views/displays/where_options.php:31
+#: js/admin/taxonomy/frm_application.js:801
+msgid "Draft"
+msgstr "Draft"
+
+#: classes/models/fields/FrmProFieldEndDivider.php:52
+#: classes/views/displays/mb_advanced.php:41
+#: classes/views/displays/mb_advanced.php:64
+#: classes/views/frmpro-fields/back-end/logic.php:45
+#: classes/views/styles/_sample_form.php:51
+#: js/admin/applications/applications.js:240
+msgid "Add"
+msgstr "Dodati"
+
+#: classes/models/fields/FrmProFieldBreak.php:31
+#: js/admin/taxonomy/frm_application.js:588
+msgid "Next"
+msgstr "следећи"
+
+#: classes/controllers/FrmProFormsController.php:616
+#: classes/helpers/FrmProFormsHelper.php:579
+#: classes/models/fields/FrmProFieldBreak.php:71
+msgid "Previous"
+msgstr "Prethodni"
+
+#: classes/controllers/FrmProFormsController.php:387
+msgid "GET/POST"
+msgstr "UZMI/POST"
+
+#: classes/controllers/FrmProFormsController.php:373
+msgid "Login"
+msgstr "Login"
+
+#: classes/controllers/FrmProFormsController.php:326
+msgid "Button Label"
+msgstr "Dugme sa oznakom"
+
+#: classes/views/frmpro-fields/back-end/confirmation.php:15
+#: classes/views/frmpro-forms/add_form_button_options.php:53
+msgid "Inline"
+msgstr "Inline"
+
+#: classes/controllers/FrmProEddController.php:216
+msgid "Save License"
+msgstr "Sačuvati licencu"
+
+#: classes/controllers/FrmProEddController.php:226
+msgid "Use this license to enable Formidable Pro site-wide"
+msgstr "Koistite ovu licencu da biste omogućili Formidable Pro  širom sajta"
+
+#: classes/views/frmpro-fields/back-end/visibility.php:27
+msgid "Logged-out Users"
+msgstr "Izlogovani korisnici"
+
+#: classes/views/frmpro-fields/back-end/visibility.php:21
+#: classes/views/frmpro-forms/add_form_options.php:133
+msgid "Everyone"
+msgstr "Svi"
+
+#: classes/views/frmpro-forms/add_form_ajax_options.php:10
+msgid "Submit this form with AJAX"
+msgstr "Podnesi ovu formu sa  AJAX"
+
+#: classes/views/frmpro-fields/_logic_row.php:58
+msgid "not like"
+msgstr "ne dopada se"
+
+#: classes/views/xml/import_csv.php:13
+#: classes/views/xml/map_csv_fields.php:13
+msgid "Import/Export"
+msgstr "Import/Eksport"
+
+#: classes/controllers/FrmProFormsController.php:731
+msgid "Javascript from your form entries are automatically removed. Add this option only if you trust those submitting entries."
+msgstr "Javascript iz vaše forme je automatski uklonjen. Dodati ovu opciju samo ako verujete unosima koje podnosute."
+
+#: classes/controllers/FrmProFormsController.php:731
+msgid "Keep JS"
+msgstr "Zadržati JS"
+
+#: classes/controllers/FrmProFormsController.php:730
+msgid "Remove all HTML added into your form before display"
+msgstr "Ukloniti sve HTML dodate u vašu formu pre prikaza"
+
+#: classes/controllers/FrmProFormsController.php:730
+msgid "Remove HTML"
+msgstr "Ukloniti HTML"
+
+#: classes/controllers/FrmProFormsController.php:712
+msgid "Removes the automatic links to category pages"
+msgstr "Ukonite automatske linkove na kategoriju stranica"
+
+#: classes/controllers/FrmProFormsController.php:712
+msgid "Remove Links"
+msgstr "Uklonite linkove"
+
+#: classes/controllers/FrmProFormActionsController.php:44
+msgid "this notification if"
+msgstr "ovu notifikaciju ako"
+
+#: classes/controllers/FrmProFormActionsController.php:43
+msgid "Stop"
+msgstr "Stani"
+
+#: classes/controllers/FrmProFormActionsController.php:42
+msgid "Send"
+msgstr "Pošalji"
+
+#: classes/models/fields/FrmProFieldEndDivider.php:53
+#: classes/views/styles/_sample_form.php:55
+msgid "Remove"
+msgstr "Ukloniti"
+
+#: classes/models/FrmProFieldDynamicValueSelector.php:50
+msgid "Anything"
+msgstr "Bilo šta"
+
+#: classes/views/displays/where_row.php:15
+msgid "Entry updated date"
+msgstr "Uneti datum update"
+
+#: classes/views/displays/mb_advanced.php:58
+msgid "Filter Entries"
+msgstr "Filter unosa"
+
+#: classes/controllers/FrmProSettingsController.php:250
+msgid "Field From Entry"
+msgstr "Polja od unosa"
+
+#: classes/controllers/FrmProGraphsController.php:1977
+#: classes/controllers/FrmProGraphsController.php:2009
+#: classes/controllers/FrmProSettingsController.php:249
+msgid "Creation Date"
+msgstr "Datum stvaranja"
+
+#: classes/controllers/FrmProSettingsController.php:258
+msgid "Image Name"
+msgstr "Ime slike"
+
+#: classes/controllers/FrmProSettingsController.php:257
+#: classes/views/frmpro-fields/back-end/image-selector.php:13
+msgid "Image ID"
+msgstr "ID slike"
+
+#: classes/helpers/FrmProEntriesHelper.php:349
+msgid "Resend Email Notifications"
+msgstr "Ponovo poslati email notifikacije"
+
+#: classes/controllers/FrmProFormsController.php:374
+msgid "Display Name"
+msgstr "Име за Приказ"
+
+#: classes/controllers/FrmProFormsController.php:376
+msgid "Last Name"
+msgstr "Prezime"
+
+#: classes/controllers/FrmProFormsController.php:375
+msgid "First Name"
+msgstr "Ime"
+
+#: classes/controllers/FrmProFormsController.php:721
+msgid "Time Ago"
+msgstr "pre"
+
+#: classes/controllers/FrmProFormsController.php:719
+msgid "More Text"
+msgstr "još teksta"
+
+#: classes/controllers/FrmProFormsController.php:718
+msgid "Truncate"
+msgstr "Skratiti"
+
+#: classes/controllers/FrmProFormsController.php:715
+msgid "Sanitize URL"
+msgstr "Sanitize URL"
+
+#: classes/controllers/FrmProFormsController.php:713
+msgid "Sanitize"
+msgstr "Sanitize"
+
+#: classes/controllers/FrmProFormsController.php:711
+msgid "Clickable Links"
+msgstr "Linkovi koji mogu da se kliknu"
+
+#: classes/controllers/FrmProFormsController.php:702
+msgid "Less Than"
+msgstr "Manje od"
+
+#: classes/controllers/FrmProFormsController.php:701
+msgid "Greater Than"
+msgstr "Veće od"
+
+#: classes/controllers/FrmProFormsController.php:700
+msgid "Is Not Like"
+msgstr "Nije kao"
+
+#: classes/controllers/FrmProFormsController.php:699
+msgid "Is Like"
+msgstr "je kao"
+
+#: classes/controllers/FrmProFormsController.php:698
+msgid "Does Not Equal"
+msgstr "nije jednako"
+
+#: classes/controllers/FrmProFormsController.php:697
+msgid "Equals"
+msgstr "jednako je"
+
+#: classes/controllers/FrmProFormsController.php:1132
+msgid "Edit Entry Link"
+msgstr "Edituj link unosa"
+
+#: classes/controllers/FrmProFormsController.php:729
+msgid "Show the saved value for fields with separate values."
+msgstr "Prikazati sačuvanu vrednost za polja sa odvojenim vrednostima."
+
+#: classes/views/frmpro-forms/add_form_options.php:47
+msgid "Cookie Expiration"
+msgstr "Cookie rok isteka"
+
+#: classes/views/frmpro-form-actions/post_options.php:136
+msgid "Create New Dropdown Field"
+msgstr "Napraviti novo Dropdown polje"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:33
+msgid "A New Checkbox Field"
+msgstr "Novo Checkbox polje"
+
+#: classes/controllers/FrmProFormsController.php:722
+msgid "How long ago a date was in minutes, hours, days, months, or years."
+msgstr "Pre koliko je datum bio u minutama, satima, danima, mesecima ili godinama"
+
+#: classes/models/FrmProForm.php:280
+msgid "Status"
+msgstr "Status"
+
+#: classes/models/fields/FrmProFieldTime.php:167
+msgid "minute"
+msgstr "minut"
+
+#: classes/views/frmpro-forms/add_form_options.php:49
+msgid "hours"
+msgstr "sati"
+
+#: classes/models/fields/FrmProFieldTime.php:161
+msgid "hour"
+msgstr "sat"
+
+#: classes/controllers/FrmProEntriesController.php:1441
+msgid "Copied from Post"
+msgstr "Kopirano iz posta"
+
+#: classes/controllers/FrmProEntriesController.php:1385
+msgid "Create Entry in Form"
+msgstr "Napravite unos u formi"
+
+#: classes/controllers/FrmProEntriesController.php:3233
+msgid "There was an error deleting that entry"
+msgstr "Nastala je greška prilikom brisanja tog unosa"
+
+#: classes/views/frmpro-forms/add_form_button_options.php:43
+msgid "Default"
+msgstr "Default"
+
+#: classes/views/frmpro-fields/back-end/separate-values.php:9
+msgid "Use separate values"
+msgstr "Koristite odvojene vrednosti"
+
+#: classes/views/xml/map_csv_fields.php:116
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: classes/controllers/FrmProFormsController.php:729
+#: classes/views/frmpro-fields/back-end/product-single-option.php:19
+msgid "Saved Value"
+msgstr "Sačuvana vrednost"
+
+#: classes/controllers/FrmProEntriesController.php:3254
+msgid "no one"
+msgstr "nijedan"
+
+#: classes/helpers/FrmProFieldsHelper.php:3240
+msgid "Site Name"
+msgstr "Ime sajta"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:83
+msgid "Specify allowed types"
+msgstr "Odrediti dozvoljene tipove"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:73
+msgid "Allowed file types"
+msgstr "Dozvoljeni tipovi fajla"
+
+#: classes/views/displays/_calendar_options.php:26
+msgid "No multi-day events"
+msgstr "Nema dogadjaja od više dana"
+
+#: classes/controllers/FrmProEntriesController.php:2887
+#: classes/controllers/FrmProEntriesController.php:3217
+msgid "Your entry was successfully deleted"
+msgstr "Vaš unos je uspešno obrisan"
+
+#: classes/views/settings/white-label.php:15
+msgid "Use this menu name site-wide"
+msgstr "Koristite ovo ime širom sajta"
+
+#: classes/helpers/FrmProEntriesListHelper.php:20
+msgid "Export to CSV"
+msgstr "Eksportovati u CSV"
+
+#: classes/controllers/FrmProEntriesController.php:368
+msgid "No form was found"
+msgstr "Nijedna forma nije nadjena"
+
+#: classes/views/frmpro-statistics/select.php:19
+msgid "Select a report to view."
+msgstr "Izabrati izveštaj za pregled."
+
+#: classes/views/frmpro-entries/new-selection.php:26
+#: classes/views/frmpro-statistics/select.php:26
+msgid "Go"
+msgstr "Samo napred"
+
+#: classes/views/frmpro-entries/new-selection.php:19
+msgid "Select a form for your new entry."
+msgstr "Selektovati formu za novi unos."
+
+#: classes/controllers/FrmProXMLController.php:207
+msgid "All Fields are required"
+msgstr "Sva polja su potrebna"
+
+#: classes/views/frmpro-form-actions/post_options.php:192
+msgid "Taxonomies/Categories"
+msgstr "Taxonomije/Kategorije"
+
+#: classes/views/frmpro-form-actions/post_options.php:133
+msgid "Automatically Publish"
+msgstr "Automatski objavljeno"
+
+#: classes/views/frmpro-form-actions/post_options.php:127
+msgid "Create Draft"
+msgstr "Napraviti Draft"
+
+#: classes/views/frmpro-form-actions/post_options.php:100
+msgid "Automatically Generate from Post Title"
+msgstr "Automatski generisano iz naslova post"
+
+#: classes/views/frmpro-form-actions/post_options.php:84
+msgid "Post Password"
+msgstr "Šifra posta"
+
+#: classes/views/frmpro-form-actions/post_options.php:10
+msgid "To setup a new custom post type, install and setup a plugin like 'Custom Post Type UI', then return to this page to select your new custom post type."
+msgstr "Za podešavanje novog tipa posta, instalirati i podesiti plugin kao \" Custom UI Tip Posta \" , a zatim se vratite na ovu stranicu da biste odabrali svoj novi custom tip posta."
+
+#: classes/views/settings/form.php:20
+msgid "Change the format of the date used in the date field."
+msgstr "Promenite format datuma koji se koristi u polju za datum.  "
+
+#: classes/views/frmpro-fields/back-end/field-data.php:40
+#: classes/views/frmpro-fields/back-end/field-data.php:75
+msgid "This data is dynamic on change"
+msgstr "Ovaj podatak je dinamičan na promenu"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:85
+msgid "Check All"
+msgstr "Čekirati sve"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:103
+msgid "NOTE: if the parent is excluded, child categories will be automatically excluded."
+msgstr "BELEŠKA: ako je roditelj isključen, kategorija deteta će automatski biti isključena."
+
+#: classes/views/frmpro-form-actions/_form_action.php:35
+msgid "of the following match"
+msgstr "sledećeg podudaranja"
+
+#: classes/views/frmpro-fields/back-end/logic.php:30
+#: classes/views/frmpro-form-actions/_form_action.php:32
+#: classes/views/frmpro-forms/_submit_conditional.php:29
+#: classes/views/styles/_section-fields.php:89
+msgid "all"
+msgstr "sve"
+
+#: classes/views/frmpro-fields/back-end/logic.php:29
+#: classes/views/frmpro-form-actions/_form_action.php:29
+#: classes/views/frmpro-forms/_submit_conditional.php:26
+msgid "any"
+msgstr "bilo šta"
+
+#: classes/views/displays/submitbox_actions.php:31
+msgid "Hide"
+msgstr "Sakriti"
+
+#: classes/views/displays/submitbox_actions.php:15
+msgid "Show"
+msgstr "Prikazati"
+
+#: classes/views/frmpro-fields/back-end/logic.php:11
+#: classes/views/frmpro-fields/back-end/logic.php:16
+#: classes/views/frmpro-form-actions/_form_action.php:15
+msgid "Conditional Logic"
+msgstr "Kondicionalna logika"
+
+#: classes/views/frmpro-fields/back-end/insert-form.php:7
+msgid "Insert Form"
+msgstr "Uneti formu "
+
+#: classes/views/frmpro-fields/back-end/calendar.php:8
+msgid "Year Range"
+msgstr "Raspon godine"
+
+#: classes/controllers/FrmProFormsController.php:988
+#: classes/views/frmpro-fields/options-form-before.php:31
+#: classes/views/lookup-fields/back-end/get-options-from.php:14
+msgid "Select Form"
+msgstr "Selektuj iz"
+
+#: classes/controllers/FrmProEntriesController.php:1885
+msgid "Post"
+msgstr "Post"
+
+#: classes/views/frmpro-forms/_submit_logic_row.php:62
+msgid "less than or equal to"
+msgstr "manje od ili jednako"
+
+#: classes/views/frmpro-forms/_submit_logic_row.php:56
+msgid "greater than or equal to"
+msgstr "veće od ili njednako"
+
+#: classes/helpers/FrmProFieldsHelper.php:3163
+#: classes/views/displays/order_row.php:20
+#: classes/views/displays/_calendar_options.php:14
+#: classes/views/displays/_calendar_options.php:31
+msgid "Entry update date"
+msgstr "Uneti datum updateovanja"
+
+#: classes/helpers/FrmProFieldsHelper.php:3161
+msgid "User IP"
+msgstr "IP korisnika"
+
+#: classes/controllers/FrmProGraphsController.php:1358
+msgid "Fields"
+msgstr "Polja"
+
+#: classes/controllers/FrmProLookupFieldsController.php:16
+#: classes/models/fields/FrmProFieldData.php:65
+#: classes/models/fields/FrmProFieldProduct.php:71
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: classes/controllers/FrmProLookupFieldsController.php:18
+#: classes/models/fields/FrmProFieldData.php:67
+#: classes/models/fields/FrmProFieldProduct.php:73
+msgid "Checkboxes"
+msgstr "Kvadrati za čekiranje"
+
+#: classes/controllers/FrmProLookupFieldsController.php:19
+msgid "Single Line Text"
+msgstr "Teks od jedne rečenice"
+
+#: classes/views/xml/map_csv_fields.php:126
+msgid "Updated by"
+msgstr "Update-ovano od"
+
+#: classes/views/xml/map_csv_fields.php:123
+msgid "Updated at"
+msgstr "Update-ovano "
+
+#: classes/views/xml/map_csv_fields.php:119
+#: classes/views/xml/map_csv_fields.php:120
+msgid "Created by"
+msgstr "Kreirano od strane"
+
+#: classes/views/xml/csv_opts.php:13
+msgid "Import Into Form"
+msgstr "Importovai u formu"
+
+#: classes/views/xml/csv_opts.php:8
+msgid "CSV Delimiter"
+msgstr "CSV Delimiter"
+
+#: classes/helpers/FrmProEntryMetaHelper.php:186
+msgid "View all posts filed under %s"
+msgstr "Pregledati sva polja postova pod %s"
+
+#: classes/views/combo-fields/addresses/back-end-field-opts.php:16
+msgid "United States"
+msgstr "Ujedinjene Drave"
+
+#: classes/views/styles/_section-fields.php:41
+msgid "Bottom Margin"
+msgstr "Donja margina"
+
+#: classes/controllers/FrmProFormsController.php:388
+msgid "Replace 'whatever' with the parameter name. In url.com?product=form, the variable is 'product'. You would use [get param=product] in your field."
+msgstr "Zamenite ' štagod ' sa imenom parametra . U url.com ? proizvod = forma,promenljiva je \" proizvod \" . Vi bi koristiti [get ] param = proizvod u vašoj oblasti ."
+
+#: classes/views/frmpro-form-actions/post_options.php:221
+msgid "Custom Fields"
+msgstr "Custom polja"
+
+#: classes/controllers/FrmProFormsController.php:382
+msgid "Author Email"
+msgstr "Autor emaila"
+
+#: classes/views/frmpro-form-actions/post_options.php:46
+msgid "Post Content"
+msgstr "Sadržaj posta "
+
+#: classes/views/frmpro-fields/back-end/visibility.php:24
+#: classes/views/frmpro-forms/add_form_options.php:19
+#: classes/views/frmpro-forms/add_form_options.php:66
+#: classes/views/frmpro-forms/add_form_options.php:84
+msgid "Logged-in Users"
+msgstr "Ulogovani korisnici"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:68
+msgid "Exclude options"
+msgstr "Isključi opcije"
+
+#: classes/views/frmpro-form-actions/post_options.php:124
+msgid "Post Status"
+msgstr "Status posta"
+
+#: classes/views/frmpro-form-actions/post_options.php:110
+msgid "Post Date"
+msgstr "Datum posta"
+
+#: classes/views/frmpro-form-actions/post_options.php:97
+msgid "Slug"
+msgstr "Slug"
+
+#: classes/views/frmpro-form-actions/post_options.php:73
+msgid "Excerpt"
+msgstr "Izvod"
+
+#: classes/views/frmpro-entries/show.php:39
+msgid "Comment/Note"
+msgstr "Komentar/Beleška"
+
+#: classes/views/frmpro-entries/show.php:27
+msgid "Add Note/Comment"
+msgstr "Dodati belešku/Komentar"
+
+#: classes/views/frmpro-entries/show.php:7
+msgid "Comments/Notes"
+msgstr "Komentari/Beleške"
+
+#: classes/helpers/FrmProFieldsHelper.php:3236
+msgid "Default Email Message"
+msgstr "Default Email poruka"
+
+#: classes/controllers/FrmProFormsController.php:383
+msgid "Post Meta"
+msgstr "Post Meta"
+
+#: classes/views/xml/map_csv_fields.php:116
+#: classes/views/xml/map_csv_fields.php:117
+msgid "Created at"
+msgstr "Stvoreno od strane"
+
+#: classes/views/frmpro-entries/new-selection.php:7
+#: classes/views/frmpro-entries/new-selection.php:13
+#: classes/views/frmpro-entries/new.php:13
+#: classes/views/frmpro-entries/new.php:26
+msgid "Add New Entry"
+msgstr "Dodati novi unos"
+
+#: classes/helpers/FrmProEntriesHelper.php:268
+msgid "Add New"
+msgstr "Dodati novo"
+
+#: classes/models/FrmProSettings.php:26
+msgid "Your submission was successfully saved."
+msgstr "Vaše podnošenje je uspešno sačuvano."
+
+#: classes/models/FrmProFileField.php:713
+msgid "This field is invalid"
+msgstr "Ovo polje ne postoji"
+
+#: classes/models/FrmProFileField.php:714
+msgid "is invalid"
+msgstr "nepostojeći"
+
+#: classes/views/frmpro-form-actions/post_options.php:9
+msgid "Post Type"
+msgstr "Tip posta"
+
+#: classes/views/frmpro-entries/loading.php:8
+msgid "Uploading Files. Please Wait."
+msgstr "Upload-ovanje fajlova. Sačekajte."
+
+#: classes/helpers/FrmProFieldsHelper.php:1545
+msgid "No Categories"
+msgstr "Nema kategorija"
+
+#: classes/views/frmpro-form-actions/post_options.php:75
+#: classes/views/frmpro-form-actions/post_options.php:87
+#: classes/views/frmpro-forms/add_form_button_options.php:56
+#: classes/views/frmpro-forms/add_form_style_options.php:12
+#: js/src/view/inspector.js:77
+msgid "None"
+msgstr "Nijedan"
+
+#: classes/views/xml/map_csv_fields.php:148
+msgid "Import"
+msgstr "Uneti"
+
+#: classes/views/styles/_sample_form.php:20
+msgid "Another field with a description"
+msgstr "Drugo polje sa opisom"
+
+#: classes/views/styles/_sample_form.php:18
+msgid "Text Area"
+msgstr "Područje teksta"
+
+#: classes/views/styles/_sample_form.php:38
+msgid "Check Boxes"
+msgstr "Check Boxes"
+
+#: classes/views/styles/_sample_form.php:32
+#: classes/views/styles/_sample_form.php:44
+msgid "Option 2"
+msgstr "Opcija 2"
+
+#: classes/views/styles/_sample_form.php:28
+#: classes/views/styles/_sample_form.php:41
+msgid "Option 1"
+msgstr "Opcija 1"
+
+#: classes/controllers/FrmProLookupFieldsController.php:17
+#: classes/models/fields/FrmProFieldData.php:66
+#: classes/models/fields/FrmProFieldProduct.php:72
+#: classes/views/styles/_sample_form.php:24
+msgid "Radio Buttons"
+msgstr "Radio dugmad"
+
+#: classes/controllers/FrmProGraphsController.php:2592
+msgid "Median"
+msgstr "Srednje"
+
+#: classes/controllers/FrmProGraphsController.php:1341
+#: classes/controllers/FrmProGraphsController.php:2582
+msgid "Average"
+msgstr "Prosečno"
+
+#: classes/controllers/FrmProGraphsController.php:1339
+msgid "Total"
+msgstr "Ukupno"
+
+#: classes/views/frmpro-statistics/select.php:13
+msgid "Go to Report"
+msgstr "Idi na izveštaj"
+
+#: classes/views/displays/mb_advanced.php:22
+msgid "Page Size"
+msgstr "Veličina stranice"
+
+#: classes/views/displays/mb_advanced.php:13
+msgid "Limit"
+msgstr "Limit"
+
+#: classes/views/displays/mb_advanced.php:37
+#: classes/views/frmpro-form-actions/post_options.php:183
+msgid "Order"
+msgstr "Redom"
+
+#: classes/views/displays/mb_advanced.php:88
+msgid "Advanced"
+msgstr "Unapredjeno"
+
+#: classes/views/displays/mb_dyncontent.php:34
+#: classes/views/displays/mb_dyncontent.php:64
+msgid "optional"
+msgstr "opcionalno"
+
+#: classes/views/displays/mb_form_disp_type.php:44
+msgid "Calendar &mdash; insert entries into a calendar"
+msgstr "Kalendar &mdash; uneti u kalendar"
+
+#: classes/views/displays/mb_form_disp_type.php:38
+msgid "Both (Dynamic) &mdash; list the entries that will link to a single entry page"
+msgstr "Oba ( dinamički )  &mdash;  - nabrojati stavke koje će povezati na jedan ulazak stranice"
+
+#: classes/views/displays/mb_form_disp_type.php:33
+msgid "Single Entry &mdash; display one entry"
+msgstr "Jedan unos  &mdash;  prikazati jedan unos"
+
+#: classes/views/displays/mb_form_disp_type.php:28
+msgid "All Entries &mdash; list all entries in the specified form"
+msgstr "Svi unosi  &mdash; lista svih unosa u odredjenoj formi"
+
+#: classes/views/displays/mb_excerpt.php:9
+msgid "This is not displayed anywhere, but is just for your reference. (optional)"
+msgstr "Ovo nije prikazano nigde već je samo za vas. (opcionalno)"
+
+#: classes/views/displays/submitbox_actions.php:12
+msgid "Shortcodes"
+msgstr "Skraćenice"
+
+#: classes/controllers/FrmProFormsController.php:381
+#: classes/views/frmpro-form-actions/post_options.php:34
+msgid "Post Title"
+msgstr "Naslov Posta "
+
+#: classes/views/styles/_progress-bars.php:7
+msgid "BG Color"
+msgstr "BG boja"
+
+#: classes/controllers/FrmProFormsController.php:1025
+msgid "Height"
+msgstr "Visina"
+
+#: classes/views/frmpro-fields/back-end/calculation-settings.php:16
+msgid "Text"
+msgstr "Tekst"
+
+#: classes/views/styles/_section-fields.php:26
+msgid "BG color"
+msgstr "BG boja"
+
+#: classes/controllers/FrmProFormsController.php:1026
+msgid "Width"
+msgstr "Širina"
+
+#: classes/views/styles/_section-fields.php:21
+msgid "Size"
+msgstr "Veličina"
+
+#: classes/views/styles/_section-fields.php:12
+msgid "Weight"
+msgstr "Težina"
+
+#: classes/views/styles/_section-fields.php:86
+msgid "right"
+msgstr "desno"
+
+#: classes/views/styles/_section-fields.php:83
+msgid "left"
+msgstr "levo"
+
+#: classes/views/applications/buttons/export.php:7
+msgid "Export"
+msgstr "Eksportovati"
+
+#: classes/widgets/FrmListEntries.php:301
+msgid "Entry Limit (leave blank to list all)"
+msgstr "Limit unosa (ostaviti prazno)"
+
+#: classes/widgets/FrmListEntries.php:294
+msgid "Show Entries Beneath Categories"
+msgstr "Prikazati unose ispod kategorija"
+
+#: classes/widgets/FrmListEntries.php:289
+msgid "Show Only Category Name"
+msgstr "Prikazati samo ime kategorije"
+
+#: classes/widgets/FrmListEntries.php:284
+msgid "Show Entry Counts"
+msgstr "Prikazati brojanje unosa"
+
+#: classes/widgets/FrmListEntries.php:268
+msgid "Category Field"
+msgstr "Polje kategorija"
+
+#: classes/widgets/FrmListEntries.php:264
+msgid "List Entries by Category"
+msgstr "Lista unosa po kategorijama"
+
+#: classes/widgets/FrmListEntries.php:246
+msgid "Title Field"
+msgstr "Polje naslova"
+
+#: classes/widgets/FrmListEntries.php:220
+msgid "Title"
+msgstr "Naslov"
+
+#: classes/widgets/FrmListEntries.php:13
+msgid "Formidable Entries List"
+msgstr "Formidable lista unosa"
+
+#: classes/widgets/FrmListEntries.php:12
+msgid "Display a list of Formidable entries"
+msgstr "Prikazati listu Formidable unosa"
+
+#: classes/views/styles/_section-fields.php:51
+msgid "Thickness"
+msgstr "Debljina"
+
+#: classes/views/styles/_section-fields.php:68
+msgid "double"
+msgstr "duplo"
+
+#: classes/views/styles/_section-fields.php:65
+msgid "dashed"
+msgstr "isprekidano"
+
+#: classes/views/styles/_section-fields.php:62
+msgid "dotted"
+msgstr "tačkasto"
+
+#: classes/views/styles/_section-fields.php:59
+msgid "solid"
+msgstr "solidno"
+
+#: classes/views/styles/_section-fields.php:56
+msgid "Style"
+msgstr "Stil"
+
+#: classes/views/styles/_section-fields.php:31
+msgid "Padding"
+msgstr "Padding"
+
+#: classes/views/styles/_section-fields.php:7
+#: classes/views/styles/_slider-fields.php:7
+msgid "Color"
+msgstr "Boja"
+
+#: classes/views/styles/_section-fields.php:46
+msgid "Border"
+msgstr "Granica"
+
+#: classes/views/settings/form.php:19
+msgid "Date Format"
+msgstr " Format datuma"
+
+#: classes/views/settings/general_style.php:33
+msgid "If you have manually created an accordion form, be sure to include the javascript for it."
+msgstr "Ako ste ručno kreirali formu , budite sigurni da uključite JavaScript za njega ."
+
+#: classes/views/settings/general_style.php:30
+msgid "Include accordion javascript"
+msgstr "Uključiti prema javascript"
+
+#: classes/views/settings/messages.php:33
+msgid "The message seen when a user attempts to submit a form for a second time if submissions are limited."
+msgstr "Poruka koja se vidi kada korisnik pokuša da podnese formu za drugi put ako su spodnete  ograničene ."
+
+#: classes/views/settings/messages.php:32
+msgid "Previously Submitted Message"
+msgstr "Prethodno podnete poruke"
+
+#: classes/controllers/FrmProFormsController.php:388
+msgid "A variable from the URL or value posted from previous page."
+msgstr "Varijabla iz URL ili vrednost postovana iz prethodne slike."
+
+#: classes/views/frmpro-forms/add_form_options.php:41
+msgid "Saved Cookie"
+msgstr "Sačuvani Cookie"
+
+#: classes/views/frmpro-forms/add_form_options.php:33
+msgid "Logged-in User"
+msgstr "Ulogovani korisnik"
+
+#: classes/views/frmpro-fields/back-end/scale-options.php:7
+msgid "Range"
+msgstr "Raspon"
+
+#: classes/views/frmpro-fields/back-end/dates-advanced.php:9
+msgid "Calendar Localization"
+msgstr "Lokalizacija kalendara"
+
+#: classes/controllers/FrmProEntriesController.php:1930
+#: classes/controllers/FrmProEntriesController.php:2336
+#: classes/controllers/FrmProEntriesController.php:2412
+#: classes/controllers/FrmProEntriesController.php:2836
+msgid "Are you sure you want to delete that entry?"
+msgstr "Da li ste sigurni da želite da obrišete ovaj unos?"
+
+#: classes/views/frmpro-entries/edit.php:13
+#: classes/views/frmpro-entries/edit.php:31
+msgid "Edit Entry"
+msgstr "Edituj unos"
+
+#: classes/views/frmpro-fields/_logic_row.php:49
+#: classes/views/frmpro-forms/_logic_row.php:46
+#: classes/views/frmpro-forms/_submit_logic_row.php:59
+msgid "less than"
+msgstr "manje od"
+
+#: classes/views/frmpro-fields/_logic_row.php:43
+#: classes/views/frmpro-forms/_logic_row.php:43
+#: classes/views/frmpro-forms/_submit_logic_row.php:53
+msgid "greater than"
+msgstr "veće od"
+
+#: classes/views/displays/where_row.php:41
+msgid "is"
+msgstr "je"
+
+#: classes/views/displays/where_options.php:40
+msgid "Date options: 'NOW' or a date in yyyy-mm-dd format."
+msgstr "Opcije datuma: SADA'  ili datum u gggg-mm-dd formatu."
+
+#: classes/controllers/FrmProFormsController.php:718
+msgid "Truncate text with a link to view more. If using Both (dynamic), the link goes to the detail page. Otherwise, it will show in-place."
+msgstr "Truncate tekst sa linkom da vidite više . Ako koristite Oba ( dinamički ) , link ide na stranicu sa detaljima . U suprotnom , to će se pokazati na licu mesta ."
+
+#: classes/controllers/FrmProFormsController.php:716
+msgid "Replaces all HTML entities with a URL safe string."
+msgstr "Zamenjuje sve HTML entitete sa URLom sigurnog stringa."
+
+#: classes/controllers/FrmProFormsController.php:713
+msgid "Replaces spaces with dashes and lowercases all. Use if adding an HTML class or ID"
+msgstr "Zamenjuje prostor sa crticama i sve smanjuje.   Koristite ako dodajete HTML klasu ili ID"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:416
+#: js/admin/applications/common.js:241
+msgid "Form"
+msgstr "Forma"
+
+#: classes/views/displays/mb_advanced.php:23
+msgid "The number of entries to show per page. Leave blank to not use pagination."
+msgstr "Broj ulazaka za prikaz po stranici. Ostavite prazno da ne koristite numerisanje ."
+
+#: classes/views/displays/mb_advanced.php:14
+msgid "If you don’t want all your entries displayed, you can insert the number limit here. Leave blank if you’d like all entries shown."
+msgstr "Ako ne želite da sve stavke budu prikazane , možete da ubacite ograničenje broja ovde . Ostavite prazno ako želite sve unose prikazane ."
+
+#: classes/views/displays/order_row.php:37
+msgid "Descending"
+msgstr "Silazni"
+
+#: classes/views/displays/order_row.php:34
+msgid "Ascending"
+msgstr "Uzlazni"
+
+#: classes/views/displays/order_row.php:23
+msgid "Random"
+msgstr "Nasumično"
+
+#: classes/views/displays/mb_advanced.php:110
+msgid "Parameter Value"
+msgstr "Vrednost parametra"
+
+#: classes/views/displays/mb_advanced.php:103
+msgid "Example: If parameter name is 'contact', the url would be like %1$s/selected-page?contact=2. If this entry is linked to a post, the post permalink will be used instead."
+msgstr "Primer : Ako je ime parametra ' kontakt ' ,url bi bilo kao %1$s/ izabran - stranica kontakt = 2 ? . Ako se ovaj unos je povezana sa post , post permalink će se koristiti umesto toga ."
+
+#: classes/controllers/FrmProFormsController.php:1131
+msgid "Detail Link"
+msgstr "Detaljni Link"
+
+#: classes/views/displays/mb_dyncontent.php:75
+msgid "The HTML for the entry on the dynamic page. This content will NOT be repeated, and will only show when the %1$s is clicked."
+msgstr "HTML za unos na dinamičnom stranici . Ovaj sadržaj se neće ponoviti , i samo će biti prikazan tek kada %1$s se klikne ."
+
+#: classes/views/displays/mb_dyncontent.php:74
+msgid "Dynamic Content"
+msgstr "Dinamički sadržaj"
+
+#: classes/views/displays/mb_dyncontent.php:63
+msgid "This content will not be repeated. This would be a good place to close any HTML tags from the Before Content field."
+msgstr "Ovaj sadržaj se neće ponoviti . To bi bilo dobro mesto da zatvorite sve HTML tagove iz Pre sadržaja Polja."
+
+#: classes/views/displays/mb_dyncontent.php:62
+msgid "After Content"
+msgstr "Posle sadržaja"
+
+#: classes/views/displays/mb_dyncontent.php:41
+msgid "Content"
+msgstr "Sadržaj"
+
+#: classes/views/displays/mb_dyncontent.php:34
+msgid "This content will not be repeated. This would be a good place to put any HTML table tags."
+msgstr "Ovaj sadržaj se neće ponoviti . To bi bilo dobro mesto da se stavite bilo koji HTML tag tabele ."
+
+#: classes/views/displays/mb_dyncontent.php:33
+msgid "Before Content"
+msgstr "Pre sadržaja"
+
+#: classes/views/displays/mb_form_disp_type.php:11
+msgid "Use Entries from Form"
+msgstr "Koristiti unose iz forme"
+
+#: classes/helpers/FrmProEntriesListHelper.php:117
+#: classes/helpers/FrmProFieldsHelper.php:3162
+#: classes/views/displays/order_row.php:17
+#: classes/views/displays/where_row.php:12
+#: classes/views/displays/_calendar_options.php:11
+#: classes/views/displays/_calendar_options.php:28
+msgid "Entry creation date"
+msgstr "Uneti datum nastajanja"
+
+#: classes/views/displays/submitbox_actions.php:18
+msgid "Save to get ID"
+msgstr "Sačuvati da bi se dobio ID"
+
+#: classes/models/FrmProSettings.php:28
+msgid "You have already submitted that form"
+msgstr "Već ste podneli tu formu"
+
+#: classes/widgets/FrmListEntries.php:235
+#: js/admin/applications/common.js:243
+msgid "Page"
+msgstr "Stranica"
+
+#: classes/controllers/FrmProFormsController.php:377
+#: classes/models/FrmProForm.php:520
+msgid "User ID"
+msgstr "ID korisnika"
+
+#: classes/helpers/FrmProFieldsHelper.php:3239
+msgid "Site URL"
+msgstr "URL sajta"
+
+#: classes/helpers/FrmProFieldsHelper.php:3232
+msgid "Add a rotating 'even' or 'odd' class"
+msgstr "Dodati rotiranje 'jednako' ili 'čudno' c klasu"
+
+#: classes/helpers/FrmProFieldsHelper.php:3224
+msgid "Link to view single page if showing dynamic entries"
+msgstr "Link za pregled jedne stranice ako se prikazuju dinamični unosi"
+
+#: classes/helpers/FrmProFieldsHelper.php:3221
+msgid "Admin link to edit the entry"
+msgstr "Admin link za editovanje unosa"
+
+#: classes/helpers/FrmProFieldsHelper.php:3220
+msgid "Helpers"
+msgstr "Pomoćnici"
+
+#: classes/helpers/FrmProFieldsHelper.php:3194
+msgid "Full Size"
+msgstr "Cela veličina"
+
+#: classes/helpers/FrmProFieldsHelper.php:3191
+#: classes/models/FrmProImages.php:66
+msgid "Large"
+msgstr "Veliki"
+
+#: classes/helpers/FrmProFieldsHelper.php:3188
+#: classes/models/FrmProImages.php:65
+msgid "Medium"
+msgstr "Srednji"
+
+#: classes/helpers/FrmProFieldsHelper.php:3185
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: classes/helpers/FrmProFieldsHelper.php:3165
+msgid "Form Fields"
+msgstr "Polja forme"
+
+#: classes/controllers/FrmProFormsController.php:1112
+#: classes/helpers/FrmProEntriesListHelper.php:118
+#: classes/helpers/FrmProFieldsHelper.php:3158
+#: classes/views/displays/order_row.php:11
+#: classes/views/displays/where_row.php:18
+#: classes/views/xml/map_csv_fields.php:134
+#: classes/views/xml/map_csv_fields.php:135
+msgid "Entry ID"
+msgstr "Uneti ID"
+
+#: classes/helpers/FrmProFieldsHelper.php:3156
+msgid "Select a value to insert into the box below"
+msgstr "Selektuj vrednost za unošenje u kvadrat ispod"
+
+#: classes/helpers/FrmProFieldsHelper.php:2846
+msgid "Edit Uploaded File"
+msgstr "Edituj uploadovano polje"
+
+#: classes/controllers/FrmProEntriesController.php:2284
+#: classes/controllers/FrmProFormsController.php:928
+#: classes/controllers/FrmProFormsController.php:964
+#: classes/helpers/FrmProEntriesListHelper.php:86
+msgid "Search"
+msgstr "Pretraga"
+
+#: classes/controllers/FrmProFormsController.php:380
+#: classes/helpers/FrmProFieldsHelper.php:3160
+#: classes/views/displays/where_row.php:24
+#: classes/views/xml/map_csv_fields.php:115
+msgid "Post ID"
+msgstr "Post ID"
+
+#: classes/controllers/FrmProFormsController.php:378
+msgid "User Meta"
+msgstr "User Meta"
+
+#: classes/controllers/FrmProFormsController.php:371
+msgid "Current Time"
+msgstr "Trenutno vreme"
+
+#: classes/controllers/FrmProFormsController.php:370
+msgid "Current Date"
+msgstr "Trenutni datum"
+
+#: classes/controllers/FrmProEntriesController.php:341
+msgid "No entries were specified"
+msgstr "Nijedan unos nije odredjen"
+
+#: classes/controllers/FrmProEntriesController.php:159
+msgid "There was a problem duplicating that entry"
+msgstr "Nastao je problem prilikom dupliranja tog unosa"
+
+#: classes/controllers/FrmProEntriesController.php:157
+msgid "Entry was Successfully Duplicated"
+msgstr "Unos je "
+
+#: classes/controllers/FrmProEntriesController.php:1929
+msgid "No Entries Found"
+msgstr "Nijedan unos nije nadjen"
+
+#: classes/controllers/FrmProAppController.php:21
+msgid "Formidable Tag"
+msgstr "Formidable Tag"
+
+#: classes/controllers/FrmProAppController.php:20
+msgid "Formidable Tags"
+msgstr "Formidable Tagovi"
+
+#: classes/views/settings/messages.php:25
+msgid "The message seen when a user who is not logged-in views a form only logged-in users can submit."
+msgstr "Poruka koja se prikazuje kada who is not logged-in views a form only logged-in users can submit."
+
+#: classes/views/settings/messages.php:24
+msgid "Login Message"
+msgstr "Login poruka"
+
+#: classes/views/settings/general_style.php:21
+msgid "The styling for the date field calendar. Some users may be using this css on pages other than just the ones that include a date field."
+msgstr "Stajling za polje datuma kalendara. Neki korisnici možda koriste ovaj CSS na stranicama drugim nego one koji uključuju polje datuma.  "
+
+#: classes/views/settings/general_style.php:19
+msgid "Include the jQuery CSS on ALL pages"
+msgstr "Ulljučite jQuery CSS na svim stranicama"
+
+#: classes/controllers/FrmProFormActionsController.php:46
+msgid "Create"
+msgstr "Napravite"
+
+#: classes/controllers/FrmProEntriesController.php:1907
+#: classes/helpers/FrmProEntriesHelper.php:288
+#: classes/helpers/FrmProEntriesHelper.php:339
+#: js/admin/settings/style-settings.js:248
+msgid "Duplicate"
+msgstr "Duplikovati"
+
+#: classes/controllers/FrmProAppController.php:360
+#: classes/views/frmpro-statistics/select.php:7
+#: classes/views/frmpro-statistics/show.php:9
+#: classes/views/frmpro-statistics/show.php:17
+msgid "Reports"
+msgstr "Izveštaji"
+
+#: classes/controllers/FrmProEntriesController.php:2129
+#: classes/controllers/FrmProEntriesController.php:2395
+#: classes/helpers/FrmProEntriesListHelper.php:11
+#: classes/views/frmpro-fields/back-end/image-selector.php:21
+#: classes/views/styles/_bg-image.php:15
+#: js/admin/settings/style-settings.js:99
+#: js/admin/taxonomy/frm_application_list.js:178
+msgid "Delete"
+msgstr "Obrisati"
+
+#: classes/controllers/FrmProEntriesController.php:2115
+#: classes/controllers/FrmProEntriesController.php:2668
+#: classes/helpers/FrmProAppHelper.php:405
+#: classes/helpers/FrmProEntriesHelper.php:1107
+#: classes/models/FrmProSummaryFormatter.php:80
+#: js/admin/taxonomy/frm_application.js:853
+#: js/admin/taxonomy/frm_application_list.js:174
+msgid "Edit"
+msgstr "Editoveti"
+
+#: classes/helpers/FrmProFieldsHelper.php:3181
+#: classes/helpers/FrmProFieldsHelper.php:3207
+#: classes/views/displays/mb_advanced.php:115
+#: classes/views/frmpro-entries/table.php:10
+#: classes/views/frmpro-entries/table.php:89
+msgid "ID"
+msgstr "ID"
+
+#: classes/controllers/FrmProEntriesController.php:2669
+#: classes/views/applications/buttons/settings.php:20
+#: classes/views/frmpro-form-actions/_custom_field_row.php:39
+#: js/admin/settings/style-settings.js:130
+#: js/admin/settings/style-settings.js:275
+#: js/admin/settings/style-settings.js:343
+msgid "Cancel"
+msgstr "Ukinuti"
+
+#: classes/controllers/FrmProEntriesController.php:2776
+#: classes/controllers/FrmProEntriesController.php:3526
+#: classes/models/FrmProSettings.php:27
+msgid "Update"
+msgstr "Update"
+
+#: classes/views/displays/submitbox_actions.php:11
+#: js/admin/applications/common.js:242
+#: js/src/view/viewselect.js:38
+msgid "View"
+msgstr "Pogledati"
+
+#: classes/helpers/FrmProFieldsHelper.php:3182
+#: classes/helpers/FrmProFieldsHelper.php:3208
+#: classes/views/displays/mb_advanced.php:118
+msgid "Key"
+msgstr "Ključ"
+
+#: classes/helpers/FrmProFieldsHelper.php:3159
+#: classes/views/displays/order_row.php:14
+#: classes/views/xml/map_csv_fields.php:137
+#: classes/views/xml/map_csv_fields.php:138
+msgid "Entry Key"
+msgstr "Unesite ključ"
+
+#: classes/controllers/FrmProFormsController.php:372
+#: classes/helpers/FrmProFieldsHelper.php:4153
+msgid "Email"
+msgstr "Електронска пошта"
+
+#: classes/views/frmpro-entries/show.php:42
+msgid "Submit"
+msgstr "Unesi"
+
+#: classes/controllers/FrmProFormsController.php:384
+#: classes/views/frmpro-forms/add_form_options.php:37
+#: classes/views/xml/map_csv_fields.php:129
+msgid "IP Address"
+msgstr "IP Address"
+
+#: classes/views/applications/buttons/settings.php:9
+msgid "Settings"
+msgstr "Postavke"
