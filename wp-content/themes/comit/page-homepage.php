@@ -187,10 +187,21 @@ eiusmod tempor incididunt ut.
 
 
 
+
 <?php
 get_footer();
 ?>
 
 <script>
     console.log("homeee test");
+    document.getElementById('date').addEventListener('change', function() {
+    // Uzimamo vrednost datuma koji je izabran
+    var selectedDate = this.value;
+    // Postavljamo stilizaciju izabranog datuma
+    this.style.color = '#76BA51'; 
+    this.style.fontWeight = '600';
+    this.style.fontSize = '16';
+    this.style.fontFamily = 'Lato';
+    
+});
 </script>

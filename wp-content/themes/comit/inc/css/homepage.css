@@ -395,7 +395,53 @@ background-size: cover;
     font-weight: 400;
     text-align: center;
     margin: 0px;
+    padding-bottom: 40px;
 }
+.form-field input::placeholder{
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 16px;
+    color: #42464E;
+}
+
+#name::placeholder, #email::placeholder,#phone::placeholder{
+    color: #42464E;
+}
+#name, #email,#phone,#store,#choose-service{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #76BA51;
+    border-radius: 0px;
+}
+
+#date{
+    padding: 7px 0px 7px 5px;
+    border-radius: 4px;
+    width:97%;
+    border: 2px solid #76BA51;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 16px;
+    color: #76BA51;
+    
+}
+
+#store,#choose-service {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 16px;
+    color: #42464E;
+}
+#choose-time{
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 16px;
+    color: #76BA51;
+    border: 2px solid #76BA51;
+
+}
+
 .formidable-form p{
     margin: 0px;
 }
@@ -407,4 +453,20 @@ background-size: cover;
 }
 #frm_field_6_container{
     display: none;
+}
+.two-input-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.form-field-edit{
+    width: 100%;
+}
+.form-field-edit input{
+    width: 100%;
+}
+.divider{
+    margin:7px 15px 0px 15px;
+}
+.divider p{
+    color: black;
 }
