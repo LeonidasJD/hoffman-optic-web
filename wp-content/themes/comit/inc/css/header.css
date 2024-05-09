@@ -7,6 +7,9 @@ header{
     align-items: center;
     padding: 15px 0px 15px 0px;
 } */
+.header-wrapper{
+    background-color: #F5F5F5;
+}
 .header-under-wrapper{
     display: flex;
     justify-content:space-between ;

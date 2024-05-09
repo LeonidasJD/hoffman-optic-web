@@ -1,0 +1,52 @@
+.frm-application-relationship-tag.frm-meta-tag {
+	font-weight: normal;
+}
+
+.frm-application-summary-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: var(--gap-sm);
+	width: 100%;
+}
+
+.frm-application-summary-item + .frm-application-summary-item {
+	margin-top: 15px;
+}
+
+.frm-application-summary-item .frmsvg {
+	position: relative;
+}
+
+.frm-application-check-space {
+	display: inline-block;
+	width: 18px;
+}
+
+.frm-application-summary-item .frmsvg + .frm-application-check-space {
+	display: none;
+}
+
+.frm-application-item-option + .frm-application-item-option {
+	margin-top: 5px;
+}
+
+.frm-application-item-option label {
+	margin: 0;
+}
+
+.frm-generate-page-option {
+	margin-left: auto;
+	box-shadow: none !important;
+}
+
+.column-application {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: var(--gap-xs);
+}
+
+.column-application .frm-meta-tag {
+	font-weight: normal;
+}

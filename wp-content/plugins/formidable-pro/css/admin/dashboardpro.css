@@ -1,0 +1,111 @@
+.frm-dashboard-license-management,
+.frm-dashboard-license-options {
+	position: relative;
+}
+.frm-dashboard-license-options .frm-dropdown-menu {
+	position: absolute;
+	padding: var( --gap-2xs );
+	min-width: 268px;
+	left: -35px!important;
+}
+.frm-dashboard-license-options .frm-dashboard-license-options-action {
+	width: var(--h-xs);
+	height: var(--h-xs);
+	color: var(--grey-500);
+	cursor: pointer;
+}
+
+.frm-dashboard-license-options .frm-dashboard-license-options-action svg {
+	pointer-events: none;
+}
+
+.frm-dashboard-license-options .frm-dashboard-license-options-action:hover {
+	background: var( --primary-25 );
+	border-radius: 4px;
+}
+/*  License Management Modal */
+.frm-license-management-modal .frm_error_style {
+	margin: 0;
+}
+
+.frm_authorized_box.frm-license-management-modal .button-secondary,
+.frm_authorized_box.frm-license-management-modal .button-primary {
+	display: none !important;
+}
+
+.frm_authorized_box.frm-license-management-modal .frm_updated_message {
+	background: transparent;
+	color: inherit;
+	padding: 0;
+	font-size: inherit;
+	margin: 0;
+}
+
+.frm-license-management-modal .cta-inside > div {
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.frm-license-management-modal .postbox .inside .cta-inside .frm-confirm-msg {
+	margin-top: 0;
+}
+
+.frm-license-management-modal .frm-license-management-modal-icon {
+	color: var(--primary-500);
+	margin-bottom: var(--gap-sm);
+}
+
+.frm-license-management-modal .frm-license-management-modal-icon svg {
+	opacity: 1.0;
+}
+
+.frm_authorized_box.frm-license-management-modal .frm-license-management-modal-icon {
+	background: rgb(236, 253, 243);
+	color: var(--success-500);
+}
+
+.frm_authorized_box.frm-license-management-modal .frm-license-management-modal-icon use {
+	color: currentColor;
+}
+
+.frm-license-management-modal .frm-license-input.frm9 {
+	grid-column: span 12/span 12;
+}
+
+.frm-license-management-modal .frm-license-input ~ .frm3 {
+	display: none; /* Hide the "Activate" button */
+}
+
+.frm-license-management-modal .cta-inside .frm-confirm-msg a {
+	color: var( --primary-500 );
+	text-decoration: underline;
+}
+
+.frm-license-management-modal-key input[type="text"] {
+	width: 100%;
+}
+
+.frm-license-management-modal-key input::placeholder {
+	font-size: var(--text-sm);
+}
+/*  END License Management Modal */
+
+/* Weekly submissions chart */
+#chart__frm_line1 {
+	padding: 0 var(--gap-md);
+	width: calc(100% - var(--gap-md) - var(--gap-md)) !important;
+}
+
+.frm-dashboard-wrapper .frm-dashboard-widget h4.frm-weekly-submission-heading {
+	padding: 0 var(--gap-md);
+	margin-top: var(--gap-xs);
+	color: var(--grey-500);
+	font-size: var(--text-sm);
+}
+
+.frm-dashboard-wrapper .frm-dashboard-widget h4.frm-weekly-submission-heading b {
+	color: var(--grey-600);
+	font-size: var(--text-md);
+	font-weight: 600;
+}
+/* END weekly submissions chart */

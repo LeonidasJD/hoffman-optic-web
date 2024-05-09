@@ -1,4 +1,10 @@
+/*HERO SECTION CSS START*/
+
 .hero-wrapper{
+    background-color: #F5F5F5;
+    padding: 20px 0px 20px 0px;
+}
+.under-hero-wrapper{
     background-image: url('/wp-content/uploads/2024/05/business-finance-and-employment-female-successfu-2023-11-27-05-22-51-utc-1.png');
     background-size: cover; 
   background-position: center; 
@@ -15,9 +21,7 @@
     margin: 0px;
     line-height: 117%;
 }
-.hero-wrapper div{
-    max-width: 50%;
-}
+
 .hero-wrapper p{
     margin: 30px 0px 30px 0px;
     font-family: 'Lato';
@@ -44,13 +48,363 @@
     color: white;
     margin: 0px;
 }
-.hero-under-wrapper{
+.hero-info{
     padding: 0px 0px 0px 35px;
-}s
+}
+/*HERO SECTION CSS END*/
+
+
+
+/*BOOK SECTION CSS START*/
+.book-section-wrapper{
+    
+    background-color: #F5F5F5;
+
+}
+.book-section-under-wrapper{
+    padding: 0px 65px 20px 65px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .book-div-left{
     background-image: url('/wp-content/uploads/2024/05/selective-focus-of-white-shelves-with-stylish-glas-2023-11-27-05-05-41-utc.png');
-    background-size: cover; 
+background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
+  margin-right: 10px;
+  width: 100%;
+  padding: 120px 15px 0px 15px;
+  border: 2px solid #EDEDED;
+  display: flex;
+    justify-content: space-between;
+  
+}
+.left-info{
+    border-top: 1px solid white;
+    backdrop-filter: blur(10px);
+}
+.left-info h2{
+    font-family: 'Lustria';
+    font-weight: 400;
+    font-size: 32px;
+    color: #0E130B;
+    
+}
+.left-info ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.left-info ul li{
+    display: flex;
+    align-items: center;
+}
+.left-info ul li p{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+}
+.left-info ul li img{
+    width: 24px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.book-div-right{
+    background-image: url('/wp-content/uploads/2024/05/beauty-salon-with-reception-make-up-centre-and-ma-2023-11-27-04-50-19-utc.png');
+background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  margin-left: 10px;
+  width: 100%;
+  padding: 120px 15px 0px 15px;
+  border: 2px solid #EDEDED;
+  display: flex;
+    justify-content: space-between;
+  
+}
+.right-info{
+    border-top: 1px solid white;
+    backdrop-filter: blur(10px);
+}
+.right-info h2{
+    font-family: 'Lustria';
+    font-weight: 400;
+    font-size: 32px;
+    color: #0E130B;
+    
+}
+.right-info ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.right-info ul li{
+    display: flex;
+    align-items: center;
+}
+.right-info ul li p{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+}
+.right-info ul li img{
+    width: 24px;
+    height: 18px;
+    margin-right: 10px;
+}
+.button-wrapper{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 25px;
+}
+.button-wrapper button{
+    
+    background-color: #76BA51;
+    border: none;
+    padding: 8px 25px 8px 25px;
+    color: white;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.button-wrapper button img{
+    margin-left: 5px;
+    width: 13px;
+}
+/*BOOK SECTION CSS END*/
+
+
+/*OUR SERVICE SECTION CSS START*/
+
+.our-service-section-wrapper{
+    background-image: linear-gradient(to top, #E6E6E6, #FFFFFF);
+    padding-bottom: 55px;
+}
+.our-service-under-wrapper{
+    padding: 0px 125px 0px 125px;
+}
+.heading-info{
+    display: block;
+    text-align: center;
+}
+.heading-info h2{
+    font-family: 'Glegoo';
+    font-size: 48px;
+    font-weight: 400;
+    padding: 40px 0px 0px 0px ;
+    margin: 0px;
+}
+.heading-info p{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+.heading-info a{
+    margin-left: 15px;
+    color: #76BA51;
+    font-family: 'Lato';
+    font-size: 16px;
+
+}
+.heading-info img{
+    width: 15px;
+    margin-left: 5px;
+}
+
+.services-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top:35px;
+    
+    box-shadow: -5px 5px 10px rgba(-10, 10, 0, 0.1);
+    background-color: white;
+}
+.service-card img{
+    width: 60px;
+}
+.service-card{
+    width: 100%;
+}
+.service-card h2{
+    font-family: 'Glegoo';
+    font-size: 18px;
+    font-weight: 400;
+}
+.service-card p{
+    font-family: 'Lato';
+    font-weight: 400;
+    color: #42464E;
+    font-size: 14px;
+    max-width: 200px;
+}
+.service-card img,.service-card h2,.service-card p{
+    padding-left: 25px;
+}
+.services-cards .service-card:nth-last-child(-n+3) {
+    border-left: 2px solid #e9e9e9;
+}
+/*OUR SERVICE SECTION CSS END*/
+
+
+/*OUR PRODUCT SECTION CSS START*/
+.our-product-section-wrapper{
+    background-color: #E6E6E6;
+    padding-top: 20px;
+    padding-bottom:50px;
+}
+.our-product-under-wrapper{
+    padding: 0px 65px 0px 65px;
+}
+.heading-product-info{
+    display: flex;
+    justify-content: space-between;
+}
+.heading-product-info h2{
+    margin: 0px; 
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Glegoo';
+    font-size: 48px;
+    font-weight: 400;
+    
+}
+.heading-product-info p a{
+    font-family: 'Lato';
+    font-size: 16px;
+    color: #76BA51;
+    font-weight: 400;
+}
+.heading-product-info p{
+    display: flex;
+    align-items: center;
+}
+.heading-product-info p img{
+    width: 15px;
+    margin-left: 5px;
+}
+.products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ravnomeerno rasporedkuje elemente */
+    margin: -7.5px; 
+}
+
+.single-product-card {
+    width: calc(25% - 15px); /* Postavlja sirinu svake kartice tako da bude 25% širine roditeljskog kontejnera sa 15px razmaka */
+    margin: 7.5px; 
+    text-align: center;
+    background-color: white;
+}
+.single-product-card img{
+    width: 100%;
+}
+.single-product-card h2{
+    font-family: 'Glegoo';
+    font-size: 18px;
+    font-weight: 400;
+    color: #42464E;
+}
+.single-product-card p{
+    text-align: end;
+    padding-right: 15px;
+}
+.single-product-card p a{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    color: #76BA51;
+    text-decoration: underline;
+
+}
+/*OUR PRODUCT SECTION CSS END*/
+
+
+/*OUR STORY SECTION CSS START*/
+.our-story-section-wrapper{
+background-image: url('/wp-content/uploads/2024/05/ourstory-scaled.webp');
+background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+.our-story-under-wrapper{
+    padding: 0px 65px 0px 65px;
+}
+.our-story-info{
+    padding-bottom:160px;
+}
+.our-story-info h2{
+    font-family: 'Glegoo';
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+    margin: 0px;
+    padding-top: 113px;
+    padding-bottom: 20px;
+}
+.our-story-info h3{
+    font-family: 'Glegoo';
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.our-story-info p{
+    font-family: 'Glegoo';
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    width: 45%;
+    margin: 0px;
+
+}
+/*OUR STORY SECTION CSS END*/
+
+.our-news-section-wrapper{
+    background-color:#F5F5F5 ;
+    padding-bottom:100px;
+}
+.our-news-under-wrapper{
+    padding: 0px 140px 0px 140px;
+}
+.heading-info-news{
+    padding-bottom: 110px;
+}
+.form-news-wrapper{
+    display: flex;
+}
+.news-wrapper{
+    width: 100%;
+}
+.form-wrapper{
+    width: 100%;
+    border: 1px solid #76BA51;
+    border-radius:12px ;
+    padding: 40px 50px 40px 50px;
+    background-color: white;
+}
+.form-wrapper h2{
+    font-family: 'Glegoo';
+    font-size: 29px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+}
+.formidable-form p{
+    margin: 0px;
+}
+.frm_submit.frm_flex{
+    display: none;/*formidable button*/
+}
+.with_frm_style.frm_form_fields > fieldset {
+    padding: 0px;
+}
+#frm_field_6_container{
+    display: none;
 }
