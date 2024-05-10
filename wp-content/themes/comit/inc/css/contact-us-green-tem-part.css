@@ -1,0 +1,33 @@
+.contact-us-banner-wrapper {
+    background: radial-gradient(circle, #76BA51, #96CB79); /* Radialni gradient od crvene do plave */
+}
+.contact-us-banner-underwrapper{
+    padding: 60px 140px 60px 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-us-banner-underwrapper h2{
+    font-family: 'Glegoo';
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    margin: 0px;
+}
+.contact-us-banner-underwrapper span{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 13px 50px;
+}
+.contact-us-banner-underwrapper span a{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    color: #76BA51;
+}
+.contact-us-banner-underwrapper img{
+    width: 22px;
+    margin-left: 15px;
+}
