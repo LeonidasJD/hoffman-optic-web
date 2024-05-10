@@ -179,3 +179,21 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+/**SERVICES CUSTOM POST TYPE START */
+function services_custom_post_type(){
+	$services_args = array(
+		'public'=> true,
+		'label'=>'Services',
+		'supports'=>array(
+			'title','editor','thumbnail','excerpt',
+		),
+		'menu_icon'   => 'dashicons-editor-kitchensink',
+	);
+
+	register_post_type('services',$services_args);
+}
+add_action('init','services_custom_post_type');
+
+
+/**SERVICES CUSTOM POST TYPE END */
