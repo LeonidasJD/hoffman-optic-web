@@ -214,7 +214,33 @@ eiusmod tempor incididunt ut.
 <!--OUR NEWS SECTION END-->
 
 
-
+<!--TESTIMONIAL SECTION START-->
+<section class="testimonial-section-wrapper">
+    <div class="testimonial-section-under-wrapper">
+        <div class="heading-undersec">
+            <h2>WHAT OUR PATIENT’S Think about us?</h2>
+        </div>
+        <div class="testimonial-undersec">
+        <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="swiper-icon" src="/wp-content/uploads/2024/05/Icon.png" alt="">
+        <p class="swiper-text">Long established fact that a reader will be distracted
+            by the readable content of a page when looking at it's
+            layout. The point of using Lorem Ipsum</p>
+        <img class="swiper-person-img" src="/wp-content/uploads/2024/05/testimonial-01.jpg.png" alt="">
+        <h4>Joerg Porter</h4>
+      </div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+        </div>
+    </div>
+</section>
+<!--TESTIMONIAL SECTION END-->
 
 
 
@@ -224,6 +250,17 @@ get_footer();
 ?>
 
 <script>
+/**SWIPER LOGIC START*/
+var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+    });
+
+/**SWIPER LOGIC END */
+
+
     console.log("homeee test");
     document.getElementById('date').addEventListener('change', function() {
     // Uzimamo vrednost datuma koji je izabran
@@ -235,4 +272,5 @@ get_footer();
     this.style.fontFamily = 'Lato';
     
 });
+
 </script>
