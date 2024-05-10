@@ -245,11 +245,13 @@ eiusmod tempor incididunt ut.
     </div>
 </section>
 <!--TESTIMONIAL SECTION END-->
+
+<!--BANNER SECTION START-->
 <section class="contact-us-banner-wrapper">
 <?php  get_template_part('template-parts/contact-us-green'); ?>
 </section>
+<!--BANNER SECTION END-->
 
-<!--TESTIMONIAL SECTION END-->
 
 
 
