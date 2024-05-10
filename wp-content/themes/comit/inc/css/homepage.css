@@ -74,15 +74,21 @@ background-size: cover;
   background-repeat: no-repeat; 
   margin-right: 10px;
   width: 100%;
-  padding: 120px 15px 0px 15px;
+  padding: 120px 0px 0px 0px;
   border: 2px solid #EDEDED;
-  display: flex;
-    justify-content: space-between;
+  
   
 }
-.left-info{
+.left-wrapper{
     border-top: 1px solid white;
+    padding: 0px 15px 0px 15px;
+}
+    
+
+.left-wrapper{
     backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
 }
 .left-info h2{
     font-family: 'Lustria';
@@ -117,10 +123,9 @@ background-size: cover;
   background-repeat: no-repeat; 
   margin-left: 10px;
   width: 100%;
-  padding: 120px 15px 0px 15px;
+  padding: 120px 0px 0px 0px;
   border: 2px solid #EDEDED;
-  display: flex;
-    justify-content: space-between;
+  
   
 }
 .right-info{
@@ -156,6 +161,7 @@ background-size: cover;
     display: flex;
     align-items: flex-end;
     padding-bottom: 25px;
+    
 }
 .button-wrapper button{
     
@@ -455,7 +461,7 @@ background-size: cover;
     background-color: #76BA51;
     border: none;
     border-radius: 7px;
-    padding: 15px 170px;
+    padding: 15px 50px;
     width: 100%;
     display: flex;
     justify-content: center;
