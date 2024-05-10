@@ -366,6 +366,10 @@ background-size: cover;
 }
 /*OUR STORY SECTION CSS END*/
 
+
+
+/*OUR STORY NEWS CSS START*/
+
 .our-news-section-wrapper{
     background-color:#F5F5F5 ;
     padding-bottom:100px;
@@ -378,9 +382,11 @@ background-size: cover;
 }
 .form-news-wrapper{
     display: flex;
+    align-items: center;
 }
 .news-wrapper{
     width: 100%;
+    margin-right: 30px;
 }
 .form-wrapper{
     width: 60%;
@@ -456,6 +462,7 @@ background-size: cover;
     align-items: center;
     margin-top: 30px;
     box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 .formidable-form button img{
     width: 20px;
@@ -490,3 +497,37 @@ background-size: cover;
 .divider p{
     color: black;
 }
+.single-blog-card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.post-image img{
+    max-width: 200px;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+.post-info p img{
+    width: 12px;
+    margin-right: 10px;
+}
+.post-info p{
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 400;
+    color: #353535;
+    
+}
+.post-info h2{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    color: #444E42;
+}
+.post-info h3{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 300;
+    color: #6D6D6D;
+}
+/*OUR STORY NEWS CSS END*/

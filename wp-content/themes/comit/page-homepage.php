@@ -174,7 +174,35 @@ eiusmod tempor incididunt ut.
         </div>
         <div class="form-news-wrapper">
             <div class="news-wrapper">
-                <h2>placeholder</h2>
+                <?php
+                $post_args= array(
+                'post_type'      => 'post',
+                'posts_per_page' => 2, 
+                );
+                $blog_posts = new WP_Query($post_args);
+
+                if($blog_posts->have_posts()){
+                    while($blog_posts->have_posts()){
+                        $blog_posts->the_post();
+                        ?>
+                        <div class="single-blog-card">
+                         <div class="post-image">
+                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                         </div>
+                            <div class="post-info">
+                            <p><img src="/wp-content/uploads/2024/05/Vector.png"> <?php echo get_the_date();?></p>
+                            <h2><?php the_title(); ?></h2>
+                            <h3><?php echo get_the_excerpt();?></h3>
+                            </div>
+                            
+                        </div>
+                        <?php
+                    }    
+                }else{
+                    echo "No posts found";
+                }
+                ?>
+                
             </div>
             <div class="form-wrapper">
                 <h2>Schedule an appointment</h2>
