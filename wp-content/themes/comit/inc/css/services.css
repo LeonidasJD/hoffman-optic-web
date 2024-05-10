@@ -1,4 +1,5 @@
-.services-section-wrapper{
+/*HERO SECTION CSS START*/
+.hero-services-section-wrapper{
     background-image: url('/wp-content/uploads/2024/05/business-finance-and-employment-female-successfu-2023-11-27-05-22-51-utc-copy-2.png');
     background-size: cover; 
   background-position: center; 
@@ -6,7 +7,7 @@
   padding: 75px 265px;
     text-align: start;
 }
-.services-section-under-wrapper h1{
+.hero-services-section-under-wrapper h1{
     margin: 0px;
     font-family: 'Glegoo';
     font-size: 40px;
@@ -16,3 +17,67 @@
     line-height: 128%;
 
 }
+/*HERO SECTION CSS END*/
+
+/*SERVICES SECTION CSS START*/
+.services-section-wrapper{
+    padding: 32px 65px 130px 65px;
+}
+.single-service-card img{
+    width: 100%;
+}
+.services-cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ravnomeerno rasporedkuje elemente */
+    margin: -7.5px; 
+}
+.single-service-card{
+    width: calc(32.33% - 15px); /* Postavlja sirinu svake kartice tako da bude 25% širine roditeljskog kontejnera sa 15px razmaka */
+    margin: 7.5px; 
+    text-align: center;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 495px;
+    margin-bottom: 40px;
+    
+}
+.single-service-card h2,.single-service-card p,.single-service-card a{
+    margin: 0px;
+}
+.service-card-info{
+    padding: 20px 15px 10px 15px;
+    flex-grow: 1; /* Ovo će omogućiti rast kontejnera .service-card-info kako bi zauzeo preostali vertikalni prostor */
+    display: flex;
+    flex-direction: column;
+}
+.service-card-info h2{
+    padding-bottom: 12px;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E130B;
+    text-align: start;
+}
+.service-card-info p{
+    padding-bottom: 30px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E130B;
+    text-align: start;
+}
+.service-button{
+    text-align: end;
+    padding: 0px;
+    margin-top: auto;
+}
+.service-button a{
+    font-family: 'Lato';
+    font-size: 14px;
+    text-decoration: underline;
+    color: #76BA51;
+}
+/*SERVICES SECTION CSS END*/
