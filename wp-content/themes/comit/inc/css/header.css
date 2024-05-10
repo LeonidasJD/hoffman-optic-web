@@ -28,6 +28,9 @@ header{
     color: #0E130B;
     
 }
+#menu-menu-1 li a:hover{
+    color: #76BA51;
+}
 #menu-menu-1 > li:nth-child(-n+3){
    margin-right: 30px;
 }
