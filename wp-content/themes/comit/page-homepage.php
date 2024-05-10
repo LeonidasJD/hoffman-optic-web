@@ -21,8 +21,8 @@ get_header();
 <section class="book-section-wrapper">
     <div class="book-section-under-wrapper">
     <div class="book-div-left">
-        
-        <div class="left-info">
+        <div class="left-wrapper">
+            <div class="left-info">
             <h2>Our store in Neuenburg</h2>
         <ul>
             <li><img src="/wp-content/uploads/2024/05/🦆-icon-_phone_.png" alt=""> <p>07631-73606</p></li>
@@ -31,19 +31,23 @@ get_header();
         </ul>
     </div>
     <div class="button-wrapper"><button>Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
+        </div>
+        
         
     </div>
     <div class="book-div-right">
    
-        <div class="right-info">
-        <h2>Our store in Müllheim  </h2>
+    <div class="left-wrapper">
+            <div class="left-info">
+            <h2>Our store in Müllheim  </h2>
         <ul>
-            <li><img src="/wp-content/uploads/2024/05/🦆-icon-_phone_.png" alt=""><p>07631-3375</p></li>
+            <li><img src="/wp-content/uploads/2024/05/🦆-icon-_phone_.png" alt=""> <p>07631-3375</p></li>
             <li><img src="/wp-content/uploads/2024/05/🦆-icon-_mail_.png" alt=""><p>muellheim@hoffmann-optik.de</p></li>
             <li><img src="/wp-content/uploads/2024/05/🦆-icon-_clock-outline_.png" alt=""><p>08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
+    </div>
+    <div class="button-wrapper"><button>Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
         </div>
-        <div class="button-wrapper"><button>Book now  <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
        
     </div>
     </div>
@@ -240,6 +244,11 @@ eiusmod tempor incididunt ut.
         </div>
     </div>
 </section>
+<!--TESTIMONIAL SECTION END-->
+<section class="contact-us-banner-wrapper">
+<?php  get_template_part('template-parts/contact-us-green'); ?>
+</section>
+
 <!--TESTIMONIAL SECTION END-->
 
 
