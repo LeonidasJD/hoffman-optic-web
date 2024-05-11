@@ -1,0 +1,5 @@
+.text-form-section-underwrapper{
+    padding: 38px 65px 90px 65px;
+    display: flex;
+    justify-content: space-between;
+}
