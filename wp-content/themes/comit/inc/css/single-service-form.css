@@ -1,0 +1,26 @@
+/*OSTALI STIL UZIMA OD FORME NA POCETNOJ STRANI TAKO DA SE OSTALI CSS NALAZI U FAJLU HOMEPAGE.CSS*/
+
+.choose-service-single {
+    color: #444444!important;
+    background-color: #ffffff;
+    border-color: rgba(118, 186, 81, 1);
+    border-width: 2px!important;
+    border-style: solid;
+    font-family: 'Lato'!important;
+    font-size: 15px!important;
+    font-weight: 700!important;
+    margin-bottom: 20px!important;
+}
+.choose-time{
+    font-family: 'Lato'!important;
+    font-weight: 600!important;
+    font-size: 16px!important;
+    color: #76BA51!important;
+    border: 2px solid #76BA51!important;
+    height: 39px!important;
+}
+
+.post-form{
+    width: 35%;
+
+}
