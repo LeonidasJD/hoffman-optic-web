@@ -30,7 +30,7 @@
                     <div class="service-card-info">
                     <h2><?php echo get_the_title(); ?></h2>
                     <p><?php echo get_the_excerpt(); ?></p>
-                    <div class="service-button"><a href="#">Read more</a></div>
+                    <div class="service-button"><a href="<?php echo get_permalink(); ?>">Read more</a></div>
                     
                     </div>
                     
