@@ -22,9 +22,10 @@
                         <?php
                      }
 
+
             endwhile;
             else:
-                echo 'No services found';
+                echo 'No section found';
         endif;
       
             ?>
