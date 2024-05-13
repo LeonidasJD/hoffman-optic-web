@@ -1,0 +1,98 @@
+/*HERO SECTION CSS START*/
+.about-us-hero-wrapper{
+    background-image: url('/wp-content/uploads/2024/05/Frame-1012-copy-scaled.webp');
+    background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+.about-us-hero-underwrapper{
+    padding: 70px 228px;
+}
+.about-us-hero-underwrapper h1{
+    margin: 0px;
+    font-family: 'Glegoo';
+    font-size: 40px;
+    font-weight: 400;
+    color: #336B15;
+    width: 23rem;
+}
+/*HERO SECTION CSS END*/
+
+
+
+/*OUR MISSION SECTION CSS START*/
+.our-mission-section-wrapper{
+    background-image: url('/wp-content/uploads/2024/05/Frame-1016-scaled.webp');
+    background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+.our-mission-section-underwrapper{
+    padding: 58px 65px;
+}
+.data-section-info{
+    max-width: 42rem;
+    margin-bottom: 60px;
+}
+.data-section-info h2{
+    font-size: 26px;
+    font-family: 'Glegoo';
+    font-weight: 400;
+    color: #0E130B;
+}
+.data-section-info p{
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+}
+/*OUR MISSION SECTION CSS END*/
+
+
+
+/*CORE OF OUR WORK  SECTION CSS START*/
+.our-work-section-wrapper{
+    background: linear-gradient(to top right, #76BA51, #96CB79);
+    background-color: #96CB79;
+    
+}
+.our-work-section-underwrapper{
+    padding: 22px 65px 60px 65px;
+
+}
+.our-work-section-heading-wrapper h2{
+    font-family: 'Glegoo';
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 117%;
+    color: white;
+   
+}
+.our-work-section-data-wrapper{
+    display: flex;
+    gap: 5rem;
+    margin-top: 65px;
+}
+.our-work-data{
+    width: 25%;
+}
+.our-work-data img{
+    width: 6rem;
+}
+.our-work-data h3{
+    margin: 0;
+    font-family: 'Glegoo';
+    font-size: 20px;
+    color: white;
+    line-height: 24px;
+    font-weight: bold;
+}
+.our-work-data p{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+}
+/*CORE OF OUR WORK  SECTION CSS END*/
