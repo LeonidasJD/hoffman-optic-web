@@ -1,9 +1,9 @@
 /*!
 Theme Name: comit
 Theme URI: http://underscores.me/
-Author: Underscores.me
+Author: comit
 Author URI: http://underscores.me/
-Description: Description
+Description: Hoffman Optical 
 Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
@@ -74,6 +74,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  @import url(./inc/css/hero-banner-tem-part.css);
  @import url(./inc/css/single-service.css);
  @import url(./inc/css/single-service-form.css);
+ @import url(./inc/css/about-us.css);
  
 
 
