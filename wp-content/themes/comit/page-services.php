@@ -14,16 +14,16 @@
         <div class="services-cards-wrapper">
 
         <?php 
-        $services_card_args= array(
+        $related_services_card_args= array(
             'post_type' =>'services',
-            'post_per_page' =>'9'
+            'posts_per_page' =>'3'
         );
 
-        $services = new WP_Query( $services_card_args );
+        $related_services = new WP_Query( $related_services_card_args );
 
-        if($services->have_posts()){
-            while($services->have_posts()){
-                $services->the_post();
+        if($related_services->have_posts()){
+            while($related_services->have_posts()){
+                $related_services->the_post();
                 ?> 
                 <div class="single-service-card">
                     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
