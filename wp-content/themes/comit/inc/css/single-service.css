@@ -1,5 +1,122 @@
+/*TEXT AND FORM SECTION CSS START*/
+
+.text-form-section-wrapper{
+    background-color: #F5F5F5;
+}
+
 .text-form-section-underwrapper{
     padding: 38px 65px 90px 65px;
     display: flex;
     justify-content: space-between;
 }
+
+.post-text{
+    width: 50%;
+}
+.service-section-wrapper{
+    margin-bottom: 60px;
+}
+
+.services-section-title h2{
+    font-family: 'Glegoo';
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0px 0px 15px 0px;
+}
+.services-section-subtitle h3{
+    font-family: 'Glegoo';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 15px 0px;
+}
+.services-section-description p{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 128%;
+    margin-bottom: 40px;
+}
+.services-section-image img{
+    max-width: 740px;
+}
+.no-info-message{
+    font-family: 'Glegoo';
+    font-size: 20px;
+}
+/*TEXT AND FORM SECTION CSS START*/
+
+
+
+/*RELATED SERVICES SECTION CSS START*/
+.related-services-section-wrapper{
+    padding: 50px 65px 70px 65px;
+}
+.related-services-section-wrapper h2{
+    font-family: 'Glegoo';
+    font-size: 36px;
+    font-weight: 400;
+    color: #0E130B;
+    margin:0px;
+}
+.related-services-section-wrapper p{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #6D6D6D;
+    max-width: 43rem;
+    margin: 20px 0px 40px 0px;
+}
+.related-services-cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.related-single-service-card{
+    width: calc(32.33% - 15px);
+    text-align: center;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 33.5rem;
+    margin-bottom: 40px;
+}
+.related-single-service-card img{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.related-service-card-info{
+    padding: 20px 15px 10px 15px;
+    flex-grow: 1; /* Ovo će omogućiti rast kontejnera .service-card-info kako bi zauzeo preostali vertikalni prostor */
+    display: flex;
+    flex-direction: column;
+}
+.related-service-card-info h2{
+    padding-bottom: 12px;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E130B;
+    text-align: start;
+}
+.related-service-card-info p{
+    padding-bottom: 30px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E130B;
+    text-align: start;
+}
+.related-service-button{
+    text-align: end;
+    padding: 0px;
+    margin-top: auto;
+}
+.related-service-button a{
+    font-family: 'Lato';
+    font-size: 14px;
+    text-decoration: underline;
+    color: #76BA51;
+}
+/*RELATED SERVICES SECTION CSS END*/
