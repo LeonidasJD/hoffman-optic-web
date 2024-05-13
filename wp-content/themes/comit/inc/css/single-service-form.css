@@ -21,6 +21,21 @@
 }
 
 .post-form{
-    width: 35%;
+    width: 29rem;
 
+}
+.post-form-wrapper{
+    padding: 35px 45px 0px 45px;
+    background-color: white;
+    box-shadow: -20px 24px 46px -20px #EDEEEC;
+}
+.post-form-title{
+    font-family: 'Glegoo';
+    margin: 0px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #0E130B;
+    text-align: center;
+    margin-bottom: 47px;
+    
 }
