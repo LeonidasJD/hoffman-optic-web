@@ -197,3 +197,19 @@ add_action('init','services_custom_post_type');
 
 
 /**SERVICES CUSTOM POST TYPE END */
+
+/**OUR TEAM CUSTOM POST TYPE START */
+function our_team_custom_post_type(){
+	$our_team_args = array(
+		'public' => true,
+		'label' => 'Our Team',
+		'supports' => array(
+            'title','editor','thumbnail','excerpt',
+        ),
+        'menu_icon' => 'dashicons-universal-access',
+	);
+	register_post_type('our-team',$our_team_args);
+}
+
+add_action('init','our_team_custom_post_type');
+/**OUR TEAM CUSTOM POST TYPE END */
