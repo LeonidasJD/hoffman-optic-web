@@ -96,3 +96,65 @@
     color: white;
 }
 /*CORE OF OUR WORK  SECTION CSS END*/
+
+
+/*OUR TEAM  SECTION CSS START*/
+
+
+.our-team-section-wrapper{
+    background-color: #F5F5F5;
+}
+.our-team-section-under-wrapper{
+    padding: 65px 205px 165px 205px;
+}
+.our-team-heading-wrapper{
+    margin-bottom: 30px;
+}
+.our-team-heading-wrapper h2{
+    margin: 0px;
+    font-family: 'Glegoo';
+    font-size: 40px;
+    color: #0E130B;
+    font-weight: 400;
+    text-align: center;
+}
+.team-members-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.single-team-member-card{
+    width: calc(32.33% - 15px);
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+.single-team-member-card img{
+width: 100%;
+border-radius: 8px 8px 0px 0px ;
+}
+.single-team-member-info{
+    padding: 20px 20px;
+    text-align: start;
+}
+.single-team-member-info h3{
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: bold;
+    color: #76BA51
+}
+.single-team-member-info p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    margin:14px 0px 0px 0px;
+}
+
+
+/*OUR TEAM  SECTION CSS END*/
