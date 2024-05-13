@@ -71,9 +71,12 @@
         <div class="related-services-cards-wrapper">
 
         <?php 
+        $current_post_id = get_the_ID();
+
         $related_services_card_args= array(
             'post_type' =>'services',
             'posts_per_page' =>'3',
+            'post__not_in' => array($current_post_id),
         );
 
         $related_services = new WP_Query( $related_services_card_args );
