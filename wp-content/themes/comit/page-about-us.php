@@ -54,4 +54,61 @@
 </section>
 <!--CORE OF OUR WORK  SECTION END-->
 
+<!--OUR TEAM  SECTION START-->
+<section class="our-team-section-wrapper">
+    <div class="our-team-section-under-wrapper">
+        <div class="our-team-heading-wrapper">
+            <h2>Our Team</h2>
+        </div>
+        <div class="our-team-members-wrapper">
+
+        <?php 
+        $our_team_args = array(
+            'post_type' => 'our-team',
+            'post_per-page' => '-1',
+            'order' => 'ASC',
+        );
+
+        $team_members = new WP_query($our_team_args);
+        
+        if($team_members->have_posts()):
+            echo '<div class="team-members-cards">';
+        while($team_members->have_posts()):
+            $team_members->the_post();
+
+            $member_image = get_field('member_image');
+            $member_name = get_field('member_name');
+            $member_occupation = get_field('occupation');
+            $member_title = get_field('title');
+
+            ?> 
+            <div class="single-team-member-card">
+                
+                <div class="team-member-image">
+                    <img src="<?php echo $member_image ?>" alt="">
+            </div>
+            <div class="single-team-member-info">
+            <div class="team-member-name"><h3><?php echo $member_name ?></h3></div>
+            <div class="team-member-occupation"><p><?php echo $member_occupation ?></p></div>
+            <div class="team-member-title"><p><?php echo $member_title ?></p></div>
+            </div>
+            
+            </div>
+            <?php
+        
+        endwhile;
+        echo '</div>';
+        endif;
+        ?>
+        </div>
+    </div>
+</section>
+<!--OUR TEAM  SECTION END-->
+
+<!--CONTACT US GREEN BANNER SECTION START-->
+<section class="contact-us-banner-wrapper">
+<?php  get_template_part('template-parts/contact-us-green'); ?>
+</section>
+<!--CONTACT US GREEN BANNER SECTION START-->
+
 <?php get_footer(); ?>
