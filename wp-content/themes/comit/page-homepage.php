@@ -211,6 +211,7 @@ eiusmod tempor incididunt ut.
             <div class="form-wrapper">
                 <h2>Schedule an appointment</h2>
             <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 2 ) ); ?>
+           
             </div>
         </div>
     </div>
