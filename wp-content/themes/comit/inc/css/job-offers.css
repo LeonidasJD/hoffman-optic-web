@@ -1,0 +1,271 @@
+/*WELCOME INFO SECTION START*/
+.welcome-info-section-wrapper{
+    background-color: #F5F5F5;
+}
+.welcome-info-section-underwrapper{
+    padding: 62px 133px 62px 133px;
+}
+.welcome-info-section-underwrapper h2{
+    font-family: 'Glegoo';
+    font-size: 26px;
+    font-weight: 400;
+    color: #0E130B;
+    margin: 0px 0px 35px 0px;
+}
+.welcome-info-section-underwrapper p{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #6D6D6D;
+    margin: 0px;
+    max-width: 45rem;
+}
+.welcome-info-section-underwrapper > :nth-child(2) {
+    margin-bottom: 15px;
+}
+/*WELCOME INFO SECTION END*/
+
+/*POSITION TO APPLY SECTION START*/
+.position-apply-section-wrapper{
+    background-color: #F5F5F5;
+    padding-bottom: 130px;
+}
+.postition-applay-section-underwrapper{
+    margin: 0px 133px 0px 133px;
+    box-shadow: -8px 11px 13px 0px #e9ebe9;
+}
+.position-apply-cards-wrapper{
+    display: flex;
+}
+.single-position-appy-card{
+    background-color: white;
+    padding: 35px 60px 35px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+    
+}
+.apply-card-text-button{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+.single-position-appy-card h2{
+     margin: 0px 0px 10px 0px; 
+    font-family: 'Glegoo';
+    font-size: 18px;
+    color: #42464E;
+    font-weight: bold;
+
+}
+.apply-card-text-button p{
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    color: #42464E;
+    margin-bottom: 25px;
+    
+ 
+    
+}
+.apply-card-text-button button{
+    background-color: #76BA51;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 26px;
+    color: white;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    max-width: 9rem;
+    margin-top: auto;
+    box-shadow: -5px 4px 10px 0px #c6dbba;
+    cursor: pointer;
+   
+    
+}
+.single-position-appy-card button img{
+    margin-left: 6px;
+    width: 13px;
+
+}
+.position-apply-cards-wrapper > :nth-child(n+2) {
+    border-left: 1px solid #E6E6E6; 
+  }
+
+  .position-apply-cards-wrapper > :nth-child(1) .apply-card-text-button p,
+  .position-apply-cards-wrapper > :nth-child(2) .apply-card-text-button p,
+  .position-apply-cards-wrapper > :nth-child(4) .apply-card-text-button p {
+    margin-top: 35px;
+  }
+/*POSITION TO APPLY SECTION END*/
+
+
+/*MODAL CSS START*/
+
+.modal-wrapper {
+    display: none;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    z-index: 9999; 
+    backdrop-filter: blur(10px);
+    background-color: rgba(223, 223, 223, 0.5);
+    
+   
+}
+.modal-underwrapper{
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    z-index: 9999; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-main {
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 30rem;
+  
+}
+.modal-main h2{
+    margin: 0px;
+    font-family: 'Glegoo';
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+.exit-icon-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.exit-icon-wrapper img{
+    max-width: 1.5rem;
+    cursor: pointer;
+}
+#frm_field_31_container input{
+    border: none;
+    border-bottom: solid 2px;
+    border-radius: 0px;
+    border-color: #5B9356;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: bold;
+    color: #0E130B;
+}
+#frm_field_31_container input::placeholder{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: bold;
+    color: #0E130B;
+}
+#frm_field_31_container textarea{
+    border: none;
+    border-bottom: solid 2px;
+    border-radius: 0px;
+    border-color: #5B9356;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: bold;
+    color: #0E130B;
+    padding-left: 5px;
+}
+#frm_field_31_container textarea::placeholder{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: bold;
+    color: #0E130B;
+}
+#frm_field_31_container select{
+    border: none;
+    border-bottom: solid 2px;
+    border-radius: 0px;
+    border-color: #5B9356;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: bold;
+    color: #0E130B;
+    padding-left: 5px;
+}
+#frm_field_31_container div{
+margin-bottom: 30px;
+}
+#upload{
+    display: none;
+    border: 2px solid #5B9356!important;
+}
+
+.upload-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.upload-label {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    color: #76BA51;
+    border: solid 2px #76BA51;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 8rem;
+}
+.upload-label img{
+    width: 1rem;
+    margin-left: 10px;
+}
+.form-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.form-buttons > :first-child{
+    background-color: #76BA51;
+    border: none;
+    color: white;
+    padding: 13px 42px;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    width: 14rem;
+}
+.form-buttons > :last-child{
+    width: 9rem;
+    border-radius: 6px;
+    border: 2px solid #76BA51;
+    color: #76BA51;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*MODAL CSS END*/
