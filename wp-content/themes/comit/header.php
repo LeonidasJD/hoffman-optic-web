@@ -51,7 +51,7 @@
 		<div class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/uploads/2024/05/logotype-1.png" alt=""></a></div>
 		<div class="button-wrapper">
 			<a href="#">Products</a>
-			<a href="#">Content</a>
+			<a href="#">Contact</a>
 		</div>
 			</div>
 			<div class="horizontal-line"></div>
