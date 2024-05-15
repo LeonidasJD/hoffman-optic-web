@@ -1,0 +1,47 @@
+.news-section-wrapper{
+    background-color: #F5F5F5;
+    padding: 45px 170px 100px 170px;
+}
+.news-section-underwrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.posts-section-wrapper{
+    /* width:38rem ; */
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    text-align: center;
+    background-color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 26px;
+    margin-top: 60px;
+    box-shadow: -3px 5px 16px 0px #E8EBE6;
+}
+.page-numbers{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 300;
+    color: #656565;
+    margin-left: 20px;
+}
+.page-numbers.current{
+    background-color: black;
+    padding: 10px 15px 10px 14px;
+    border-radius: 50px;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+}
+.prev.page-numbers img{
+    width: 0.5rem;
+    padding-right: 20px;
+}
+.next.page-numbers img{
+    width: 0.5rem;
+    padding-left: 20px;
+}
+
+/*STIL ZA POSTOVE SE NALAZI U HOMEPAGE.CSS JER SE KORISTE ISTI POSTOVI KAO I TAMO*/
