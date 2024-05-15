@@ -1,0 +1,101 @@
+.latest-single-blog-card{
+    display: flex;
+    margin-bottom: 20px;
+    width: 22rem;
+}
+
+.lates-news-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 23px;
+}
+.latest-news-heading{
+    background-color: white;
+    padding: 10px 105px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.latest-news-heading h2{
+    margin: 0;
+    font-family: 'Lato';
+    font-size: 26px;
+    font-weight: 400;
+    color: #0E130B;
+    text-align: center;
+}
+.latest-post-info{
+    margin-left: 10px;
+}
+.lates-post-image img{
+width:6rem ;
+border-radius: 4px;
+}
+.latest-post-info h2{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: #0E130B;
+    margin: 0px 0px 6px 0px;
+}
+.latest-post-info p{
+    margin: 0px 0px 6px 0px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 12px;
+}
+.latest-post-info a{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    color: #76BA51;
+    
+}
+.side-banner-wrapper{
+    background-image: url('/wp-content/uploads/2024/05/63d7ca367c3bc077202ab0a9_IMG_5374-2.png');
+    background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  padding: 40px 18px;
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 8px;
+    width: 21rem;
+    margin-top: 10px;
+}
+.side-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.side-image img{
+    width: 13rem;
+}
+.side-banner-wrapper h2{
+    margin: 0px;
+    font-family: 'Glegoo';
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+    line-height: 117%;
+}
+.side-banner-wrapper p{
+    font-family: 'Lato';
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+.side-banner-wrapper a{
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 8px 0px 8px 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+
+}
