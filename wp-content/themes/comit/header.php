@@ -28,6 +28,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
 <!--FONTS END-->
 
+<!--OPEN STREET MAPS START-->
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<!--OPEN STREET MAPS END-->
+
 <!--SWIPER JS START-->
 <link
   rel="stylesheet"
@@ -36,10 +41,13 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!--SWIPER JS END-->
+
+
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'comit' ); ?></a>
@@ -51,7 +59,7 @@
 		<div class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/uploads/2024/05/logotype-1.png" alt=""></a></div>
 		<div class="button-wrapper">
 			<a href="#">Products</a>
-			<a href="#">Contact</a>
+			<a href="/contact-us/">Contact</a>
 		</div>
 			</div>
 			<div class="horizontal-line"></div>
