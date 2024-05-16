@@ -1,3 +1,4 @@
+
 <?php get_header(); ?>
 <!--HERO SECTION START-->
 <section class="job-offers-hero-wrapper">
@@ -14,9 +15,9 @@
     <?php
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $post_args = array(
-        'post_type'      => 'post',
+        'post_type' => 'post',
         'posts_per_page' => 4, 
-        'paged'          => $paged 
+        'paged' => $paged ,
     );
     $blog_posts = new WP_Query($post_args);
 
