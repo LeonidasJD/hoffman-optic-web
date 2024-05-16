@@ -9,6 +9,7 @@ get_header();
             if(have_rows('news_section')):
 
 				
+            $blog_post_id_cur = get_the_ID()
 				?> 
 				<div class="post-date">
 				<img src="/wp-content/uploads/2024/05/22.png">
@@ -62,6 +63,8 @@ get_header();
             endwhile;
             else:
                 echo '<div class="no-post-info-message"><h4>Information will be available soon</h4></div>';
+                $blog_post_id_cur = get_the_ID();
+                
         endif;
       
             ?>
@@ -90,12 +93,13 @@ get_header();
    <div class="related-news-cards-wrapper">
 
       <?php 
-         $current_news_id = get_the_ID();
+        
+        
          $related_news_card_args= array(
          'post_type' =>'post',
          'posts_per_page' =>'2',
-         'order' => 'ASC',
-         'post__not_in' => array($current_news_id),
+         'order' => 'DSC',
+         'post__not_in' => array( $blog_post_id_cur ),
          );
 
          $related_news = new WP_Query( $related_news_card_args );
@@ -115,14 +119,12 @@ get_header();
                   <div class="single-card-heading-excerpt">
                   <h2><?php echo get_the_title(); ?></h2>
                <p><?php echo get_the_excerpt(); ?></p>
+               
                   </div>
               
                </div>
                
             </div></a>
-         
-         
-            
          <?php
             }
          }else{
