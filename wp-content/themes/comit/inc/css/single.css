@@ -1,0 +1,116 @@
+/*POST INFO CSS START*/
+.single-post-info-wrapper{
+    background-color: #F5F5F5;
+}
+.single-post-info-underwrapper{
+    padding: 50px 65px 100px 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.single-post-info{
+    width: 60%;
+}
+.post-date{
+    display: flex;
+    
+}
+.post-date img{
+    width: 15px;
+}
+.post-date p{
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-weight: 300;
+    color: #353535;
+    margin-left: 20px;
+}
+.post-section-image img{
+width:46rem ;
+margin-top: 60px;
+}
+.post-single-section-title h2{
+    margin: 0px;
+    font-family: 'Glegoo';
+    font-size: 26px;
+    font-weight: 400;
+    color: #0E130B;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.post-section-subtitle h3{
+    margin: 0px;
+    font-family: 'Glegoo';
+    font-size: 20px;
+    font-weight: 400;
+    color: #0E130B;
+    margin-bottom: 25px;
+}
+.post-section-description p{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    color: #0E130B;
+}
+/*POST INFO CSS END*/
+
+
+/*RELATED POST CSS START*/
+.related-posts-underwrapper{
+    padding: 50px 65px 90px 65px;
+}
+.related-heading-and-paragraph h2{
+    margin: 0px;
+    font-family: 'Glegoo';
+    font-size: 36px;
+    font-weight: 400;
+    color: #0E130B;
+}
+.related-heading-and-paragraph p {
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #6D6D6D;
+    max-width: 43rem;
+}
+.related-news-cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+.related-news-cards-wrapper a{
+    color:#353535 ;
+}
+.related-single-news-card{
+    display: flex;
+}
+.related-card-img img{
+    width: 12rem;
+    margin-right: 30px;
+}
+.related-news-card-info{
+    margin: auto;
+}
+.single-news-date{
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.single-news-date img{
+    margin-right: 5px;
+}
+.single-card-heading-excerpt h2{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.single-card-heading-excerpt p{
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #6D6D6D;
+}
+/*RELATED POST CSS END*/
