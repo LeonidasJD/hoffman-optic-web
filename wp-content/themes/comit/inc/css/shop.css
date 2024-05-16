@@ -1,0 +1,18 @@
+.shop-category-section-wrapper{
+    padding: 35px 65px;
+    background-color: #F5F5F5;
+}
+.shop-category-section-underwrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 30px 60px 30px 15px;
+    border-radius: 10px;
+}
+.search-div h1{
+    margin: 0px;
+    font-family: 'Glegoo';
+    font-size: 40px;
+    font-weight: 400;
+    color: #0E130B;
+}
