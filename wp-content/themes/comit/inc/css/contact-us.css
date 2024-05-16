@@ -1,0 +1,225 @@
+
+/**CONTACT HEADING SECTION START**/
+.contact-us-heading-section-wrapper{
+    background-color: #F5F5F5;
+}
+.contact-us-heading-section-underwrapper{
+    padding: 45px 65px 45px 65px;
+}
+.contact-us-heading h1{
+    font-family: 'Glegoo';
+    font-size: 42px;
+    font-weight: 400;
+    color: #0E130B;
+    margin: 0px;
+}
+
+.contact-us-heading p{
+    font-family: 'Lato';
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    margin: 0;
+}
+/**CONTACT HEADING SECTION END**/
+
+/**INFO AND FORM  SECTION START**/
+
+.info-and-form-section-wrapper{
+    background-color: #F5F5F5;
+}
+.info-and-form-section-underwrapper{
+    padding: 0px 65px 65px 65px;
+}
+.info-and-form-divs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    gap: 34px;
+}
+.info-card{
+    background-color: white;
+    border-radius: 6px;
+    padding: 16px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.info-card h2{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.info-card p{
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
+    color: black;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+.info-card a{
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
+    color: black;
+    margin: 0px;
+}
+.info-card p img{
+    width: 1rem;
+}
+.info-button-app{
+    background-color: #76BA51;
+    border-radius: 6px;
+    text-align: center;
+    max-width: 12rem;
+    padding: 13px 50px;
+    box-shadow: -5px 4px 11px 3px #e1e7de;
+
+}
+.info-button-app a img{
+    width: 1rem;
+    
+}
+.info-button-app a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+/**INFO AND FORM  SECTION END**/
+
+/*MAP CSS START*/
+#my-map{
+    width:100%;
+     height:30rem;
+}
+.leaflet-bottom.leaflet-right{
+    display: none;
+}
+.leaflet-popup-content{
+    display: flex;
+    flex-direction: column;
+}
+.leaflet-popup-content p{
+    font-family: 'Lato';
+    margin: -7px 0px -7px 0px;
+}
+.leaflet-popup-content b{
+    font-family: 'Lato';
+    margin: 0px;
+}
+/*MAP CSS END*/
+
+/*CONTACT US FORM CSS START*/
+.contact-form-wrapper{
+    background-color: white;
+    padding: 69px 46px 0px 46px;
+    width: 40rem;
+    border-radius: 6px;
+}
+.fields-wrapper{
+    display: flex;
+    gap: 30px;
+}
+.fields-wrapper input{
+    border: none!important;
+    border-bottom: 2px solid #5B9356!important ;
+    border-radius: 0px!important;
+    font-family: 'Lato'!important;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6E716D!important;
+    
+}
+.fields-wrapper input::placeholder{
+    font-family: 'Lato'!important;
+    font-size: 14px;
+    font-weight: bold;
+    color: #63716D!important;
+}
+.fields-wrapper select{
+    border: none!important;
+    border-bottom: 2px solid #5B9356!important;
+    border-radius: 0px!important;
+    font-family: 'Lato'!important;
+    font-size: 14px;
+    font-weight: bold;
+    color: #63716D!important;
+}
+.form-subj input{
+    border: none!important;
+    border-bottom: 2px solid #5B9356!important ;
+    border-radius: 0px!important;
+    font-family: 'Lato'!important;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6E716D!important;
+}
+.form-subj input::placeholder{
+    font-family: 'Lato'!important;
+    font-size: 14px;
+    font-weight: bold;
+    color: #63716D!important;
+}
+#frm_field_33_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+#frm_field_33_container textarea{
+    border: none!important;
+    border-bottom: 2px solid #5B9356!important;
+    border-radius: 0px!important;
+    font-family: 'Lato'!important;
+    font-size: 14px;
+    font-weight: bold;
+    color: #63716D!important;
+}
+#frm_field_33_container textarea::placeholder{
+    font-family: 'Lato'!important;
+    font-size: 14px;
+    font-weight: bold;
+    color: #63716D!important;
+}
+#frm_field_33_container button{
+    background-color: #76BA51;
+    border: none;
+    border-radius: 6px;
+    padding: 13px 26px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: -5px 4px 11px 3px #e1e7de;
+    width: 12rem;
+}
+
+.chekcbox-field{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-bottom: 67px;
+}
+.chekcbox-field label{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+/*CONTACT US FORM CSS END*/
