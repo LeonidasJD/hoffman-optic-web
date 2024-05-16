@@ -189,6 +189,7 @@ eiusmod tempor incididunt ut.
                     while($blog_posts->have_posts()){
                         $blog_posts->the_post();
                         ?>
+                        <a href="<?php echo get_permalink(); ?>">
                         <div class="single-blog-card">
                          <div class="post-image">
                             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
@@ -200,6 +201,8 @@ eiusmod tempor incididunt ut.
                             </div>
                             
                         </div>
+                        </a>
+                        
                         <?php
                     }    
                 }else{
