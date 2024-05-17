@@ -7,6 +7,7 @@ get_header();
         <div class="search-div">
             <h1>Our products</h1>
             <div class="product-search-bar">
+                <div class="test"> <?php echo do_shortcode('[yith_woocommerce_ajax_search preset=default]'); ?></div>
             <form role="search" method="get" class="woocommerce-product-search" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 	            <label class="screen-reader-text" for="woocommerce-product-search-field-<?php echo isset( $index ) ? absint( $index ) : 0; ?>"><?php esc_html_e( 'Search for:', 'woocommerce' ); ?></label>
 	            <input type="search" id="woocommerce-product-search-field-<?php echo isset( $index ) ? absint( $index ) : 0; ?>" class="search-field" placeholder="<?php echo esc_attr__( 'Search specific product', 'woocommerce' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />

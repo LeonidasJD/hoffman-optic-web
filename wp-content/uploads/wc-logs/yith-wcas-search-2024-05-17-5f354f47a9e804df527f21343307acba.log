@@ -1,0 +1,109 @@
+2024-05-17T19:24:07+00:00 NOTICE Start search for bes CONTEXT: {"_legacy":true}
+2024-05-17T19:24:07+00:00 NOTICE Execution time 0 0.0445484 CONTEXT: {"_legacy":true}
+2024-05-17T19:24:07+00:00 NOTICE Tokens Array
+(
+    [0] => bes
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:24:07+00:00 NOTICE Execution time 1 0.22663 CONTEXT: {"_legacy":true}
+2024-05-17T19:24:07+00:00 NOTICE Execution time 0.2695129 CONTEXT: {"_legacy":true}
+2024-05-17T19:25:13+00:00 NOTICE Start search for best CONTEXT: {"_legacy":true}
+2024-05-17T19:25:13+00:00 NOTICE Execution time 0 0.1208904 CONTEXT: {"_legacy":true}
+2024-05-17T19:25:13+00:00 NOTICE Tokens Array
+(
+    [0] => best
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:25:13+00:00 NOTICE Execution time 1 0.2365373 CONTEXT: {"_legacy":true}
+2024-05-17T19:25:13+00:00 NOTICE Execution time 0.2908524 CONTEXT: {"_legacy":true}
+2024-05-17T19:25:14+00:00 NOTICE Start search for best CONTEXT: {"_legacy":true}
+2024-05-17T19:25:14+00:00 NOTICE Execution time 0 0.1199821 CONTEXT: {"_legacy":true}
+2024-05-17T19:25:14+00:00 NOTICE Tokens Array
+(
+    [0] => best
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:25:14+00:00 NOTICE Execution time 1 0.2334286 CONTEXT: {"_legacy":true}
+2024-05-17T19:25:14+00:00 NOTICE Execution time 0.288357 CONTEXT: {"_legacy":true}
+2024-05-17T19:25:54+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-17T19:25:55+00:00 NOTICE Execution time 0 0.1689964 CONTEXT: {"_legacy":true}
+2024-05-17T19:25:55+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:25:55+00:00 NOTICE Execution time 1 0.2796257 CONTEXT: {"_legacy":true}
+2024-05-17T19:25:55+00:00 NOTICE Execution time 0.3305938 CONTEXT: {"_legacy":true}
+2024-05-17T19:28:08+00:00 NOTICE Start search for asd CONTEXT: {"_legacy":true}
+2024-05-17T19:28:08+00:00 NOTICE Execution time 0 0.1599297 CONTEXT: {"_legacy":true}
+2024-05-17T19:28:08+00:00 NOTICE Tokens Array
+(
+    [0] => asd
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:28:08+00:00 NOTICE Execution time 1 0.2708709 CONTEXT: {"_legacy":true}
+2024-05-17T19:28:08+00:00 NOTICE Execution time 0.3274398 CONTEXT: {"_legacy":true}
+2024-05-17T19:30:03+00:00 NOTICE Start search for crysta CONTEXT: {"_legacy":true}
+2024-05-17T19:30:03+00:00 NOTICE Execution time 0 0.1546722 CONTEXT: {"_legacy":true}
+2024-05-17T19:30:03+00:00 NOTICE Tokens Array
+(
+    [0] => crysta
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:30:03+00:00 NOTICE Execution time 1 0.26119 CONTEXT: {"_legacy":true}
+2024-05-17T19:30:03+00:00 NOTICE Execution time 0.3149248 CONTEXT: {"_legacy":true}
+2024-05-17T19:30:04+00:00 NOTICE Start search for crystal CONTEXT: {"_legacy":true}
+2024-05-17T19:30:05+00:00 NOTICE Execution time 0 0.1204079 CONTEXT: {"_legacy":true}
+2024-05-17T19:30:05+00:00 NOTICE Tokens Array
+(
+    [0] => crystal
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:30:05+00:00 NOTICE Execution time 1 0.2346138 CONTEXT: {"_legacy":true}
+2024-05-17T19:30:05+00:00 NOTICE Execution time 0.2916117 CONTEXT: {"_legacy":true}
+2024-05-17T19:30:41+00:00 NOTICE Start search for cry CONTEXT: {"_legacy":true}
+2024-05-17T19:30:42+00:00 NOTICE Execution time 0 0.1589869 CONTEXT: {"_legacy":true}
+2024-05-17T19:30:42+00:00 NOTICE Tokens Array
+(
+    [0] => cry
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:30:42+00:00 NOTICE Execution time 1 0.2735283 CONTEXT: {"_legacy":true}
+2024-05-17T19:30:42+00:00 NOTICE Execution time 0.3285492 CONTEXT: {"_legacy":true}
+2024-05-17T19:32:24+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-17T19:32:24+00:00 NOTICE Execution time 0 0.1564222 CONTEXT: {"_legacy":true}
+2024-05-17T19:32:24+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:32:24+00:00 NOTICE Execution time 1 0.2700909 CONTEXT: {"_legacy":true}
+2024-05-17T19:32:24+00:00 NOTICE Execution time 0.3252847 CONTEXT: {"_legacy":true}
+2024-05-17T19:37:32+00:00 NOTICE Start search for spectr CONTEXT: {"_legacy":true}
+2024-05-17T19:37:32+00:00 NOTICE Execution time 0 0.1661711 CONTEXT: {"_legacy":true}
+2024-05-17T19:37:32+00:00 NOTICE Tokens Array
+(
+    [0] => spectr
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:37:32+00:00 NOTICE Execution time 1 0.2792685 CONTEXT: {"_legacy":true}
+2024-05-17T19:37:32+00:00 NOTICE Execution time 0.3370682 CONTEXT: {"_legacy":true}
+2024-05-17T19:37:33+00:00 NOTICE Start search for spectra CONTEXT: {"_legacy":true}
+2024-05-17T19:37:34+00:00 NOTICE Execution time 0 0.1196484 CONTEXT: {"_legacy":true}
+2024-05-17T19:37:34+00:00 NOTICE Tokens Array
+(
+    [0] => spectra
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:37:34+00:00 NOTICE Execution time 1 0.2346541 CONTEXT: {"_legacy":true}
+2024-05-17T19:37:34+00:00 NOTICE Execution time 0.2899164 CONTEXT: {"_legacy":true}
+2024-05-17T19:50:07+00:00 NOTICE Start search for eye zen CONTEXT: {"_legacy":true}
+2024-05-17T19:50:08+00:00 NOTICE Execution time 0 0.1667622 CONTEXT: {"_legacy":true}
+2024-05-17T19:50:08+00:00 NOTICE Tokens Array
+(
+    [0] => eye
+    [1] => zen
+)
+ CONTEXT: {"_legacy":true}
+2024-05-17T19:50:08+00:00 NOTICE Execution time 1 0.2680752 CONTEXT: {"_legacy":true}
+2024-05-17T19:50:08+00:00 NOTICE Execution time 0.3144275 CONTEXT: {"_legacy":true}
