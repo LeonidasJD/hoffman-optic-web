@@ -1,15 +1,19 @@
 <?php
 get_header();
 ?>
+<!--SEARCH AND CATEGORY SECTION START-->
 <section class="shop-category-section-wrapper">
     <div class="shop-category-section-underwrapper">
         <div class="search-div">
             <h1>Our products</h1>
             <div class="product-search-bar">
-            <?php
-    
-            the_widget('WC_Widget_Product_Search');
-            ?>
+            <form role="search" method="get" class="woocommerce-product-search" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+	            <label class="screen-reader-text" for="woocommerce-product-search-field-<?php echo isset( $index ) ? absint( $index ) : 0; ?>"><?php esc_html_e( 'Search for:', 'woocommerce' ); ?></label>
+	            <input type="search" id="woocommerce-product-search-field-<?php echo isset( $index ) ? absint( $index ) : 0; ?>" class="search-field" placeholder="<?php echo esc_attr__( 'Search specific product', 'woocommerce' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+	            <button type="submit" value="<?php echo esc_attr_x( 'Search', 'submit button', 'woocommerce' ); ?>" class="<?php echo esc_attr( wc_wp_theme_get_element_class_name( 'button' ) ); ?>"><img src="/wp-content/uploads/2024/05/bi_search.png" alt=""></button>
+	            <input type="hidden" name="post_type" value="product" />
+            </form>
+            
             </div>
         </div>
         <div class="category-div">
@@ -25,10 +29,15 @@ get_header();
                     $thumbnail_id = get_term_meta( $category->term_id, 'thumbnail_id', true );
                     $image = wp_get_attachment_url( $thumbnail_id );
                     
+                    
                     echo '<li class="category-item">';
                     // Prikazujemo sliku kategorije ako postoji
                     if ( $image ) {
+                        echo '<a href="' . esc_url( get_term_link( $category ) ) . '">';
+                        echo '<div class="category-image-wrapper">';
                         echo '<img src="' . esc_url( $image ) . '"/>';
+                        echo '</div>';
+                        echo '</a>';
                     }
                     // Prikazujemo naziv kategorije
                     echo '<a href="' . esc_url( get_term_link( $category ) ) . '">' . esc_html( $category->name ) . '</a>';
@@ -40,7 +49,22 @@ get_header();
         </div>
     </div>
 </section>
-<?php
+<!--SEARCH AND CATEGORY SECTION END-->
+
+<!--FILTER AND PRODUCT SECTION START-->
+<section class="filter-and-product-section-wrapper">
+    <div class="filter-and-product-section-underwrapper">
+        <div class="filter-section">
+        <?php echo do_shortcode('[br_filter_single filter_id=287]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=293]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=295]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=297]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=298]'); ?>
+
+
+        </div>
+        <div class="product-section">
+        <?php
 if ( have_posts() ) :
     while ( have_posts() ) :
         the_post();
@@ -60,6 +84,13 @@ if ( function_exists( 'woocommerce_product_loop' ) ) {
     woocommerce_product_loop_end();
 }
 ?>
+        </div>
+    </div>
+
+</section>
+<!--FILTER AND PRODUCT SECTION END-->
+
 <?php
 get_footer();
 ?>
+

@@ -16,3 +16,226 @@
     font-weight: 400;
     color: #0E130B;
 }
+/*CATEGORY LIST CSS START*/
+.category-list{
+    display: flex;
+    gap: 56px;
+    list-style-type: none;
+}
+
+.category-list > li:first-child{
+    display: none;
+}
+.category-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.category-item a{
+    font-family: 'Glegoo';
+    font-size: 16px;
+    font-weight: 400;
+    color: #42464E;
+}
+.category-image-wrapper{
+    background-color: #EAEDE9;
+    padding: 17px;
+    width: 98px;
+    height: 98px;
+    border-radius: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category-image-wrapper img{
+    width: 4rem;
+}
+/*CATEGORY LIST CSS END*/
+
+/*SEARCH BAR CSS START*/
+.product-search-bar{
+margin-top: 40px;
+}
+.product-search-bar form{
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.product-search-bar input{
+    background-color: black;
+    border: none;
+    color: white;
+}
+.product-search-bar input:focus {
+    outline: none;
+}
+.product-search-bar input::placeholder{
+    color: white;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-weight: 400;
+
+}
+.product-search-bar button{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+.product-search-bar button img{
+    width: 1rem;
+}
+/*SEARCH BAR CSS END */
+
+/*FILTER AND PRODUCT SECTION START*/
+.filter-and-product-section-wrapper{
+    padding: 0px 65px 100px 65px;
+    background-color: #F5F5F5;
+}
+
+.filter-and-product-section-underwrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.filter-section{
+    width: 15rem;
+}
+.woocommerce-result-count{
+    display: none!important;
+}
+.bapf_head{
+    background-color: #E2E6E0;
+    display: flex;
+    margin-bottom: 15px;
+    height: 37px;
+    border-radius: 5px;
+}
+.bapf_head i img{
+    width: 2rem;
+    margin-right: 20px;
+
+}
+.bapf_head h3{
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+    color: #76BA51;
+}
+.bapf_head h3 i {
+    vertical-align: middle; 
+  }
+.bapf_body ul li{
+    border-bottom: 2px solid #EEEE;
+    display: flex;
+    align-items: center;
+}
+.bapf_body ul li:before {
+    content: "+";
+    margin-right: 15px; 
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .bapf_body ul li.checked:before {
+    content: "-";
+    margin-right: 15px; 
+    font-size: 26px;
+    font-weight: bold;
+  }
+.bapf_body li label {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.bapf_body ul li img{
+    width: 11px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.bapf_body ul li i{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bapf_body select{
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    color: #AAAAAA;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+.woocommerce-ordering select{
+    border: none;
+    padding: 2px;
+    color: #555555;
+    font-family: 'Lato';
+    font-size: 12px;
+}
+.rotated-icon {
+    transform: rotate(180deg);
+  }
+.products li{
+    background-color: white;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .products li {
+    list-style: none;
+    text-align: center;
+    border: none;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+    width: 100%;
+  }
+  .products.columns-4:before{
+    display: none!important;
+  }
+  .woocommerce-loop-product__title{
+    font-family: 'Glegoo';
+    font-size: 18px;
+    font-weight: 400;
+    color: #0E130B;
+  }
+  .product_type_simple{
+    background-color: white!important;
+    float: right;
+    font-family: 'Lato'!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    text-decoration: underline!important;
+    color: #76BA51!important;
+  }
+
+  .woocommerce nav.woocommerce-pagination ul{
+    background-color: white;
+    border: none;
+    border-radius: 26px;
+    padding: 16px 30px;
+  }
+  .page-numbers li{
+    border: none!important;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #656565;
+  }
+  .page-numbers.current{
+    background-color: black!important;
+    font-family: 'Lato'!important;
+    font-size: 14px!important;
+    color: white!important;
+  }
+/*FILTER AND PRODUCT SECTION END*/
