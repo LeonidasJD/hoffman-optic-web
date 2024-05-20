@@ -1,0 +1,16 @@
+/*PRODUCT WRAPPER CSS START*/
+.single-product-wrapper{
+    display: flex;
+    padding: 45px 65px 65px 65px;
+    gap: 70px;
+}
+/*PRODUCT WRAPPER CSS START*/
+
+/*PRODUCT IMAGE CSS START*/
+/*PRODUCT IMAGE  CSS END*/
+
+/*PRODUCT  INFO CSS START*/
+.product-description{
+    
+}
+/*PRODUCT  INFO CSS END*/
