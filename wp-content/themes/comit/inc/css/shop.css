@@ -238,4 +238,11 @@ margin-top: 40px;
     font-size: 14px!important;
     color: white!important;
   }
+/*ajax search css*/
+  .css-18xzoxd .ywcas-input-field-wrapper{
+border-radius: 4px!important;
+  }
+  .css-18xzoxd .ywcas-input-field-wrapper input{
+    font-family: 'Lato'!important;
+  }
 /*FILTER AND PRODUCT SECTION END*/
