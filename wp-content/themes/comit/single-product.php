@@ -107,7 +107,7 @@ if (have_posts()) {
 
     <div id="tab1" class="tab">
     <h2>Description</h2>
-    <p>London is the capital city of England.</p>
+    <p>serbia is the capital city of England.</p>
     </div>
 
     <div id="tab2" class="tab" style="display:none">
