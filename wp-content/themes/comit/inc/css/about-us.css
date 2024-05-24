@@ -1,12 +1,15 @@
 /*HERO SECTION CSS START*/
-.about-us-hero-wrapper{
+.container-hero-about-us{
     background-image: url('/wp-content/uploads/2024/05/Frame-1012-copy-scaled.webp');
     background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
 }
+.about-us-hero-wrapper{
+    
+}
 .about-us-hero-underwrapper{
-    padding: 70px 228px;
+    padding: 70px 210px;
 }
 .about-us-hero-underwrapper h1{
     margin: 0px;
@@ -22,12 +25,13 @@
 
 
 /*OUR MISSION SECTION CSS START*/
-.our-mission-section-wrapper{
+.container-our-mission-section{
     background-image: url('/wp-content/uploads/2024/05/Frame-1016-scaled.webp');
     background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
 }
+
 .our-mission-section-underwrapper{
     padding: 58px 65px;
 }
@@ -52,9 +56,12 @@
 
 
 /*CORE OF OUR WORK  SECTION CSS START*/
-.our-work-section-wrapper{
+.container-core-of-work-section{
     background: linear-gradient(to top right, #76BA51, #96CB79);
-    background-color: #96CB79;
+}
+.our-work-section-wrapper{
+    
+    
     
 }
 .our-work-section-underwrapper{
@@ -101,7 +108,9 @@
 
 /*OUR TEAM  SECTION CSS START*/
 
-
+.container-our-team-section{
+    background-color: #F5F5F5;
+}
 .our-team-section-wrapper{
     background-color: #F5F5F5;
 }
@@ -156,6 +165,5 @@ border-radius: 8px 8px 0px 0px ;
     color: black;
     margin:14px 0px 0px 0px;
 }
-
 
 /*OUR TEAM  SECTION CSS END*/

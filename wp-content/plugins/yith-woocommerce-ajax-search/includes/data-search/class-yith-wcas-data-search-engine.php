@@ -435,7 +435,7 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Return the max number of results.
 		 *
-		 * @param   array  $search_result  Result to filter.
+		 * @param array $search_result Result to filter.
 		 *
 		 * @return array
 		 */
@@ -453,32 +453,28 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 							$thumb               = $result['thumbnail'];
 							$result['thumbnail'] = array(
 								'small' => $thumb,
-								'big'   => $thumb
+								'big'   => $thumb,
 							);
 
 						}
 					}
 
-					if ( isset( $result['parent_category'] ) ) {
-						$result['parent_category'] = maybe_unserialize( $result['parent_category'] );
-					}
-					if ( isset( $result['tags'] ) ) {
-						$result['tags'] = maybe_unserialize( $result['tags'] );
-					}
-					if ( isset( $result['custom_taxonomies'] ) ) {
-						$result['custom_taxonomies'] = maybe_unserialize( $result['custom_taxonomies'] );
-					}
+					$result = $this->unserialize_result( $result );
 					if ( ! $include_variations && isset( $result['product_type'] ) && 'variation' === $result['product_type'] ) {
 						if ( ! in_array( $result['post_parent'], $main_results ) ) { // phpcs:ignore WordPress.PHP.StrictInArray.MissingTrueStrict
 							$parent = YITH_WCAS_Data_Index_Lookup::get_instance()->get_element_by_post_id( $result['post_parent'] );
 							if ( $parent ) {
+								$parent                                 = $this->unserialize_result( $parent );
 								$parent['score']                        = $result['score'];
 								$parent['thumbnail']                    = $result['thumbnail'];
+								$parent                                 = $this->escape_result( $parent );
 								$main_results[ $result['post_parent'] ] = $parent;
 							}
+
 						}
 					} else {
 						if ( isset( $result['post_id'] ) ) {
+							$result                             = $this->escape_result( $result );
 							$main_results[ $result['post_id'] ] = $result;
 						}
 					}
@@ -486,6 +482,62 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 			}
 
 			return $main_results;
+		}
+
+		/**
+		 * Escape all result set
+		 *
+		 * @param array $result The result.
+		 *
+		 * @return array
+		 */
+		protected function escape_result( $result ) {
+
+			foreach ( $result as $key => $value ) {
+
+				switch ( $key ) {
+					case 'url':
+					case 'thumbnail':
+						if ( $key == 'thumbnail' ) {
+							$result[ $key ]['small'] = esc_url( $value['small'] );
+							$result[ $key ]['big']   = esc_url( $value['big'] );
+						} else {
+							$result[ $key ] = esc_url( $value );
+						}
+						break;
+					case 'description':
+					case 'name':
+					case 'summary':
+						$result[ $key ] = wp_kses_post( $value );
+						break;
+					case 'parent_category':
+					case 'tags':
+					case 'custom_taxonomies':
+						$result[ $key ] = array_map( 'intval', $value );
+						break;
+					default:
+						$result[ $key ] = esc_html( $value );
+						break;
+				}
+			}
+
+			return $result;
+		}
+
+		/**
+		 * Unserialize the result
+		 *
+		 * @param array $result The result
+		 *
+		 * @return array
+		 */
+		protected function unserialize_result( $result ) {
+			$result['parent_category']   = !empty( $result['parent_category'] ) ? maybe_unserialize( $result['parent_category'] ) : array();
+			$result['tags']              = !empty( $result['tags'] ) ? maybe_unserialize( $result['tags'] ) : array();
+			$result['custom_taxonomies'] = !empty( $result['custom_taxonomies'] ) ? maybe_unserialize( $result['custom_taxonomies'] ) : array();
+
+
+			return $result;
 		}
 
 		/**

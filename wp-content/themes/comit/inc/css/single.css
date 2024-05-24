@@ -1,11 +1,14 @@
 /*POST INFO CSS START*/
+.container-single-post-info{
+    background-color: #F5F5F5;
+}
 .single-post-info-wrapper{
     background-color: #F5F5F5;
 }
 .single-post-info-underwrapper{
     padding: 50px 65px 100px 65px;
     display: flex;
-    justify-content: space-between;
+    gap: 93px;
 }
 .single-post-info{
     width: 60%;

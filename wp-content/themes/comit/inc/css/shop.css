@@ -1,3 +1,6 @@
+.container-search-and-category{
+  background-color: #F5F5F5;
+}
 .shop-category-section-wrapper{
     padding: 35px 65px;
     background-color: #F5F5F5;
@@ -42,8 +45,8 @@
 .category-image-wrapper{
     background-color: #EAEDE9;
     padding: 17px;
-    width: 98px;
-    height: 98px;
+    width: 59px;
+    height: 59px;
     border-radius: 63px;
     display: flex;
     justify-content: center;
@@ -91,6 +94,9 @@ margin-top: 40px;
 /*SEARCH BAR CSS END */
 
 /*FILTER AND PRODUCT SECTION START*/
+.container-filter-and-product{
+  background-color: #F5F5F5;
+}
 .filter-and-product-section-wrapper{
     padding: 0px 65px 100px 65px;
     background-color: #F5F5F5;

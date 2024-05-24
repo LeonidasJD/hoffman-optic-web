@@ -1,0 +1,19 @@
+2024-05-24T13:54:23+00:00 NOTICE Start search for BEST G CONTEXT: {"_legacy":true}
+2024-05-24T13:54:23+00:00 NOTICE Execution time 0 0.1704202 CONTEXT: {"_legacy":true}
+2024-05-24T13:54:23+00:00 NOTICE Tokens Array
+(
+    [0] => best
+)
+ CONTEXT: {"_legacy":true}
+2024-05-24T13:54:23+00:00 NOTICE Execution time 1 0.3605772 CONTEXT: {"_legacy":true}
+2024-05-24T13:54:23+00:00 NOTICE Execution time 0.3962972 CONTEXT: {"_legacy":true}
+2024-05-24T13:54:24+00:00 NOTICE Start search for BEST GLA CONTEXT: {"_legacy":true}
+2024-05-24T13:54:24+00:00 NOTICE Execution time 0 0.0658995 CONTEXT: {"_legacy":true}
+2024-05-24T13:54:24+00:00 NOTICE Tokens Array
+(
+    [0] => best
+    [1] => gla
+)
+ CONTEXT: {"_legacy":true}
+2024-05-24T13:54:24+00:00 NOTICE Execution time 1 0.1863041 CONTEXT: {"_legacy":true}
+2024-05-24T13:54:24+00:00 NOTICE Execution time 0.2383118 CONTEXT: {"_legacy":true}

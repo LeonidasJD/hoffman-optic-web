@@ -2,7 +2,9 @@
 get_header();
 ?>
 <!--SINGLE POST INFO START-->
-<section class="single-post-info-wrapper">
+<div class="container-single-post-info">
+   <div class="container-14">
+   <section class="single-post-info-wrapper">
 	<div class="single-post-info-underwrapper">
 		<div class="single-post-info">
 		<?php /**prolazim kroz repeater i proveravam da li ima sekcija u single service postu */
@@ -78,12 +80,17 @@ get_header();
 		<!--SIDE BANNER START-->
 	</div>
 </section>
+   </div>
+</div>
+
 <!--SINGLE POST INFO END-->
 
 
 
 <!--RELATED POSTS START-->
-<section class="related-posts-wrapper">
+<div class="container-related-blogs">
+   <div class="container-14">
+   <section class="related-posts-wrapper">
    <div class="related-posts-underwrapper">
     <div class="related-heading-and-paragraph">
     <h2>RELATED BLOGS</h2>
@@ -136,13 +143,21 @@ get_header();
    </div>
 </div>
 </section>
+   </div>
+</div>
+
 
 <!--RELATED POSTS END-->
 
 
 <!--BANNER SECTION START-->
-<section class="contact-us-banner-wrapper">
+<div class="container-banner-section">
+   <div class="container-14">
+   <section class="contact-us-banner-wrapper">
 <?php  get_template_part('template-parts/contact-us-green'); ?>
 </section>
+   </div>
+</div>
+
 <!--BANNER SECTION END-->
 <?php get_footer();?>

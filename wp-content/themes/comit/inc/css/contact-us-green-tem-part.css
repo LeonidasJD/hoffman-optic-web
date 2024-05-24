@@ -1,8 +1,6 @@
-.contact-us-banner-wrapper {
-    background: radial-gradient(circle, #76BA51, #96CB79); /* Radialni gradient od crvene do plave */
-}
+
 .contact-us-banner-underwrapper{
-    padding: 60px 140px 60px 65px;
+    padding: 60px 65px 60px 65px;
     display: flex;
     justify-content: space-between;
     align-items: center;

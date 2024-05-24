@@ -10,10 +10,11 @@
  */
 
 ?>
-
+<div class="container-footer">
+	<div class="container-14">
 	<footer id="colophon" class="site-footer">
 		<section class="footer-logo-section">
-			<div><img src="/wp-content/uploads/2024/05/Layer-1.png" alt="footer logo"></div>
+			<div><img src="/wp-content/uploads/2024/05/logotype-2.png" alt="footer logo"></div>
 		</section>
 		<section class="footer-navi-section">
 			<div>
@@ -63,6 +64,9 @@
 			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p></div>
 		</section>
 	</footer><!-- #colophon -->
+	</div>
+</div>
+	
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

@@ -9,17 +9,24 @@
 
 
 <!--WELCOME SECTION TEXT  START-->
-<section class="welcome-info-section-wrapper">
+<div class="container-welcome-section">
+    <div class="container-14">
+    <section class="welcome-info-section-wrapper">
     <div class="welcome-info-section-underwrapper">
         <h2>Welcome to the Hoffmannoptik job portal.</h2>
         <p>We are pleased that you are interested in a job, training or internship with us. Get to know us and become part of our team!</p>
         <p>Would you like to reorient yourself or start a new career? Contact us or send us your application documents online.</p>
     </div>
 </section>
+    </div>
+</div>
+
 <!--WELCOME SECTION TEXT  END-->
 
 <!--POSITION TO APPLY SECTION   START-->
-<section class="position-apply-section-wrapper">
+<div class="container-apply-section">
+    <div class="container-14">
+    <section class="position-apply-section-wrapper">
     <div class="postition-applay-section-underwrapper">
         <div class="position-apply-cards-wrapper">
         <div class="single-position-appy-card">
@@ -71,6 +78,9 @@
     </div>
 
 </section>
+    </div>
+</div>
+
 <!--POSITION TO APPLY SECTION   END-->
 
 <!--MODAL SECTION   START-->
@@ -92,9 +102,14 @@
 
 
 <!--BANNER SECTION START-->
-<section class="contact-us-banner-wrapper">
+<div class="container-banner-section">
+    <div class="container-14">
+    <section class="contact-us-banner-wrapper">
 <?php  get_template_part('template-parts/contact-us-green'); ?>
 </section>
+    </div>
+</div>
+
 <!--BANNER SECTION END-->
 <?php get_footer(); ?>
 

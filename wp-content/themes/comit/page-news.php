@@ -9,7 +9,9 @@
 <!--HERO SECTION END-->
 
 <!--BLOG SECTION START-->
-<section class="news-section-wrapper">
+<div class="container-blog-section">
+    <div class="container-14">
+    <section class="news-section-wrapper">
     <div class="news-section-underwrapper">
     <div class="posts-section-wrapper">
     <?php
@@ -65,11 +67,19 @@
         
     </div>
 </section>
+    </div>
+</div>
+
 <!--BLOG SECTION START-->
 
 <!--BANNER SECTION START-->
-<section class="contact-us-banner-wrapper">
+<div class="container-banner-section">
+    <div class="container-14">
+    <section class="contact-us-banner-wrapper">
 <?php  get_template_part('template-parts/contact-us-green'); ?>
 </section>
+    </div>
+</div>
+
 <!--BANNER SECTION END-->
 <?php get_footer(); ?>

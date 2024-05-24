@@ -1,4 +1,7 @@
 /*WELCOME INFO SECTION START*/
+.container-welcome-section{
+    background-color: #F5F5F5;
+}
 .welcome-info-section-wrapper{
     background-color: #F5F5F5;
 }
@@ -26,6 +29,9 @@
 /*WELCOME INFO SECTION END*/
 
 /*POSITION TO APPLY SECTION START*/
+.container-apply-section{
+    background-color: #F5F5F5;
+}
 .position-apply-section-wrapper{
     background-color: #F5F5F5;
     padding-bottom: 130px;
@@ -58,6 +64,7 @@
     font-size: 18px;
     color: #42464E;
     font-weight: bold;
+    line-height: 24px;
 
 }
 .apply-card-text-button p{
@@ -101,7 +108,7 @@
   .position-apply-cards-wrapper > :nth-child(1) .apply-card-text-button p,
   .position-apply-cards-wrapper > :nth-child(2) .apply-card-text-button p,
   .position-apply-cards-wrapper > :nth-child(4) .apply-card-text-button p {
-    margin-top: 35px;
+    margin-top: 27px;
   }
 /*POSITION TO APPLY SECTION END*/
 

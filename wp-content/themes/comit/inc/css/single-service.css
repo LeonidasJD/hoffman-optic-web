@@ -1,5 +1,7 @@
 /*TEXT AND FORM SECTION CSS START*/
-
+.container-text-and-form-section{
+    background-color: #F5F5F5;
+}
 .text-form-section-wrapper{
     background-color: #F5F5F5;
 }

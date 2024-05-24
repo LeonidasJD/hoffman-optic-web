@@ -1,14 +1,21 @@
 <?php get_header(); ?>
 <!--HERO SECTION START-->
-<section class="about-us-hero-wrapper">
+<div class="container-hero-about-us">
+    <div class="container-14">
+    <section class="about-us-hero-wrapper">
     <div class="about-us-hero-underwrapper">
         <h1>Lorem ipsum dolor sit amet consectetur  consequat vel vivamus tellus.</h1>
     </div>
 </section>
+    </div>
+</div>
+
 <!--HERO SECTION END-->
 
 <!--OUR MISSION SECTION START-->
-<section class="our-mission-section-wrapper">
+<div class="container-our-mission-section">
+    <div class="container-14">
+    <section class="our-mission-section-wrapper">
     <div class="our-mission-section-underwrapper">
         <div class="data-section-info">
             <h2>Our mission is your satisfaction.</h2>
@@ -20,10 +27,15 @@
         </div>
     </div>
 </section>
+    </div>
+</div>
+
 <!--OUR MISSION SECTION END-->
 
 <!--CORE OF OUR WORK  SECTION START-->
-<section class="our-work-section-wrapper">
+<div class="container-core-of-work-section">
+    <div class="container-14">
+    <section class="our-work-section-wrapper">
     <div class="our-work-section-underwrapper">
         <div class="our-work-section-heading-wrapper"><h2>The core of our work:<br>The 4 values ​​of holistic eye optics</h2></div>
         <div class="our-work-section-data-wrapper">
@@ -52,10 +64,15 @@
         
     </div>
 </section>
+    </div>
+</div>
+
 <!--CORE OF OUR WORK  SECTION END-->
 
 <!--OUR TEAM  SECTION START-->
-<section class="our-team-section-wrapper">
+<div class="container-our-team-section">
+    <div class="container-14">
+    <section class="our-team-section-wrapper">
     <div class="our-team-section-under-wrapper">
         <div class="our-team-heading-wrapper">
             <h2>Our Team</h2>
@@ -103,12 +120,20 @@
         </div>
     </div>
 </section>
+    </div>
+</div>
+
 <!--OUR TEAM  SECTION END-->
 
 <!--CONTACT US GREEN BANNER SECTION START-->
-<section class="contact-us-banner-wrapper">
+<div class="container-banner-section">
+    <div class="container-14">
+    <section class="contact-us-banner-wrapper">
 <?php  get_template_part('template-parts/contact-us-green'); ?>
 </section>
+    </div>
+</div>
+
 <!--CONTACT US GREEN BANNER SECTION START-->
 
 <?php get_footer(); ?>

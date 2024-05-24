@@ -1,10 +1,14 @@
+.container-blog-section{
+    background-color: #F5F5F5;
+}
+
 .news-section-wrapper{
     background-color: #F5F5F5;
     padding: 45px 170px 100px 170px;
 }
 .news-section-underwrapper{
     display: flex;
-    justify-content: space-between;
+    gap: 135px;
 }
 .posts-section-wrapper{
     /* width:38rem ; */

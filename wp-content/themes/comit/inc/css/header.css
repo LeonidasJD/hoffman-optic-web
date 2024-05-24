@@ -7,6 +7,9 @@ header{
     align-items: center;
     padding: 15px 0px 15px 0px;
 } */
+.container-header{
+    background-color: #F5F5F5; 
+}
 .header-wrapper{
     background-color: #F5F5F5;
 }

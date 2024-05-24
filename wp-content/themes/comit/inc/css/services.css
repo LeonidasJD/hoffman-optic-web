@@ -1,10 +1,13 @@
 /*HERO SECTION CSS START*/
-.hero-services-section-wrapper{
+.container-services-hero{
     background-image: url('/wp-content/uploads/2024/05/business-finance-and-employment-female-successfu-2023-11-27-05-22-51-utc-copy-2.png');
     background-size: cover; 
   background-position: center; 
-  background-repeat: no-repeat; 
-  padding: 75px 265px;
+  background-repeat: no-repeat;
+}
+.hero-services-section-wrapper{
+    
+  padding: 75px 245px;
     text-align: start;
 }
 .hero-services-section-under-wrapper h1{

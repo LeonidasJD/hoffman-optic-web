@@ -52,7 +52,9 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'comit' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<div class="container-header">
+		<div class="container-14">
+		<header id="masthead" class="site-header">
 		<div class="header-wrapper">
 			<div class="header-under-wrapper">
 			<div><?php echo wp_nav_menu('menu-1') ?></div>
@@ -67,3 +69,6 @@
 		</div>
 		
 	</header><!-- #masthead -->
+		</div>
+	</div>
+	

@@ -6,7 +6,9 @@
 <!--HERO SECTION END-->
 
 <!--TEXT AND FORM SECTION START-->
-<section class="text-form-section-wrapper">
+<div class="container-text-and-form-section">
+    <div class="container-14">
+    <section class="text-form-section-wrapper">
     <div class="text-form-section-underwrapper">
         <div class="post-text">
             <?php /**prolazim kroz repeater i proveravam da li ima sekcija u single service postu */
@@ -61,10 +63,15 @@
     </div>
     </div>
 </section>
+    </div>
+</div>
+
 <!--TEXT AND FORM SECTION END-->
 
 <!--RELATED SERVICES SECTION START-->
-<section class="related-services-section-wrapper">
+<div class="container0related-services-section">
+    <div class="container-14">
+    <section class="related-services-section-wrapper">
     <div class="related-services-section-underwrapper">
         <h2>Related services</h2>
         <p>Dignissim massa duis eget turpis fringilla nam ridiculus ultricies urna vehicula fusce. Elit interdum urna iaculis leo sit pharetra vel. Vitae letius luctus lacinia rhoncus penatibus per.</p>
@@ -104,12 +111,20 @@
         </div>
     </div>
 </section>
+    </div>
+</div>
+
 <!--RELATED SERVICES SECTION END-->
 
 <!--CONTACT US GREEN BANNER SECTION START-->
-<section class="contact-us-banner-wrapper">
+<div class="container-banner-section">
+    <div class="container-14">
+    <section class="contact-us-banner-wrapper">
 <?php  get_template_part('template-parts/contact-us-green'); ?>
 </section>
+    </div>
+</div>
+
 <!--CONTACT US GREEN BANNER SECTION START-->
 
 

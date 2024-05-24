@@ -76,7 +76,7 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 		/**
 		 * Return the assets data for a file
 		 *
-		 * @param   string  $file_name  The file name.
+		 * @param string $file_name The file name.
 		 *
 		 * @return array
 		 */
@@ -142,8 +142,8 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 		/**
 		 * Add block category
 		 *
-		 * @param   array    $categories  Array block categories array.
-		 * @param   WP_Post  $post        Current post.
+		 * @param array   $categories Array block categories array.
+		 * @param WP_Post $post Current post.
 		 *
 		 * @return array block categories
 		 */
@@ -164,8 +164,8 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 		/**
 		 * Add data-attributes to blocks when rendered if the block is under the woocommerce/ namespace.
 		 *
-		 * @param   string  $content  Block content.
-		 * @param   array   $block    Parsed block data.
+		 * @param string $content Block content.
+		 * @param array  $block Parsed block data.
 		 *
 		 * @return string
 		 */
@@ -177,7 +177,7 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 			 *
 			 * This hook defines which block namespaces should have block name and attribute `data-` attributes appended on render.
 			 *
-			 * @param   array  $allowed_namespaces  List of namespaces.
+			 * @param array $allowed_namespaces List of namespaces.
 			 *
 			 * @since 5.9.0
 			 *
@@ -189,7 +189,7 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 			 *
 			 * This hook defines which block names should have block name and attribute data- attributes appended on render.
 			 *
-			 * @param   array  $allowed_namespaces  List of namespaces.
+			 * @param array $allowed_namespaces List of namespaces.
 			 *
 			 * @since 5.9.0
 			 *
@@ -226,10 +226,10 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 		 * Create the json translation through the PHP file.
 		 * So, it's possible using normal translations (with PO files) also for JS translations
 		 *
-		 * @param   string|null  $json_translations  Translations.
-		 * @param   string       $file               The file.
-		 * @param   string       $handle             The handle.
-		 * @param   string       $domain             The text-domain.
+		 * @param string|null $json_translations Translations.
+		 * @param string      $file The file.
+		 * @param string      $handle The handle.
+		 * @param string      $domain The text-domain.
 		 *
 		 * @return string|null
 		 */
@@ -281,6 +281,7 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 					'ywcas_block_common_localize',
 					array(
 						'ajaxURL'                => WC_AJAX::get_endpoint( '%%endpoint%%' ),
+						'ajaxNonce'              => wp_create_nonce( 'yith_search_rest' ),
 						'wcData'                 => $this->get_wc_data(),
 						'ywcasBuildBlockURL'     => YITH_WCAS_ASSETS_URL . '/js/blocks/build/',
 						'siteURL'                => get_home_url(),

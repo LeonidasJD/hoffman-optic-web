@@ -1,7 +1,9 @@
 <?php
 get_header()?>
 <!--CONTACT HEADING SECTION START-->
-<section class="contact-us-heading-section-wrapper">
+<div class="container-contact-heading">
+    <div class="container-14">
+    <section class="contact-us-heading-section-wrapper">
     <div class="contact-us-heading-section-underwrapper">
         <div class="contact-us-heading">
             <h1>Contact</h1>
@@ -9,10 +11,15 @@ get_header()?>
         </div>
     </div>
 </section>
+    </div>
+</div>
+
 <!--CONTACT HEADING SECTION END-->
 
 <!--INFO AND FORM  SECTION START-->
-<section class="info-and-form-section-wrapper">
+<div class="container-info-and-form">
+    <div class="container-14">
+    <section class="info-and-form-section-wrapper">
     <div class="info-and-form-section-underwrapper">
         <div class="info-and-form-divs">
             <div class="contact-info-wrapper">
@@ -37,6 +44,9 @@ get_header()?>
         </div>
     </div>
 </section>
+    </div>
+</div>
+
 <!--MAP  SECTION START-->
 <section class="map-section-wrapper">
     <div clas="maps-section-underwrapper">
@@ -46,9 +56,14 @@ get_header()?>
 <!--MAP  SECTION END-->
 
 <!--BANNER SECTION START-->
-<section class="contact-us-banner-wrapper">
+<div class="container-banner-section">
+    <div class="container-14">
+    <section class="contact-us-banner-wrapper">
 <?php  get_template_part('template-parts/book-appointment-green'); ?>
 </section>
+    </div>
+</div>
+
 <!--BANNER SECTION END-->
 <?php get_footer();?>
 

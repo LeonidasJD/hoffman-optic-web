@@ -2,7 +2,9 @@
 get_header();
 ?>
 <!--HERO SECTION START-->
-<section class="hero-wrapper">
+<div class="container-hero">
+    <div class="container-14">
+    <section class="hero-wrapper">
     <div class="under-hero-wrapper">
     <div class="hero-info">
         <h1>Service that'll make <br>you see us with new eyes</h1>
@@ -14,11 +16,16 @@ get_header();
    
     
 </section>
+    </div>
+</div>
+
 <!--HERO SECTION END-->
 
 
 <!--BOOK SECTION START-->
-<section class="book-section-wrapper">
+<div class="container-book-section">
+    <div class="container-14">
+    <section class="book-section-wrapper">
     <div class="book-section-under-wrapper">
     <div class="book-div-left">
         <div class="left-wrapper">
@@ -53,11 +60,16 @@ get_header();
     </div>
     
 </section>
+    </div>
+</div>
+
 <!--BOOK SECTION END-->
 
 
 <!--OUR SERVICE SECTION START-->
-<section class="our-service-section-wrapper">
+<div class="container-service-section">
+    <div class="container-14">
+    <section class="our-service-section-wrapper">
     <div class="our-service-under-wrapper">
         <div class="heading-info">
         <h2>Our Services</h2>
@@ -101,10 +113,16 @@ eiusmod tempor incididunt ut.
         
     </div>
 </section>
+    </div>
+</div>
+
 <!--OUR SERVICE SECTION END-->
 
+
 <!--OUR PRODUCT SECTION START-->
-<section class="our-product-section-wrapper">
+<div class="container-our-product-section">
+    <div class="container-14">
+    <section class="our-product-section-wrapper">
     <div class="our-product-under-wrapper">
         <div class="heading-product-info">
             <h2>Our Products</h2>
@@ -151,11 +169,16 @@ eiusmod tempor incididunt ut.
 
     </div>
 </section>
+    </div>
+</div>
+
 <!--OUR PRODUCT SECTION END-->
 
 
 <!--OUR STORY SECTION START-->
-<section class="our-story-section-wrapper">
+<div class="container-our-story-section">
+    <div class="container-14">
+    <section class="our-story-section-wrapper">
     <div class="our-story-under-wrapper">
         <div class="our-story-info">
             <h2>Our Story</h2>
@@ -167,10 +190,15 @@ eiusmod tempor incididunt ut.
         </div>
     </div>
 </section>
+    </div>
+</div>
+
 <!--OUR STORY SECTION END-->
 
 <!--OUR NEWS SECTION START-->
-<section class="our-news-section-wrapper">
+<div class="container-our-news-section">
+    <div class="container-14">
+    <section class="our-news-section-wrapper">
     <div class="our-news-under-wrapper">
     <div class="heading-info heading-info-news">
         <h2>Our News</h2>
@@ -219,11 +247,16 @@ eiusmod tempor incididunt ut.
         </div>
     </div>
 </section>
+    </div>
+</div>
+
 <!--OUR NEWS SECTION END-->
 
 
 <!--TESTIMONIAL SECTION START-->
-<section class="testimonial-section-wrapper">
+<div class="container-testimonial-section">
+    <div class="container-14">
+    <section class="testimonial-section-wrapper">
     <div class="testimonial-section-under-wrapper">
         <div class="heading-undersec">
             <h2>WHAT OUR PATIENT’S Think about us?</h2>
@@ -248,12 +281,20 @@ eiusmod tempor incididunt ut.
         </div>
     </div>
 </section>
+    </div>
+</div>
+
 <!--TESTIMONIAL SECTION END-->
 
 <!--BANNER SECTION START-->
-<section class="contact-us-banner-wrapper">
+<div class="container-banner-section">
+    <div class="container-14">
+    <section class="contact-us-banner-wrapper">
 <?php  get_template_part('template-parts/contact-us-green'); ?>
 </section>
+    </div>
+</div>
+
 <!--BANNER SECTION END-->
 
 

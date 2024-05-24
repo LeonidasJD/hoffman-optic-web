@@ -10,7 +10,82 @@
 /*PRODUCT IMAGE  CSS END*/
 
 /*PRODUCT  INFO CSS START*/
-.product-description{
+.product-info{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+
+}
+.product-info h1{
+    font-family: 'Glegoo';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 128%;
+    color: black;
+    margin: 0px;
+}
+.product-info button{
     
+    width: 13rem;
+    background-color: #76BA51;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 26px;
+    color: white;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: -7px 7px 12px 1px #E1E8DF;
+    cursor: pointer;
+}
+.product-description{
+    font-family: 'Lato';
+    font-size: 16px;
+    color: #6D6D6D;
+    line-height: 128%;
+    font-weight: 400;
+    margin: 0px;
+}
+.product-atributes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-row-gap: 40px; 
+    grid-column-gap: 96px; 
+    background-color: #F6F7FB;
+    padding: 30px 82px 40px 19px;
+    border-radius: 12px;
+}
+.attribute-icon-and-name{
+    display: flex;
+    align-items: center;
+    background-color: rgba(91, 127, 72, 0.12);
+    gap: 11px;
+    border-radius: 4px;
+
+}
+.attribute-icon-and-name img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4px 0px 0px 4px;
+}
+.attribute-icon-and-name h3{
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 16px;
+    color: #76BA51;
+
+}
+.single-attribute p{
+    font-family: 'Lato';
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
 }
 /*PRODUCT  INFO CSS END*/
+
+/* PRODUCT DESC TABS CSS START*/
+
+/* PRODUCT DESC TABS CSS END */

@@ -114,18 +114,21 @@ if ( ! class_exists( 'YITH_WCAS_Search' ) ) {
 		 * @return array|WP_Error
 		 */
 		public function api_search( $request ) {
+			if ( ! wp_verify_nonce( $request['security'], 'yith_search_rest' ) ) {
+				return new WP_Error( 'ywcas_not_allowed', __( 'No authorized!', 'yith-woocommerce-ajax-search' ), array( 'status' => 401 ) );
+			}
 			if ( ! isset( $request['query'] ) && ! isset( $request['test'] ) ) {
 				return new WP_Error( 'ywcas_empty_query', __( 'Unable to make a search with an empty query!', 'yith-woocommerce-ajax-search' ), array( 'status' => 413 ) );
 			}
 			$default_settings = ywcas()->settings->get_classic_default_settings();
 
-			$query          = $request['query'];
-			$category       = $request['category'] ?? 0;
-			$lang           = $request['lang'] ?? ywcas_get_current_language();
-			$show_category  = $request['showCategories'] ?? 'no';
-			$is_test        = isset( $request['test'] ) && $request['test'];
-			$num_of_results = $request['maxResults'] ?? $default_settings['maxResults'];
-			$page           = ! empty( $request['page'] ) ? $request['page'] : 0;
+			$query          = sanitize_text_field( wp_unslash( $request['query'] ) );
+			$category       = $request['category'] ? sanitize_text_field( wp_unslash( $request['category'] ) ) : 0;
+			$lang           = $request['lang'] ? sanitize_text_field( wp_unslash( $request['lang'] ) ) : ywcas_get_current_language();
+			$show_category  = $request['showCategories'] ? sanitize_text_field( wp_unslash( $request['showCategories'] ) ) : 'no';
+			$is_test        = isset( $request['test'] ) && sanitize_text_field( wp_unslash( $request['test'] ) );
+			$num_of_results = $request['maxResults'] ? sanitize_text_field( wp_unslash( $request['maxResults'] ) ) : $default_settings['maxResults'];
+			$page           = ! empty( $request['page'] ) ? sanitize_text_field( wp_unslash( $request['page'] ) ) : 0;
 			$limited        = 0 === $page;
 
 			if ( $is_test ) {

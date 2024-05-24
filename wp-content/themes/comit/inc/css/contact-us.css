@@ -1,5 +1,8 @@
 
 /**CONTACT HEADING SECTION START**/
+.container-contact-heading{
+    background-color: #F5F5F5;
+}
 .contact-us-heading-section-wrapper{
     background-color: #F5F5F5;
 }
@@ -24,7 +27,9 @@
 /**CONTACT HEADING SECTION END**/
 
 /**INFO AND FORM  SECTION START**/
-
+.container-info-and-form{
+    background-color: #F5F5F5; 
+}
 .info-and-form-section-wrapper{
     background-color: #F5F5F5;
 }

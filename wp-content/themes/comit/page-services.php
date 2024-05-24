@@ -1,15 +1,21 @@
 <?php get_header(); ?>
 <!--HERO SECTION START-->
-<section class="hero-services-section-wrapper">
+<div class="container-services-hero">
+    <div class="container-14">
+    <section class="hero-services-section-wrapper">
     <div class="hero-services-section-under-wrapper">
         <h1>We accompany you and we educate in your process, whatever be the objective.</h1>
     </div>
 </section>
+    </div>
+</div>
+
 <!--HERO SECTION END-->
 
 <!--SERVICES SECTION START-->
-
-<section class="services-section-wrapper">
+<div class="container-services-section">
+    <div class="container-14">
+    <section class="services-section-wrapper">
     <div class="services-section-under-wrapper">
         <div class="services-cards-wrapper">
 
@@ -44,11 +50,20 @@
         </div>
     </div>
 </section>
+    </div>
+</div>
+
+
 <!--SERVICES SECTION END-->
 
 <!--BANNER SECTION START-->
-<section class="contact-us-banner-wrapper">
+<div class="container-banner-section">
+    <div class="container-14">
+    <section class="contact-us-banner-wrapper">
 <?php  get_template_part('template-parts/contact-us-green'); ?>
 </section>
+    </div>
+</div>
+
 <!--BANNER SECTION END-->
 <?php get_footer(); ?>
