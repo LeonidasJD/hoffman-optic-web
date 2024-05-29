@@ -153,7 +153,7 @@ eiusmod tempor incididunt ut.
             }
             ?>
             <h2><?php the_title(); ?></h2>
-            <p><a href="">Read more</a></p>
+            <p><a href="<?php echo get_permalink() ?>">Read more</a></p>
                 </div>
             <?php
     }
