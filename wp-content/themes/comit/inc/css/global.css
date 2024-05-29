@@ -2,3 +2,23 @@
     max-width: 1440px;
     margin: auto;
 }
+
+@media screen and (max-width:2440px){
+.container-14{
+        max-width:1920px;
+    }
+
+}
+@media screen and (max-width:1920px){
+    .container-14{
+            max-width:1600px;
+        }
+    
+    }
+
+    @media screen and (max-width:1600px){
+        .container-14{
+                max-width:1440px;
+            }
+        
+        }
