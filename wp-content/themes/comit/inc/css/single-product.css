@@ -6,8 +6,11 @@
 }
 /*PRODUCT WRAPPER CSS START*/
 
-/*PRODUCT IMAGE CSS START*/
-/*PRODUCT IMAGE  CSS END*/
+/*PRODUCT GALERY CSS START*/
+.woo-product-gallery-slider{
+    max-width: 40rem;
+}
+/*PRODUCT GALERY CSS END*/
 
 /*PRODUCT  INFO CSS START*/
 .product-info{

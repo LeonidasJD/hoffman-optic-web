@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'name' => 'codeixer/woo-product-gallery-slider',
+        'pretty_version' => 'dev-2.2.7.1',
+        'version' => '2.2.7.1-dev',
+        'reference' => 'ef7e4bece56d779c94d029036164e8b0e4dc5071',
+        'type' => 'woocommerce-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'appsero/client' => array(
+            'pretty_version' => 'v1.2.4',
+            'version' => '1.2.4.0',
+            'reference' => 'a5f23a117b6f3080e85969226735a96816460630',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../appsero/client',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'codeixer/woo-product-gallery-slider' => array(
+            'pretty_version' => 'dev-2.2.7.1',
+            'version' => '2.2.7.1-dev',
+            'reference' => 'ef7e4bece56d779c94d029036164e8b0e4dc5071',
+            'type' => 'woocommerce-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'collizo4sky/persist-admin-notices-dismissal' => array(
+            'pretty_version' => '1.4.4',
+            'version' => '1.4.4.0',
+            'reference' => '900739eb6b0ec0210465f5983a6d4e0e420289e4',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../collizo4sky/persist-admin-notices-dismissal',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'niloys7/remote-admin-notification-client' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '694960070bb4e18ad3b4832d019922bf28714df7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../niloys7/remote-admin-notification-client',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+    ),
+);

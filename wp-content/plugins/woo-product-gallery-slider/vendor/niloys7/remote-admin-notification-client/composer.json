@@ -1,0 +1,23 @@
+{
+    "name": "niloys7/remote-admin-notification-client",
+    "description": "Admin Notification client fo WordPress Plugins & Theme",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Niloy",
+            "email": "niloys7live@gmail.com"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4"
+    },
+   
+    "autoload": {
+        "classmap": [
+            "class-remote-notification-client.php"
+        ]
+    }
+    
+}
