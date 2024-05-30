@@ -507,6 +507,10 @@ class FrmFormAction {
 		);
 	}
 
+	/**
+	 * @param array $settings
+	 * @return int|WP_Error
+	 */
 	public function save_settings( $settings ) {
 		self::clear_cache();
 
@@ -878,8 +882,6 @@ class FrmFormAction {
 	 *
 	 * @since 2.01.02
 	 *
-	 * @deprecated 4.06.02
-	 *
 	 * @param array|string $logic_value
 	 *
 	 * @return void
@@ -905,7 +907,6 @@ class FrmFormAction {
 	 * Get the value from a specific field and entry
 	 *
 	 * @since 2.01.02
-	 * @deprecated 4.06.02
 	 *
 	 * @param object $entry
 	 * @param int    $field_id
@@ -975,5 +976,24 @@ class FrmFormAction {
 	 */
 	protected function get_upgrade_text() {
 		return __( 'Conditional form actions', 'formidable' );
+	}
+
+	/**
+	 * Gets form fields for form action settings.
+	 *
+	 * @since 6.10
+	 *
+	 * @param int $form_id Form ID.
+	 * @return object[]
+	 */
+	protected function get_form_fields( $form_id ) {
+		// Get form fields, include embedded and repeater child fields.
+		$form_fields = FrmField::get_all_for_form( $form_id, '', 'include' );
+		return array_filter(
+			$form_fields,
+			function ( $form_field ) {
+				return ! FrmField::is_no_save_field( $form_field->type );
+			}
+		);
 	}
 }

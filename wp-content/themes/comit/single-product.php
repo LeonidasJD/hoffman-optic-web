@@ -10,7 +10,7 @@ if (have_posts()) {
         <div class="container-single-product-info">
             <div class="container-14">
             <div class="single-product-wrapper">
-            <div class="product-image">
+            <div class="product-galery">
             <?php if (has_post_thumbnail()) {
                 $thumbnail_id = get_post_thumbnail_id();
                 $thumbnail_url = wp_get_attachment_image_src($thumbnail_id, 'full', true)[0];

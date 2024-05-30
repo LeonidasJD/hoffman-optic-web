@@ -481,9 +481,9 @@ class FrmFieldsHelper {
 		}
 
 		$position = FrmStylesController::get_style_val( 'position', $form );
-		if ( $position == 'none' ) {
+		if ( $position === 'none' ) {
 			$position = 'top';
-		} elseif ( $position == 'no_label' ) {
+		} elseif ( $position === 'no_label' ) {
 			$position = 'none';
 		} elseif ( $position === 'inside' && ! self::is_placeholder_field_type( $field['type'] ) ) {
 			$position = 'top';
@@ -2288,97 +2288,5 @@ class FrmFieldsHelper {
 	public static function get_all_draft_field_ids( $form_id ) {
 		$draft_field_rows = self::get_draft_field_results( $form_id );
 		return wp_list_pluck( $draft_field_rows, 'id' );
-	}
-
-	/**
-	 * @deprecated 4.0
-	 */
-	public static function show_icon_link_js( $atts ) {
-		_deprecated_function( __METHOD__, '4.0' );
-		$atts['icon'] .= $atts['is_selected'] ? ' ' : ' frm_inactive_icon ';
-		if ( isset( $atts['has_default'] ) && ! $atts['has_default'] ) {
-			$atts['icon'] .= 'frm_hidden ';
-		}
-		echo '<a href="javascript:void(0)" class="frm_bstooltip ' . esc_attr( $atts['icon'] ) . 'frm_default_val_icons frm_action_icon frm_icon_font" title="' . esc_attr( $atts['message'] ) . '"></a>';
-	}
-
-	/**
-	 * @deprecated 4.0
-	 */
-	public static function show_default_blank_js( $is_selected, $has_default_value = true ) {
-		_deprecated_function( __METHOD__, '4.0' );
-	}
-
-	/**
-	 * @deprecated 4.0
-	 */
-	public static function clear_on_focus_html( $field, $display, $id = '' ) {
-		_deprecated_function( __METHOD__, '4.0' );
-	}
-
-	/**
-	 * @deprecated 4.0
-	 */
-	public static function show_onfocus_js( $is_selected, $has_default_value = true ) {
-		_deprecated_function( __METHOD__, '4.0' );
-	}
-
-	/**
-	 * @deprecated 3.0
-	 * @codeCoverageIgnore
-	 */
-	public static function display_recaptcha() {
-		_deprecated_function( __FUNCTION__, '3.0', 'FrmFieldCaptcha::field_input' );
-	}
-
-	/**
-	 * @deprecated 3.0
-	 * @codeCoverageIgnore
-	 */
-	public static function remove_inline_conditions( $no_vars, $code, $replace_with, &$html ) {
-		FrmDeprecated::remove_inline_conditions( $no_vars, $code, $replace_with, $html );
-	}
-
-	/**
-	 * @deprecated 3.0
-	 * @codeCoverageIgnore
-	 */
-	public static function get_shortcode_tag( $shortcodes, $short_key, $args ) {
-		return FrmDeprecated::get_shortcode_tag( $shortcodes, $short_key, $args );
-	}
-
-	/**
-	 * @deprecated 3.0
-	 * @codeCoverageIgnore
-	 *
-	 * @param string       $html
-	 * @param array        $field
-	 * @param array        $errors
-	 * @param false|object $form
-	 * @param array        $args
-	 *
-	 * @return string
-	 */
-	public static function replace_shortcodes( $html, $field, $errors = array(), $form = false, $args = array() ) {
-		return FrmDeprecated::replace_shortcodes( $html, $field, $errors, $form, $args );
-	}
-
-	/**
-	 * @deprecated 3.0
-	 * @codeCoverageIgnore
-	 */
-	public static function get_default_field_opts( $type, $field = null, $limit = false ) {
-		return FrmDeprecated::get_default_field_opts( $type, $field, $limit );
-	}
-
-	/**
-	 * @deprecated 2.02.07 This is still referenced in the Highrise add on as of v1.06.
-	 * @codeCoverageIgnore
-	 *
-	 * @param array $args
-	 * @return string
-	 */
-	public static function dropdown_categories( $args ) {
-		return FrmDeprecated::dropdown_categories( $args );
 	}
 }

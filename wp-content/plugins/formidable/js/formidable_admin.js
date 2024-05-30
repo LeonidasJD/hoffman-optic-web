@@ -1,5 +1,5 @@
 /* exported frm_add_logic_row, frm_remove_tag, frm_show_div, frmCheckAll, frmCheckAllLevel */
-/* eslint-disable jsdoc/require-param, prefer-const, no-redeclare, @wordpress/no-unused-vars-before-return, jsdoc/check-types, jsdoc/check-tag-names, @wordpress/i18n-translator-comments, @wordpress/valid-sprintf, jsdoc/require-returns-description, jsdoc/require-param-type, no-unused-expressions */
+/* eslint-disable jsdoc/require-param, prefer-const, no-redeclare, @wordpress/no-unused-vars-before-return, jsdoc/check-types, jsdoc/check-tag-names, @wordpress/i18n-translator-comments, @wordpress/valid-sprintf, jsdoc/require-returns-description, jsdoc/require-param-type, no-unused-expressions, compat/compat */
 
 window.FrmFormsConnect = window.FrmFormsConnect || ( function( document, window, $ ) {
 
@@ -3873,8 +3873,7 @@ function frmAdminBuildJS() {
 	}
 
 	function separator() {
-		const hr = document.createElement( 'hr' );
-		return hr;
+		return document.createElement( 'hr' );
 	}
 
 	function getCustomLayoutOption() {
