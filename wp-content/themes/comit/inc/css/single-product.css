@@ -7,17 +7,46 @@
 /*PRODUCT WRAPPER CSS START*/
 
 /*PRODUCT GALERY CSS START*/
+.product-gallery{
+    background-color: #F6F7FB;
+    border-radius: 10px;
+    padding: 0px 18px 0px 18px;
+}
 .woo-product-gallery-slider{
     max-width: 40rem;
 }
+.zoomtoo-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.wpgs-nav .slick-slide{
+    border-radius: 10px;
+}
+.slick-slide {
+    display: flex!important;
+    justify-content: center!important;
+}
+@media screen and (max-width:2440px){
+    .slick-list.draggable{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:1440px){
+    .slick-list.draggable{
+        margin-top: 70px;
+    }
+}
+
 /*PRODUCT GALERY CSS END*/
 
 /*PRODUCT  INFO CSS START*/
 .product-info{
     display: flex;
     flex-direction: column;
-    gap: 23px;
+    gap: 35px;
     padding-top: 50px;
+    width: -webkit-fill-available;
 
 }
 .product-info h1{
@@ -256,5 +285,42 @@
 }
 .single-product-form{
     margin-top: 40px;
+}
+#form_single-product-form input{
+    border: none;
+    border-bottom: 2px solid #5B9356;
+    border-radius: 0px;
+    margin-bottom: 37px;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 14px;
+    color: #0E130B;
+}
+#form_single-product-form textarea{
+    border: none;
+    border-bottom: 2px solid #5B9356;
+    border-radius: 0px;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 14px;
+    color: #0E130B;
+}
+#form_single-product-form input::placeholder,#form_single-product-form textarea::placeholder{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 14px;
+    color: #0E130B;
+}
+.current-page-url{
+    display: none;
+}
+.form-buttons button{
+    cursor: pointer;
+}
+#frm_field_36_container{
+    margin-bottom: 0px!important;
+}
+#frm_field_35_container{
+    margin-bottom: 0px!important;
 }
 /* RELATED MODAL CSS END */

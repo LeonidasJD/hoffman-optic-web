@@ -17,7 +17,7 @@ get_header();
 	            <input type="search" id="woocommerce-product-search-field-<?php echo isset( $index ) ? absint( $index ) : 0; ?>" class="search-field" placeholder="<?php echo esc_attr__( 'Search specific product', 'woocommerce' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
 	            <button type="submit" value="<?php echo esc_attr_x( 'Search', 'submit button', 'woocommerce' ); ?>" class="<?php echo esc_attr( wc_wp_theme_get_element_class_name( 'button' ) ); ?>"><img src="/wp-content/uploads/2024/05/bi_search.png" alt=""></button>
 	            <input type="hidden" name="post_type" value="product" />
-            </form> --> 
+            </form>  -->
             <!--SEARCH BAR BEZ AJAXA KOJI NE KORISTIMO-->
             
             </div>
@@ -71,31 +71,44 @@ get_header();
         <?php echo do_shortcode('[br_filter_single filter_id=295]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=297]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=298]'); ?>
-
+       
 
         </div>
-        <div class="product-section">
-        <?php
-if ( have_posts() ) :
-    while ( have_posts() ) :
-        the_post();
-        the_content();
-    endwhile;
-endif;
-
-// WooCommerce loop za prikaz proizvoda
-if ( function_exists( 'woocommerce_product_loop' ) ) {
-    woocommerce_product_loop_start();
-    if ( wc_get_loop_prop( 'total' ) ) {
-        while ( have_posts() ) {
+		<div class="product-section">
+    <?php
+    if ( have_posts() ) :
+        while ( have_posts() ) :
             the_post();
-            wc_get_template_part( 'content', 'product' );
+        endwhile;
+    endif;
+
+    // WooCommerce loop za prikaz proizvoda
+    if ( function_exists( 'woocommerce_product_loop' ) ) {
+        woocommerce_product_loop_start();
+        if ( wc_get_loop_prop( 'total' ) ) {
+            while ( have_posts() ) {
+                the_post();
+                wc_get_template_part( 'content', 'product' );
+            }
         }
+        woocommerce_product_loop_end();
     }
-    woocommerce_product_loop_end();
-}
-?>
-        </div>
+	
+    ?>
+	<div class="pagination">
+    <?php
+    echo paginate_links(array(
+        'total' => $wp_query->max_num_pages,
+        'current' => max(1, get_query_var('paged')),
+        'prev_text' => '<img src="/wp-content/uploads/2024/05/Vector-1.png" alt="prev arrow">',
+        'next_text' => '<img src="/wp-content/uploads/2024/05/2.png" alt="next arrow">',
+        'show_all' => true,
+    ));
+    ?>
+</div>
+</div>
+
+
     </div>
 
 </section>

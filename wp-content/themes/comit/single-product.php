@@ -22,7 +22,7 @@ if (have_posts()) {
             </div>
             <div class="product-info">
                 <h1><?php echo the_title() ?></h1>
-                <p class="product-description"><?php echo get_the_content()?></p>
+                <p class="product-description"><?php echo get_the_excerpt()?></p>
                 <button id="related-modal-button">Book this product <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
                 <div class="product-atributes-wrapper">
     <div class="product-atributes">
@@ -174,6 +174,7 @@ if (have_posts()) {
             while ($products->have_posts()) {
                 $products->the_post();
                 ?>
+                <a href="<?php echo get_permalink() ?>">
                 <div class="related-single-product-card">
                     <?php
                     // Dohvatam URL slike proizvoda
@@ -185,6 +186,8 @@ if (have_posts()) {
                     <h2><?php the_title(); ?></h2>
                     <p><a href="<?php echo get_permalink() ?>">Read more</a></p>
                 </div>
+                </a>
+               
                 <?php
             }
             echo '</div>';
@@ -216,25 +219,7 @@ if (have_posts()) {
         </div>
         <div class="single-product-form">
         <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 8 ) ); ?>
-        <form action="#" class="single-product-form" method="post" enctype="multipart/form-data">
-            <div>
-                <input type="text" name="name" placeholder="Name">
-            </div>
-            <div>
-                <input type="text" name="email" placeholder="Your e-mail">
-            </div>
-            <div>
-                <input type="tel" name="phone number" placeholder="Phone number">
-            </div>
-            <div>
-                <textarea name="message"  rows="4" placeholder="Add message here"></textarea>
-            </div>
-            <div class="current-page-url">
-                <input type="text" name="url-site" id="page-url" >
-
-            </div>
-
-        </form>
+       
         </div>
     </div>
 </div>
@@ -269,6 +254,7 @@ function openTab(tabId, buttonId) {
 var openModalButton =document.getElementById('related-modal-button');
 var relatedModal =document.getElementById('rel-modal');
 var exitIconModal =document.getElementById('icon-exit');
+var cancelModals =document.getElementsByClassName('cancel-button');
 
 openModalButton.addEventListener("click",function(){
 relatedModal.style.display="block";
@@ -277,6 +263,16 @@ relatedModal.style.display="block";
 exitIconModal.addEventListener("click",function(){
 relatedModal.style.display="none";
 });
+
+for(var i = 0; i < cancelModals.length; i++){
+    var cancelModal =cancelModals[i];
+
+    cancelModal.addEventListener("click", function(){
+    relatedModal.style.display="none";
+});
+}
+
+
 
 </script>
 <!-- SKRIPTA ZA OTVARANJE MODALA END -->

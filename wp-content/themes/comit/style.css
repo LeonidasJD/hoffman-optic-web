@@ -84,7 +84,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  @import url(./inc/css/shop.css);
  @import url(./inc/css/single-product.css);
  @import url(./inc/css/global.css);
- 
+ @import url(./inc/css/search.css);
 
 
  a{

@@ -216,3 +216,4 @@ function our_team_custom_post_type(){
 add_action('init','our_team_custom_post_type');
 /**OUR TEAM CUSTOM POST TYPE END */
 
+add_theme_support( 'woocommerce' );

@@ -8,6 +8,7 @@
 <!--HERO SECTION END-->
 
 <!--BLOG SECTION START-->
+<h1>test product</h1>
 <section class="news-section-wrapper">
     <div class="news-section-underwrapper">
     <div class="posts-section-wrapper">
@@ -26,6 +27,7 @@
             ?>
             <div class="single-blog-card">
                 <div class="post-image">
+                    
                     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                 </div>
                 <a href="<?php echo get_permalink(); ?>">

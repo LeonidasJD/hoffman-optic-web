@@ -1,0 +1,1900 @@
+2024-05-30T08:32:02+00:00 NOTICE Start search for best glass CONTEXT: {"_legacy":true}
+2024-05-30T08:32:02+00:00 NOTICE Execution time 0 0.0401102 CONTEXT: {"_legacy":true}
+2024-05-30T08:32:02+00:00 NOTICE Tokens Array
+(
+    [0] => glass
+    [1] => best
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:32:02+00:00 NOTICE Execution time 1 0.1120845 CONTEXT: {"_legacy":true}
+2024-05-30T08:32:02+00:00 NOTICE Execution time 0.1328522 CONTEXT: {"_legacy":true}
+2024-05-30T08:32:24+00:00 NOTICE Start search for female CONTEXT: {"_legacy":true}
+2024-05-30T08:32:24+00:00 NOTICE Execution time 0 0.0536923 CONTEXT: {"_legacy":true}
+2024-05-30T08:32:24+00:00 NOTICE Tokens Array
+(
+    [0] => female
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:32:24+00:00 NOTICE Execution time 1 0.1064882 CONTEXT: {"_legacy":true}
+2024-05-30T08:32:24+00:00 NOTICE Execution time 0.1320458 CONTEXT: {"_legacy":true}
+2024-05-30T08:33:30+00:00 NOTICE Start search for eye zen CONTEXT: {"_legacy":true}
+2024-05-30T08:33:30+00:00 NOTICE Execution time 0 0.0774897 CONTEXT: {"_legacy":true}
+2024-05-30T08:33:30+00:00 NOTICE Tokens Array
+(
+    [0] => eye
+    [1] => zen
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:33:30+00:00 NOTICE Execution time 1 0.1362856 CONTEXT: {"_legacy":true}
+2024-05-30T08:33:30+00:00 NOTICE Execution time 0.1551591 CONTEXT: {"_legacy":true}
+2024-05-30T08:33:46+00:00 NOTICE Start search for aviator CONTEXT: {"_legacy":true}
+2024-05-30T08:33:46+00:00 NOTICE Execution time 0 0.051584 CONTEXT: {"_legacy":true}
+2024-05-30T08:33:46+00:00 NOTICE Tokens Array
+(
+    [0] => aviator
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:33:46+00:00 NOTICE Execution time 1 0.1035396 CONTEXT: {"_legacy":true}
+2024-05-30T08:33:46+00:00 NOTICE Execution time 0.1265294 CONTEXT: {"_legacy":true}
+2024-05-30T08:34:50+00:00 NOTICE Start search for aaa CONTEXT: {"_legacy":true}
+2024-05-30T08:34:50+00:00 NOTICE Execution time 0 0.0498917 CONTEXT: {"_legacy":true}
+2024-05-30T08:34:51+00:00 NOTICE Tokens Array
+(
+    [0] => aaa
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:34:51+00:00 NOTICE Execution time 1 0.1043252 CONTEXT: {"_legacy":true}
+2024-05-30T08:34:51+00:00 NOTICE Execution time 0.1280983 CONTEXT: {"_legacy":true}
+2024-05-30T08:35:46+00:00 NOTICE Start search for eye CONTEXT: {"_legacy":true}
+2024-05-30T08:35:47+00:00 NOTICE Execution time 0 0.0985342 CONTEXT: {"_legacy":true}
+2024-05-30T08:35:47+00:00 NOTICE Tokens Array
+(
+    [0] => eye
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:35:47+00:00 NOTICE Execution time 1 0.1514648 CONTEXT: {"_legacy":true}
+2024-05-30T08:35:47+00:00 NOTICE Execution time 0.1726822 CONTEXT: {"_legacy":true}
+2024-05-30T08:35:47+00:00 NOTICE Start search for eye CONTEXT: {"_legacy":true}
+2024-05-30T08:35:47+00:00 NOTICE Execution time 0 0.1526403 CONTEXT: {"_legacy":true}
+2024-05-30T08:35:47+00:00 NOTICE Tokens Array
+(
+    [0] => eye
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:35:47+00:00 NOTICE Execution time 1 0.2025474 CONTEXT: {"_legacy":true}
+2024-05-30T08:35:47+00:00 NOTICE Execution time 0.2264678 CONTEXT: {"_legacy":true}
+2024-05-30T08:35:57+00:00 NOTICE Start search for eye CONTEXT: {"_legacy":true}
+2024-05-30T08:35:57+00:00 NOTICE Execution time 0 0.0468977 CONTEXT: {"_legacy":true}
+2024-05-30T08:35:57+00:00 NOTICE Tokens Array
+(
+    [0] => eye
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:35:57+00:00 NOTICE Execution time 1 0.1003338 CONTEXT: {"_legacy":true}
+2024-05-30T08:35:57+00:00 NOTICE Execution time 0.1197714 CONTEXT: {"_legacy":true}
+2024-05-30T08:36:03+00:00 NOTICE Start search for eye CONTEXT: {"_legacy":true}
+2024-05-30T08:36:03+00:00 NOTICE Execution time 0 0.0492046 CONTEXT: {"_legacy":true}
+2024-05-30T08:36:03+00:00 NOTICE Tokens Array
+(
+    [0] => eye
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:36:03+00:00 NOTICE Execution time 1 0.1709863 CONTEXT: {"_legacy":true}
+2024-05-30T08:36:03+00:00 NOTICE Execution time 0.198079 CONTEXT: {"_legacy":true}
+2024-05-30T08:44:20+00:00 NOTICE Start search for best CONTEXT: {"_legacy":true}
+2024-05-30T08:44:20+00:00 NOTICE Execution time 0 0.0654174 CONTEXT: {"_legacy":true}
+2024-05-30T08:44:20+00:00 NOTICE Tokens Array
+(
+    [0] => best
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:44:20+00:00 NOTICE Execution time 1 0.0722738 CONTEXT: {"_legacy":true}
+2024-05-30T08:44:20+00:00 NOTICE Execution time 0.0739561 CONTEXT: {"_legacy":true}
+2024-05-30T08:44:20+00:00 NOTICE Start search for best CONTEXT: {"_legacy":true}
+2024-05-30T08:44:20+00:00 NOTICE Execution time 0 0.0069492 CONTEXT: {"_legacy":true}
+2024-05-30T08:44:20+00:00 NOTICE Tokens Array
+(
+    [0] => best
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:44:20+00:00 NOTICE Execution time 1 0.0131373 CONTEXT: {"_legacy":true}
+2024-05-30T08:44:20+00:00 NOTICE Execution time 0.0154543 CONTEXT: {"_legacy":true}
+2024-05-30T08:44:42+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T08:44:42+00:00 NOTICE Execution time 0 0.0072171 CONTEXT: {"_legacy":true}
+2024-05-30T08:44:42+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:44:42+00:00 NOTICE Execution time 1 0.0118909 CONTEXT: {"_legacy":true}
+2024-05-30T08:44:42+00:00 NOTICE Execution time 0.0133995 CONTEXT: {"_legacy":true}
+2024-05-30T08:45:49+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T08:45:49+00:00 NOTICE Execution time 0 0.0083183 CONTEXT: {"_legacy":true}
+2024-05-30T08:45:49+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:45:49+00:00 NOTICE Execution time 1 0.0145801 CONTEXT: {"_legacy":true}
+2024-05-30T08:45:49+00:00 NOTICE Execution time 0.0167991 CONTEXT: {"_legacy":true}
+2024-05-30T08:55:11+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T08:55:11+00:00 NOTICE Execution time 0 0.1535307 CONTEXT: {"_legacy":true}
+2024-05-30T08:55:11+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:55:11+00:00 NOTICE Execution time 1 0.1761 CONTEXT: {"_legacy":true}
+2024-05-30T08:55:11+00:00 NOTICE Execution time 0.1804628 CONTEXT: {"_legacy":true}
+2024-05-30T08:57:31+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T08:57:31+00:00 NOTICE Execution time 0 0.0538758 CONTEXT: {"_legacy":true}
+2024-05-30T08:57:31+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:57:31+00:00 NOTICE Execution time 1 0.0618371 CONTEXT: {"_legacy":true}
+2024-05-30T08:57:31+00:00 NOTICE Execution time 0.0636981 CONTEXT: {"_legacy":true}
+2024-05-30T08:59:26+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T08:59:26+00:00 NOTICE Execution time 0 0.0582052 CONTEXT: {"_legacy":true}
+2024-05-30T08:59:26+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T08:59:26+00:00 NOTICE Execution time 1 0.076082 CONTEXT: {"_legacy":true}
+2024-05-30T08:59:26+00:00 NOTICE Execution time 0.0790949 CONTEXT: {"_legacy":true}
+2024-05-30T09:00:17+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:00:17+00:00 NOTICE Execution time 0 0.0104653 CONTEXT: {"_legacy":true}
+2024-05-30T09:00:17+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:00:17+00:00 NOTICE Execution time 1 0.018794 CONTEXT: {"_legacy":true}
+2024-05-30T09:00:17+00:00 NOTICE Execution time 0.0208062 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:15+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:08:15+00:00 NOTICE Execution time 0 0.011274 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:15+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:08:15+00:00 NOTICE Execution time 1 0.0186042 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:15+00:00 NOTICE Execution time 0.0213056 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:44+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:08:44+00:00 NOTICE Execution time 0 0.0656121 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:44+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:08:44+00:00 NOTICE Execution time 1 0.0778396 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:44+00:00 NOTICE Execution time 0.0802221 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:52+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:08:52+00:00 NOTICE Execution time 0 0.0078242 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:52+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:08:52+00:00 NOTICE Execution time 1 0.0138433 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:52+00:00 NOTICE Execution time 0.0154693 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:56+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:08:56+00:00 NOTICE Execution time 0 0.0104421 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:56+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:08:56+00:00 NOTICE Execution time 1 0.0164868 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:56+00:00 NOTICE Execution time 0.0180272 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:58+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:08:58+00:00 NOTICE Execution time 0 0.0079305 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:58+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:08:58+00:00 NOTICE Execution time 1 0.0143224 CONTEXT: {"_legacy":true}
+2024-05-30T09:08:58+00:00 NOTICE Execution time 0.016403 CONTEXT: {"_legacy":true}
+2024-05-30T09:09:56+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:09:56+00:00 NOTICE Execution time 0 0.0093071 CONTEXT: {"_legacy":true}
+2024-05-30T09:09:56+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:09:56+00:00 NOTICE Execution time 1 0.0156844 CONTEXT: {"_legacy":true}
+2024-05-30T09:09:56+00:00 NOTICE Execution time 0.0183375 CONTEXT: {"_legacy":true}
+2024-05-30T09:12:04+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:12:04+00:00 NOTICE Execution time 0 0.0086566 CONTEXT: {"_legacy":true}
+2024-05-30T09:12:04+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:12:04+00:00 NOTICE Execution time 1 0.0177 CONTEXT: {"_legacy":true}
+2024-05-30T09:12:04+00:00 NOTICE Execution time 0.0197243 CONTEXT: {"_legacy":true}
+2024-05-30T09:13:08+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:13:08+00:00 NOTICE Execution time 0 0.0079421 CONTEXT: {"_legacy":true}
+2024-05-30T09:13:08+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:13:08+00:00 NOTICE Execution time 1 0.0142672 CONTEXT: {"_legacy":true}
+2024-05-30T09:13:08+00:00 NOTICE Execution time 0.0159586 CONTEXT: {"_legacy":true}
+2024-05-30T09:13:36+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:13:36+00:00 NOTICE Execution time 0 0.0096816 CONTEXT: {"_legacy":true}
+2024-05-30T09:13:36+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:13:36+00:00 NOTICE Execution time 1 0.0151441 CONTEXT: {"_legacy":true}
+2024-05-30T09:13:36+00:00 NOTICE Execution time 0.0169725 CONTEXT: {"_legacy":true}
+2024-05-30T09:14:35+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:14:35+00:00 NOTICE Execution time 0 0.0521694 CONTEXT: {"_legacy":true}
+2024-05-30T09:14:35+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:14:35+00:00 NOTICE Execution time 1 0.06565 CONTEXT: {"_legacy":true}
+2024-05-30T09:14:35+00:00 NOTICE Execution time 0.0679168 CONTEXT: {"_legacy":true}
+2024-05-30T09:14:35+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:14:35+00:00 NOTICE Execution time 0 0.0159234 CONTEXT: {"_legacy":true}
+2024-05-30T09:14:35+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:14:35+00:00 NOTICE Execution time 1 0.0301206 CONTEXT: {"_legacy":true}
+2024-05-30T09:14:35+00:00 NOTICE Execution time 0.035014 CONTEXT: {"_legacy":true}
+2024-05-30T09:16:47+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:16:47+00:00 NOTICE Execution time 0 0.0073773 CONTEXT: {"_legacy":true}
+2024-05-30T09:16:47+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:16:47+00:00 NOTICE Execution time 1 0.0175594 CONTEXT: {"_legacy":true}
+2024-05-30T09:16:47+00:00 NOTICE Execution time 0.0193321 CONTEXT: {"_legacy":true}
+2024-05-30T09:22:36+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:22:36+00:00 NOTICE Execution time 0 0.0275147 CONTEXT: {"_legacy":true}
+2024-05-30T09:22:36+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:22:36+00:00 NOTICE Execution time 1 0.0378019 CONTEXT: {"_legacy":true}
+2024-05-30T09:22:36+00:00 NOTICE Execution time 0.0404258 CONTEXT: {"_legacy":true}
+2024-05-30T09:22:36+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:22:36+00:00 NOTICE Execution time 0 0.0252293 CONTEXT: {"_legacy":true}
+2024-05-30T09:22:36+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:22:36+00:00 NOTICE Execution time 1 0.0383954 CONTEXT: {"_legacy":true}
+2024-05-30T09:22:36+00:00 NOTICE Execution time 0.0407956 CONTEXT: {"_legacy":true}
+2024-05-30T09:23:06+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:23:06+00:00 NOTICE Execution time 0 0.0105606 CONTEXT: {"_legacy":true}
+2024-05-30T09:23:06+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:23:06+00:00 NOTICE Execution time 1 0.0246488 CONTEXT: {"_legacy":true}
+2024-05-30T09:23:06+00:00 NOTICE Execution time 0.0268177 CONTEXT: {"_legacy":true}
+2024-05-30T09:23:07+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:23:07+00:00 NOTICE Execution time 0 0.0181128 CONTEXT: {"_legacy":true}
+2024-05-30T09:23:07+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:23:07+00:00 NOTICE Execution time 1 0.0343982 CONTEXT: {"_legacy":true}
+2024-05-30T09:23:07+00:00 NOTICE Execution time 0.0376561 CONTEXT: {"_legacy":true}
+2024-05-30T09:24:01+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:24:01+00:00 NOTICE Execution time 0 0.0168174 CONTEXT: {"_legacy":true}
+2024-05-30T09:24:01+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:24:01+00:00 NOTICE Execution time 1 0.0230205 CONTEXT: {"_legacy":true}
+2024-05-30T09:24:01+00:00 NOTICE Execution time 0.0249025 CONTEXT: {"_legacy":true}
+2024-05-30T09:26:06+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:26:06+00:00 NOTICE Execution time 0 0.007523 CONTEXT: {"_legacy":true}
+2024-05-30T09:26:06+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:26:07+00:00 NOTICE Execution time 1 0.0142431 CONTEXT: {"_legacy":true}
+2024-05-30T09:26:07+00:00 NOTICE Execution time 0.0162547 CONTEXT: {"_legacy":true}
+2024-05-30T09:26:42+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:26:42+00:00 NOTICE Execution time 0 0.0082263 CONTEXT: {"_legacy":true}
+2024-05-30T09:26:42+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:26:42+00:00 NOTICE Execution time 1 0.0139292 CONTEXT: {"_legacy":true}
+2024-05-30T09:26:42+00:00 NOTICE Execution time 0.0159218 CONTEXT: {"_legacy":true}
+2024-05-30T09:27:19+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:27:19+00:00 NOTICE Execution time 0 0.0156465 CONTEXT: {"_legacy":true}
+2024-05-30T09:27:19+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:27:19+00:00 NOTICE Execution time 1 0.0212291 CONTEXT: {"_legacy":true}
+2024-05-30T09:27:19+00:00 NOTICE Execution time 0.0232117 CONTEXT: {"_legacy":true}
+2024-05-30T09:28:27+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:28:27+00:00 NOTICE Execution time 0 0.0194739 CONTEXT: {"_legacy":true}
+2024-05-30T09:28:27+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:28:27+00:00 NOTICE Execution time 1 0.0280472 CONTEXT: {"_legacy":true}
+2024-05-30T09:28:27+00:00 NOTICE Execution time 0.0302142 CONTEXT: {"_legacy":true}
+2024-05-30T09:31:10+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:31:10+00:00 NOTICE Execution time 0 0.0161809 CONTEXT: {"_legacy":true}
+2024-05-30T09:31:10+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:31:10+00:00 NOTICE Execution time 1 0.0217441 CONTEXT: {"_legacy":true}
+2024-05-30T09:31:10+00:00 NOTICE Execution time 0.023346 CONTEXT: {"_legacy":true}
+2024-05-30T09:33:45+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:33:45+00:00 NOTICE Execution time 0 0.0085833 CONTEXT: {"_legacy":true}
+2024-05-30T09:33:45+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:33:45+00:00 NOTICE Execution time 1 0.0136991 CONTEXT: {"_legacy":true}
+2024-05-30T09:33:45+00:00 NOTICE Execution time 0.0153341 CONTEXT: {"_legacy":true}
+2024-05-30T09:34:26+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:34:26+00:00 NOTICE Execution time 0 0.0072548 CONTEXT: {"_legacy":true}
+2024-05-30T09:34:26+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:34:26+00:00 NOTICE Execution time 1 0.0167601 CONTEXT: {"_legacy":true}
+2024-05-30T09:34:26+00:00 NOTICE Execution time 0.0186378 CONTEXT: {"_legacy":true}
+2024-05-30T09:36:10+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:36:10+00:00 NOTICE Execution time 0 0.0105765 CONTEXT: {"_legacy":true}
+2024-05-30T09:36:10+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:36:10+00:00 NOTICE Execution time 1 0.0157285 CONTEXT: {"_legacy":true}
+2024-05-30T09:36:10+00:00 NOTICE Execution time 0.0173663 CONTEXT: {"_legacy":true}
+2024-05-30T09:36:27+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:36:27+00:00 NOTICE Execution time 0 0.0084898 CONTEXT: {"_legacy":true}
+2024-05-30T09:36:27+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:36:27+00:00 NOTICE Execution time 1 0.0128467 CONTEXT: {"_legacy":true}
+2024-05-30T09:36:27+00:00 NOTICE Execution time 0.0144656 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:32+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:37:32+00:00 NOTICE Execution time 0 0.0069963 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:32+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:37:32+00:00 NOTICE Execution time 1 0.012156 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:32+00:00 NOTICE Execution time 0.015212 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:32+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:37:32+00:00 NOTICE Execution time 0 0.0255682 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:32+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:37:32+00:00 NOTICE Execution time 1 0.0466291 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:32+00:00 NOTICE Execution time 0.0525944 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:57+00:00 NOTICE Start search for test 1 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:57+00:00 NOTICE Execution time 0 0.0083943 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:57+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:37:57+00:00 NOTICE Execution time 1 0.0137244 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:57+00:00 NOTICE Execution time 0.0166948 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:57+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:37:57+00:00 NOTICE Execution time 0 0.0089007 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:57+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:37:57+00:00 NOTICE Execution time 1 0.0152693 CONTEXT: {"_legacy":true}
+2024-05-30T09:37:57+00:00 NOTICE Execution time 0.0173286 CONTEXT: {"_legacy":true}
+2024-05-30T09:38:08+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:38:08+00:00 NOTICE Execution time 0 0.0087215 CONTEXT: {"_legacy":true}
+2024-05-30T09:38:08+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:38:08+00:00 NOTICE Execution time 1 0.0149821 CONTEXT: {"_legacy":true}
+2024-05-30T09:38:08+00:00 NOTICE Execution time 0.0170175 CONTEXT: {"_legacy":true}
+2024-05-30T09:38:09+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:38:09+00:00 NOTICE Execution time 0 0.0095156 CONTEXT: {"_legacy":true}
+2024-05-30T09:38:09+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:38:09+00:00 NOTICE Execution time 1 0.0152328 CONTEXT: {"_legacy":true}
+2024-05-30T09:38:09+00:00 NOTICE Execution time 0.0171759 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:08+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:44:08+00:00 NOTICE Execution time 0 0.0573729 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:08+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:44:08+00:00 NOTICE Execution time 1 0.0755077 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:08+00:00 NOTICE Execution time 0.079275 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:27+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:44:28+00:00 NOTICE Execution time 0 0.0110151 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:28+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:44:28+00:00 NOTICE Execution time 1 0.018185 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:28+00:00 NOTICE Execution time 0.0207129 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:34+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:44:34+00:00 NOTICE Execution time 0 0.0074277 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:34+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:44:34+00:00 NOTICE Execution time 1 0.0127795 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:34+00:00 NOTICE Execution time 0.014882 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:39+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:44:39+00:00 NOTICE Execution time 0 0.0079088 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:39+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:44:39+00:00 NOTICE Execution time 1 0.0179348 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:39+00:00 NOTICE Execution time 0.0197257 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:51+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:44:51+00:00 NOTICE Execution time 0 0.0089911 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:51+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:44:51+00:00 NOTICE Execution time 1 0.0144686 CONTEXT: {"_legacy":true}
+2024-05-30T09:44:51+00:00 NOTICE Execution time 0.0163612 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:00+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:45:00+00:00 NOTICE Execution time 0 0.0091118 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:00+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:45:00+00:00 NOTICE Execution time 1 0.0161378 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:00+00:00 NOTICE Execution time 0.0182623 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:05+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:45:05+00:00 NOTICE Execution time 0 0.0084934 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:05+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:45:05+00:00 NOTICE Execution time 1 0.0145083 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:05+00:00 NOTICE Execution time 0.0162744 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:12+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:45:12+00:00 NOTICE Execution time 0 0.009266 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:12+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:45:12+00:00 NOTICE Execution time 1 0.0149197 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:12+00:00 NOTICE Execution time 0.01704 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:27+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:45:27+00:00 NOTICE Execution time 0 0.0091622 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:27+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:45:27+00:00 NOTICE Execution time 1 0.0152003 CONTEXT: {"_legacy":true}
+2024-05-30T09:45:27+00:00 NOTICE Execution time 0.0171775 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:00+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:46:00+00:00 NOTICE Execution time 0 0.0090094 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:00+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:46:00+00:00 NOTICE Execution time 1 0.0146657 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:00+00:00 NOTICE Execution time 0.0165928 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:09+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:46:09+00:00 NOTICE Execution time 0 0.0086722 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:09+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:46:09+00:00 NOTICE Execution time 1 0.0141677 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:09+00:00 NOTICE Execution time 0.0161936 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:17+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:46:17+00:00 NOTICE Execution time 0 0.0097512 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:17+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:46:17+00:00 NOTICE Execution time 1 0.0155192 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:17+00:00 NOTICE Execution time 0.0174548 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:24+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:46:24+00:00 NOTICE Execution time 0 0.0100423 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:24+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:46:24+00:00 NOTICE Execution time 1 0.016633 CONTEXT: {"_legacy":true}
+2024-05-30T09:46:24+00:00 NOTICE Execution time 0.0192857 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:41+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:47:41+00:00 NOTICE Execution time 0 0.0082261 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:41+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:47:41+00:00 NOTICE Execution time 1 0.0148772 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:41+00:00 NOTICE Execution time 0.0165299 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:46+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:47:46+00:00 NOTICE Execution time 0 0.0095668 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:46+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:47:46+00:00 NOTICE Execution time 1 0.0178891 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:46+00:00 NOTICE Execution time 0.0201036 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:53+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:47:53+00:00 NOTICE Execution time 0 0.0084587 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:53+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:47:53+00:00 NOTICE Execution time 1 0.0135885 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:53+00:00 NOTICE Execution time 0.0153813 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:58+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:47:58+00:00 NOTICE Execution time 0 0.0109267 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:58+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:47:58+00:00 NOTICE Execution time 1 0.0197697 CONTEXT: {"_legacy":true}
+2024-05-30T09:47:58+00:00 NOTICE Execution time 0.0221981 CONTEXT: {"_legacy":true}
+2024-05-30T09:48:04+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:48:04+00:00 NOTICE Execution time 0 0.0108611 CONTEXT: {"_legacy":true}
+2024-05-30T09:48:04+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:48:04+00:00 NOTICE Execution time 1 0.0175061 CONTEXT: {"_legacy":true}
+2024-05-30T09:48:04+00:00 NOTICE Execution time 0.0196714 CONTEXT: {"_legacy":true}
+2024-05-30T09:48:20+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:48:20+00:00 NOTICE Execution time 0 0.0092713 CONTEXT: {"_legacy":true}
+2024-05-30T09:48:20+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:48:20+00:00 NOTICE Execution time 1 0.0146769 CONTEXT: {"_legacy":true}
+2024-05-30T09:48:20+00:00 NOTICE Execution time 0.0166038 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:20+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:49:20+00:00 NOTICE Execution time 0 0.0091467 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:20+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:49:20+00:00 NOTICE Execution time 1 0.0148447 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:20+00:00 NOTICE Execution time 0.0168907 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:35+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:49:35+00:00 NOTICE Execution time 0 0.0105593 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:35+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:49:35+00:00 NOTICE Execution time 1 0.0163788 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:35+00:00 NOTICE Execution time 0.0203811 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:39+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:49:39+00:00 NOTICE Execution time 0 0.0085797 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:39+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:49:39+00:00 NOTICE Execution time 1 0.015733 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:39+00:00 NOTICE Execution time 0.0178078 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:43+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:49:43+00:00 NOTICE Execution time 0 0.0085858 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:43+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:49:43+00:00 NOTICE Execution time 1 0.0145554 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:43+00:00 NOTICE Execution time 0.0164964 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:46+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:49:46+00:00 NOTICE Execution time 0 0.0083469 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:46+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:49:46+00:00 NOTICE Execution time 1 0.013516 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:46+00:00 NOTICE Execution time 0.0153211 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:52+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:49:52+00:00 NOTICE Execution time 0 0.0112925 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:52+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:49:52+00:00 NOTICE Execution time 1 0.0189178 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:52+00:00 NOTICE Execution time 0.0215622 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:55+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:49:56+00:00 NOTICE Execution time 0 0.0072025 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:56+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:49:56+00:00 NOTICE Execution time 1 0.0132939 CONTEXT: {"_legacy":true}
+2024-05-30T09:49:56+00:00 NOTICE Execution time 0.0160381 CONTEXT: {"_legacy":true}
+2024-05-30T09:51:53+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:51:53+00:00 NOTICE Execution time 0 0.0129746 CONTEXT: {"_legacy":true}
+2024-05-30T09:51:53+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:51:53+00:00 NOTICE Execution time 1 0.1496402 CONTEXT: {"_legacy":true}
+2024-05-30T09:51:53+00:00 NOTICE Execution time 0.1791926 CONTEXT: {"_legacy":true}
+2024-05-30T09:51:53+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:51:53+00:00 NOTICE Execution time 0 0.049376 CONTEXT: {"_legacy":true}
+2024-05-30T09:51:53+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:51:53+00:00 NOTICE Execution time 1 0.1034824 CONTEXT: {"_legacy":true}
+2024-05-30T09:51:53+00:00 NOTICE Execution time 0.128064 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:08+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:54:09+00:00 NOTICE Execution time 0 0.9479218 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:09+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:54:09+00:00 NOTICE Execution time 1 1.0488254 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:09+00:00 NOTICE Execution time 1.0737064 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:21+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T09:54:21+00:00 NOTICE Execution time 0 0.0535427 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:21+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:54:21+00:00 NOTICE Execution time 1 0.109453 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:21+00:00 NOTICE Execution time 0.1346672 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:25+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:54:25+00:00 NOTICE Execution time 0 0.0541715 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:25+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:54:25+00:00 NOTICE Execution time 1 0.1148564 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:25+00:00 NOTICE Execution time 0.138546 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:33+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:54:33+00:00 NOTICE Execution time 0 0.0599023 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:33+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:54:33+00:00 NOTICE Execution time 1 0.1193868 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:33+00:00 NOTICE Execution time 0.1433146 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:35+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:54:35+00:00 NOTICE Execution time 0 0.0563773 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:36+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:54:36+00:00 NOTICE Execution time 1 0.112418 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:36+00:00 NOTICE Execution time 0.13752 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:40+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:54:40+00:00 NOTICE Execution time 0 0.0612568 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:40+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:54:40+00:00 NOTICE Execution time 1 0.1188299 CONTEXT: {"_legacy":true}
+2024-05-30T09:54:40+00:00 NOTICE Execution time 0.1437169 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:41+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:55:41+00:00 NOTICE Execution time 0 0.0572675 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:41+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:55:41+00:00 NOTICE Execution time 1 0.1134831 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:41+00:00 NOTICE Execution time 0.1379574 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:49+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:55:49+00:00 NOTICE Execution time 0 0.0638663 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:49+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:55:49+00:00 NOTICE Execution time 1 0.1200514 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:49+00:00 NOTICE Execution time 0.1433473 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:56+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:55:56+00:00 NOTICE Execution time 0 0.0524246 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:56+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:55:56+00:00 NOTICE Execution time 1 0.1063144 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:56+00:00 NOTICE Execution time 0.130939 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:59+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:55:59+00:00 NOTICE Execution time 0 0.0538404 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:59+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:55:59+00:00 NOTICE Execution time 1 0.1098469 CONTEXT: {"_legacy":true}
+2024-05-30T09:55:59+00:00 NOTICE Execution time 0.1342922 CONTEXT: {"_legacy":true}
+2024-05-30T09:58:41+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:58:41+00:00 NOTICE Execution time 0 0.0501553 CONTEXT: {"_legacy":true}
+2024-05-30T09:58:41+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:58:41+00:00 NOTICE Execution time 1 0.103674 CONTEXT: {"_legacy":true}
+2024-05-30T09:58:41+00:00 NOTICE Execution time 0.1277677 CONTEXT: {"_legacy":true}
+2024-05-30T09:59:03+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:59:03+00:00 NOTICE Execution time 0 0.0530556 CONTEXT: {"_legacy":true}
+2024-05-30T09:59:03+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:59:03+00:00 NOTICE Execution time 1 0.110036 CONTEXT: {"_legacy":true}
+2024-05-30T09:59:03+00:00 NOTICE Execution time 0.1365437 CONTEXT: {"_legacy":true}
+2024-05-30T09:59:13+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:59:13+00:00 NOTICE Execution time 0 0.0524105 CONTEXT: {"_legacy":true}
+2024-05-30T09:59:13+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:59:13+00:00 NOTICE Execution time 1 0.106508 CONTEXT: {"_legacy":true}
+2024-05-30T09:59:13+00:00 NOTICE Execution time 0.1286746 CONTEXT: {"_legacy":true}
+2024-05-30T09:59:21+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T09:59:21+00:00 NOTICE Execution time 0 0.0565485 CONTEXT: {"_legacy":true}
+2024-05-30T09:59:21+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T09:59:21+00:00 NOTICE Execution time 1 0.1155914 CONTEXT: {"_legacy":true}
+2024-05-30T09:59:21+00:00 NOTICE Execution time 0.1376845 CONTEXT: {"_legacy":true}
+2024-05-30T10:01:47+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:01:47+00:00 NOTICE Execution time 0 0.0583032 CONTEXT: {"_legacy":true}
+2024-05-30T10:01:47+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:01:47+00:00 NOTICE Execution time 1 0.113186 CONTEXT: {"_legacy":true}
+2024-05-30T10:01:47+00:00 NOTICE Execution time 0.137878 CONTEXT: {"_legacy":true}
+2024-05-30T10:02:25+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:02:25+00:00 NOTICE Execution time 0 0.0516023 CONTEXT: {"_legacy":true}
+2024-05-30T10:02:25+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:02:25+00:00 NOTICE Execution time 1 0.192715 CONTEXT: {"_legacy":true}
+2024-05-30T10:02:25+00:00 NOTICE Execution time 0.2220798 CONTEXT: {"_legacy":true}
+2024-05-30T10:02:31+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:02:31+00:00 NOTICE Execution time 0 0.0971965 CONTEXT: {"_legacy":true}
+2024-05-30T10:02:31+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:02:31+00:00 NOTICE Execution time 1 0.1620206 CONTEXT: {"_legacy":true}
+2024-05-30T10:02:31+00:00 NOTICE Execution time 0.1873517 CONTEXT: {"_legacy":true}
+2024-05-30T10:02:40+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:02:40+00:00 NOTICE Execution time 0 0.0539392 CONTEXT: {"_legacy":true}
+2024-05-30T10:02:40+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:02:40+00:00 NOTICE Execution time 1 0.1107035 CONTEXT: {"_legacy":true}
+2024-05-30T10:02:40+00:00 NOTICE Execution time 0.1355512 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:08+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:07:08+00:00 NOTICE Execution time 0 0.0557359 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:08+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:07:08+00:00 NOTICE Execution time 1 0.1148806 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:08+00:00 NOTICE Execution time 0.1381991 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:16+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:07:16+00:00 NOTICE Execution time 0 0.0553113 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:16+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:07:16+00:00 NOTICE Execution time 1 0.114389 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:16+00:00 NOTICE Execution time 0.1460324 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:39+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:07:39+00:00 NOTICE Execution time 0 0.1635686 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:39+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:07:39+00:00 NOTICE Execution time 1 0.2465128 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:39+00:00 NOTICE Execution time 0.2705414 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:44+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:07:44+00:00 NOTICE Execution time 0 0.0545185 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:44+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:07:44+00:00 NOTICE Execution time 1 0.1095508 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:44+00:00 NOTICE Execution time 0.1349362 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:53+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:07:53+00:00 NOTICE Execution time 0 0.0523139 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:53+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:07:53+00:00 NOTICE Execution time 1 0.1080811 CONTEXT: {"_legacy":true}
+2024-05-30T10:07:53+00:00 NOTICE Execution time 0.132484 CONTEXT: {"_legacy":true}
+2024-05-30T10:12:10+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:12:11+00:00 NOTICE Execution time 0 0.0796772 CONTEXT: {"_legacy":true}
+2024-05-30T10:12:11+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:12:11+00:00 NOTICE Execution time 1 0.1397993 CONTEXT: {"_legacy":true}
+2024-05-30T10:12:11+00:00 NOTICE Execution time 0.1648628 CONTEXT: {"_legacy":true}
+2024-05-30T10:12:11+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:12:12+00:00 NOTICE Execution time 0 0.05477 CONTEXT: {"_legacy":true}
+2024-05-30T10:12:12+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:12:12+00:00 NOTICE Execution time 1 0.1098455 CONTEXT: {"_legacy":true}
+2024-05-30T10:12:12+00:00 NOTICE Execution time 0.1334508 CONTEXT: {"_legacy":true}
+2024-05-30T10:16:57+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:16:57+00:00 NOTICE Execution time 0 0.0602347 CONTEXT: {"_legacy":true}
+2024-05-30T10:16:57+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:16:57+00:00 NOTICE Execution time 1 0.1229795 CONTEXT: {"_legacy":true}
+2024-05-30T10:16:57+00:00 NOTICE Execution time 0.1462238 CONTEXT: {"_legacy":true}
+2024-05-30T10:17:14+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:17:14+00:00 NOTICE Execution time 0 0.0615248 CONTEXT: {"_legacy":true}
+2024-05-30T10:17:14+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:17:14+00:00 NOTICE Execution time 1 0.1240513 CONTEXT: {"_legacy":true}
+2024-05-30T10:17:14+00:00 NOTICE Execution time 0.1465047 CONTEXT: {"_legacy":true}
+2024-05-30T10:17:19+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-05-30T10:17:20+00:00 NOTICE Execution time 0 0.0598431 CONTEXT: {"_legacy":true}
+2024-05-30T10:17:20+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:17:20+00:00 NOTICE Execution time 1 0.1362257 CONTEXT: {"_legacy":true}
+2024-05-30T10:17:20+00:00 NOTICE Execution time 0.1593381 CONTEXT: {"_legacy":true}
+2024-05-30T10:17:33+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-05-30T10:17:33+00:00 NOTICE Execution time 0 0.0543213 CONTEXT: {"_legacy":true}
+2024-05-30T10:17:33+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:17:33+00:00 NOTICE Execution time 1 0.1083637 CONTEXT: {"_legacy":true}
+2024-05-30T10:17:33+00:00 NOTICE Execution time 0.1322573 CONTEXT: {"_legacy":true}
+2024-05-30T10:18:13+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-05-30T10:18:13+00:00 NOTICE Execution time 0 0.0511175 CONTEXT: {"_legacy":true}
+2024-05-30T10:18:13+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:18:13+00:00 NOTICE Execution time 1 0.2075136 CONTEXT: {"_legacy":true}
+2024-05-30T10:18:13+00:00 NOTICE Execution time 0.232939 CONTEXT: {"_legacy":true}
+2024-05-30T10:18:17+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-05-30T10:18:17+00:00 NOTICE Execution time 0 0.0517126 CONTEXT: {"_legacy":true}
+2024-05-30T10:18:17+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:18:17+00:00 NOTICE Execution time 1 0.104706 CONTEXT: {"_legacy":true}
+2024-05-30T10:18:17+00:00 NOTICE Execution time 0.1283998 CONTEXT: {"_legacy":true}
+2024-05-30T10:18:21+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-05-30T10:18:21+00:00 NOTICE Execution time 0 0.0694212 CONTEXT: {"_legacy":true}
+2024-05-30T10:18:21+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:18:21+00:00 NOTICE Execution time 1 0.137186 CONTEXT: {"_legacy":true}
+2024-05-30T10:18:21+00:00 NOTICE Execution time 0.1628303 CONTEXT: {"_legacy":true}
+2024-05-30T10:19:43+00:00 NOTICE Start search for asdd CONTEXT: {"_legacy":true}
+2024-05-30T10:19:43+00:00 NOTICE Execution time 0 0.0588837 CONTEXT: {"_legacy":true}
+2024-05-30T10:19:43+00:00 NOTICE Tokens Array
+(
+    [0] => asdd
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:19:43+00:00 NOTICE Execution time 1 0.1141243 CONTEXT: {"_legacy":true}
+2024-05-30T10:19:43+00:00 NOTICE Execution time 0.1410439 CONTEXT: {"_legacy":true}
+2024-05-30T10:23:24+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:23:24+00:00 NOTICE Execution time 0 0.0635648 CONTEXT: {"_legacy":true}
+2024-05-30T10:23:24+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:23:24+00:00 NOTICE Execution time 1 0.1228032 CONTEXT: {"_legacy":true}
+2024-05-30T10:23:24+00:00 NOTICE Execution time 0.1476897 CONTEXT: {"_legacy":true}
+2024-05-30T10:23:31+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:23:31+00:00 NOTICE Execution time 0 0.0534111 CONTEXT: {"_legacy":true}
+2024-05-30T10:23:31+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:23:31+00:00 NOTICE Execution time 1 0.1109066 CONTEXT: {"_legacy":true}
+2024-05-30T10:23:31+00:00 NOTICE Execution time 0.1356362 CONTEXT: {"_legacy":true}
+2024-05-30T10:23:32+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:23:32+00:00 NOTICE Execution time 0 0.0500809 CONTEXT: {"_legacy":true}
+2024-05-30T10:23:33+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:23:33+00:00 NOTICE Execution time 1 0.1034533 CONTEXT: {"_legacy":true}
+2024-05-30T10:23:33+00:00 NOTICE Execution time 0.1285381 CONTEXT: {"_legacy":true}
+2024-05-30T10:24:04+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T10:24:04+00:00 NOTICE Execution time 0 0.148356 CONTEXT: {"_legacy":true}
+2024-05-30T10:24:04+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:24:04+00:00 NOTICE Execution time 1 0.228112 CONTEXT: {"_legacy":true}
+2024-05-30T10:24:04+00:00 NOTICE Execution time 0.2611934 CONTEXT: {"_legacy":true}
+2024-05-30T10:24:05+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T10:24:05+00:00 NOTICE Execution time 0 0.0509628 CONTEXT: {"_legacy":true}
+2024-05-30T10:24:05+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:24:05+00:00 NOTICE Execution time 1 0.1030446 CONTEXT: {"_legacy":true}
+2024-05-30T10:24:05+00:00 NOTICE Execution time 0.1286034 CONTEXT: {"_legacy":true}
+2024-05-30T10:27:56+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:27:56+00:00 NOTICE Execution time 0 0.0535894 CONTEXT: {"_legacy":true}
+2024-05-30T10:27:56+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:27:56+00:00 NOTICE Execution time 1 0.1074285 CONTEXT: {"_legacy":true}
+2024-05-30T10:27:56+00:00 NOTICE Execution time 0.1317966 CONTEXT: {"_legacy":true}
+2024-05-30T10:28:57+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:28:57+00:00 NOTICE Execution time 0 0.0519473 CONTEXT: {"_legacy":true}
+2024-05-30T10:28:57+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:28:57+00:00 NOTICE Execution time 1 0.1047705 CONTEXT: {"_legacy":true}
+2024-05-30T10:28:57+00:00 NOTICE Execution time 0.1292963 CONTEXT: {"_legacy":true}
+2024-05-30T10:29:25+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:29:25+00:00 NOTICE Execution time 0 0.0606905 CONTEXT: {"_legacy":true}
+2024-05-30T10:29:25+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:29:25+00:00 NOTICE Execution time 1 0.125932 CONTEXT: {"_legacy":true}
+2024-05-30T10:29:25+00:00 NOTICE Execution time 0.1506987 CONTEXT: {"_legacy":true}
+2024-05-30T10:34:52+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:34:52+00:00 NOTICE Execution time 0 0.0557875 CONTEXT: {"_legacy":true}
+2024-05-30T10:34:52+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:34:52+00:00 NOTICE Execution time 1 0.1227146 CONTEXT: {"_legacy":true}
+2024-05-30T10:34:52+00:00 NOTICE Execution time 0.1575702 CONTEXT: {"_legacy":true}
+2024-05-30T10:38:15+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:38:15+00:00 NOTICE Execution time 0 0.0508582 CONTEXT: {"_legacy":true}
+2024-05-30T10:38:15+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:38:15+00:00 NOTICE Execution time 1 0.1058131 CONTEXT: {"_legacy":true}
+2024-05-30T10:38:15+00:00 NOTICE Execution time 0.1276637 CONTEXT: {"_legacy":true}
+2024-05-30T10:49:29+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:49:29+00:00 NOTICE Execution time 0 0.0633324 CONTEXT: {"_legacy":true}
+2024-05-30T10:49:29+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:49:29+00:00 NOTICE Execution time 1 0.1468576 CONTEXT: {"_legacy":true}
+2024-05-30T10:49:29+00:00 NOTICE Execution time 0.1819284 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:26+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:50:26+00:00 NOTICE Execution time 0 0.0662131 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:26+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:50:26+00:00 NOTICE Execution time 1 0.1299972 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:26+00:00 NOTICE Execution time 0.1555364 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:40+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:50:40+00:00 NOTICE Execution time 0 0.0535111 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:40+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:50:40+00:00 NOTICE Execution time 1 0.1097956 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:40+00:00 NOTICE Execution time 0.1336322 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:47+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:50:47+00:00 NOTICE Execution time 0 0.0560196 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:47+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:50:47+00:00 NOTICE Execution time 1 0.1096675 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:47+00:00 NOTICE Execution time 0.1329056 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:51+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:50:51+00:00 NOTICE Execution time 0 0.058658 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:51+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:50:51+00:00 NOTICE Execution time 1 0.1163019 CONTEXT: {"_legacy":true}
+2024-05-30T10:50:51+00:00 NOTICE Execution time 0.141655 CONTEXT: {"_legacy":true}
+2024-05-30T10:51:06+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:51:06+00:00 NOTICE Execution time 0 0.0552528 CONTEXT: {"_legacy":true}
+2024-05-30T10:51:06+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:51:06+00:00 NOTICE Execution time 1 0.1120149 CONTEXT: {"_legacy":true}
+2024-05-30T10:51:06+00:00 NOTICE Execution time 0.1369488 CONTEXT: {"_legacy":true}
+2024-05-30T10:51:07+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:51:07+00:00 NOTICE Execution time 0 0.0519279 CONTEXT: {"_legacy":true}
+2024-05-30T10:51:07+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:51:07+00:00 NOTICE Execution time 1 0.1047889 CONTEXT: {"_legacy":true}
+2024-05-30T10:51:07+00:00 NOTICE Execution time 0.129393 CONTEXT: {"_legacy":true}
+2024-05-30T10:54:15+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:54:15+00:00 NOTICE Execution time 0 0.05433 CONTEXT: {"_legacy":true}
+2024-05-30T10:54:15+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:54:15+00:00 NOTICE Execution time 1 0.110897 CONTEXT: {"_legacy":true}
+2024-05-30T10:54:15+00:00 NOTICE Execution time 0.1343044 CONTEXT: {"_legacy":true}
+2024-05-30T10:56:54+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:56:54+00:00 NOTICE Execution time 0 0.0518154 CONTEXT: {"_legacy":true}
+2024-05-30T10:56:54+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:56:54+00:00 NOTICE Execution time 1 0.1080952 CONTEXT: {"_legacy":true}
+2024-05-30T10:56:54+00:00 NOTICE Execution time 0.1319545 CONTEXT: {"_legacy":true}
+2024-05-30T10:57:02+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:57:02+00:00 NOTICE Execution time 0 0.0518268 CONTEXT: {"_legacy":true}
+2024-05-30T10:57:02+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:57:03+00:00 NOTICE Execution time 1 0.1055352 CONTEXT: {"_legacy":true}
+2024-05-30T10:57:03+00:00 NOTICE Execution time 0.1295991 CONTEXT: {"_legacy":true}
+2024-05-30T10:58:57+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:58:57+00:00 NOTICE Execution time 0 0.0611653 CONTEXT: {"_legacy":true}
+2024-05-30T10:58:57+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:58:57+00:00 NOTICE Execution time 1 0.132499 CONTEXT: {"_legacy":true}
+2024-05-30T10:58:57+00:00 NOTICE Execution time 0.1615281 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:21+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:59:21+00:00 NOTICE Execution time 0 0.0604727 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:21+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:59:21+00:00 NOTICE Execution time 1 0.0703572 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:21+00:00 NOTICE Execution time 0.0735839 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:31+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:59:31+00:00 NOTICE Execution time 0 0.0090554 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:31+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:59:31+00:00 NOTICE Execution time 1 0.01567 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:31+00:00 NOTICE Execution time 0.0186046 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:39+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:59:39+00:00 NOTICE Execution time 0 0.0093343 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:39+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:59:39+00:00 NOTICE Execution time 1 0.0164008 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:39+00:00 NOTICE Execution time 0.018975 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:50+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T10:59:50+00:00 NOTICE Execution time 0 0.0079041 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:50+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T10:59:50+00:00 NOTICE Execution time 1 0.0155277 CONTEXT: {"_legacy":true}
+2024-05-30T10:59:50+00:00 NOTICE Execution time 0.0177291 CONTEXT: {"_legacy":true}
+2024-05-30T11:00:01+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:00:01+00:00 NOTICE Execution time 0 0.0110665 CONTEXT: {"_legacy":true}
+2024-05-30T11:00:01+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:00:01+00:00 NOTICE Execution time 1 0.0191867 CONTEXT: {"_legacy":true}
+2024-05-30T11:00:01+00:00 NOTICE Execution time 0.0219615 CONTEXT: {"_legacy":true}
+2024-05-30T11:04:06+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:04:06+00:00 NOTICE Execution time 0 0.4472039 CONTEXT: {"_legacy":true}
+2024-05-30T11:04:06+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:04:06+00:00 NOTICE Execution time 1 0.4664843 CONTEXT: {"_legacy":true}
+2024-05-30T11:04:06+00:00 NOTICE Execution time 0.4714812 CONTEXT: {"_legacy":true}
+2024-05-30T11:04:38+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:04:38+00:00 NOTICE Execution time 0 0.0095999 CONTEXT: {"_legacy":true}
+2024-05-30T11:04:38+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:04:38+00:00 NOTICE Execution time 1 0.020811 CONTEXT: {"_legacy":true}
+2024-05-30T11:04:38+00:00 NOTICE Execution time 0.0233432 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:22+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:05:22+00:00 NOTICE Execution time 0 0.0391732 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:22+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:05:22+00:00 NOTICE Execution time 1 0.0491773 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:22+00:00 NOTICE Execution time 0.0521666 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:23+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:05:23+00:00 NOTICE Execution time 0 0.0088945 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:23+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:05:23+00:00 NOTICE Execution time 1 0.017915 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:23+00:00 NOTICE Execution time 0.0206191 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:39+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:05:39+00:00 NOTICE Execution time 0 0.0147134 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:39+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:05:39+00:00 NOTICE Execution time 1 0.0241027 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:39+00:00 NOTICE Execution time 0.0280756 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:49+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:05:49+00:00 NOTICE Execution time 0 0.0115223 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:49+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:05:49+00:00 NOTICE Execution time 1 0.0192461 CONTEXT: {"_legacy":true}
+2024-05-30T11:05:49+00:00 NOTICE Execution time 0.023766 CONTEXT: {"_legacy":true}
+2024-05-30T11:06:02+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:06:02+00:00 NOTICE Execution time 0 0.011754 CONTEXT: {"_legacy":true}
+2024-05-30T11:06:02+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:06:02+00:00 NOTICE Execution time 1 0.0213996 CONTEXT: {"_legacy":true}
+2024-05-30T11:06:02+00:00 NOTICE Execution time 0.0242264 CONTEXT: {"_legacy":true}
+2024-05-30T11:06:33+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:06:33+00:00 NOTICE Execution time 0 0.0555047 CONTEXT: {"_legacy":true}
+2024-05-30T11:06:33+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:06:33+00:00 NOTICE Execution time 1 0.0672578 CONTEXT: {"_legacy":true}
+2024-05-30T11:06:33+00:00 NOTICE Execution time 0.0701199 CONTEXT: {"_legacy":true}
+2024-05-30T11:09:21+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:09:21+00:00 NOTICE Execution time 0 0.0583523 CONTEXT: {"_legacy":true}
+2024-05-30T11:09:21+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:09:21+00:00 NOTICE Execution time 1 0.0775241 CONTEXT: {"_legacy":true}
+2024-05-30T11:09:21+00:00 NOTICE Execution time 0.0809426 CONTEXT: {"_legacy":true}
+2024-05-30T11:10:54+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:10:54+00:00 NOTICE Execution time 0 0.0089694 CONTEXT: {"_legacy":true}
+2024-05-30T11:10:54+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:10:54+00:00 NOTICE Execution time 1 0.014644 CONTEXT: {"_legacy":true}
+2024-05-30T11:10:54+00:00 NOTICE Execution time 0.0165736 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:03+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:11:03+00:00 NOTICE Execution time 0 0.0080561 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:03+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:11:03+00:00 NOTICE Execution time 1 0.0153963 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:03+00:00 NOTICE Execution time 0.0190414 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:05+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:11:05+00:00 NOTICE Execution time 0 0.0089387 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:05+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:11:05+00:00 NOTICE Execution time 1 0.01514 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:05+00:00 NOTICE Execution time 0.0182974 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:07+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:11:07+00:00 NOTICE Execution time 0 0.0102916 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:07+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:11:07+00:00 NOTICE Execution time 1 0.0169069 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:07+00:00 NOTICE Execution time 0.0192202 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:08+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:11:08+00:00 NOTICE Execution time 0 0.0099081 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:08+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:11:08+00:00 NOTICE Execution time 1 0.0165978 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:08+00:00 NOTICE Execution time 0.0189168 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:11+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:11:11+00:00 NOTICE Execution time 0 0.0081052 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:11+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:11:11+00:00 NOTICE Execution time 1 0.0494783 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:11+00:00 NOTICE Execution time 0.0735695 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:21+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:11:21+00:00 NOTICE Execution time 0 0.0924437 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:21+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:11:21+00:00 NOTICE Execution time 1 0.1720068 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:21+00:00 NOTICE Execution time 0.2011402 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:30+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:11:30+00:00 NOTICE Execution time 0 0.0705625 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:30+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:11:31+00:00 NOTICE Execution time 1 0.1411037 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:31+00:00 NOTICE Execution time 0.169013 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:31+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:11:31+00:00 NOTICE Execution time 0 0.0736575 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:31+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:11:31+00:00 NOTICE Execution time 1 0.1483983 CONTEXT: {"_legacy":true}
+2024-05-30T11:11:31+00:00 NOTICE Execution time 0.1785851 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:13+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:13:13+00:00 NOTICE Execution time 0 0.0579547 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:13+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:13:13+00:00 NOTICE Execution time 1 0.1187448 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:13+00:00 NOTICE Execution time 0.1435065 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:25+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T11:13:25+00:00 NOTICE Execution time 0 0.0602257 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:25+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:13:25+00:00 NOTICE Execution time 1 0.1238886 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:25+00:00 NOTICE Execution time 0.1539584 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:33+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:13:34+00:00 NOTICE Execution time 0 0.0524968 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:34+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:13:34+00:00 NOTICE Execution time 1 0.1074392 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:34+00:00 NOTICE Execution time 0.1324777 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:48+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:13:48+00:00 NOTICE Execution time 0 0.0518674 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:48+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:13:48+00:00 NOTICE Execution time 1 0.1059277 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:48+00:00 NOTICE Execution time 0.1330948 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:48+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:13:49+00:00 NOTICE Execution time 0 0.0728466 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:49+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:13:49+00:00 NOTICE Execution time 1 0.1292796 CONTEXT: {"_legacy":true}
+2024-05-30T11:13:49+00:00 NOTICE Execution time 0.1574677 CONTEXT: {"_legacy":true}
+2024-05-30T11:14:13+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:14:13+00:00 NOTICE Execution time 0 0.0521297 CONTEXT: {"_legacy":true}
+2024-05-30T11:14:13+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:14:14+00:00 NOTICE Execution time 1 0.1148002 CONTEXT: {"_legacy":true}
+2024-05-30T11:14:14+00:00 NOTICE Execution time 0.1479068 CONTEXT: {"_legacy":true}
+2024-05-30T11:14:51+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:14:51+00:00 NOTICE Execution time 0 0.0717171 CONTEXT: {"_legacy":true}
+2024-05-30T11:14:51+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:14:51+00:00 NOTICE Execution time 1 0.1373871 CONTEXT: {"_legacy":true}
+2024-05-30T11:14:51+00:00 NOTICE Execution time 0.1604292 CONTEXT: {"_legacy":true}
+2024-05-30T11:16:48+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:16:48+00:00 NOTICE Execution time 0 0.0533937 CONTEXT: {"_legacy":true}
+2024-05-30T11:16:48+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:16:48+00:00 NOTICE Execution time 1 0.1093895 CONTEXT: {"_legacy":true}
+2024-05-30T11:16:48+00:00 NOTICE Execution time 0.1338051 CONTEXT: {"_legacy":true}
+2024-05-30T11:16:55+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:16:55+00:00 NOTICE Execution time 0 0.0601186 CONTEXT: {"_legacy":true}
+2024-05-30T11:16:55+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:16:55+00:00 NOTICE Execution time 1 0.1190974 CONTEXT: {"_legacy":true}
+2024-05-30T11:16:56+00:00 NOTICE Execution time 0.1498516 CONTEXT: {"_legacy":true}
+2024-05-30T11:17:17+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:17:17+00:00 NOTICE Execution time 0 0.0521341 CONTEXT: {"_legacy":true}
+2024-05-30T11:17:18+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:17:18+00:00 NOTICE Execution time 1 0.2123635 CONTEXT: {"_legacy":true}
+2024-05-30T11:17:18+00:00 NOTICE Execution time 0.2477537 CONTEXT: {"_legacy":true}
+2024-05-30T11:20:36+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:20:36+00:00 NOTICE Execution time 0 0.1456379 CONTEXT: {"_legacy":true}
+2024-05-30T11:20:36+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:20:36+00:00 NOTICE Execution time 1 0.2149006 CONTEXT: {"_legacy":true}
+2024-05-30T11:20:36+00:00 NOTICE Execution time 0.2465405 CONTEXT: {"_legacy":true}
+2024-05-30T11:20:45+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:20:45+00:00 NOTICE Execution time 0 0.0516277 CONTEXT: {"_legacy":true}
+2024-05-30T11:20:45+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:20:45+00:00 NOTICE Execution time 1 0.1037741 CONTEXT: {"_legacy":true}
+2024-05-30T11:20:45+00:00 NOTICE Execution time 0.129194 CONTEXT: {"_legacy":true}
+2024-05-30T11:21:04+00:00 NOTICE Start search for cleat CONTEXT: {"_legacy":true}
+2024-05-30T11:21:04+00:00 NOTICE Execution time 0 0.0527897 CONTEXT: {"_legacy":true}
+2024-05-30T11:21:04+00:00 NOTICE Tokens Array
+(
+    [0] => cleat
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:21:04+00:00 NOTICE Execution time 1 0.1081607 CONTEXT: {"_legacy":true}
+2024-05-30T11:21:04+00:00 NOTICE Execution time 0.1345532 CONTEXT: {"_legacy":true}
+2024-05-30T11:21:06+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:21:06+00:00 NOTICE Execution time 0 0.0547894 CONTEXT: {"_legacy":true}
+2024-05-30T11:21:06+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:21:06+00:00 NOTICE Execution time 1 0.1125306 CONTEXT: {"_legacy":true}
+2024-05-30T11:21:06+00:00 NOTICE Execution time 0.1370699 CONTEXT: {"_legacy":true}
+2024-05-30T11:21:07+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:21:07+00:00 NOTICE Execution time 0 0.0502608 CONTEXT: {"_legacy":true}
+2024-05-30T11:21:07+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:21:07+00:00 NOTICE Execution time 1 0.1059402 CONTEXT: {"_legacy":true}
+2024-05-30T11:21:07+00:00 NOTICE Execution time 0.1283969 CONTEXT: {"_legacy":true}
+2024-05-30T11:22:58+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:22:58+00:00 NOTICE Execution time 0 0.0530772 CONTEXT: {"_legacy":true}
+2024-05-30T11:22:58+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:22:58+00:00 NOTICE Execution time 1 0.1884383 CONTEXT: {"_legacy":true}
+2024-05-30T11:22:58+00:00 NOTICE Execution time 0.2140818 CONTEXT: {"_legacy":true}
+2024-05-30T11:26:57+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:26:57+00:00 NOTICE Execution time 0 0.0598468 CONTEXT: {"_legacy":true}
+2024-05-30T11:26:57+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:26:57+00:00 NOTICE Execution time 1 0.1167793 CONTEXT: {"_legacy":true}
+2024-05-30T11:26:57+00:00 NOTICE Execution time 0.1407072 CONTEXT: {"_legacy":true}
+2024-05-30T11:30:17+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:30:17+00:00 NOTICE Execution time 0 0.0531919 CONTEXT: {"_legacy":true}
+2024-05-30T11:30:17+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:30:17+00:00 NOTICE Execution time 1 0.114039 CONTEXT: {"_legacy":true}
+2024-05-30T11:30:17+00:00 NOTICE Execution time 0.135551 CONTEXT: {"_legacy":true}
+2024-05-30T11:31:52+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:31:52+00:00 NOTICE Execution time 0 0.1283529 CONTEXT: {"_legacy":true}
+2024-05-30T11:31:52+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:31:52+00:00 NOTICE Execution time 1 0.1908592 CONTEXT: {"_legacy":true}
+2024-05-30T11:31:52+00:00 NOTICE Execution time 0.2166672 CONTEXT: {"_legacy":true}
+2024-05-30T11:34:45+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:34:45+00:00 NOTICE Execution time 0 0.0598514 CONTEXT: {"_legacy":true}
+2024-05-30T11:34:45+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:34:45+00:00 NOTICE Execution time 1 0.1156007 CONTEXT: {"_legacy":true}
+2024-05-30T11:34:45+00:00 NOTICE Execution time 0.1398134 CONTEXT: {"_legacy":true}
+2024-05-30T11:35:03+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:35:03+00:00 NOTICE Execution time 0 0.0679215 CONTEXT: {"_legacy":true}
+2024-05-30T11:35:03+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:35:03+00:00 NOTICE Execution time 1 0.1243148 CONTEXT: {"_legacy":true}
+2024-05-30T11:35:03+00:00 NOTICE Execution time 0.1494208 CONTEXT: {"_legacy":true}
+2024-05-30T11:44:07+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:44:07+00:00 NOTICE Execution time 0 0.0507277 CONTEXT: {"_legacy":true}
+2024-05-30T11:44:07+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:44:07+00:00 NOTICE Execution time 1 0.1044676 CONTEXT: {"_legacy":true}
+2024-05-30T11:44:07+00:00 NOTICE Execution time 0.1265171 CONTEXT: {"_legacy":true}
+2024-05-30T11:56:21+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:56:21+00:00 NOTICE Execution time 0 0.1605778 CONTEXT: {"_legacy":true}
+2024-05-30T11:56:21+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:56:21+00:00 NOTICE Execution time 1 0.1799279 CONTEXT: {"_legacy":true}
+2024-05-30T11:56:21+00:00 NOTICE Execution time 0.1830035 CONTEXT: {"_legacy":true}
+2024-05-30T11:56:34+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T11:56:34+00:00 NOTICE Execution time 0 0.0178223 CONTEXT: {"_legacy":true}
+2024-05-30T11:56:34+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T11:56:34+00:00 NOTICE Execution time 1 0.0255533 CONTEXT: {"_legacy":true}
+2024-05-30T11:56:34+00:00 NOTICE Execution time 0.0279395 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:01+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:03:01+00:00 NOTICE Execution time 0 0.0082974 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:01+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:03:01+00:00 NOTICE Execution time 1 0.016283 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:01+00:00 NOTICE Execution time 0.0185411 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:07+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:03:08+00:00 NOTICE Execution time 0 0.0091794 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:08+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:03:08+00:00 NOTICE Execution time 1 0.0160495 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:08+00:00 NOTICE Execution time 0.0187243 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Execution time 0 0.0107418 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Execution time 0 0.0108466 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Execution time 1 0.0204307 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Execution time 0.0223018 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Execution time 0.0225865 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Execution time 0 0.0086233 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Execution time 1 0.0140158 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:36+00:00 NOTICE Execution time 0.0159163 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:40+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:03:40+00:00 NOTICE Execution time 0 0.0085473 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:40+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:03:40+00:00 NOTICE Execution time 1 0.0141754 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:40+00:00 NOTICE Execution time 0.0160179 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:41+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:03:41+00:00 NOTICE Execution time 0 0.014115 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:41+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:03:41+00:00 NOTICE Execution time 1 0.0209908 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:41+00:00 NOTICE Execution time 0.0244813 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:46+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:03:46+00:00 NOTICE Execution time 0 0.0072247 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:46+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:03:46+00:00 NOTICE Execution time 1 0.01337 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:46+00:00 NOTICE Execution time 0.0153358 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:47+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:03:47+00:00 NOTICE Execution time 0 0.0068896 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:47+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:03:47+00:00 NOTICE Execution time 1 0.0127319 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:47+00:00 NOTICE Execution time 0.0150174 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:49+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:03:49+00:00 NOTICE Execution time 0 0.0086372 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:49+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:03:49+00:00 NOTICE Execution time 1 0.0149595 CONTEXT: {"_legacy":true}
+2024-05-30T12:03:49+00:00 NOTICE Execution time 0.0169944 CONTEXT: {"_legacy":true}
+2024-05-30T12:04:46+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:04:46+00:00 NOTICE Execution time 0 0.008155 CONTEXT: {"_legacy":true}
+2024-05-30T12:04:46+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:04:46+00:00 NOTICE Execution time 1 0.0168109 CONTEXT: {"_legacy":true}
+2024-05-30T12:04:46+00:00 NOTICE Execution time 0.018756 CONTEXT: {"_legacy":true}
+2024-05-30T12:32:48+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:32:48+00:00 NOTICE Execution time 0 0.0644431 CONTEXT: {"_legacy":true}
+2024-05-30T12:32:48+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:32:48+00:00 NOTICE Execution time 1 0.0766965 CONTEXT: {"_legacy":true}
+2024-05-30T12:32:48+00:00 NOTICE Execution time 0.0798015 CONTEXT: {"_legacy":true}
+2024-05-30T12:32:52+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:32:52+00:00 NOTICE Execution time 0 0.0115153 CONTEXT: {"_legacy":true}
+2024-05-30T12:32:52+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:32:52+00:00 NOTICE Execution time 1 0.0198024 CONTEXT: {"_legacy":true}
+2024-05-30T12:32:52+00:00 NOTICE Execution time 0.0226291 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:38+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:37:38+00:00 NOTICE Execution time 0 0.0084614 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:38+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:37:38+00:00 NOTICE Execution time 1 0.0157723 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:38+00:00 NOTICE Execution time 0.0179514 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:48+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:37:48+00:00 NOTICE Execution time 0 0.0098688 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:48+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:37:48+00:00 NOTICE Execution time 1 0.0160805 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:48+00:00 NOTICE Execution time 0.018896 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:52+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:37:52+00:00 NOTICE Execution time 0 0.0098034 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:52+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:37:52+00:00 NOTICE Execution time 1 0.0163237 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:52+00:00 NOTICE Execution time 0.0186067 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:57+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:37:57+00:00 NOTICE Execution time 0 0.0088187 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:57+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:37:57+00:00 NOTICE Execution time 1 0.0140903 CONTEXT: {"_legacy":true}
+2024-05-30T12:37:57+00:00 NOTICE Execution time 0.0158114 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:02+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:38:02+00:00 NOTICE Execution time 0 0.0087283 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:02+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:38:02+00:00 NOTICE Execution time 1 0.0160499 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:02+00:00 NOTICE Execution time 0.0185868 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:43+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:38:43+00:00 NOTICE Execution time 0 0.0162874 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:43+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:38:43+00:00 NOTICE Execution time 1 0.0234147 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:43+00:00 NOTICE Execution time 0.0262492 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:47+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:38:47+00:00 NOTICE Execution time 0 0.0079781 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:47+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:38:47+00:00 NOTICE Execution time 1 0.0138035 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:47+00:00 NOTICE Execution time 0.0155233 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:52+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:38:52+00:00 NOTICE Execution time 0 0.0072604 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:52+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:38:52+00:00 NOTICE Execution time 1 0.0125324 CONTEXT: {"_legacy":true}
+2024-05-30T12:38:52+00:00 NOTICE Execution time 0.0148494 CONTEXT: {"_legacy":true}
+2024-05-30T12:39:38+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:39:38+00:00 NOTICE Execution time 0 0.0093117 CONTEXT: {"_legacy":true}
+2024-05-30T12:39:39+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:39:39+00:00 NOTICE Execution time 1 0.0155105 CONTEXT: {"_legacy":true}
+2024-05-30T12:39:39+00:00 NOTICE Execution time 0.0175273 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:09+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:43:09+00:00 NOTICE Execution time 0 0.0098899 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:09+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:43:09+00:00 NOTICE Execution time 1 0.0174295 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:09+00:00 NOTICE Execution time 0.0194253 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:10+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:43:10+00:00 NOTICE Execution time 0 0.0068508 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:10+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:43:10+00:00 NOTICE Execution time 1 0.0130228 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:10+00:00 NOTICE Execution time 0.0160494 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:17+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:43:17+00:00 NOTICE Execution time 0 0.0076881 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:17+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:43:17+00:00 NOTICE Execution time 1 0.0129198 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:17+00:00 NOTICE Execution time 0.0145931 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:20+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:43:20+00:00 NOTICE Execution time 0 0.0091083 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:20+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:43:20+00:00 NOTICE Execution time 1 0.0167898 CONTEXT: {"_legacy":true}
+2024-05-30T12:43:20+00:00 NOTICE Execution time 0.0195474 CONTEXT: {"_legacy":true}
+2024-05-30T12:47:08+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T12:47:08+00:00 NOTICE Execution time 0 0.0093977 CONTEXT: {"_legacy":true}
+2024-05-30T12:47:08+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:47:08+00:00 NOTICE Execution time 1 0.0174813 CONTEXT: {"_legacy":true}
+2024-05-30T12:47:08+00:00 NOTICE Execution time 0.0194494 CONTEXT: {"_legacy":true}
+2024-05-30T12:47:13+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T12:47:13+00:00 NOTICE Execution time 0 0.0074018 CONTEXT: {"_legacy":true}
+2024-05-30T12:47:13+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:47:13+00:00 NOTICE Execution time 1 0.0124689 CONTEXT: {"_legacy":true}
+2024-05-30T12:47:13+00:00 NOTICE Execution time 0.0149321 CONTEXT: {"_legacy":true}
+2024-05-30T12:47:20+00:00 NOTICE Start search for test CONTEXT: {"_legacy":true}
+2024-05-30T12:47:20+00:00 NOTICE Execution time 0 0.0076356 CONTEXT: {"_legacy":true}
+2024-05-30T12:47:20+00:00 NOTICE Tokens Array
+(
+    [0] => test
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:47:20+00:00 NOTICE Execution time 1 0.0129009 CONTEXT: {"_legacy":true}
+2024-05-30T12:47:20+00:00 NOTICE Execution time 0.0151767 CONTEXT: {"_legacy":true}
+2024-05-30T12:54:52+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:54:52+00:00 NOTICE Execution time 0 0.0084792 CONTEXT: {"_legacy":true}
+2024-05-30T12:54:52+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:54:52+00:00 NOTICE Execution time 1 0.0164306 CONTEXT: {"_legacy":true}
+2024-05-30T12:54:52+00:00 NOTICE Execution time 0.0185802 CONTEXT: {"_legacy":true}
+2024-05-30T12:54:56+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T12:54:56+00:00 NOTICE Execution time 0 0.0085282 CONTEXT: {"_legacy":true}
+2024-05-30T12:54:56+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T12:54:56+00:00 NOTICE Execution time 1 0.0134469 CONTEXT: {"_legacy":true}
+2024-05-30T12:54:56+00:00 NOTICE Execution time 0.0152928 CONTEXT: {"_legacy":true}
+2024-05-30T13:19:31+00:00 NOTICE Start search for crystal CONTEXT: {"_legacy":true}
+2024-05-30T13:19:32+00:00 NOTICE Execution time 0 0.4482713 CONTEXT: {"_legacy":true}
+2024-05-30T13:19:32+00:00 NOTICE Tokens Array
+(
+    [0] => crystal
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T13:19:32+00:00 NOTICE Execution time 1 0.4608786 CONTEXT: {"_legacy":true}
+2024-05-30T13:19:32+00:00 NOTICE Execution time 0.463844 CONTEXT: {"_legacy":true}
+2024-05-30T13:19:33+00:00 NOTICE Start search for crystal CONTEXT: {"_legacy":true}
+2024-05-30T13:19:33+00:00 NOTICE Execution time 0 0.0083268 CONTEXT: {"_legacy":true}
+2024-05-30T13:19:33+00:00 NOTICE Tokens Array
+(
+    [0] => crystal
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T13:19:33+00:00 NOTICE Execution time 1 0.015923 CONTEXT: {"_legacy":true}
+2024-05-30T13:19:33+00:00 NOTICE Execution time 0.0178879 CONTEXT: {"_legacy":true}
