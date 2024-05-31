@@ -2,6 +2,121 @@
     max-width: 1440px;
     margin: auto;
 }
+/* BUTTON TYPE 1 CSS START */
+.button-type-1{
+ position: relative;
+ overflow: hidden;
+ background-color: transparent;
+ text-align: center;
+ transition: .3s;
+ z-index: 1;
+}
+.button-type-1:before{
+content: '';
+ width: 0;
+ height: 315%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) rotate(45deg);
+ background: #0E130B;
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+}
+.button-type-1:hover:before{
+    width: 105%;
+}
+.button-type-1:hover{
+    color: white;
+}
+.button-type-1:active {
+    transform: translate(5px,5px);
+    transition-duration: .3s;
+  }
+/* BUTTON TYPE 1 CSS END */
+
+
+/* BUTTON TYPE 2 CSS START */
+.button-type-2{
+ position: relative;
+ overflow: hidden;
+ text-align: center;
+ transition: .3s;
+ z-index: 1;
+
+}
+.button-type-2:before{
+content: '';
+ width: 0;
+ height: 690%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) rotate(45deg);
+ background: white;
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+}
+.button-type-2:hover:before{
+    width: 105%;
+}
+.button-type-2:hover{
+    color:#76BA51;
+    border-color: #76BA51;
+}
+
+.button-type-2:hover a{
+    color:#76BA51 ;
+}
+.button-type-2:active {
+    transform: translate(5px,5px);
+    transition-duration: .3s;
+  }
+  
+/* BUTTON TYPE 2 CSS END */
+
+/*  BUTTON TYPE 2 CSS START */
+.button-type-3{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: .3s;
+    z-index: 1;
+   
+   }
+   .button-type-3:before{
+   content: '';
+    width: 0;
+    height: 660%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #6D6D6D;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   .button-type-3:hover:before{
+       width: 105%;
+   }
+   .button-type-3:hover{
+       color:white;
+       
+   }
+   .button-type-3:hover a{
+       color:white ;
+   }
+   .button-type-3:active {
+       transform: translate(5px,5px);
+       transition-duration: .3s;
+     }
+/* BUTTON TYPE 2 CSS END */
+
+
+
 
 @media screen and (max-width:2440px){
 .container-14{
