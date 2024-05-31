@@ -40,8 +40,9 @@
 .hero-button{
     background-color: #76BA51;
     padding: 15px 25px 15px 25px;
-    border: 0px;
+    border: solid 1px white;
     border-radius: 6px;
+    box-shadow: -10px 6px 20px 3px #D9E1D6;
 }
 .hero-button a{
     font-family: 'Lato';
@@ -110,10 +111,17 @@ background-size: cover;
     display: flex;
     align-items: center;
 }
-.left-info ul li p{
+.left-info ul li p {
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 400;
+    color: #0E130B;
+}
+.left-info ul li p a{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    color: #0E130B;
 }
 .left-info ul li img{
     width: 19px;
@@ -168,8 +176,7 @@ background-size: cover;
     padding-bottom: 25px;
     
 }
-.button-wrapper button{
-    
+.book-now-btn{
     background-color: #76BA51;
     border: none;
     padding: 8px 25px 8px 25px;
@@ -218,13 +225,15 @@ background-size: cover;
     padding: 0px;
     margin: 0px;
 }
-.heading-info a{
+.scale-link{
     margin-left: 15px;
     color: #76BA51;
     font-family: 'Lato';
     font-size: 16px;
-
+    text-decoration: none;
+    transition: font-size 0.3s ease;
 }
+
 .heading-info img{
     width: 15px;
     margin-left: 5px;
@@ -318,6 +327,11 @@ background-size: cover;
     margin: 7.5px; 
     text-align: center;
     background-color: white;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.single-product-card:hover{
+    box-shadow: -6px 9px 20px 0px #42464E;
+    transform: translateY(-5px);
 }
 .single-product-card img{
     width: 100%;
@@ -524,6 +538,11 @@ background-size: cover;
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    transition:transform 0.3s ease;
+}
+.single-blog-card:hover{
+    
+    transform: translateY(-5px);
 }
 .post-image img{
     max-width: 200px;
