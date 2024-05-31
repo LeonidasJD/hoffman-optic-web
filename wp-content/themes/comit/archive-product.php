@@ -38,10 +38,12 @@ get_header();
                     
                     echo '<li class="category-item">';
                     // Prikazujemo sliku kategorije ako postoji
-                    if ( $image ) {
-                        echo '<a href="' . esc_url( get_term_link( $category ) ) . '">';
-                        echo '<div class="category-image-wrapper">';
-                        echo '<img src="' . esc_url( $image ) . '"/>';
+                    if ($image) {
+                        echo '<a href="' . esc_url(get_term_link($category)) . '">';
+                        echo '<div class="category-image-wrapper ';
+                        echo is_tax('product_cat', $category->slug) ? 'current-category' : '';
+                        echo '">';
+                        echo '<img src="' . esc_url($image) . '"/>';
                         echo '</div>';
                         echo '</a>';
                     }
