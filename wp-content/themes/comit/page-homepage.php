@@ -9,7 +9,7 @@ get_header();
     <div class="hero-info">
         <h1>Service that'll make <br>you see us with new eyes</h1>
         <p>We Provides always our best services for our clients</p>
-        <button class="hero-button"><a href="#">Schedule an eye exam today!</a></button>
+        <button class="hero-button button-type-2"><a href="#">Schedule an eye exam today!</a></button>
         
     </div>
     </div>
@@ -32,12 +32,12 @@ get_header();
             <div class="left-info">
             <h2>Our store in Neuenburg</h2>
         <ul>
-            <li><img src="/wp-content/uploads/2024/05/🦆-icon-_phone_.png" alt=""> <p>07631-73606</p></li>
-            <li><img src="/wp-content/uploads/2024/05/🦆-icon-_mail_.png" alt=""><p>neuenburg@hoffmann-optik.de</p></li>
+            <li><img src="/wp-content/uploads/2024/05/🦆-icon-_phone_.png" alt=""> <p><a href="tel:0763173606">07631-73606</a></p></li>
+            <li><img src="/wp-content/uploads/2024/05/🦆-icon-_mail_.png" alt=""><p><a href="mailto:neuenburg@hoffmann-optik.de">neuenburg@hoffmann-optik.de</a></p></li>
             <li><img src="/wp-content/uploads/2024/05/🦆-icon-_clock-outline_.png" alt=""><p> 08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
     </div>
-    <div class="button-wrapper"><button>Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
+    <div class="button-wrapper"><button class="book-now-btn button-type-3">Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
         </div>
         
         
@@ -48,12 +48,12 @@ get_header();
             <div class="left-info">
             <h2>Our store in Müllheim  </h2>
         <ul>
-            <li><img src="/wp-content/uploads/2024/05/🦆-icon-_phone_.png" alt=""> <p>07631-3375</p></li>
-            <li><img src="/wp-content/uploads/2024/05/🦆-icon-_mail_.png" alt=""><p>muellheim@hoffmann-optik.de</p></li>
+            <li><img src="/wp-content/uploads/2024/05/🦆-icon-_phone_.png" alt=""> <p><a href="tel:076313375">07631-3375</a></p></li>
+            <li><img src="/wp-content/uploads/2024/05/🦆-icon-_mail_.png" alt=""><p><a href="mailto:muellheim@hoffmann-optik.de">muellheim@hoffmann-optik.de</a></p></li>
             <li><img src="/wp-content/uploads/2024/05/🦆-icon-_clock-outline_.png" alt=""><p>08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
     </div>
-    <div class="button-wrapper"><button>Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
+    <div class="button-wrapper"><button class="book-now-btn button-type-3">Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
         </div>
        
     </div>
@@ -73,7 +73,7 @@ get_header();
     <div class="our-service-under-wrapper">
         <div class="heading-info">
         <h2>Our Services</h2>
-        <p>We Provides always our best services for our clients <a href="">Check services</a> <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></p>
+        <p>We Provides always our best services for our clients <a class="scale-link" href="">Check services</a> <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></p>
         </div>
         <div class="services-cards">
 
@@ -126,7 +126,7 @@ eiusmod tempor incididunt ut.
     <div class="our-product-under-wrapper">
         <div class="heading-product-info">
             <h2>Our Products</h2>
-            <p><a href="">Check all products</a> <img src="/wp-content/uploads/2024/05/Vector-41.png"></p>
+            <p><a class="scale-link" href="">Check all products</a> <img src="/wp-content/uploads/2024/05/Vector-41.png"></p>
             
         </div>
         <?php
@@ -142,6 +142,7 @@ eiusmod tempor incididunt ut.
              $products->the_post();
              
              ?>
+             <a href="<?php echo get_permalink() ?>">
              <div class="single-product-card">
              <?php
             // Dohvatam URL slike proizvoda
@@ -155,6 +156,8 @@ eiusmod tempor incididunt ut.
             <h2><?php the_title(); ?></h2>
             <p><a href="<?php echo get_permalink() ?>">Read more</a></p>
                 </div>
+             </a>
+             
             <?php
     }
     echo '</div>';
@@ -202,7 +205,7 @@ eiusmod tempor incididunt ut.
     <div class="our-news-under-wrapper">
     <div class="heading-info heading-info-news">
         <h2>Our News</h2>
-        <p>We Provides always our best insight for our clients <a href="">Check services</a> <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></p>
+        <p>We Provides always our best insight for our clients <a class="scale-link" href="">Check services</a> <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></p>
         </div>
         <div class="form-news-wrapper">
             <div class="news-wrapper">
