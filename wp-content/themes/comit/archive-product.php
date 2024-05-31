@@ -71,7 +71,7 @@ get_header();
         <?php echo do_shortcode('[br_filter_single filter_id=295]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=297]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=298]'); ?>
-       <?php echo do_shortcode('[woocommerce_product_sorting orderby="price" order="desc"]'); ?>
+       
 
         </div>
 		<div class="product-section">
