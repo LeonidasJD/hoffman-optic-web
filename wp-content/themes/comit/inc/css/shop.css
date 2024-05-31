@@ -246,9 +246,18 @@ margin-top: 40px;
   }
 /*ajax search css*/
   .css-18xzoxd .ywcas-input-field-wrapper{
-border-radius: 4px!important;
+    border-radius: 4px!important;
+background-color: white!important;
+
   }
   .css-18xzoxd .ywcas-input-field-wrapper input{
     font-family: 'Lato'!important;
+    
   }
 /*FILTER AND PRODUCT SECTION END*/
+
+/* PAGINATION CSS START */
+.woocommerce nav.woocommerce-pagination ul li a:hover{
+  background-color: transparent !important;
+}
+/* PAGINATION CSS END */
