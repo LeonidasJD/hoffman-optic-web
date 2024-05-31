@@ -1898,3 +1898,48 @@
  CONTEXT: {"_legacy":true}
 2024-05-30T13:19:33+00:00 NOTICE Execution time 1 0.015923 CONTEXT: {"_legacy":true}
 2024-05-30T13:19:33+00:00 NOTICE Execution time 0.0178879 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:03+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T14:52:03+00:00 NOTICE Execution time 0 0.0375595 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:03+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T14:52:03+00:00 NOTICE Execution time 1 0.0521531 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:03+00:00 NOTICE Execution time 0.0554483 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:09+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T14:52:09+00:00 NOTICE Execution time 0 0.0200952 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:09+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T14:52:09+00:00 NOTICE Execution time 1 0.03261 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:09+00:00 NOTICE Execution time 0.0359327 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:12+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T14:52:12+00:00 NOTICE Execution time 0 0.0133403 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:12+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T14:52:12+00:00 NOTICE Execution time 1 0.0431535 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:12+00:00 NOTICE Execution time 0.0473344 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:25+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-05-30T14:52:25+00:00 NOTICE Execution time 0 0.0098307 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:25+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T14:52:25+00:00 NOTICE Execution time 1 0.0167501 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:25+00:00 NOTICE Execution time 0.0190268 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:29+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-05-30T14:52:29+00:00 NOTICE Execution time 0 0.0089773 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:29+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-05-30T14:52:29+00:00 NOTICE Execution time 1 0.0167783 CONTEXT: {"_legacy":true}
+2024-05-30T14:52:29+00:00 NOTICE Execution time 0.019362 CONTEXT: {"_legacy":true}

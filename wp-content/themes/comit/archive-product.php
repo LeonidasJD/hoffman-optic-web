@@ -93,19 +93,8 @@ get_header();
         }
         woocommerce_product_loop_end();
     }
-	
     ?>
-	<div class="pagination">
-    <?php
-    echo paginate_links(array(
-        'total' => $wp_query->max_num_pages,
-        'current' => max(1, get_query_var('paged')),
-        'prev_text' => '<img src="/wp-content/uploads/2024/05/Vector-1.png" alt="prev arrow">',
-        'next_text' => '<img src="/wp-content/uploads/2024/05/2.png" alt="next arrow">',
-        'show_all' => true,
-    ));
-    ?>
-</div>
+    
 </div>
 
 
