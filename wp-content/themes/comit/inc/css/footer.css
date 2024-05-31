@@ -53,6 +53,11 @@ color: white;
     font-weight: 400;
     color: white;
     }
+    .footer-navi-section ul li p a{
+        font-family: 'Lato';
+        font-weight: 400;
+        color: white;
+        }
 .horizontal-line-footer{
     padding-top: 1px;
     background-color: white;
