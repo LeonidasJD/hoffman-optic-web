@@ -71,7 +71,7 @@ get_header();
         <?php echo do_shortcode('[br_filter_single filter_id=295]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=297]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=298]'); ?>
-       
+       <?php echo do_shortcode('[woocommerce_product_sorting orderby="price" order="desc"]'); ?>
 
         </div>
 		<div class="product-section">
@@ -84,7 +84,9 @@ get_header();
 
     // WooCommerce loop za prikaz proizvoda
     if ( function_exists( 'woocommerce_product_loop' ) ) {
+        woocommerce_catalog_ordering();
         woocommerce_product_loop_start();
+        
         if ( wc_get_loop_prop( 'total' ) ) {
             while ( have_posts() ) {
                 the_post();
