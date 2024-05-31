@@ -41,7 +41,7 @@ Common style
   border-radius: 22px;
   margin: 4px;
   transition: all 0.3s linear;
-  color: var(--wp--preset--color--contrast, #000) !important;
+  color: var(--wp--preset--color--contrast, #000) ;
   font-weight: normal;
   text-transform: capitalize;
   font-size: 0.93rem;
