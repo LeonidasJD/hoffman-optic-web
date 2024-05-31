@@ -55,6 +55,12 @@
 .category-image-wrapper img{
     width: 4rem;
 }
+.current-category{
+background-color: #76BA51;
+}
+.current-category img{
+  filter: brightness(0) invert(1);
+}
 /*CATEGORY LIST CSS END*/
 
 /*SEARCH BAR CSS START*/
