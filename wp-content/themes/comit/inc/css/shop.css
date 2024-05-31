@@ -253,6 +253,26 @@ background-color: white!important;
   .css-18xzoxd .ywcas-input-field-wrapper input{
     font-family: 'Lato'!important;
     
+    
+  }
+  .css-11wb0l9 .ywcas-input-field-wrapper{
+    border-radius: 4px!important;
+  }
+  .wp-block-yith-search-block .ywcas-classic-search.ywcas-small input{
+    background-color: #0E130B!important;
+    border-radius: 4px!important;
+  }
+  .wp-block-yith-search-block .ywcas-classic-search .ywcas-input-field-wrapper .ywcas-submit-wrapper{
+    margin-top: 4px;
+
+    margin-right: 5px!important;
+    margin-left: 5px!important;
+  }
+  .css-7ga5q0{
+    background-color: #0E130B!important;
+    height: 100%!important;
+    margin-left:3px!important;
+    border-radius: 4px!important;
   }
 /*FILTER AND PRODUCT SECTION END*/
 
