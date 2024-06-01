@@ -26,16 +26,16 @@ get_header()?>
                 <div class="info-card">
                     <h2>Shop - Müllheim</h2>
                     <p><img src="/wp-content/uploads/2024/05/Group-1.png"> Werderstraße 45, 79379 Müllheim</p>
-                    <p><img src="/wp-content/uploads/2024/05/🦆-icon-_mail_.png"> muellheim@hoffmann-optik.de</p>
-                    <p><img src="/wp-content/uploads/2024/05/🦆-icon-_phone_.png"> <a href="tel:076313375">07631-3375</a></p>
-                    <div class="info-button-app"><a href="#">Book an appointment <img src="/wp-content/uploads/2024/05/🦆-icon-_clock-outline_-1.png"></a></div>
+                    <p><img src="/wp-content/uploads/2024/05/icon-_mail_.png"> muellheim@hoffmann-optik.de</p>
+                    <p><img src="/wp-content/uploads/2024/05/icon-_phone_.png"> <a href="tel:076313375">07631-3375</a></p>
+                    <div class="info-button-app"><a href="#">Book an appointment <img src="/wp-content/uploads/2024/05/icon-_clock-outline_-2.png"></a></div>
                 </div>
                 <div class="info-card">
                     <h2>Shop - Neuchâtel</h2>
                     <p><img src="/wp-content/uploads/2024/05/Group-1.png"> Rebstraße 4, 79395 Neuenburg am Rhein</p>
-                    <p><img src="/wp-content/uploads/2024/05/🦆-icon-_mail_.png"> neuenburg@hoffmann-optik.de</p>
-                    <p><img src="/wp-content/uploads/2024/05/🦆-icon-_phone_.png"><a href="tel:0763173606">07631-73606</a> </p>
-                    <div class="info-button-app"><a href="#">Book an appointment <img src="/wp-content/uploads/2024/05/🦆-icon-_clock-outline_-1.png"></a></div>
+                    <p><img src="/wp-content/uploads/2024/05/icon-_mail_.png"> neuenburg@hoffmann-optik.de</p>
+                    <p><img src="/wp-content/uploads/2024/05/icon-_phone_.png"><a href="tel:0763173606">07631-73606</a> </p>
+                    <div class="info-button-app"><a href="#">Book an appointment <img src="/wp-content/uploads/2024/05/icon-_clock-outline_-2.png"></a></div>
                 </div>
             </div>
             <div class="contact-form-wrapper">
