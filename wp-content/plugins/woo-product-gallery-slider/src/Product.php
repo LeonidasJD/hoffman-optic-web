@@ -15,6 +15,8 @@ class Product {
 		add_shortcode( 'product_gallery_slider', array( $this, 'shortcode_render' ) );
 		$this->wpgs_variation_images = new \WPGS_Variation_images();
 		$this->wpgs_variation_images->init_actions();
+		add_action( 'wp_ajax_twist_variation_ajax', array( $this, 'product_variation' ) );
+		add_action( 'wp_ajax_nopriv_twist_variation_ajax', array( $this, 'product_variation' ) );
 	}
 	/**
 	 * @return mixed
@@ -76,6 +78,51 @@ class Product {
 	public function wpgs_product_image() {
 		require_once CIPG_PATH . '/includes/product-image.php';
 	}
+	public function product_variation() {
+		if ( ! DOING_AJAX ) {
+			wp_die();
+		} // Not Ajax
+
+			// Check for nonce security
+			$nonce            = sanitize_text_field( $_POST['nonce'] );
+			$product_id       = sanitize_text_field( $_POST['product_id'] );
+			$variation_id     = sanitize_text_field( $_POST['variation_id'] );
+			$expire_time      = DAY_IN_SECONDS * 7;
+			$variation_images = get_post_meta( $variation_id, 'wavi_value', true );
+
+			$product            = wc_get_product( $product_id );
+			$variation          = wc_get_product( $variation_id );
+			$variation_image_id = $variation->get_image_id();
+			$thumbnails         = implode( ',', $product->get_gallery_image_ids() );
+			$data               = array();
+
+		if ( ! wp_verify_nonce( $nonce, 'wcavi_nonce' ) ) {
+			wp_die( 'Oops! nonce error' );
+		}
+		$variation_cache_data = $this->wpgs_variation_images->get_cache( 'wpgs_product_variation_' . $product_id );
+
+		if ( ! empty( $variation_images ) ) {
+				$variation_markup = $this->wpgs_variation_images->html_markup( $variation_image_id, $variation_images );
+
+		} elseif ( $product->get_image_id() != $variation_image_id ) {
+
+			$variation_markup = $this->wpgs_variation_images->html_markup( $variation_image_id, $thumbnails );
+
+		}else {
+			$variation_markup = $this->wpgs_variation_images->html_markup( $product->get_image_id(), $thumbnails );
+		}
+		if ( $variation_cache_data && ! array_key_exists( $variation_id, $variation_cache_data ) ) {
+
+			$variation_cache_data[ $variation_id ] = $variation_markup;
+
+			set_transient( 'wpgs_product_variation_' . $product_id, $variation_cache_data, $expire_time );
+
+		}
+		$data['variation_images'] = $variation_markup;
+
+			wp_send_json_success( $data );
+			wp_die(); // this is required to terminate immediately and return a proper response
+	}
 	/**
 	 * @param $product_id
 	 * @return mixed
@@ -100,7 +147,7 @@ class Product {
 	 */
 	public function frontend_scripts() {
 		$wpgs_load_assets = ( apply_filters( 'wpgs_load_entrie_site', false ) ) ? true : is_product();
-		$product_id = apply_filters( 'wpgs_product_id', get_the_ID() );
+		$product_id       = apply_filters( 'wpgs_product_id', get_the_ID() );
 		global $post;
 		if ( $post && has_shortcode( $post->post_content, 'product_page' ) ) {
 			// The page has the 'product_page' shortcode
@@ -111,14 +158,13 @@ class Product {
 			 * @return void
 			 */
 			$pattern = '/\[product_page\s+id="(\d+)"\]/';
-			preg_match($pattern, $post->post_content, $matches);
-			if (isset($matches[1])) {
-				
-				$product_id = apply_filters('wpgs_product_id', $matches[1]);
+			preg_match( $pattern, $post->post_content, $matches );
+			if ( isset( $matches[1] ) ) {
+
+				$product_id = apply_filters( 'wpgs_product_id', $matches[1] );
 			}
-			
 		}
-		
+
 		if ( ! $wpgs_load_assets || 'product' !== get_post_type( $product_id ) ) {
 
 			return;

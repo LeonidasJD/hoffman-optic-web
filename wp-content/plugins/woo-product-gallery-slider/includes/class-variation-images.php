@@ -16,7 +16,7 @@ if ( ! class_exists( 'WPGS_Variation_images' ) ) {
 			add_action( 'save_post', array( $this, 'product_variation_clear_transient_data' ) );
 		}
 
-		function wpgs_load_custom_admin_js() {
+		public function wpgs_load_custom_admin_js() {
 			// Enqueue the JavaScript file only in the admin area
 			if ( is_admin() ) {
 				wp_enqueue_script( 'wpgs-public', WPGS_ROOT_URL . 'assets/js/admin.js', array( 'jquery', 'csf' ), CIPG_VERSION, true );
@@ -145,17 +145,6 @@ if ( ! class_exists( 'WPGS_Variation_images' ) ) {
 
 			$variation_images[0] = $this->html_markup( $product->get_image_id(), $thumbnails );
 
-			foreach ( $variations as $variation ) {
-				if ( isset( $variation['wavi_value'] ) && ! empty( $variation['wavi_value'] ) ) {
-
-					$variation_images[ $variation['variation_id'] ] = $this->html_markup( $variation['image_id'], $variation['wavi_value'] );
-
-				} elseif ( $product->get_image_id() != $variation['image_id'] ) {
-
-					$variation_images[ $variation['variation_id'] ] = $this->html_markup( $variation['image_id'], $thumbnails );
-
-				}
-			}
 			return $variation_images;
 		}
 

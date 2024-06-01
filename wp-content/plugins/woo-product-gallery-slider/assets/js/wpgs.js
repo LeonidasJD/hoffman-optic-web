@@ -257,15 +257,15 @@
 			
 			var variation_form = $('.variations_form'),
 				i = 'input.variation_id',
-				product_wrap = $('.post-' + wpgs_js_data.product_id),
+				body_wrap = $('body'),
 				wpgs_variation_list = wpgs_js_data.variation_data,
-				DivParent = product_wrap.find('.woocommerce-product-gallery').parent();
+				DivParent = body_wrap.find('.woocommerce-product-gallery').parent();
 			variation_form.on('found_variation', function (event, variation) {
 
 				
 				if (wpgs_variation_list.hasOwnProperty(variation.variation_id)) {
 					
-					product_wrap.find('.woocommerce-product-gallery').remove();
+					body_wrap.find('.woocommerce-product-gallery').remove();
 					DivParent.prepend(wpgs_variation_list[variation.variation_id]);
 					cix_product_gallery_slider.lazyLoad();
 					cix_product_gallery_slider.slick();
@@ -274,17 +274,56 @@
 
 
 				} else {
-					cix_product_gallery_slider.resetImages(product_wrap, DivParent);
+					
+					// Set BlockUI on any element
+					body_wrap.find('.woocommerce-product-gallery').block({
+						message: null,
+						overlayCSS: {
+							cursor: 'none',
+							background: '#fff',
+							opacity: 0.6
+						}
+					});
+					cix_product_gallery_slider.variationAjax(variation.variation_id, body_wrap, DivParent);
+
+
 				}
 
 
 			})
 				// On clicking the reset variation button
 				.on('reset_data', function (event) {
-					cix_product_gallery_slider.resetImages(product_wrap, DivParent);
+					cix_product_gallery_slider.resetImages(body_wrap, DivParent);
 
 				});
 
+		},
+		variationAjax: function ($variation_id, body_wrap, DivParent) {
+
+			$.ajax({
+				url: wpgs_js_data.ajax_url,
+				type: 'post',
+				data: {
+					action: 'twist_variation_ajax',
+					nonce: wpgs_js_data.ajax_nonce,
+					product_id: wpgs_js_data.product_id,
+					variation_id: $variation_id
+
+				},
+
+				success: function (res) {
+
+					body_wrap.find('.woocommerce-product-gallery').remove();
+					DivParent.prepend(res.data.variation_images);
+					cix_product_gallery_slider.lazyLoad();
+					cix_product_gallery_slider.slick();
+					cix_product_gallery_slider.lightBox();
+					cix_product_gallery_slider.misc();
+				},
+				error: function () {
+					console.log('Ajax Error: variationAjax');
+				}
+			});
 		}
 
 	};
@@ -298,7 +337,7 @@
 
 
 	});
-	console.log('WPGS: Loaded');
+	
 	// jquery on load
 	$(window).on('load', function () {
 
