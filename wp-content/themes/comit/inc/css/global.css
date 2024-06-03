@@ -148,7 +148,11 @@ content: '';
 /* STICY BACK TO TOP BUTTON CSS END */
 
 
-
+/* BANNER KOJI IZADJE AKO NE POPUNIMO SVA POLJA U FORMI I ISPISUJE PORUKU START */
+.frm_error_style{
+    display: none!important;
+}
+/* BANNER KOJI IZADJE AKO NE POPUNIMO SVA POLJA U FORMI I ISPISUJE PORUKU END */
 @media screen and (max-width:2440px){
 .container-14{
         max-width:1920px;
