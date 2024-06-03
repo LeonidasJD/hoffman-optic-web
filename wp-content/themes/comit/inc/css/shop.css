@@ -25,6 +25,12 @@
     gap: 56px;
     list-style-type: none;
 }
+.category-item:hover img {
+  transform: scale(1.1); 
+}
+.category-item img {
+  transition: transform 0.3s ease; 
+}
 
 .category-list > li:first-child{
     display: none;
@@ -62,6 +68,7 @@ background-color: #76BA51;
   filter: brightness(0) invert(1);
 }
 /*CATEGORY LIST CSS END*/
+
 
 /*SEARCH BAR CSS START*/
 .product-search-bar{
@@ -191,9 +198,7 @@ margin-top: 40px;
 .rotated-icon {
     transform: rotate(180deg);
   }
-.products li{
-    background-color: white;
-}
+
 .products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -204,6 +209,13 @@ margin-top: 40px;
     list-style: none;
     text-align: center;
     border: none;
+    background-color: white;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    
+  }
+  .products li:hover{
+    box-shadow: -6px 9px 20px 0px #42464E;
+    transform: translateY(-5px);
   }
   
   .product {

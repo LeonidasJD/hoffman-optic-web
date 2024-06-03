@@ -14,6 +14,18 @@
 }
 .woo-product-gallery-slider{
     max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+.slick-initialized {
+    flex: 1; /* Rastegnuti element da zauzme preostali prostor */
+}
+.wpgs-nav.slick-initialized.slick-slider{
+    display: flex!important;
+    align-items: flex-end;
+    padding-bottom: 5px;
 }
 .zoomtoo-container{
     display: flex;
@@ -23,11 +35,18 @@
 .wpgs-nav .slick-slide{
     border-radius: 10px;
 }
-.slick-slide {
-    display: flex!important;
-    justify-content: center!important;
+.draggable{
+    width: 100%;
 }
-@media screen and (max-width:2440px){
+.draggable .slick-slide {
+    width: 116px!important;
+    display: flex!important;
+    justify-content: center;
+}
+.draggable .slick-track{
+    width: 100%;
+}
+/* @media screen and (max-width:2440px){
     .slick-list.draggable{
         margin-top: 50px;
     }
@@ -36,7 +55,7 @@
     .slick-list.draggable{
         margin-top: 70px;
     }
-}
+} */
 
 /*PRODUCT GALERY CSS END*/
 
@@ -190,6 +209,11 @@
 }
 .related-single-product-card{
     padding: 8px 14px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.related-single-product-card:hover{
+    box-shadow: -6px 9px 20px 0px #42464E;
+    transform: translateY(-5px);
 }
 .related-products-wrapper{
     display: flex;

@@ -140,7 +140,7 @@
 }
 .wpgs-for.slick-initialized,
 .wpgs-nav.slick-initialized {
-    display: block !important;
+    display: block;
 }
 .wpgs-nav .slick-slide {
     border: 1px solid;

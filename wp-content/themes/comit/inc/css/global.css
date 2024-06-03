@@ -115,6 +115,14 @@ content: '';
      }
 /* BUTTON TYPE 2 CSS END */
 
+
+/* JUST CLICK STYLE START*/
+.just-click:active{
+    transform: translate(5px,5px);
+    transition-duration: .3s;
+}
+/* JUST CLICK STYLE END*/
+
 /* STICY BACK TO TOP BUTTON CSS START */
 .sticky-button-wrapper{
     display: flex;
