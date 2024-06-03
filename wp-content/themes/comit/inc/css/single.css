@@ -87,6 +87,10 @@ margin-top: 60px;
 }
 .related-single-news-card{
     display: flex;
+    transition: transform 0.3s ease;
+}
+.related-single-news-card:hover {
+    transform: translateY(-10px); 
 }
 .related-card-img img{
     width: 12rem;
