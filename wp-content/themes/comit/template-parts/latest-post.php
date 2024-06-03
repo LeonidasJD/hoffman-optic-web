@@ -14,6 +14,7 @@
                     while($latest_blog_posts->have_posts()){
                         $latest_blog_posts->the_post();
                         ?>
+                        <a href="<?php echo get_permalink(); ?>">
                         <div class="latest-single-blog-card">
                          <div class="lates-post-image">
                             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
@@ -25,6 +26,8 @@
                             </div>
                             
                         </div>
+                        </a>
+                        
                         <?php
                     }    
                 }else{
@@ -32,7 +35,7 @@
                 }
                 ?>
     </div>
-     <!--LATEST BLOG SECTION START-->
+     <!--LATEST BLOG SECTION END-->
      <div class="side-banner-wrapper">
     <h2>Consultation Service</h2>
     <p>If you have questions, feel free to call us anytime!</p>
