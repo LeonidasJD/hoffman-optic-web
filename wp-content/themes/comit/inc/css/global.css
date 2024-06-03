@@ -115,6 +115,29 @@ content: '';
      }
 /* BUTTON TYPE 2 CSS END */
 
+/* STICY BACK TO TOP BUTTON CSS START */
+.sticky-button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: transparent;
+    position: fixed;
+    top: 80%;
+    left: 95%;
+    border-radius: 50px;
+}
+.sticky-button-wrapper button{
+    background-color: #5B8E3F;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px 0px #EAEDB8;
+}
+.sticky-button-wrapper button img{
+    height: 1.5rem;
+}
+/* STICY BACK TO TOP BUTTON CSS END */
 
 
 
