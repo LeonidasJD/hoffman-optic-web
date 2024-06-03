@@ -23,7 +23,7 @@ if (have_posts()) {
             <div class="product-info">
                 <h1><?php echo the_title() ?></h1>
                 <p class="product-description"><?php echo get_the_excerpt()?></p>
-                <button id="related-modal-button">Book this product <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
+                <button id="related-modal-button" class="button-type-3">Book this product <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
                 <div class="product-atributes-wrapper">
     <div class="product-atributes">
     <?php 
