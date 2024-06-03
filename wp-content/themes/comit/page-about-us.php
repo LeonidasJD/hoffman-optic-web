@@ -75,7 +75,7 @@
     <section class="our-team-section-wrapper">
     <div class="our-team-section-under-wrapper">
         <div class="our-team-heading-wrapper">
-            <h2>Our Team</h2>
+            <h1>Our Team</h1>
         </div>
         <div class="our-team-members-wrapper">
 
