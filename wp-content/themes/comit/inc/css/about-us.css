@@ -120,7 +120,7 @@
 .our-team-heading-wrapper{
     margin-bottom: 30px;
 }
-.our-team-heading-wrapper h2{
+.our-team-heading-wrapper h1{
     margin: 0px;
     font-family: 'Glegoo';
     font-size: 40px;
@@ -142,6 +142,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 45px;
+    box-shadow: -6px 6px 19px 0px #F9F9F9;
 }
 .single-team-member-card img{
 width: 100%;
