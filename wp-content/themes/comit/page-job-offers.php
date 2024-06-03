@@ -35,7 +35,7 @@
             <p>Master optician lorem ipsum sit
             ametcon sec tetur adipisicing
             eiusmod tempor incididunt ut.</p>
-            <button class="apply-here-btn">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
+            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
             </div>
             
         </div>
@@ -46,7 +46,7 @@
             <p>Optometrist lorem ipsum sit
             ametcon sec tetur adipisicing
             eiusmod tempor incididunt ut.</p>
-            <button class="apply-here-btn">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
+            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
             </div>
             
         </div>
@@ -58,7 +58,7 @@
             <p>Apprenticeship lorem ipsum sit
             ametcon sec tetur adipisicing
             eiusmod tempor incididunt ut.</p>
-            <button class="apply-here-btn">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
+            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
             </div>
             
         </div>
@@ -69,7 +69,7 @@
             <p>Student internship lorem ipsum sit
             ametcon sec tetur adipisicing
             eiusmod tempor incididunt ut.</p>
-            <button class="apply-here-btn">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
+            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
             </div>
             
         </div>
