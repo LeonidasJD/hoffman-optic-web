@@ -2,6 +2,10 @@
     display: flex;
     margin-bottom: 20px;
     width: 22rem;
+    transition: transform 0.3s ease;
+}
+.latest-single-blog-card:hover {
+    transform: translateX(10px); 
 }
 
 .lates-news-wrapper{
@@ -64,7 +68,9 @@ border-radius: 4px;
     border-radius: 8px;
     width: 21rem;
     margin-top: 10px;
+    
 }
+
 .side-image{
     width: 100%;
     display: flex;
@@ -97,5 +103,9 @@ border-radius: 4px;
     font-family: 'Lato';
     font-size: 20px;
     font-weight: 400;
+    transition: transform 0.5s ease;
 
+}
+.side-banner-wrapper a:hover{
+    border: 2px solid #76BA51;
 }
