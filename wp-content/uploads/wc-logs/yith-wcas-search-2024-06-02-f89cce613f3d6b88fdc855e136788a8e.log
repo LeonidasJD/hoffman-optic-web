@@ -1,0 +1,18 @@
+2024-06-02T11:22:20+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-06-02T11:22:20+00:00 NOTICE Execution time 0 0.0408678 CONTEXT: {"_legacy":true}
+2024-06-02T11:22:20+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-06-02T11:22:20+00:00 NOTICE Execution time 1 0.1812618 CONTEXT: {"_legacy":true}
+2024-06-02T11:22:20+00:00 NOTICE Execution time 0.2181441 CONTEXT: {"_legacy":true}
+2024-06-02T11:56:28+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-06-02T11:56:28+00:00 NOTICE Execution time 0 0.1583338 CONTEXT: {"_legacy":true}
+2024-06-02T11:56:28+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-06-02T11:56:28+00:00 NOTICE Execution time 1 0.1704514 CONTEXT: {"_legacy":true}
+2024-06-02T11:56:28+00:00 NOTICE Execution time 0.1727453 CONTEXT: {"_legacy":true}
