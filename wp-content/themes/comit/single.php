@@ -160,4 +160,8 @@ get_header();
 </div>
 
 <!--BANNER SECTION END-->
+
+<!-- STICKY BACK TO TOP BUTTON START -->
+<?php get_template_part('template-parts/sticky-button') ?>
+<!-- STICKY BACK TO TOP BUTTON END -->
 <?php get_footer();?>

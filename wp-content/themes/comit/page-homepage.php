@@ -301,9 +301,7 @@ eiusmod tempor incididunt ut.
 <!--BANNER SECTION END-->
 
 <!-- STICKY BACK TO TOP BUTTON START -->
-<div class="sticky-button-wrapper">
-    <button id="sticky-btn"><img src="/wp-content/uploads/2024/06/Vector-9.png"></button>
-</div>
+<?php get_template_part('template-parts/sticky-button') ?>
 <!-- STICKY BACK TO TOP BUTTON END -->
 
 
@@ -352,14 +350,5 @@ var swiper = new Swiper(".mySwiper", {
 
 // BUTTON HREF LOGIC START
 
-//STICY BUTTON TO TOP START
-var stickyButton = document.getElementById('sticky-btn');
 
-stickyButton.addEventListener('click', function(){
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
-//STICY BUTTON TO TOP END
 </script>
