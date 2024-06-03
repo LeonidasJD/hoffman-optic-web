@@ -142,6 +142,7 @@ function comit_scripts() {
 	wp_style_add_data( 'comit-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'comit-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'global-script', get_template_directory_uri() . '/js/global.js', array(), _S_VERSION, true );
 	wp_enqueue_style( 'comit-style-home', get_template_directory_uri() . '/inc/css/homepage.css', array(), _S_VERSION, true );
 	wp_deregister_script('jquery');
     wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', array(), null, true);
