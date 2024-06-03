@@ -94,6 +94,7 @@
             while($related_services->have_posts()){
                 $related_services->the_post();
                 ?> 
+                <a href="<?php echo get_permalink(); ?>">
                 <div class="related-single-service-card">
                     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                     <div class="related-service-card-info">
@@ -104,6 +105,8 @@
                     </div>
                     
                 </div>
+                </a>
+                
                 <?php
             }
         }else{
