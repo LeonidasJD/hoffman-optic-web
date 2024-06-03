@@ -23,3 +23,16 @@
   <span>Book your appointment</span>
 </button>
 </div>
+
+<script>
+  //BOOK APPOINMENT BUTTON START
+var bookAppintmentButton = document.getElementById('contact-button');
+
+bookAppintmentButton.addEventListener('click', function(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+//BOOK APPOINMENT BUTTON START
+</script>
