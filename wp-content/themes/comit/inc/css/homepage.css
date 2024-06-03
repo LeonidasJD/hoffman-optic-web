@@ -198,10 +198,10 @@ background-size: cover;
 
 /*OUR SERVICE SECTION CSS START*/
 .container-service-section{
-    background-image: linear-gradient(to top, #E6E6E6, #FFFFFF);
+   background-color: #FFFFFF;
 }
 .our-service-section-wrapper{
-    background-image: linear-gradient(to top, #E6E6E6, #FFFFFF);
+    background-color: #FFFFFF;
     padding-bottom: 55px;
 }
 .our-service-under-wrapper{
@@ -215,7 +215,7 @@ background-size: cover;
     font-family: 'Glegoo';
     font-size: 48px;
     font-weight: 400;
-    padding: 40px 0px 0px 0px ;
+    padding: 80px 0px 0px 0px ;
     margin: 0px;
 }
 .heading-info p{
@@ -278,12 +278,12 @@ background-size: cover;
 
 /*OUR PRODUCT SECTION CSS START*/
  .container-our-product-section{
-    background-color: #E6E6E6;
+    background-color: #F5F5F5;
  }
 .our-product-section-wrapper{
-    background-color: #E6E6E6;
+    background-color: #F5F5F5;
     padding-top: 20px;
-    padding-bottom:50px;
+    padding-bottom:100px;
 }
 .our-product-under-wrapper{
     padding: 0px 65px 0px 65px;
@@ -359,10 +359,7 @@ background-size: cover;
 
 /*OUR STORY SECTION CSS START*/
 .container-our-story-section{
-    background-image: url('/wp-content/uploads/2024/05/ourstory-scaled.webp');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+ background-color: #F5F5F5;   
 }
 .our-story-section-wrapper{
 
@@ -372,6 +369,12 @@ background-size: cover;
 }
 .our-story-info{
     padding-bottom:160px;
+    background-image: url('/wp-content/uploads/2024/05/ourstory-scaled.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 10px 75px 75px 75px;
+    border-radius: 12px;
 }
 .our-story-info h2{
     font-family: 'Glegoo';
@@ -379,8 +382,7 @@ background-size: cover;
     color: white;
     font-weight: 400;
     margin: 0px;
-    padding-top: 113px;
-    padding-bottom: 20px;
+    
 }
 .our-story-info h3{
     font-family: 'Glegoo';
@@ -388,11 +390,12 @@ background-size: cover;
     color: white;
     font-weight: 400;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin: 0px;
 }
 .our-story-info p{
     font-family: 'Glegoo';
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     font-weight: 400;
     width: 45%;
