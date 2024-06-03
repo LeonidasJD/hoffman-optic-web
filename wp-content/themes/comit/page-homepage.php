@@ -244,8 +244,9 @@ eiusmod tempor incididunt ut.
             </div>
             <div class="form-wrapper">
                 <h2>Schedule an appointment</h2>
+                <div class="formidable-form">
             <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 2 ) ); ?>
-           
+            </div>
             </div>
         </div>
     </div>

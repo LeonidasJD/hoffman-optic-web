@@ -39,6 +39,7 @@ get_header()?>
                 </div>
             </div>
             <div class="contact-form-wrapper">
+            <div class="fields-wrapper">
             <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 7 ) ); ?>
             </div>
         </div>

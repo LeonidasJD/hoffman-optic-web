@@ -90,7 +90,9 @@
         <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
         <h2>Job application form</h2>
         <div class="job-application-form-wrapper">
+        <div class="job-offer-form">
         <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 6 ) ); ?>
+        </div>
         </div>
     </div>
 </div>

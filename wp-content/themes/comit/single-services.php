@@ -57,7 +57,9 @@
         <div class="post-form">
         <div class="post-form-wrapper">
             <h2 class="post-form-title">Schedule an appointment</h2>
+            <div class="formidable-form">
         <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 3 ) ); ?>
+        </div>
         </div>    
         
     </div>

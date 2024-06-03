@@ -218,8 +218,9 @@ if (have_posts()) {
             <p><?php echo the_title() ?></p>
         </div>
         <div class="single-product-form">
+        <div class="form-single-product">
         <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 8 ) ); ?>
-       
+        </div>
         </div>
     </div>
 </div>
@@ -280,6 +281,6 @@ for(var i = 0; i < cancelModals.length; i++){
 
 <!-- SKIRPTA ZA POSTAVLJANJE URL-ADRESE TRENUTNE STRANICE START -->
 <script>
-    document.getElementById('page-url').value = "<?php echo get_permalink(); ?>";
+    document.getElementById('field_avsnp').value = "<?php echo get_permalink(); ?>";
 </script>
 <!-- SKIRPTA ZA POSTAVLJANJE URL-ADRESE TRENUTNE STRANICE START -->
