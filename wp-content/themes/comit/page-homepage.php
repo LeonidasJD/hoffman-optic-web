@@ -9,7 +9,7 @@ get_header();
     <div class="hero-info">
         <h1>Service that'll make <br>you see us with new eyes</h1>
         <p>We Provides always our best services for our clients</p>
-        <button class="hero-button button-type-2"><a href="#">Schedule an eye exam today!</a></button>
+        <button class="hero-button button-type-2"><a href="/contact-us/">Schedule an eye exam today!</a></button>
         
     </div>
     </div>
@@ -37,7 +37,7 @@ get_header();
             <li><img src="/wp-content/uploads/2024/05/icon-_clock-outline_.png" alt=""><p> 08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
     </div>
-    <div class="button-wrapper"><button class="book-now-btn button-type-3">Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
+    <div class="button-wrapper"><button id="neuenburg-btn" class="book-now-btn button-type-3">Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
         </div>
         
         
@@ -53,7 +53,7 @@ get_header();
             <li><img src="/wp-content/uploads/2024/05/icon-_clock-outline_.png" alt=""><p>08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
     </div>
-    <div class="button-wrapper"><button class="book-now-btn button-type-3">Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
+    <div class="button-wrapper"><button id="mullheim-btn" class="book-now-btn button-type-3">Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
         </div>
        
     </div>
@@ -73,7 +73,7 @@ get_header();
     <div class="our-service-under-wrapper">
         <div class="heading-info">
         <h2>Our Services</h2>
-        <p>We Provides always our best services for our clients <a class="scale-link" href="">Check services</a> <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></p>
+        <p>We Provides always our best services for our clients <a class="scale-link" href="/services/">Check services</a> <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></p>
         </div>
         <div class="services-cards">
 
@@ -126,7 +126,7 @@ eiusmod tempor incididunt ut.
     <div class="our-product-under-wrapper">
         <div class="heading-product-info">
             <h2>Our Products</h2>
-            <p><a class="scale-link" href="">Check all products</a> <img src="/wp-content/uploads/2024/05/Vector-41.png"></p>
+            <p><a class="scale-link" href="/shop/">Check all products</a> <img src="/wp-content/uploads/2024/05/Vector-41.png"></p>
             
         </div>
         <?php
@@ -185,11 +185,10 @@ eiusmod tempor incididunt ut.
     <div class="our-story-under-wrapper">
         <div class="our-story-info">
             <h2>Our Story</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Mauris risus adipiscing felis iaculis. Sed massa odio eget nullam ornare felis vitae urna risus. Id suspendisse nullam facilisi sed amet. Cursus sed aliquam gravida in nec id. Interdum nisi at ac eu arcu id viverra pellentesque accumsan. Et commodo enim suspendisse maecenas. Auctor velit diam </p>
-            <p>Lorem ipsum dolor sit amet consectetur. Mauris risus adipiscing felis iaculis. Sed massa odio eget nullam ornare felis vitae urna risus. Id suspendisse nullam facilisi sed amet. Cursus sed aliquam gravida in nec id. Interdum nisi at ac eu arcu id viverra pellentesque accumsan. Et commodo enim suspendisse maecenas. Auctor velit diam </p>
+            <p>Lorem ipsum dolor sit amet consectetur. Mauris risus adipiscing felis iaculis. Sed massa odio eget nullam ornare felis vitae urna risus. Id suspendisse nullam facilisi sed amet. Cursus sed aliquam gravida in nec id. Interdum nisi at ac eu arcu id viverra pellentesque accumsan. Et commodo enim suspendisse maecenas. Auctor velit diam  </p>
             <h3>Our Mission</h3>
-            <p>Eros placerat ut consequat in tellus enim. Egestas sed viverra ut volutpat velit a adipiscing. Auctor vitae odio sagittis faucibus turpis. Diam tempor euismod dictumst facilisi. Amet morbi vitae magna mauris ultrices tellus eu sagittis.</p>
-            <p>Eros placerat ut consequat in tellus enim. Egestas sed viverra ut volutpat velit a adipiscing. Auctor vitae odio sagittis faucibus turpis. Diam tempor euismod dictumst facilisi. Amet morbi vitae magna mauris ultrices tellus eu sagittis.</p>
+            <p>Eros placerat ut consequat in tellus enim. Egestas sed viverra ut volutpat velit a adipiscing. Auctor vitae odio sagittis faucibus turpis. Diam tempor euismod dictumst facilisi. </p>
+            <p>Eros placerat ut consequat in tellus enim. Egestas sed viverra ut volutpat velit a adipiscing. Auctor vitae odio sagittis faucibus turpis. Diam tempor euismod dictumst facilisi. </p>
         </div>
     </div>
 </section>
@@ -205,7 +204,7 @@ eiusmod tempor incididunt ut.
     <div class="our-news-under-wrapper">
     <div class="heading-info heading-info-news">
         <h2>Our News</h2>
-        <p>We Provides always our best insight for our clients <a class="scale-link" href="">Check services</a> <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></p>
+        <p>We Provides always our best insight for our clients <a class="scale-link" href="/services/">Check services</a> <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></p>
         </div>
         <div class="form-news-wrapper">
             <div class="news-wrapper">
@@ -301,7 +300,11 @@ eiusmod tempor incididunt ut.
 
 <!--BANNER SECTION END-->
 
-
+<!-- STICKY BACK TO TOP BUTTON START -->
+<div class="sticky-button-wrapper">
+    <button id="sticky-btn"><img src="/wp-content/uploads/2024/06/Vector-9.png"></button>
+</div>
+<!-- STICKY BACK TO TOP BUTTON END -->
 
 
 
@@ -321,16 +324,42 @@ var swiper = new Swiper(".mySwiper", {
 /**SWIPER LOGIC END */
 
 
-    console.log("homeee test");
-    document.getElementById('date').addEventListener('change', function() {
-    // Uzimamo vrednost datuma koji je izabran
-    var selectedDate = this.value;
-    // Postavljamo stilizaciju izabranog datuma
-    this.style.color = '#76BA51'; 
-    this.style.fontWeight = '600';
-    this.style.fontSize = '16';
-    this.style.fontFamily = 'Lato';
+//     console.log("homeee test");
+//     document.getElementById('date').addEventListener('change', function() {
+//     // Uzimamo vrednost datuma koji je izabran
+//     var selectedDate = this.value;
+//     // Postavljamo stilizaciju izabranog datuma
+//     this.style.color = '#76BA51'; 
+//     this.style.fontWeight = '600';
+//     this.style.fontSize = '16';
+//     this.style.fontFamily = 'Lato';
     
-});
+// });
 
+// BUTTON HREF LOGIC START
+
+    const nuenburgBtn = document.getElementById('neuenburg-btn');
+    const mullheimBtn = document.getElementById('mullheim-btn');
+
+    nuenburgBtn.addEventListener('click', function(){
+         window.open("https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start", "_blank");
+        
+    });
+
+    mullheimBtn.addEventListener('click', function(){
+        window.open("https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start ", "_blank");
+    });
+
+// BUTTON HREF LOGIC START
+
+//STICY BUTTON TO TOP START
+var stickyButton = document.getElementById('sticky-btn');
+
+stickyButton.addEventListener('click', function(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+//STICY BUTTON TO TOP END
 </script>
