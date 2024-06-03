@@ -163,86 +163,90 @@
     max-width: 1.5rem;
     cursor: pointer;
 }
-#frm_field_31_container input{
-    border: none;
-    border-bottom: solid 2px;
-    border-radius: 0px;
-    border-color: #5B9356;
-    font-family: 'Lato';
-    font-size: 14px;
-    font-weight: bold;
-    color: #0E130B;
+.job-application-form-wrapper{
+    margin-top: 50px;
 }
-#frm_field_31_container input::placeholder{
-    font-family: 'Lato';
-    font-size: 14px;
-    font-weight: bold;
-    color: #0E130B;
+.job-offer-form input{
+    border: none!important;
+    border-bottom: solid 2px!important;
+    border-radius: 0px!important;
+    border-color: #5B9356!important;
+    font-family: 'Lato'!important;
+    font-size: 14px!important;
+    font-weight: bold!important;
+    color: #0E130B!important;
 }
-#frm_field_31_container textarea{
-    border: none;
-    border-bottom: solid 2px;
-    border-radius: 0px;
-    border-color: #5B9356;
-    font-family: 'Lato';
-    font-size: 14px;
-    font-weight: bold;
-    color: #0E130B;
-    padding-left: 5px;
+.job-offer-form input::placeholder{
+    font-family: 'Lato'!important;
+    font-size: 14px!important;
+    font-weight: bold!important;
+    color: #0E130B!important;
 }
-#frm_field_31_container textarea::placeholder{
-    font-family: 'Lato';
-    font-size: 14px;
-    font-weight: bold;
-    color: #0E130B;
+.job-offer-form textarea{
+    border: none!important;
+    border-bottom: solid 2px!important;
+    border-radius: 0px!important;
+    border-color: #5B9356!important;
+    font-family: 'Lato'!important;
+    font-size: 14px!important;
+    font-weight: bold!important;
+    color: #0E130B!important;
+    padding-left: 5px!important;
 }
-#frm_field_31_container select{
-    border: none;
-    border-bottom: solid 2px;
-    border-radius: 0px;
-    border-color: #5B9356;
-    font-family: 'Lato';
-    font-size: 14px;
-    font-weight: bold;
-    color: #0E130B;
-    padding-left: 5px;
+.job-offer-form textarea::placeholder{
+    font-family: 'Lato'!important;
+    font-size: 14px!important;
+    font-weight: bold!important;
+    color: #0E130B!important;
+}
+.job-offer-form select{
+    border: none!important;
+    border-bottom: solid 2px!important;
+    border-radius: 0px!important;
+    border-color: #5B9356!important;
+    font-family: 'Lato'!important;
+    font-size: 14px!important;
+    font-weight: bold!important;
+    color: #0E130B!important;
+    padding-left: 5px!important;
+}
+.job-offer-form label{
+    display: none!important;
 }
 #frm_field_31_container div{
 margin-bottom: 30px;
 }
-#upload{
-    display: none;
-    border: 2px solid #5B9356!important;
+.dz-message{
+    display: flex!important;
+    flex-direction: row-reverse!important;
+    justify-content: flex-end!important;
+    border: 1px solid #76BA51!important;
+    align-items: center!important;
+    padding: 0px 13px 0px 13px!important;
+    width: 10rem!important;
 }
+.frmsvg{
+    color: #76BA51!important;
+    width: 1rem!important;
 
-.upload-wrapper {
-    position: relative;
-    display: flex;
 }
-
-.upload-label {
-    display: inline-block;
-    padding: 8px 16px;
-    border: 1px solid #ccc;
-    cursor: pointer;
-    font-family: Lato;
-    font-size: 14px;
-    font-weight: bold;
-    color: #76BA51;
-    border: solid 2px #76BA51;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    width: 8rem;
+.frm_upload_text{
+    margin-right: 3px!important;
 }
-.upload-label img{
-    width: 1rem;
-    margin-left: 10px;
+.dz-message button{
+    font-size: 14px!important;
+    font-family: 'Lato'!important;
+    color: #76BA51!important;
+    font-weight: bold!important;
+}
+.frm_small_text{
+    display: none!important;
 }
 .form-buttons{
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
+    margin-bottom: 0px!important;
 }
 .form-buttons > :first-child{
     background-color: #76BA51;
@@ -268,5 +272,13 @@ margin-bottom: 30px;
     align-items: center;
     cursor: pointer;
 }
-
+#frm_field_31_container{
+    margin-bottom: 0px!important;
+}
+#frm_field_27_container{
+    display: none!important;
+}
+.frm_other_input {
+    display: none!important;
+}
 /*MODAL CSS END*/

@@ -185,17 +185,23 @@
     flex-direction: column;
     gap: 1px;
 }
-
-#frm_field_33_container textarea{
+#field_bv52x_label, #field_69k1z_label,#field_tiuhm_label,#field_18euj_label,#field_uw1qu_label,#field_uw1qu_label,#field_mleat_label{
+    display: none!important;
+}
+.fields-wrapper .frm_fields_container{
+    grid-gap: 25px 6%!important;
+    width: 37rem!important;
+}
+.fields-wrapper textarea{
     border: none!important;
     border-bottom: 2px solid #5B9356!important;
     border-radius: 0px!important;
     font-family: 'Lato'!important;
     font-size: 14px;
-    font-weight: bold;
+    
     color: #63716D!important;
 }
-#frm_field_33_container textarea::placeholder{
+.fields-wrapper textarea::placeholder{
     font-family: 'Lato'!important;
     font-size: 14px;
     font-weight: bold;
@@ -215,16 +221,16 @@
     width: 12rem;
 }
 
-.chekcbox-field{
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    padding-bottom: 67px;
+.fields-wrapper .frm_checkbox input{
+    border: 1px solid #76BA51!important;
 }
-.chekcbox-field label{
+.fields-wrapper .frm_checkbox label{
     font-family: 'Lato';
     font-weight: 400;
     font-size: 14px;
     color: black;
+}
+#field_lmorw_label{
+    visibility: hidden !important;
 }
 /*CONTACT US FORM CSS END*/

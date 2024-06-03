@@ -39,3 +39,14 @@
     margin-bottom: 47px;
     
 }
+#frm_field_60_container{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+#frm_field_59_container{
+    width: 165px!important;
+}
+#frm_field_61_container{
+    width: 165px!important;
+}

@@ -440,34 +440,76 @@ background-size: cover;
     margin: 0px;
     padding-bottom: 40px;
 }
-.form-field input::placeholder{
+
+
+.formidable-form input, .formidable-form select{
+    border-top: 0px!important;
+    border-left: 0px!important;
+    border-right: 0px!important;
+    border-bottom: 2px solid #76BA51!important;
+    border-radius: 0px!important;
+}
+
+.formidable-form select{
+    border-top: 0px!important;
+    border-left: 0px!important;
+    border-right: 0px!important;
+    border-bottom: 2px solid #76BA51!important;
+    border-radius: 0px!important;
+    font-family: 'Lato'!important;
+    font-weight: 600!important;
+    font-size: 16px!important;
+    color: #42464E!important;
+}
+
+.formidable-form input::placeholder{
+    font-family: 'Lato'!important;
+    font-weight: 600!important;
+    font-size: 16px!important;
+    color: #42464E!important;
+}
+.formidable-form select option{
     font-family: 'Lato';
     font-weight: 600;
     font-size: 16px;
     color: #42464E;
 }
-
-#name::placeholder, #email::placeholder,#phone::placeholder{
-    color: #42464E;
-}
-#name, #email,#phone,#store,#choose-service{
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 2px solid #76BA51;
-    border-radius: 0px;
+.formidable-form label{
+    display: none!important;
 }
 
-#date{
-    padding: 7px 0px 7px 5px;
-    border-radius: 4px;
-    width:97%;
-    border: 2px solid #76BA51;
-    font-family: 'Lato';
-    font-weight: 600;
-    font-size: 16px;
-    color: #76BA51;
+#frm_field_17_container ,#frm_field_44_container{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    margin: 0px!important;
+}
+#frm_field_40_container{
+    width: 160px!important;
+}
+#frm_field_41_container{
+    width: 160px!important;
+}
+#frm_field_42_container{
+    width: 165px!important;
+}
+#frm_field_43_container{
+    width: 165px!important;
+}
+#field_r4twn,#field_1sc3e{  /*date and time fields*/
+    padding: 7px 0px 7px 5px!important;
+    border-radius: 4px!important;
+    width: 97% !important;
+    border: 2px solid #76BA51!important;
+    font-family: 'Lato'!important;
+    font-weight: 600!important;
+    font-size: 16px!important;
+    color: #76BA51!important;
     
+} 
+.frm_error{
+    color: red!important;
+    font-family: 'Lato'!important;
 }
 
 #store,#choose-service {

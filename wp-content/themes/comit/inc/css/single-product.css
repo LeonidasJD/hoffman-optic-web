@@ -286,30 +286,36 @@
 .single-product-form{
     margin-top: 40px;
 }
-#form_single-product-form input{
-    border: none;
-    border-bottom: 2px solid #5B9356;
-    border-radius: 0px;
-    margin-bottom: 37px;
-    font-family: 'Lato';
-    font-weight: bold;
-    font-size: 14px;
-    color: #0E130B;
+.form-single-product input{
+    border: none!important;
+    border-bottom: 2px solid #5B9356!important;
+    border-radius: 0px!important;
+    margin-bottom: 0px!important;
+    font-family: 'Lato'!important;
+    font-weight: bold!important;
+    font-size: 14px!important;
+    color: #0E130B!important;
 }
-#form_single-product-form textarea{
-    border: none;
-    border-bottom: 2px solid #5B9356;
-    border-radius: 0px;
-    font-family: 'Lato';
-    font-weight: bold;
-    font-size: 14px;
-    color: #0E130B;
+#field_avsnp{
+    display: none!important;
 }
-#form_single-product-form input::placeholder,#form_single-product-form textarea::placeholder{
-    font-family: 'Lato';
-    font-weight: bold;
-    font-size: 14px;
-    color: #0E130B;
+.form-single-product textarea{
+    border: none!important;
+    border-bottom: 2px solid #5B9356!important;
+    border-radius: 0px!important;
+    font-family: 'Lato'!important;
+    font-weight: bold!important;
+    font-size: 14px!important;
+    color: #0E130B!important;
+}
+.form-single-product input::placeholder,.form-single-product textarea::placeholder{
+    font-family: 'Lato'!important;
+    font-weight: bold!important;
+    font-size: 14px!important;
+    color: #0E130B!important;
+}
+.form-single-product label{
+    display: none !important;
 }
 .current-page-url{
     display: none;
