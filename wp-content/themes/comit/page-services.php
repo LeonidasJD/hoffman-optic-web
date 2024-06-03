@@ -31,6 +31,7 @@
             while($services->have_posts()){
                 $services->the_post();
                 ?> 
+                <a href="<?php echo get_permalink(); ?>">
                 <div class="single-service-card">
                     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                     <div class="service-card-info">
@@ -41,6 +42,8 @@
                     </div>
                     
                 </div>
+                </a>
+               
                 <?php
             }
         }else{
