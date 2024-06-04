@@ -52,6 +52,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'comit' ); ?></a>
 
+	<!-- DESKTOP HEADER START -->
 	<div class="container-header">
 		<div class="container-14">
 		<header id="masthead" class="site-header">
@@ -71,4 +72,20 @@
 	</header><!-- #masthead -->
 		</div>
 	</div>
+	<!-- DESKTOP HEADER END -->
+
+<div class="mobile-heahder-wrapper">
 	
+		<header>
+			<div class="header-items-wrapper">
+			<div><img class="mobile-logo" src="/wp-content/uploads/2024/06/logotype-2.webp" ></div>
+			<div class="btn-and-hamburger">
+			<div class="header-contact-button"><a href="#">Contact</a></div>
+			<div class="hamburger-wrapper"><img class="hamburger-icon" src="/wp-content/uploads/2024/06/Frame-876.webp" ></div>
+			</div>
+			
+			</div>
+			
+		</header>
+	
+</div>
