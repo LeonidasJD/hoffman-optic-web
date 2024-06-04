@@ -71,4 +71,53 @@ header{
     padding-top: 1px;
     margin: 0px 65px 0px 65px;
 }
+.mobile-heahder-wrapper{
+    display: none;
+}
+
+
+
+/* HEADER RESPONSIVE START */
+@media screen and (max-width:767px){
+    .container-header{
+        display: none;
+    }
+    .mobile-heahder-wrapper{
+        display: block;
+    }
+}
+.mobile-heahder-wrapper{
+    padding: 15px 10px;
+}
+.hamburger-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.header-items-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-logo{
+width: 9.5rem;
+}
+.btn-and-hamburger{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hamburger-icon{
+    width: 2rem;
+}
+.header-contact-button a{
+    background-color: #76BA51;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Lato';
+}
+/* HEADER RESPONSIVE END */
 
