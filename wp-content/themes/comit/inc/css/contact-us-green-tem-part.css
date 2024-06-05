@@ -92,4 +92,21 @@
       transform: translateY(-0.1em);
     }
   }
-  
+  /* RESPONSIVE START*/
+  @media screen and (max-width: 768px) {
+    .contact-us-banner-underwrapper{
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 13px 35px 13px;
+      gap: 95px;
+    }
+    .contact-us-banner-underwrapper h2{
+      line-height: 117%;
+      font-size: 39px;
+    }
+    .contact-btn{
+      padding: 14px 73px;
+    }
+  }
+  /* RESPONSIVE END */
