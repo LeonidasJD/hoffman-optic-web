@@ -50,7 +50,8 @@ function comit_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'comit' ),
-			'mobile-menu' => esc_html__( 'Mobile', 'comit'),
+			'mobile-menu' => esc_html__( 'Mobile-menu', 'comit' ),
+			
 		)
 	);
 
@@ -114,6 +115,7 @@ function comit_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'comit_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'comit_content_width', 0 );
+
 
 /**
  * Register widget area.

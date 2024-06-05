@@ -74,18 +74,82 @@
 	</div>
 	<!-- DESKTOP HEADER END -->
 
+
+<!-- MOBILE HEADER START -->
 <div class="mobile-heahder-wrapper">
-	
 		<header>
 			<div class="header-items-wrapper">
 			<div><img class="mobile-logo" src="/wp-content/uploads/2024/06/logotype-2.webp" ></div>
 			<div class="btn-and-hamburger">
 			<div class="header-contact-button"><a href="#">Contact</a></div>
-			<div class="hamburger-wrapper"><img class="hamburger-icon" src="/wp-content/uploads/2024/06/Frame-876.webp" ></div>
+			<div id="open-dropdown-menu" class="hamburger-wrapper"><img class="hamburger-icon" src="/wp-content/uploads/2024/06/Frame-876.webp" ></div>
 			</div>
 			
 			</div>
 			
 		</header>
-	
 </div>
+
+<section id="under-wrapper" class="under-menu-wrapper">
+	<div class="close-btn-logo">
+		<img class="dropdown-logo" src="/wp-content/uploads/2024/06/layer_1_2x.webp" alt="">
+		<button id="close-mobile-menu-btn"><img src="/wp-content/uploads/2024/06/vector_2x.webp" alt=""></button>
+	</div>
+<div><?php 
+    wp_nav_menu( 
+        array( 
+            'theme_location' => 'mobile-menu'
+        ) 
+    ); 
+?></div>
+<div class="book-now-section">
+<div class="book-now-section1">
+	<div class="shop-image-mob">
+		
+	</div>
+	<div class="shop-wrapper-mob">
+	<p>Our store <br>in Neuchatel </p>
+	<button id="neu-button" class="book-now-menu">Book now <img src="/wp-content/uploads/2024/06/arrow-green.webp" alt=""></button>
+	</div>
+</div>
+<div class="book-now-section1">
+	<div class="shop-image-mob">
+		
+	</div>
+	<div class="shop-wrapper-mob">
+	<p>Our store <br>in Müllheim </p>
+	<button id="mull-button" class="book-now-menu">Book now <img src="/wp-content/uploads/2024/06/arrow-green.webp" alt=""></button>
+	</div>
+</div>
+
+</div>
+
+
+</section>
+<!-- MOBILE HEADER END -->
+
+
+<!-- OPEN CLOSE MOBILE MENU START -->
+<script>
+var openDropwdown =document.getElementById('open-dropdown-menu');
+var closeDropdown = document.getElementById('close-mobile-menu-btn');
+var underMenuWrapper =document.getElementById('under-wrapper');
+
+openDropwdown.addEventListener('click', function(){
+	underMenuWrapper.style.top = "0%";
+});
+closeDropdown.addEventListener('click', function(){
+underMenuWrapper.style.top = "-220%";
+});
+
+var neuButton =document.getElementById('neu-button');
+var mullButton = document.getElementById('mull-button');
+
+neuButton.addEventListener('click', function(){
+	window.open("https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start", "_blank");
+});
+mullButton.addEventListener('click', function(){
+	window.open("https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start ", "_blank");
+});
+</script>
+<!-- OPEN CLOSE MOBILE MENU END -->
