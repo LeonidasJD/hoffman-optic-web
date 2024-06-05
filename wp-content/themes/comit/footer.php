@@ -23,6 +23,7 @@
 					<?php wp_nav_menu('menu-1') ?>
 				</nav>
 			</div>
+			<div class="footer-divider"></div>
 			<div>
 			<h2>Work hours</h2>
 			<ul>
@@ -32,6 +33,7 @@
 				<li><p>08.30 - 13.00 Uhr</p></li>
 			</ul>
 			</div>
+			<div class="footer-divider"></div>
 			<div>
 			<h2>Locations</h2>
 			<ul>
@@ -52,6 +54,7 @@
 			<li><p>79395 Neuenburg am Rhein</p></li>
 			</ul>
 			</div>
+			<div class="footer-divider"></div>
 			<div>
 			<h2>Social media</h2>
 			<ul class="social-icon-ul">
@@ -60,11 +63,12 @@
 			</ul>
 			</div>
 		</section>
-		<section class="footer-white-section">
-			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p></div>
-		</section>
+		
 	</footer><!-- #colophon -->
 	</div>
+	<section class="footer-white-section">
+			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p></div>
+		</section>
 </div>
 	
 </div><!-- #page -->
