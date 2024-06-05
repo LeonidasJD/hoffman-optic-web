@@ -12,6 +12,9 @@ get_header();
         <button class="hero-button button-type-2"><a href="/contact-us/">Schedule an eye exam today!</a></button>
         
     </div>
+    <div class="hero-mob-image">
+        <img src="/wp-content/uploads/2024/06/business_finance_.webp" >
+    </div>
     </div>
    
     
@@ -71,9 +74,14 @@ get_header();
     <div class="container-14">
     <section class="our-service-section-wrapper">
     <div class="our-service-under-wrapper">
+        <div class="section-divider"><img src="/wp-content/uploads/2024/06/ellipse_11-1.webp" alt=""></div>
         <div class="heading-info">
         <h2>Our Services</h2>
-        <p>We Provides always our best services for our clients <a class="scale-link" href="/services/">Check services</a> <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></p>
+       
+        <span class="heading-info-span">
+        <p>We Provides always our best services for our clients</p>    
+        <a class="scale-link" href="/services/">Check services <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></a></span>
+        
         </div>
         <div class="services-cards">
 
@@ -121,6 +129,7 @@ eiusmod tempor incididunt ut.
 
 <!--OUR PRODUCT SECTION START-->
 <div class="container-our-product-section">
+    <div class="section-divider"><img src="/wp-content/uploads/2024/06/ellipse_11-1.webp" ></div>
     <div class="container-14">
     <section class="our-product-section-wrapper">
     <div class="our-product-under-wrapper">
@@ -165,8 +174,51 @@ eiusmod tempor incididunt ut.
 } else {
     echo 'Nema proizvoda.';
 }
-?>
 
+?>
+<!-- SWIPER KOJI PRIKAZUJE PROIZVODE NA TELEFONU START -->
+<div class="products-wrapper-mobile">
+<div class="swiper mySwiperProduct">
+    <div class="swiper-wrapper">
+        <?php
+        $args = array(
+            'post_type'      => 'product',
+            'posts_per_page' => 8, 
+        );
+
+        $products = new WP_Query($args);
+        if ($products->have_posts()) {
+            while ($products->have_posts()) {
+                $products->the_post();
+        ?>
+                <div class="swiper-slide">
+                    <a href="<?php echo get_permalink(); ?>">
+                        <div class="single-product-card">
+                            <?php
+                            $thumbnail_url = get_the_post_thumbnail_url();
+                            if ($thumbnail_url) {
+                                echo '<img src="' . esc_url($thumbnail_url) . '" alt="' . esc_attr(get_the_title()) . '">';
+                            }
+                            ?>
+                            <h2><?php the_title(); ?></h2>
+                            <p><a href="<?php echo get_permalink(); ?>">Read more</a></p>
+                        </div>
+                    </a>
+                </div>
+        <?php
+            }
+            wp_reset_postdata();
+        } else {
+            echo 'Nema proizvoda.';
+        }
+        ?>
+    </div>
+    <div class="swiper-pagination">
+        
+    </div>
+</div>
+</div>
+<!-- SWIPER KOJI PRIKAZUJE PROIZVODE NA TELEFONU END -->
 
         
 
@@ -183,7 +235,9 @@ eiusmod tempor incididunt ut.
     <div class="container-14">
     <section class="our-story-section-wrapper">
     <div class="our-story-under-wrapper">
+    <img src="/wp-content/uploads/2024/06/frame_1115.webp" alt="">
         <div class="our-story-info">
+            
             <h2>Our Story</h2>
             <p>Lorem ipsum dolor sit amet consectetur. Mauris risus adipiscing felis iaculis. Sed massa odio eget nullam ornare felis vitae urna risus. Id suspendisse nullam facilisi sed amet. Cursus sed aliquam gravida in nec id. Interdum nisi at ac eu arcu id viverra pellentesque accumsan. Et commodo enim suspendisse maecenas. Auctor velit diam  </p>
             <h3>Our Mission</h3>
@@ -204,7 +258,11 @@ eiusmod tempor incididunt ut.
     <div class="our-news-under-wrapper">
     <div class="heading-info heading-info-news">
         <h2>Our News</h2>
-        <p>We Provides always our best insight for our clients <a class="scale-link" href="/services/">Check services</a> <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></p>
+        <span>
+        <p>We Provides always our best insight for our clients  </p>
+        <a class="scale-link" href="/services/">Check news <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></a>
+        </span>
+       
         </div>
         <div class="form-news-wrapper">
             <div class="news-wrapper">
@@ -320,6 +378,19 @@ var swiper = new Swiper(".mySwiper", {
     });
 
 /**SWIPER LOGIC END */
+
+/**SWIPER PRODUCT MOBILE LOGIC START*/
+var swiper = new Swiper(".mySwiperProduct", {
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+      spaceBetween: 10,
+      slidesPerView:1.2,
+      
+    });
+
+/**SWIPER PRODUCT MOBILE LOGIC END*/
 
 
 //     console.log("homeee test");
