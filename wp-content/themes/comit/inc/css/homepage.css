@@ -54,6 +54,9 @@
 .hero-info{
     padding: 0px 0px 0px 35px;
 }
+.hero-mob-image{
+    display: none;
+}
 /*HERO SECTION CSS END*/
 
 
@@ -210,6 +213,14 @@ background-size: cover;
 .heading-info{
     display: block;
     text-align: center;
+}
+.heading-info-span{
+    display: flex;
+    justify-content: center;
+}
+.heading-info span{
+    display: flex;
+    justify-content: center;
 }
 .heading-info h2{
     font-family: 'Glegoo';
@@ -402,6 +413,11 @@ background-size: cover;
     margin: 0px;
 
 }
+.our-story-under-wrapper img{
+    display: none;
+    width: 100%;
+}
+
 /*OUR STORY SECTION CSS END*/
 
 
@@ -686,8 +702,384 @@ background-size: cover;
 }
 /*TESTIMONIAL SECTION  CSS END*/
 
+/* MOBILE PRODUCT SWIPER CSS START */
+.products-wrapper-mobile{
+    display: none;
+}
+/* MOBILE PRODUCT SWIPER CSS START */
+
 /* BANNERS SECTION CSS START */
 .container-banner-section{
     background: radial-gradient(circle, #76BA51, #96CB79);
 }
 /* BANNERS SECTION CSS START */
+
+/* CSS RESPONSIVE START */
+
+/* HERO RESPONSIVE START */
+@media screen and (max-width: 767px) {
+    .under-hero-wrapper{
+        margin: 0px;
+        padding: 0px;
+       background-image: url('');
+
+    }
+    .hero-info{
+        padding: 15px 24px;
+        text-align: center;
+        
+    }
+    .hero-wrapper{
+        padding: 23px 10px 40px 10px;
+    }
+    .hero-wrapper h1{
+        font-family: 'Glegoo';
+    font-weight: 400;
+    font-size: 24px;
+    color: #0E130B;
+    margin: 0px;
+    line-height: 117%;
+    }
+    .hero-button{
+        
+    }
+    .hero-wrapper p{
+        margin: 19px 0px 19px 0px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E130B;
+    line-height: 128%;
+    }
+    .hero-button a{
+
+    }
+    .hero-mob-image{
+        display: block;
+    }
+    .hero-mob-image img{
+        width: 100%;
+    }
+}
+/* HERO RESPONSIVE END */
+
+/* BOOK SECTION RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .book-section-under-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        gap: 20px;
+    }
+    .book-section-wrapper{
+        margin: 0px 10px 0px 10px;
+    }
+    .left-wrapper{
+        display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 12px;
+    }
+    .left-info h2{
+        margin: 0px;
+        font-family: 'Glegoo';
+        font-size: 24px;
+        padding-top: 19px;
+    }
+    .left-info ul{
+        list-style-type: none;
+        padding: 20px 0px 39px 0px;
+        margin: 0px;
+    }
+    .button-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .book-now-btn{
+        padding: 12px 70px 12px 70px;
+        box-shadow: -10px 6px 20px 3px #D9E1D6;
+        border: 1px solid white;
+    }
+    .book-div-left{
+        border-radius: 4px;
+    }
+    .book-div-right{
+        margin-left: 0px;
+        border-radius: 4px;
+    }
+    }
+    
+
+
+/* BOOK SECTION RESPONSIVE END */
+
+/* OUR SERVICE SECTION RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .our-service-under-wrapper{
+        padding: 0px;
+    }
+    .heading-info{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 38px;
+    }
+    .heading-info h2{
+        font-size: 28px;
+        padding: 0px;
+    }
+    .heading-info p {
+        color: #6D6D6D;
+        padding: 0px 65px 0px 65px;
+    }
+    .heading-info-span{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .our-service-section-wrapper{
+        padding-top: 55px;
+    }
+    .services-cards{
+        display: flex;
+        flex-direction: column;
+        padding: 25px 25px 0px 25px;
+        box-shadow: 0px 0px 0px 0px ;
+        gap: 4px;
+    }
+    .service-card{
+        padding: 0px;
+        box-shadow: -11px 3px 11px 0px #f1f1f1;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 21px 0px 21px 0px;
+
+    }
+    .service-card img, .service-card h2,.service-card p{
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    
+    .services-cards .service-card:nth-last-child(-n+3){
+        border-left: none;
+    }
+}
+/* OUR SERVICE SECTION RESPONSIVE END */
+
+
+
+/* OUR PRODUCT SECTION RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .our-product-section-wrapper{
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+    }
+    .our-product-under-wrapper{
+        padding: 0px;
+    }
+    .products-wrapper-mobile{
+        padding-left: 10px;
+    }
+    .heading-product-info{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .heading-product-info p {
+        margin: 0px;
+    }
+
+    .heading-product-info h2{
+        font-size: 28px;
+    }
+    .products-wrapper{
+        display: none;
+    }
+    .products-wrapper-mobile{
+        display: block;
+        padding-top: 45px;
+    }
+    .mySwiperProduct .single-product-card{
+        border-radius: 4px;
+        width: 100%;
+        margin: 0px;
+    }
+    .mySwiperProduct .swiper-pagination{
+
+    }
+    .mySwiperProduct .swiper-slide{
+        padding-bottom: 44px;
+        
+    }
+    .mySwiperProduct .swiper-wrapper{
+    
+    }
+}
+/* OUR PRODUCT SECTION RESPONSIVE END */
+
+
+
+/* OUR STORY SECTION RESPONSIVE START */
+@media screen and (max-width: 768px){
+    .our-story-under-wrapper{
+        padding: 0px;
+    }
+    .our-story-info{
+    background-image: url('');
+    padding: 0px;
+    background-color: #76BA51;
+    border-radius: 0px;
+    padding: 0px 10px 35px 10px;
+    }
+    .our-news-under-wrapper{
+       
+    }
+    .our-story-under-wrapper img{
+        display: block;
+        width: 100%;
+        background-color: #76BA51;
+    }
+    .our-story-info h2{
+        font-size: 28px;
+        padding-top: 43px;
+    }
+    .our-story-info p{
+        width: 100%;
+        line-height: 128%;
+        font-family: 'Lato';
+    }
+}
+/* OUR STORY SECTION RESPONSIVE END */
+
+/* OUR NEWS SECTION RESPONSIVE START */
+@media screen and (max-width: 768px){
+    .our-news-under-wrapper{
+        padding: 0px;
+    }
+    .our-news-section-wrapper{
+        padding-bottom: 60px;
+    }
+    .heading-info{
+        padding: 63px 0px 30px 0px;
+    }
+    .heading-info span{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+    .form-news-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .news-wrapper{
+margin-right: 0px;
+    }
+    .single-blog-card{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .post-image{
+        width: 100%;
+    }
+    .post-image img{
+        margin-right: 0px;
+        max-width: 100%;
+        border-radius:4px;
+    };
+    .post-info p{
+        margin: 15px 0px 0px 0px;
+        font-size: 13px;
+    }
+    .post-info h2{
+        margin: 15px 0px 15px 0px;
+    }
+    .form-wrapper{
+        width: 88%;
+        padding: 35px 15px 0px 15px;
+    }
+    .form-wrapper h2{
+        font-size: 20px;
+    }
+    
+    #frm_field_44_container,#frm_field_17_container{
+        display: none!important;
+    }
+    #frm_field_40_container,#frm_field_41_container{
+        width: 100%!important;
+    }
+    /* Container za elemente koje želite da postavite horizontalno */
+.frm_fields_container {
+    display: flex!important;
+    flex-wrap: wrap!important; 
+    gap: 15px; /* Razmak između elemenata */
+}
+
+/* Specifični elementi koje želite da budu jedan pored drugog */
+#frm_field_42_container, #frm_field_43_container {
+    flex: 1 1 45%; /* Prilagodite širinu prema potrebi */
+}
+
+/* Sakrijte nepotrebni razmakni element */
+#frm_field_44_container {
+    display: none;
+}
+#frm_field_37_container,#frm_field_38_container,#frm_field_39_container,#frm_field_45_container{
+    width: 100%;
+}
+.frm_fields_container input{
+    padding: 4px!important;
+}
+.frm_fields_container select{
+    padding: 0px!important;
+}
+#field_1sc3e{
+    width: 100%!important;
+}
+
+    
+}
+
+/* OUR NEWS SECTION RESPONSIVE END */
+
+/* TESTIMONIAL SECTION RESPONSIVE START */
+@media screen and (max-width:767px){
+    .testimonial-section-under-wrapper{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 36px 10px 50px 10px;
+    gap:40px;
+    }
+    .heading-undersec{
+        width: 100%;
+    }
+    .heading-undersec h2{
+        font-size: 28px;
+        line-height: 37px;
+        width: 100%;
+    }
+    .testimonial-undersec{
+        width: 100%;
+    }
+    .mySwiper .swiper-text{
+        line-height: 28px;
+    }
+    .swiper-person-img{
+        margin: auto;
+    }
+    .mySwiper h4{
+        margin: auto;
+        padding-bottom: 50px;
+    }
+}
+/* TESTIMONIAL SECTION RESPONSIVE START */
+
+/* CSS RESPONSIVE END */
