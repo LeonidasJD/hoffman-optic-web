@@ -153,6 +153,10 @@ content: '';
     display: none!important;
 }
 /* BANNER KOJI IZADJE AKO NE POPUNIMO SVA POLJA U FORMI I ISPISUJE PORUKU END */
+
+.section-divider{
+    display: none;
+}
 @media screen and (max-width:2440px){
 .container-14{
         max-width:1920px;
@@ -171,4 +175,21 @@ content: '';
                 max-width:1440px;
             }
         
+        }
+
+        @media screen and (max-width:767px){
+            .sticky-button-wrapper{
+                display: none;
+            }
+            .section-divider{
+                display: block;
+                background-color: #58724A;
+                padding: 1px;
+            }
+            .section-divider img{
+                position: absolute;
+    left: 50%;
+    margin-top: -5px;
+    width: 10px;
+            }
         }

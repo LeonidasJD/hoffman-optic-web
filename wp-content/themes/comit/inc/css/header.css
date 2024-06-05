@@ -18,7 +18,7 @@ header{
     justify-content:space-between ;
     align-items: center;
     padding: 15px 0px 15px 0px;
-    margin: 0px 80px 0px 80px;
+    margin: 0px 65px 0px 65px;
 }
 #menu-menu-1{
     display: flex;
@@ -34,7 +34,7 @@ header{
 #menu-menu-1 li a:hover{
     color: #76BA51;
 }
-#menu-menu-1 > li:nth-child(-n+3){
+#menu-menu-1 > li:nth-child(-n+4){
    margin-right: 30px;
 }
 #menu-menu-1 > li:first-child {
@@ -74,7 +74,9 @@ header{
 .mobile-heahder-wrapper{
     display: none;
 }
-
+.under-menu-wrapper{
+    display: none;
+}
 
 
 /* HEADER RESPONSIVE START */
@@ -83,6 +85,9 @@ header{
         display: none;
     }
     .mobile-heahder-wrapper{
+        display: block;
+    }
+    .under-menu-wrapper{
         display: block;
     }
 }
@@ -111,6 +116,20 @@ width: 9.5rem;
 .hamburger-icon{
     width: 2rem;
 }
+.under-menu-wrapper{
+    height: 100vh;
+    z-index: 1111;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    top: -220%;
+}
+#under-wrapper {
+    transition: top 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 .header-contact-button a{
     background-color: #76BA51;
     color: white;
@@ -119,5 +138,116 @@ width: 9.5rem;
     font-size: 14px;
     font-family: 'Lato';
 }
+.close-btn-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 10px ;
+    align-items: center;
+    
+}
+.close-btn-logo button{
+    border: none;
+    background-color: #0E130B;
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+.close-btn-logo button img{
+width: 1rem;
+}
+.menu-mobile-menu-container{
+    padding: 0px 10px 0px 10px;
+    
+}
+.dropdown-logo{
+    width: 14rem;
+}
+#menu-mobile-menu{
+    list-style-type: none;
+    padding: 0px;
+}
+#menu-mobile-menu li{
+    border-bottom: solid 2px #336B15;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#menu-mobile-menu li a{
+    font-family: 'Lato';
+    color: #0E130B;
+    font-size: 22px;
+    line-height: 128.5%;
+}
+#menu-mobile-menu li:nth-last-child(-n+2) a {
+    color: #76BA51;
+    font-weight: bold;
+}
+.shop-image-mob{
+    background-image: url('/wp-content/uploads/2024/06/beauty_salon_with_reception_make_up_centre_and_ma_2023_11_27_04_50_19_utc_2x.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+}
+.shop-wrapper-mob{
+    background-color: #76BA51;
+    padding: 12px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.shop-wrapper-mob p{
+    margin: 0px;
+    font-family: 'Glegoo';
+    color: white;
+    font-size: 18px;
+    line-height: 117%;
+}
+.book-now-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.book-now-menu{
+    border: none;
+    border-radius: 4px;
+    padding: 8px 18px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #76BA51;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media screen and (max-height:740px){
+    #menu-mobile-menu li{
+    padding-bottom: 18px;
+    padding-top: 18px;
+    }
+    .shop-image-mob{
+        padding-top: 70px;
+    }
+    #menu-mobile-menu li a{
+        font-size: 20px;
+    line-height: 121.5%;
+    } 
+}
+@media screen and (max-height:667px){
+    #menu-mobile-menu li{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    }
+    .shop-image-mob{
+        padding-top: 55px;
+    }
+    #menu-mobile-menu li a{
+        font-size: 17px;
+    line-height: 117.5%;
+    } 
+}
+
 /* HEADER RESPONSIVE END */
 
