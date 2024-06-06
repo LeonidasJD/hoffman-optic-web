@@ -1,0 +1,27 @@
+2024-06-05T09:33:28+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-06-05T09:33:28+00:00 NOTICE Execution time 0 0.2675188 CONTEXT: {"_legacy":true}
+2024-06-05T09:33:28+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-06-05T09:33:28+00:00 NOTICE Execution time 1 0.473823 CONTEXT: {"_legacy":true}
+2024-06-05T09:33:28+00:00 NOTICE Execution time 0.4944398 CONTEXT: {"_legacy":true}
+2024-06-05T11:22:53+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-06-05T11:22:53+00:00 NOTICE Execution time 0 0.4379642 CONTEXT: {"_legacy":true}
+2024-06-05T11:22:53+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-06-05T11:22:53+00:00 NOTICE Execution time 1 0.4632065 CONTEXT: {"_legacy":true}
+2024-06-05T11:22:53+00:00 NOTICE Execution time 0.4657302 CONTEXT: {"_legacy":true}
+2024-06-05T11:30:25+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-06-05T11:30:25+00:00 NOTICE Execution time 0 0.0140705 CONTEXT: {"_legacy":true}
+2024-06-05T11:30:25+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-06-05T11:30:25+00:00 NOTICE Execution time 1 0.0214495 CONTEXT: {"_legacy":true}
+2024-06-05T11:30:25+00:00 NOTICE Execution time 0.4093484 CONTEXT: {"_legacy":true}
