@@ -18,6 +18,7 @@
         <p>Would you like to reorient yourself or start a new career? Contact us or send us your application documents online.</p>
     </div>
 </section>
+<div class="section-divider"><img src="/wp-content/uploads/2024/06/ellipse_11-1.webp" ></div>
     </div>
 </div>
 
@@ -76,8 +77,9 @@
         </div>
         
     </div>
-
+    <div class="section-divider"><img src="/wp-content/uploads/2024/06/ellipse_11-1.webp" ></div>
 </section>
+
     </div>
 </div>
 
