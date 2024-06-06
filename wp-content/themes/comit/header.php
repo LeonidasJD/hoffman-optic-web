@@ -79,7 +79,7 @@
 <div class="mobile-heahder-wrapper">
 		<header>
 			<div class="header-items-wrapper">
-			<div><img class="mobile-logo" src="/wp-content/uploads/2024/06/logotype-2.webp" ></div>
+			<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="mobile-logo" src="/wp-content/uploads/2024/06/logotype-2.webp" ></a></div>
 			<div class="btn-and-hamburger">
 			<div class="header-contact-button"><a href="#">Contact</a></div>
 			<div id="open-dropdown-menu" class="hamburger-wrapper"><img class="hamburger-icon" src="/wp-content/uploads/2024/06/Frame-876.webp" ></div>
@@ -92,7 +92,7 @@
 
 <section id="under-wrapper" class="under-menu-wrapper">
 	<div class="close-btn-logo">
-		<img class="dropdown-logo" src="/wp-content/uploads/2024/06/layer_1_2x.webp" alt="">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="dropdown-logo" src="/wp-content/uploads/2024/06/layer_1_2x.webp" alt=""></a>
 		<button id="close-mobile-menu-btn"><img src="/wp-content/uploads/2024/06/vector_2x.webp" alt=""></button>
 	</div>
 <div><?php 
@@ -113,7 +113,7 @@
 	</div>
 </div>
 <div class="book-now-section1">
-	<div class="shop-image-mob">
+	<div class="shop-image-mob2">
 		
 	</div>
 	<div class="shop-wrapper-mob">
