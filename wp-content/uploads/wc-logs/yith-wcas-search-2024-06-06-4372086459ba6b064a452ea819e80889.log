@@ -1,0 +1,36 @@
+2024-06-06T09:15:29+00:00 NOTICE Start search for tes CONTEXT: {"_legacy":true}
+2024-06-06T09:15:29+00:00 NOTICE Execution time 0 0.0897353 CONTEXT: {"_legacy":true}
+2024-06-06T09:15:29+00:00 NOTICE Tokens Array
+(
+    [0] => tes
+)
+ CONTEXT: {"_legacy":true}
+2024-06-06T09:15:29+00:00 NOTICE Execution time 1 0.3987817 CONTEXT: {"_legacy":true}
+2024-06-06T09:15:29+00:00 NOTICE Execution time 0.4203096 CONTEXT: {"_legacy":true}
+2024-06-06T11:49:57+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-06-06T11:49:57+00:00 NOTICE Execution time 0 0.1431406 CONTEXT: {"_legacy":true}
+2024-06-06T11:49:57+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-06-06T11:49:57+00:00 NOTICE Execution time 1 0.1570979 CONTEXT: {"_legacy":true}
+2024-06-06T11:49:57+00:00 NOTICE Execution time 0.1591244 CONTEXT: {"_legacy":true}
+2024-06-06T13:42:10+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-06-06T13:42:11+00:00 NOTICE Execution time 0 0.4297394 CONTEXT: {"_legacy":true}
+2024-06-06T13:42:11+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-06-06T13:42:11+00:00 NOTICE Execution time 1 0.4663786 CONTEXT: {"_legacy":true}
+2024-06-06T13:42:11+00:00 NOTICE Execution time 0.4728341 CONTEXT: {"_legacy":true}
+2024-06-06T13:57:03+00:00 NOTICE Start search for oz CONTEXT: {"_legacy":true}
+2024-06-06T13:57:03+00:00 NOTICE Execution time 0 0.156959 CONTEXT: {"_legacy":true}
+2024-06-06T13:57:03+00:00 NOTICE Tokens Array
+(
+    [0] => oz
+)
+ CONTEXT: {"_legacy":true}
+2024-06-06T13:57:03+00:00 NOTICE Execution time 1 0.1647204 CONTEXT: {"_legacy":true}
+2024-06-06T13:57:03+00:00 NOTICE Execution time 0.1668894 CONTEXT: {"_legacy":true}
