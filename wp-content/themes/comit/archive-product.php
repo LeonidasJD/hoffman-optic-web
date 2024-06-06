@@ -117,13 +117,16 @@ get_header();
 </section>
     </div>
     <!--BANNER SECTION START-->
-<div class="container-banner-section">
+    <div class="wrapper-for-mobile">
+           <div class="container-banner-section">
     <div class="container-14">
     <section class="contact-us-banner-wrapper">
 <?php  get_template_part('template-parts/contact-us-green'); ?>
 </section>
     </div>
 </div>
+           </div>
+
 
 <!--BANNER SECTION END-->
 </div>
