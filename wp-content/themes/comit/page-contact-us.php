@@ -86,7 +86,8 @@ get_header()?>
 // Kreiranje  opcija
 var mapOptions = {
     center: [47.81415188935085, 7.56236392336521],
-    zoom: 13
+    zoom: calculateZoomLevel(),
+    zoomControl: false
 }
 
 var map = new L.map('my-map', mapOptions);
@@ -120,7 +121,13 @@ for (var i = 0; i < pins.length; i++) {
         .bindPopup(popupContent);
 }
 
-
+function calculateZoomLevel() {
+    if (window.innerWidth < 768) { 
+        return 11; 
+    } else {
+        return 13; 
+    }
+}
 
 </script>
 
