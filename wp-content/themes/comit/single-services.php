@@ -136,5 +136,9 @@
 <?php get_template_part('template-parts/sticky-button') ?>
 <!-- STICKY BACK TO TOP BUTTON END -->
 
+<!-- MOBILE SIDE BANNER START -->
+<?php get_template_part('template-parts/mobile-side-banner') ?>
+<!-- MOBILE SIDE BANNER END -->
+
 <?php get_footer();?>
 
