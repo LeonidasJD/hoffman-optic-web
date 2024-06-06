@@ -67,7 +67,7 @@ get_header();
     <div class="container-14">
     <section class="filter-and-product-section-wrapper">
     <div class="filter-and-product-section-underwrapper">
-        <div class="filter-section">
+        <div id="filterss" class="filter-section">
         <?php echo do_shortcode('[br_filter_single filter_id=287]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=293]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=295]'); ?>
@@ -75,6 +75,14 @@ get_header();
         <?php echo do_shortcode('[br_filter_single filter_id=298]'); ?>
        
 
+        </div>
+        <div  class="more-filter-button-wrapper">
+            <button id="more-filters-btn">
+            <span id="more-filters-text">More filters</span>
+            <svg id="more-filters-svg" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="more-filters-img" fill="#76BA51" d="M6.5 8.5L0 0.5L13 0.500001L6.5 8.5Z" />
+            </svg>
+            </button>
         </div>
 		<div class="product-section">
     <?php
@@ -103,10 +111,21 @@ get_header();
 </div>
 
 
+
     </div>
 
 </section>
     </div>
+    <!--BANNER SECTION START-->
+<div class="container-banner-section">
+    <div class="container-14">
+    <section class="contact-us-banner-wrapper">
+<?php  get_template_part('template-parts/contact-us-green'); ?>
+</section>
+    </div>
+</div>
+
+<!--BANNER SECTION END-->
 </div>
 
 <!--FILTER AND PRODUCT SECTION END-->
@@ -119,3 +138,30 @@ get_header();
 get_footer();
 ?>
 
+
+<script>
+var moreFilterBtn = document.getElementById('more-filters-btn');
+var filterSection = document.getElementById('filterss');
+var moreFiltersIcon = document.getElementById('more-filters-img');
+var moreFiltersText = document.getElementById('more-filters-text');
+var moreFiltersSvg = document.getElementById('more-filters-svg');
+
+moreFilterBtn.addEventListener('click', function() {
+    if (filterSection.style.display === 'block') {
+        filterSection.style.display = 'none';
+        moreFiltersText.textContent = 'More filters';
+        moreFilterBtn.style.border = '1px solid #76BA51';
+        moreFilterBtn.style.color = '#76BA51';
+        moreFiltersIcon.setAttribute('fill', '#76BA51');
+        moreFiltersSvg.style.rotate = '0deg';
+    } else {
+        filterSection.style.display = 'block';
+        moreFiltersText.textContent = 'Less filters';
+        moreFilterBtn.style.border = '1px solid black';
+        moreFilterBtn.style.color = 'black';
+        moreFiltersIcon.setAttribute('fill', 'black');
+        moreFiltersSvg.style.rotate = '180deg';
+        
+    }
+});
+</script>
