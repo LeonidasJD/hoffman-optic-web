@@ -157,6 +157,9 @@ content: '';
 .section-divider{
     display: none;
 }
+textarea{
+    resize: none;
+}
 @media screen and (max-width:2440px){
 .container-14{
         max-width:1920px;

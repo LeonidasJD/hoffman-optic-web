@@ -526,6 +526,9 @@ background-size: cover;
     color: #76BA51!important;
     
 } 
+#field_1sc3e{
+    width: 100%!important;
+}
 .frm_error{
     color: red!important;
     font-family: 'Lato'!important;
@@ -759,6 +762,9 @@ background-size: cover;
     }
     .hero-mob-image img{
         width: 100%;
+    }
+    #field_r4twn{
+        width: 100%!important;
     }
 }
 /* HERO RESPONSIVE END */

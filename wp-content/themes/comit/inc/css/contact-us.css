@@ -234,3 +234,74 @@
     visibility: hidden !important;
 }
 /*CONTACT US FORM CSS END*/
+
+/* RESPONSIVE CSS START */
+
+/* CONTACT HEADEING SECTION START */
+@media screen and (max-width:767px) {
+    .contact-us-heading-section-underwrapper{
+        padding: 52px 10px 30px 10px;
+    }
+    .contact-us-heading h1{
+        font-size: 28px;
+    }
+    .contact-us-heading p{
+        font-size: 16px;
+    }
+}
+/* CONTACT HEADEING SECTION END */
+
+/* INFO AND FORM RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .info-and-form-section-underwrapper{
+        padding: 0px 10px 51px 10px;
+    }
+    .info-and-form-divs{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info-wrapper{
+        gap: 20px;
+        width: 100%;
+    }
+    .info-card{
+        padding: 20px 14px;
+    }
+    .info-button-app{
+        max-width: 100%;
+    }
+    .info-button-app a{
+        justify-content: center;
+    }
+    .contact-form-wrapper{
+        padding: 0px;
+        width: 100%;
+    }
+    .contact-form-wrapper .fields-wrapper .frm_fields_container{
+        width: 100%!important;
+    }
+    .info-and-form-section-underwrapper .fields-wrapper{
+        padding: 90px 15px 20px 15px;
+    }
+    .info-and-form-section-underwrapper #frm_field_33_container{
+        margin-bottom: 0px;
+    }
+    .info-and-form-section-underwrapper #frm_field_32_container{
+        display: none;
+    }
+    #frm_field_33_container button{
+        width: 100%;
+    }
+}
+/* INFO AND FORM RESPONSIVE END */
+
+/* MAP SECTION RESPONSIVE START */
+@media screen and (max-width:767px){
+    .map-section-wrapper{
+        padding-bottom: 60px;
+    }
+}
+/* MAP SECTION RESPONSIVE END */
+
+
+/* RESPONSIVE CSS END */

@@ -93,6 +93,7 @@ header{
 }
 .mobile-heahder-wrapper{
     padding: 15px 10px;
+    border-bottom: 1px solid #5B9356;
 }
 .hamburger-wrapper{
     display: flex;
@@ -190,6 +191,13 @@ width: 1rem;
     background-repeat: no-repeat;
     padding-top: 70px;
 }
+.shop-image-mob2{
+    background-image: url('/wp-content/uploads/2024/06/second.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+}
 .shop-wrapper-mob{
     background-color: #76BA51;
     padding: 12px 10px;
@@ -221,11 +229,17 @@ width: 1rem;
     font-size: 14px;
     font-weight: 600;
 }
+@media screen and (max-width: 768px) {
+    #under-wrapper{
+        z-index: 9999;
+    }
+}
 
 @media screen and (max-height:740px){
+    
     #menu-mobile-menu li{
-    padding-bottom: 18px;
-    padding-top: 18px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     }
     .shop-image-mob{
         padding-top: 70px;
@@ -237,8 +251,8 @@ width: 1rem;
 }
 @media screen and (max-height:667px){
     #menu-mobile-menu li{
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-top: 14px;
     }
     .shop-image-mob{
         padding-top: 55px;
@@ -247,6 +261,9 @@ width: 1rem;
         font-size: 17px;
     line-height: 117.5%;
     } 
+    .shop-wrapper-mob p{
+        font-size: 15px;
+    }
 }
 
 /* HEADER RESPONSIVE END */

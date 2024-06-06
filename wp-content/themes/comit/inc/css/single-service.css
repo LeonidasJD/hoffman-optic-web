@@ -11,9 +11,14 @@
     display: flex;
     justify-content: space-between;
 }
+.paralel-fileds-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
 #frm_field_59_container #field_5hgrh{
     border: 2px solid #76BA51!important;
     border-radius: 5px!important;
+    padding-top: 9px;
 }
 #frm_field_61_container #field_gatyk{
     border: 2px solid #76BA51!important;
@@ -193,6 +198,9 @@
         .text-form-section-underwrapper #frm_field_19_container{
             display: none;
         }
+        #frm_field_59_container #field_5hgrh{
+            padding-top: 0px;
+        }
         
     }
 
@@ -213,6 +221,9 @@
             width: 100%;
             height: 100%;
             margin: 0px;
+        }
+        .paralel-fileds-wrapper p{
+            display: none;
         }
     }
     /* RELATED SERVICE RESPONSIVE END */

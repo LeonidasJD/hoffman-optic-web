@@ -22,11 +22,36 @@
 .slick-initialized {
     flex: 1; /* Rastegnuti element da zauzme preostali prostor */
 }
+.draggable .slick-slide {
+    
+    display: flex!important;
+    justify-content: center;
+    border-radius: 6px;
+}
+.draggable .slick-slide img{
+    border-radius: 6px;
+}
 .wpgs-nav.slick-initialized.slick-slider{
     display: flex!important;
     align-items: flex-end;
     padding-bottom: 5px;
 }
+.draggable{
+    width: 100%;
+}
+.wpgs-nav .slick-next,.wpgs-nav .slick-prev{
+    margin-top: 35px;
+}
+.wpgs-nav .slick-next{
+    right: -15px!important;
+}
+.wpgs-nav .slick-prev{
+    margin-left: -4px!important;
+}
+.wpgs-for .slick-arrow::before, .wpgs-nav .slick-prev::before, .wpgs-nav .slick-next::before{
+    color: #76BA51!important;
+}
+/* 
 .zoomtoo-container{
     display: flex;
     justify-content: center;
@@ -35,17 +60,11 @@
 .wpgs-nav .slick-slide{
     border-radius: 10px;
 }
-.draggable{
-    width: 100%;
-}
-.draggable .slick-slide {
-    width: 116px!important;
-    display: flex!important;
-    justify-content: center;
-}
+
+
 .draggable .slick-track{
     width: 100%;
-}
+} */
 /* @media screen and (max-width:2440px){
     .slick-list.draggable{
         margin-top: 50px;
@@ -354,3 +373,92 @@
     margin-bottom: 0px!important;
 }
 /* RELATED MODAL CSS END */
+
+/* GREEN BANNER MOBILE START */
+.wrapper-for-mobile{
+    display: none;
+}
+/* GREEN BANNER MOBILE END */
+
+/* RESPONSIVE CSS START */
+@media screen and (max-width:767px) {
+    .single-product-wrapper{
+        padding: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+        padding: 50px 10px;
+    }
+    .wpgs-nav .slick-next,.wpgs-nav .slick-prev{
+        margin-top: 5px;
+    }
+    .product-atributes-wrapper{
+        display: none;
+    }
+    .product-info{
+        padding-bottom: 50px;
+        gap: 22px;
+        padding-top: 0px;
+        
+    }
+    .product-info button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    #related-modal-button img{
+        max-width: 15px!important;
+    }
+    .single-product-form .form-buttons{
+        gap: 34px;
+    }
+    .wrapper-for-mobile{
+        display: block;
+    }
+
+}
+
+/* TAB SECTION RESPONSIVE START */
+@media screen and (max-width:767px){
+    .tab-description-wrapper{
+        padding: 0px;
+    }
+    .short-description p, .additional-information p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .tab-description-wrapper{
+        padding: 0px 10px 90px 10px;
+    }
+    
+}
+/* TAB SECTION RESPONSIVE END */
+
+/* RELATED PRODUCTS RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .related-product-section-underwrapper{
+        padding: 55px 10px 70px 10px;
+    }
+    .related-products-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 35px;
+    }
+    .head-and-text-related h2{
+        font-size: 26px;
+    }
+    .head-and-text-related p{
+        width: 100%;
+    }
+    .related-single-product-card{
+        border-radius: 4px;
+    }
+    .related-modal-main{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/* RELATED PRODUCTS RESPONSIVE END */
+
+/* RESPONSIVE CSS END */

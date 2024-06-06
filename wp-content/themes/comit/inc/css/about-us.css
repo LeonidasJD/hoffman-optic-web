@@ -273,7 +273,20 @@ border-radius: 8px 8px 0px 0px ;
     .single-team-member-card{
         width: 100%;
         margin-bottom: 24px;
+        opacity: 1;
+        height: auto;
+        transition: opacity 0.5s ease, height 0.5s ease;
+        
+       
     }
+    .single-team-member-card.hidden {
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        padding: 0; /* Dodatno osiguranje da nema prostora */
+    }
+
+    
     .more-team-button-wrapper{
         display: flex;
             text-align: center;
@@ -292,6 +305,7 @@ border-radius: 8px 8px 0px 0px ;
             align-items: center;
             gap: 8px;
       }
+     
 }
     
 
