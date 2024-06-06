@@ -422,7 +422,35 @@ var swiper = new Swiper(".mySwiperProduct", {
         window.open("https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start ", "_blank");
     });
 
-// BUTTON HREF LOGIC START
+// BUTTON HREF LOGIC  END
+
+// ADDED FORM ELEMENT IN NEW DIV START 
+
+var newDiv1 = document.createElement("div");
+
+
+newDiv1.classList.add("paralel-fileds-wrapper"); 
+
+
+var field42 = document.getElementById("frm_field_42_container");
+var field43 = document.getElementById("frm_field_43_container");
+
+
+var newParagraph1 = document.createElement("p");
+newParagraph1.textContent = "|";
+
+
+newDiv1.appendChild(field42);
+newDiv1.appendChild(newParagraph1);
+newDiv1.appendChild(field43);
+
+
+var referenceElement1 = document.getElementById("frm_field_41_container");
+
+
+referenceElement1.insertAdjacentElement('afterend', newDiv1);
+//ADDED FORM ELEMENT IN NEW DIV END
+
 
 
 </script>

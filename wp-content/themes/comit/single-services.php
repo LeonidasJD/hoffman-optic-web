@@ -142,3 +142,30 @@
 
 <?php get_footer();?>
 
+<script>
+
+
+var newDiv = document.createElement("div");
+
+
+newDiv.classList.add("paralel-fileds-wrapper"); 
+
+
+var field59 = document.getElementById("frm_field_59_container");
+var field61 = document.getElementById("frm_field_61_container");
+
+
+var newParagraph = document.createElement("p");
+newParagraph.textContent = "|";
+
+
+newDiv.appendChild(field59);
+newDiv.appendChild(newParagraph);
+newDiv.appendChild(field61);
+
+
+var referenceElement = document.getElementById("frm_field_58_container");
+
+
+referenceElement.insertAdjacentElement('afterend', newDiv);
+</script>
