@@ -1,0 +1,55 @@
+.mobile-side-banner-wrapper{
+    display: none;
+}
+
+@media screen and (max-width:767px){
+    .mobile-side-banner-wrapper{
+        display: block;
+        position: fixed;
+        bottom: 10%;
+        left: 71%;
+        z-index: 1111;
+        transform: translateX(100%); /* Pomeri element van ekrana */
+        animation: slideIn 1s ease-out forwards; /* Dodaj animaciju */
+        animation-delay: 1s;
+    }
+    @keyframes slideIn {
+        0% {
+            transform: translateX(100%); /* Pocetno stanje - van ekrana */
+        }
+        100% {
+            transform: translateX(0); /* Krajnje stanje - na svojoj poziciji */
+        }
+    }
+    .mobile-side-banner-info{
+        background-color: #5B9356;
+        padding: 18px 7px;
+        border-radius: 6px 0px 0px 0px;
+    }
+    .mobile-side-banner-info p{
+        margin: 0px;
+        margin: 0px;
+        font-family: 'Lato';
+        font-size: 16px;
+        color: white;
+        text-align: center;
+    }
+    .mobile-side-banner-btn{
+        background-color: #76BA51;
+        padding: 10px 17px;
+        border-radius: 0px 0px 0px 6px;
+    }
+    .mobile-side-banner-btn a{
+        font-family: 'Lato';
+        font-size: 16px;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .mobile-side-banner-btn a svg{
+        margin-top: 3px;
+    }
+    
+    }
+
