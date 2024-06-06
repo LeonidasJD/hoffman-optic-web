@@ -122,3 +122,92 @@ margin-top: 60px;
 }
 
 /*RELATED POST CSS END*/
+
+/* RESPONSIVE CSS START */
+/* SINGLE POST INFO RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .single-post-info-underwrapper{
+        padding: 30px 10px 56px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .single-post-info{
+        width: 100%;
+    }
+    .post-single-section-title h2{
+        margin-top: 20px;
+        margin-bottom: 17px;
+    }
+    .post-section-subtitle h3{
+        font-size: 18px;
+    }
+    .post-section-description p{
+        font-size: 16px;
+        line-height: 128.5%;
+    }
+    .post-section-image img{
+        margin-top: 30px;
+        width: 100%;
+        border-radius: 4px;
+    }
+    .lates-news-wrapper{
+        display: flex;
+        align-items: flex-start;
+    }
+}
+/* SINGLE POST INFO RESPONSIVE END */
+
+
+/* RELATED BLOG RESPONOSIVE START */
+@media screen and (max-width: 768px) {
+    .container-related-blogs{
+        margin-top: 56px;
+    }
+    .related-posts-underwrapper{
+        padding: 0px 10px 72px 10px;;
+    }
+    .related-news-cards-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        gap: 30px;
+    }
+    .related-heading-and-paragraph p{
+        line-height: 128%;
+    }
+    .related-single-news-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .side-banner-wrapper{
+        width: auto;
+    }
+    .lates-news-wrapper{
+        margin:0px;
+    }
+    .latest-single-blog-card{
+        width: auto;
+    }
+    .lates-post-image img{
+        height: 6rem;
+    }
+    .latest-news-heading h2{
+        font-size: 25px;
+    }
+    
+    .related-news-cards-wrapper .related-card-img img{
+        width: 100%;
+        margin: 0px;
+        border-radius: 4px;
+    }
+    .single-news-date{
+        margin-top: 16px;
+    }
+    .single-news-date img{
+        width: 10px;
+    }
+}
+/* RELATED BLOG RESPONOSIVE END */
+
+/* RESPONSIVE CSS END */

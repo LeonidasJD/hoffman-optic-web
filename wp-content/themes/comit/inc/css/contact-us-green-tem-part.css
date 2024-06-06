@@ -94,11 +94,15 @@
   }
   /* RESPONSIVE START*/
   @media screen and (max-width: 768px) {
+    .container-banner-section{
+      margin: 0px 10px 13px 10px;
+      border-radius: 4px;
+    }
     .contact-us-banner-underwrapper{
       padding: 0px;
       display: flex;
       flex-direction: column;
-      padding: 20px 13px 35px 13px;
+      padding: 26px 13px 35px 13px;
       gap: 95px;
     }
     .contact-us-banner-underwrapper h2{

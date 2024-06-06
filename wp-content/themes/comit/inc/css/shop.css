@@ -292,6 +292,9 @@ background-color: white!important;
     margin-left:3px!important;
     border-radius: 4px!important;
   }
+  .more-filter-button-wrapper{
+    display: none;
+  }
 /*FILTER AND PRODUCT SECTION END*/
 
 /* PAGINATION CSS START */
@@ -299,3 +302,110 @@ background-color: white!important;
   background-color: transparent !important;
 }
 /* PAGINATION CSS END */
+
+/* RESPONSIVE CSS START */
+
+/* CATEGORY AND SEARCH RESPONSIVE START */
+@media screen and (max-width: 768px) {
+  .shop-category-section-wrapper{
+    padding: 0px;
+  }
+  .shop-category-section-underwrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 24px 10px;
+    background-color: #F5F5F5;
+    }
+    .category-list{
+      padding: 0px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 36px;
+    }
+    .category-item{
+      max-width: 5.5rem;
+    }
+    .category-item a{
+      text-align: center;
+    }
+    .search-div{
+      background-color: white;
+      padding: 10px 46px 22px 46px;
+      border-radius: 10px;
+    }
+    .search-div h1{
+      font-size: 28px;
+      text-align: center;
+    }
+    .product-search-bar {
+      margin-top: 20px;
+    }
+    .category-image-wrapper img{
+      width: 3rem;
+    }
+
+}
+/* CATEGORY AND SEARCH RESPONSIVE END */
+
+
+/* FILTER AND PRODUCTS RESPONSIVE START */
+@media screen and (max-width:767px) {
+  
+  .filter-and-product-section-wrapper{
+    padding: 0px;
+  }
+  .filter-and-product-section-underwrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .filter-section{
+    width: 100%;
+  }
+  .filter-and-product-section-underwrapper{
+    padding: 0px 20px 0px 20px;
+  }
+  .more-filter-button-wrapper{
+    display: flex;
+        text-align: center;
+        justify-content: center;
+  }
+  #more-filters-btn{
+    border: 1px solid #76BA51;
+        border-radius: 6px;
+        padding: 15px 25px;
+        background-color: transparent;
+        font-family: 'Lato';
+        color: #76BA51;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+  }
+  .product-section{
+    padding-bottom: 126px;
+  }
+  
+  #filterss{
+    display: none;
+  }
+  .woocommerce-ordering{
+    display: none;
+  }
+  .products{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .products li{
+    width: 100%!important;
+    
+  }
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+    margin: 0px!important;
+  }
+}
+/* FILTER AND PRODUCTS RESPONSIVE END */
+
+
+/* RESPONSIVE CSS END */

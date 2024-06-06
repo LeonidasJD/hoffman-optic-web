@@ -49,3 +49,30 @@
 }
 
 /*STIL ZA POSTOVE SE NALAZI U HOMEPAGE.CSS JER SE KORISTE ISTI POSTOVI KAO I TAMO*/
+
+
+/* RESPONSIVE CSS START */
+@media screen and (max-width:767px){
+    .news-section-wrapper{
+        padding: 0px;
+    }
+    .news-section-underwrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px 60px 10px;
+        gap:0px;
+    }
+    .news-section-underwrapper .single-blog-card{
+        padding: 0px;
+    }
+    .news-section-underwrapper .pagination{
+        margin-top: 50px;
+        width: 87%;
+        display: flex;
+        justify-content: center;
+    }
+    .news-section-underwrapper .latest-posts-section-wrapper{
+        display: none;
+    }
+}
+/* RESPONSIVE CSS END */

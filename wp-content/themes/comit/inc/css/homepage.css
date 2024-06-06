@@ -1015,17 +1015,7 @@ margin-right: 0px;
     #frm_field_40_container,#frm_field_41_container{
         width: 100%!important;
     }
-    /* Container za elemente koje želite da postavite horizontalno */
-.frm_fields_container {
-    display: flex!important;
-    flex-wrap: wrap!important; 
-    gap: 15px; /* Razmak između elemenata */
-}
-
-/* Specifični elementi koje želite da budu jedan pored drugog */
-#frm_field_42_container, #frm_field_43_container {
-    flex: 1 1 45%; /* Prilagodite širinu prema potrebi */
-}
+   
 
 /* Sakrijte nepotrebni razmakni element */
 #frm_field_44_container {

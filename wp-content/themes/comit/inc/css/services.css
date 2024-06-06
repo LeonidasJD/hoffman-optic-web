@@ -90,3 +90,46 @@
     color: #76BA51;
 }
 /*SERVICES SECTION CSS END*/
+
+/* RESPONSIVE CSS START */
+
+/* HERO SECTION REPOSNOSIVE START */
+@media screen and (max-width: 768px) {
+    .hero-services-section-wrapper{
+        padding: 0px;
+    }
+    .hero-services-section-under-wrapper h1{
+        font-size: 27px;
+        padding: 20px 10px 296px 10px;
+    }
+    .container-services-hero{
+        background-image: url('/wp-content/uploads/2024/06/business_finance_and_employment_female_successfu_2023_11_27_05_22_51_utc_copy_2.webp');
+    }
+}
+/* HERO SECTION REPOSNOSIVE END */
+
+/* SERVICE SECTION RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .services-section-wrapper{
+        padding: 0px;
+    }
+    .services-cards-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 5px 10px 95px 10px;
+        gap: 25px;
+    }
+    .single-service-card{
+        width: 100%;
+        margin: 0px;
+        height: 100%;
+    }
+    }
+    
+
+    
+
+/* SERVICE SECTION RESPONSIVE END */
+
+/* RESPONSIVE CSS END */

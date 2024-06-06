@@ -103,6 +103,12 @@
     line-height: 20px;
     color: white;
 }
+.data-section-img{
+display: none;
+}
+.our-work-data-divider{
+    display: none;
+}
 /*CORE OF OUR WORK  SECTION CSS END*/
 
 
@@ -166,5 +172,128 @@ border-radius: 8px 8px 0px 0px ;
     color: black;
     margin:14px 0px 0px 0px;
 }
+#more-team-btn{
+    display: none;
+}
 
 /*OUR TEAM  SECTION CSS END*/
+
+/* RESPONSIVE CSS START */
+
+/* HERO SECTION RESPONSIVE START */
+@media screen and (max-width:767px){
+    .container-hero-about-us{
+        background-image: url('/wp-content/uploads/2024/06/frame_1012.webp');
+    }
+    .about-us-hero-underwrapper{
+        padding: 20px 10px 296px 10px;
+    }
+    .about-us-hero-underwrapper h1{
+        font-size: 27px;
+    }
+
+}
+/* HERO SECTION RESPONSIVE END */
+
+/* OUR SECTION RESPONSIVE START */
+@media screen and (max-width:767px){
+    .container-our-mission-section{
+        background-image: url('');
+    }
+    .our-mission-section-underwrapper{
+        padding: 0px 10px 0px 10px;
+
+    }
+    .data-section-info{
+        margin-bottom: 35px;
+    }
+    .data-section-info h2{
+        font-size: 20px;
+    }
+    .data-section-info p{
+        font-size: 17px;
+    }
+    .data-section-img{
+        display: block;
+        margin-top: 50px;
+        }
+        .data-section-img img{
+            width: 100%;
+        }
+}
+/* OUR SECTION RESPONSIVE END */
+
+/* CORE OF OUR WORK RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .our-work-section-underwrapper{
+        padding: 80px 20px 90px 20px;
+    }
+    .our-work-section-heading-wrapper h2{
+        margin: 0px;
+        font-size: 24px;
+    }
+    .our-work-section-data-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+        align-items: center;
+    }
+    .our-work-data{
+        width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-work-data p{
+        text-align: center;
+    }
+    .our-work-data h3{
+        text-align: center;
+    }
+    .our-work-data-divider{
+        display: block;
+        padding-top:2px ;
+        background-color: #5B9356;
+        width: 13rem;
+    }
+    }
+
+/* CORE OF OUR WORK RESPONSIVE END */
+
+/* OUR TEAM SECTION RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .our-team-section-under-wrapper{
+        padding: 58px 25px 116px 25px;
+    }
+    .team-members-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .single-team-member-card{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .more-team-button-wrapper{
+        display: flex;
+            text-align: center;
+            justify-content: center;
+      }
+      #more-team-btn{
+        display: block;
+        border: 1px solid black;
+            border-radius: 6px;
+            padding: 15px 25px;
+            background-color: transparent;
+            font-family: 'Lato';
+            color: black;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+      }
+}
+    
+
+/* OUR TEAM SECTION RESPONSIVE END */
+/* RESPONSIVE CSS END */
