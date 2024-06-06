@@ -25,7 +25,10 @@
             <h2>Holistic eye optics.</h2>
             <p>In our optical competence center, highly qualified optometrists are available for a holistic examination of your eyes. We offer you a careful eyeglass determination from a holistic perspective. Our focus is on analyzing visual perception and improving it through glasses, contact lenses or magnifying visual aids (magnifying glasses). Our opticians will be happy to advise you on current eyewear fashions, the right lenses, sunglasses and contact lenses for you.<br><br> Our eye care program expands the eyeglass assessment to include comprehensive optometric screening. The aim is to identify possible eye defects that are relevant to the prescription, as well as any abnormalities in the eye that require an additional specialist medical examination. Our interdisciplinary collaboration enables us to contribute to the holistic eye health of our customers.</p>
         </div>
+        
+        
     </div>
+    <div class="data-section-img"><img src="/wp-content/uploads/2024/06/mask_group.webp" ></div>
 </section>
     </div>
 </div>
@@ -44,16 +47,19 @@
             <h3>Good vision from a single source</h3>
             <p>From the eye exam to the finished pair of glasses – the focus of our philosophy is the closely coordinated collaboration between our optometrists and opticians.</p>
         </div>
+        <div class="our-work-data-divider"></div>
         <div class="our-work-data" >
             <img src="/wp-content/uploads/2024/05/solar_medal-star-outline.png">
             <h3>Qualifications, experience & quality awareness</h3>
             <p>Due to their in-depth training and many years of experience, our optometrists can help with a variety of visual defects and vision problems and provide you with the best possible care with contact lenses and glasses.</p>
         </div>
+        <div class="our-work-data-divider"></div>
         <div class="our-work-data" >
             <img src="/wp-content/uploads/2024/05/ri_heart-2-line.png">
             <h3>Service is our passion</h3>
             <p>Our heart beats for the health trade of optics, your satisfaction is our top priority. Our offers also include numerous free services for your glasses and contact lenses.</p>
         </div>
+        <div class="our-work-data-divider"></div>
         <div class="our-work-data" >
             <img src="/wp-content/uploads/2024/05/mdi_partnership-outline.png">
             <h3>Successful with strong partners</h3>
@@ -70,6 +76,7 @@
 <!--CORE OF OUR WORK  SECTION END-->
 
 <!--OUR TEAM  SECTION START-->
+<div class="section-divider"><img src="/wp-content/uploads/2024/06/ellipse_11-1.webp" alt=""></div>
 <div class="container-our-team-section">
     <div class="container-14">
     <section class="our-team-section-wrapper">
@@ -117,6 +124,14 @@
         echo '</div>';
         endif;
         ?>
+        </div>
+        <div  class="more-team-button-wrapper">
+            <button id="more-team-btn">
+            <span id="more-team-text">Load more</span>
+            <svg id="more-team-svg" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="more-team-img" fill="black" d="M6.5 8.5L0 0.5L13 0.500001L6.5 8.5Z" />
+            </svg>
+            </button>
         </div>
     </div>
 </section>
