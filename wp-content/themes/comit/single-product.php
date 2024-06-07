@@ -184,7 +184,7 @@ if (have_posts()) {
                     }
                     ?>
                     <h2><?php the_title(); ?></h2>
-                    <p><a href="<?php echo get_permalink() ?>">Read more</a></p>
+                    <p><a class="related-product-underline-link" href="<?php echo get_permalink() ?>">Read more</a></p>
                 </div>
                 </a>
                
@@ -276,10 +276,12 @@ var cancelModals =document.getElementsByClassName('cancel-button');
 
 openModalButton.addEventListener("click",function(){
 relatedModal.style.display="block";
+document.body.classList.add('no-scroll'); //globalni css koji onemogucava skrolanje kada je modal otvoren
 });
 
 exitIconModal.addEventListener("click",function(){
 relatedModal.style.display="none";
+document.body.classList.remove('no-scroll');
 });
 
 for(var i = 0; i < cancelModals.length; i++){
@@ -287,6 +289,7 @@ for(var i = 0; i < cancelModals.length; i++){
 
     cancelModal.addEventListener("click", function(){
     relatedModal.style.display="none";
+    document.body.classList.remove('no-scroll');
 });
 }
 
