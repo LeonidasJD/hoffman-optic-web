@@ -152,20 +152,26 @@ newDiv.classList.add("paralel-fileds-wrapper");
 
 
 var field59 = document.getElementById("frm_field_59_container");
-var field61 = document.getElementById("frm_field_61_container");
+var field81 = document.getElementById("frm_field_81_container");
 
 
-var newParagraph = document.createElement("p");
-newParagraph.textContent = "|";
+var newImage = document.createElement("img");
+newImage.src = "/wp-content/uploads/2024/06/vector_21.webp";
 
 
 newDiv.appendChild(field59);
-newDiv.appendChild(newParagraph);
-newDiv.appendChild(field61);
+newDiv.appendChild(newImage);
+newDiv.appendChild(field81);
 
 
 var referenceElement = document.getElementById("frm_field_58_container");
 
 
 referenceElement.insertAdjacentElement('afterend', newDiv);
+
+// OGRANICAVANJE DA SE ODABERE DATUM U PROSLOSTI U FORMI START
+$( function() {
+    $("#field_5hgrh" ).datepicker({ minDate: 0, maxDate: "+12M" });
+  } );
+  // OGRANICAVANJE DA SE ODABERE DATUM U PROSLOSTI U FORMI START
 </script>
