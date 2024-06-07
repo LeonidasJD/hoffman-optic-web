@@ -58,7 +58,11 @@
 		<header id="masthead" class="site-header">
 		<div class="header-wrapper">
 			<div class="header-under-wrapper">
-			<div><?php echo wp_nav_menu('menu-1') ?></div>
+			<div><?php  wp_nav_menu( 
+        array( 
+            'theme_location' => 'menu-1'
+        ) 
+    );  ?></div>
 		<div class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/uploads/2024/05/logotype-1.png" alt=""></a></div>
 		<div class="button-wrapper">
 			<a class="button-type-1 shop-button" href="/shop/">Products</a>
