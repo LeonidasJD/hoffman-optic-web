@@ -38,15 +38,16 @@
 .category-item{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     gap: 16px;
+    width: 7.5rem;
 }
 .category-item a{
     font-family: 'Glegoo';
     font-size: 16px;
     font-weight: 400;
     color: #42464E;
+    text-align: center;
 }
 .category-image-wrapper{
     background-color: #EAEDE9;
@@ -262,6 +263,23 @@ margin-top: 40px;
     font-size: 14px!important;
     color: white!important;
   }
+  .woocommerce nav.woocommerce-pagination ul li a.prev {
+    background-image: url('/wp-content/uploads/2024/05/Vector-1.png'); /* Path to your custom left arrow image */
+    background-size: 8px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a.next {
+    background-image: url('/wp-content/uploads/2024/05/2.png'); /* Path to your custom right arrow image */
+    background-size: 8px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+}
+
+
 /*ajax search css*/
   .css-18xzoxd .ywcas-input-field-wrapper{
     border-radius: 4px!important;
