@@ -134,6 +134,8 @@ $(document).ready(function(){
         $(this).click(function(){
             var btnNumber =index;
             $('.modal-wrapper').show();
+            document.body.classList.add('no-scroll');
+
         });
     }); 
 
@@ -141,9 +143,11 @@ $(document).ready(function(){
 /**ZATVARANJE MODALA */
     $('.exit-icon').click(function(){
         $('.modal-wrapper').hide();
+        document.body.classList.remove('no-scroll');
     });
     $('.cancel-button').click(function(){
         $('.modal-wrapper').hide();
+        document.body.classList.remove('no-scroll');
     });
 });
 
