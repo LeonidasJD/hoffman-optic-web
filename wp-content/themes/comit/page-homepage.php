@@ -337,6 +337,8 @@ eiusmod tempor incididunt ut.
       <div class="swiper-slide">Slide 3</div>
       
     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
     <div class="swiper-pagination"></div>
   </div>
         </div>
@@ -377,6 +379,10 @@ var swiper = new Swiper(".mySwiper", {
       pagination: {
         el: ".swiper-pagination",
         dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
     });
 
@@ -433,16 +439,16 @@ newDiv1.classList.add("paralel-fileds-wrapper");
 
 
 var field42 = document.getElementById("frm_field_42_container");
-var field43 = document.getElementById("frm_field_43_container");
+var field80 = document.getElementById("frm_field_80_container");
 
 
-var newParagraph1 = document.createElement("p");
-newParagraph1.textContent = "|";
+var newImage1 = document.createElement("img");
+newImage1.src = "/wp-content/uploads/2024/06/vector_21.webp";
 
 
 newDiv1.appendChild(field42);
-newDiv1.appendChild(newParagraph1);
-newDiv1.appendChild(field43);
+newDiv1.appendChild(newImage1);
+newDiv1.appendChild(field80);
 
 
 var referenceElement1 = document.getElementById("frm_field_41_container");
@@ -452,5 +458,14 @@ referenceElement1.insertAdjacentElement('afterend', newDiv1);
 //ADDED FORM ELEMENT IN NEW DIV END
 
 
+
+//POSTAVLJANJE LOGIKE DA KORISNIK NE MOZE DA ODABERE DATUM U PROSLOTSTI NA FORMI START
+   
+
+$( function() {
+    $( "#field_r4twn" ).datepicker({ minDate: 0, maxDate: "+12M" });
+  } );
+
+//POSTAVLJANJE LOGIKE DA KORISNIK NE MOZE DA ODABERE DATUM U PROSLOTSTI NA FORMI END
 
 </script>
