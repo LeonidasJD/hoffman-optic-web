@@ -42,6 +42,10 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!--SWIPER JS END-->
 
+<!-- FONT AWESOME START -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <!-- FONT AWESOME END -->
+
 
 	<?php wp_head(); ?>
 </head>
@@ -69,7 +73,7 @@
 			<a class="button-type-2 contact-button" href="/contact-us/">Contact</a>
 		</div>
 			</div>
-			<div class="horizontal-line"></div>
+			<!-- <div class="horizontal-line"></div> -->
 		
 		</div>
 		
