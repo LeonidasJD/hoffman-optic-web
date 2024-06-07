@@ -81,7 +81,7 @@
 			<div class="header-items-wrapper">
 			<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="mobile-logo" src="/wp-content/uploads/2024/06/logotype-2.webp" ></a></div>
 			<div class="btn-and-hamburger">
-			<div class="header-contact-button"><a href="#">Contact</a></div>
+			<div class="header-contact-button"><a href="/contact-us/">Contact</a></div>
 			<div id="open-dropdown-menu" class="hamburger-wrapper"><img class="hamburger-icon" src="/wp-content/uploads/2024/06/Frame-876.webp" ></div>
 			</div>
 			
