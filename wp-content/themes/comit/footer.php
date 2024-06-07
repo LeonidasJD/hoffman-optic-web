@@ -44,16 +44,16 @@
 				<li>
 					<p>Geschäft: Müllheim</p>
 			</li>
-			<li><p><a href="mailto:muellheim@hoffmann-optik.de">muellheim@hoffmann-optik.de</a></p></li>
-			<li><a  href="tel:076313375"><p class="tel-number">07631-3375</p></a></li>
+			<li><p><a class="underline-links" href="mailto:muellheim@hoffmann-optik.de">muellheim@hoffmann-optik.de</a></p></li>
+			<li><a class="underline-links"  href="tel:076313375"><p class="tel-number">07631-3375</p></a></li>
 			<li><p>Werderstraße 45,</p></li>
 			<li><p>79379 Müllheim</p></li>
 			</ul>
 			<div class="horizontal-line-footer"></div>
 			<ul>
 			<li><p>Geschäft: Neuenburg</p></li>
-			<li><p><a href="mailto:neuenburg@hoffmann-optik.de">neuenburg@hoffmann-optik.de</a></p></li>
-			<li><a  href="tel:0763173606"><p class="tel-number">07631-73606</p></a></li>
+			<li><p><a class="underline-links" href="mailto:neuenburg@hoffmann-optik.de">neuenburg@hoffmann-optik.de</a></p></li>
+			<li><a class="underline-links" href="tel:0763173606"><p class="tel-number">07631-73606</p></a></li>
 			<li><p>Rebstraße 4,</p></li>
 			<li><p>79395 Neuenburg am Rhein</p></li>
 			</ul>
