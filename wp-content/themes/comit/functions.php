@@ -51,6 +51,7 @@ function comit_setup() {
 		array(
 			'menu-1' => esc_html__( 'Primary', 'comit' ),
 			'mobile-menu' => esc_html__( 'Mobile-menu', 'comit' ),
+			'footer-menu' => esc_html__('Footer-menu','comit'),
 			
 		)
 	);
