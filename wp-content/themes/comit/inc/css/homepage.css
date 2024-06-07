@@ -85,7 +85,7 @@ background-size: cover;
   width: 100%;
   padding: 120px 0px 0px 0px;
   border: 2px solid #EDEDED;
-  
+  border-radius: 8px;
   
 }
 .left-wrapper{
@@ -100,7 +100,7 @@ background-size: cover;
     justify-content: space-between;
 }
 .left-info h2{
-    font-family: 'Lustria';
+    font-family: 'Glegoo';
     font-weight: 400;
     font-size: 32px;
     color: #0E130B;
@@ -141,6 +141,7 @@ background-size: cover;
   width: 100%;
   padding: 120px 0px 0px 0px;
   border: 2px solid #EDEDED;
+  border-radius: 8px;
   
   
 }
