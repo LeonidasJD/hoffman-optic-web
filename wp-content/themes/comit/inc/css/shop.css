@@ -105,6 +105,11 @@ margin-top: 40px;
 .product-search-bar button img{
     width: 1rem;
 }
+.wp-block-yith-search-block .ywcas-classic-search.ywcas-small input{
+  text-align: center;
+  padding: 5px 0px 5px 0px!important;
+  margin-left: -15px!important;
+}
 /*SEARCH BAR CSS END */
 
 /*FILTER AND PRODUCT SECTION START*/
