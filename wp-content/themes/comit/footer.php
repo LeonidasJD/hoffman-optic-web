@@ -20,7 +20,11 @@
 			<div>
 				<h2>Menu</h2>
 				<nav>
-					<?php wp_nav_menu('menu-1') ?>
+					<?php wp_nav_menu( 
+        array( 
+            'theme_location' => 'footer-menu'
+        ) 
+    ); ?>
 				</nav>
 			</div>
 			<div class="footer-divider"></div>
