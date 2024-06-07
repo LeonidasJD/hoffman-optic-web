@@ -462,13 +462,32 @@ background-size: cover;
 }
 
 
-.formidable-form input, .formidable-form select{
+.formidable-form input{
+    border-top: 0px!important;
+    border-left: 0px!important;
+    border-right: 0px!important;
+    border-bottom: 2px solid #76BA51!important;
+    border-radius: 0px!important;
+    padding: 0px!important;
+    font-family: 'Lato' !important;
+    font-size: 14px;
+    color: #6E716D !important;
+
+}
+#field_coxqx,#field_3cari{
+    padding: 0px!important;/*SELECT KOJI NEMA PADDING*/
+    color: #42464e !important; ;
+}
+
+
+.formidable-form select{
     border-top: 0px!important;
     border-left: 0px!important;
     border-right: 0px!important;
     border-bottom: 2px solid #76BA51!important;
     border-radius: 0px!important;
 }
+
 
 .formidable-form select{
     border-top: 0px!important;
@@ -479,7 +498,7 @@ background-size: cover;
     font-family: 'Lato'!important;
     font-weight: 600!important;
     font-size: 16px!important;
-    color: #42464E!important;
+    color: #42464E;
 }
 
 .formidable-form input::placeholder{
@@ -488,6 +507,7 @@ background-size: cover;
     font-size: 16px!important;
     color: #42464E!important;
 }
+
 .formidable-form select option{
     font-family: 'Lato';
     font-weight: 600;
@@ -501,8 +521,11 @@ background-size: cover;
 #frm_field_17_container ,#frm_field_44_container{
     display: flex!important;
     justify-content: center!important;
-    align-items: center!important;
-    margin: 0px!important;
+    margin-top: 12px;
+    height: 12px;
+}
+#frm_field_17_container img{
+    width: 2px;
 }
 #frm_field_40_container{
     width: 160px!important;
@@ -517,7 +540,7 @@ background-size: cover;
     width: 165px!important;
 }
 #field_r4twn,#field_1sc3e{  /*date and time fields*/
-    padding: 7px 0px 7px 5px!important;
+    padding: 7px 7px 7px 7px!important;
     border-radius: 4px!important;
     width: 97% !important;
     border: 2px solid #76BA51!important;
@@ -525,11 +548,29 @@ background-size: cover;
     font-weight: 600!important;
     font-size: 16px!important;
     color: #76BA51!important;
+    text-align: center!important;
     
 } 
+#field_r4twn::placeholder{
+    color: #76BA51!important;
+}
 #field_1sc3e{
     width: 100%!important;
 }
+#frm_field_80_container{
+    border: 2px solid #76BA51!important;
+    width: 156px;
+    border-radius: 6px;
+}
+#frm_field_80_container .frm_time_wrap{
+    text-align: center;
+}
+#frm_field_80_container select{
+    color: #76BA51;
+    border-bottom: none!important;
+   
+}
+
 .frm_error{
     color: red!important;
     font-family: 'Lato'!important;
@@ -703,6 +744,19 @@ background-size: cover;
   }
   .swiper-pagination-bullet {
     background-color: #76BA51; /* Crvena boja */
+}
+.swiper-button-prev:after,.swiper-button-next:after{
+color: #76BA51;
+position: absolute;
+    top: 408%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.swiper-button-prev:after{
+    margin-left: 325px;
+}
+.swiper-button-next:after{
+    margin-right: 325px;
 }
 /*TESTIMONIAL SECTION  CSS END*/
 
@@ -1075,6 +1129,9 @@ margin-right: 0px;
     .mySwiper h4{
         margin: auto;
         padding-bottom: 50px;
+    }
+    .swiper-button-prev,.swiper-button-next{
+        display: none;
     }
 }
 /* TESTIMONIAL SECTION RESPONSIVE START */

@@ -50,3 +50,19 @@
 #frm_field_61_container{
     width: 165px!important;
 }
+#field_8njfd{
+    padding: 0px!important;
+}
+#frm_field_81_container{
+    border: 2px solid #76BA51!important;
+    width: 156px;
+    border-radius: 6px;
+}
+#frm_field_81_container .frm_time_wrap{
+    text-align: center;
+}
+#frm_field_81_container select{
+    color: #76BA51;
+    border-bottom: none!important;
+   
+}

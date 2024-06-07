@@ -85,6 +85,7 @@
     gap: 35px;
     padding-top: 50px;
     width: -webkit-fill-available;
+    width: -moz-available;
 
 }
 .product-info h1{
@@ -94,6 +95,9 @@
     line-height: 128%;
     color: black;
     margin: 0px;
+}
+#related-modal-button img{
+    width: 13px;
 }
 .product-info button{
     
@@ -108,9 +112,9 @@
     font-weight: 400;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     box-shadow: -7px 7px 12px 1px #E1E8DF;
     cursor: pointer;
+    gap: 10px;
 }
 .product-description{
     font-family: 'Lato';
@@ -264,7 +268,9 @@
     font-weight: 400;
     margin: 0px;
 }
-
+.related-product-underline-link{
+    text-decoration: underline;
+}
 /* RELATED PRODUCT CSS END */
 
 /* RELATED MODAL CSS START */
@@ -335,9 +341,8 @@
     border-radius: 0px!important;
     margin-bottom: 0px!important;
     font-family: 'Lato'!important;
-    font-weight: bold!important;
     font-size: 14px!important;
-    color: #0E130B!important;
+    color: #6E716D !important;
 }
 #field_avsnp{
     display: none!important;

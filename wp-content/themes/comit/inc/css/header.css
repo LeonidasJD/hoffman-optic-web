@@ -8,7 +8,8 @@ header{
     padding: 15px 0px 15px 0px;
 } */
 .container-header{
-    background-color: #F5F5F5; 
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #B4C9A8;
 }
 .header-wrapper{
     background-color: #F5F5F5;
@@ -30,6 +31,9 @@ header{
     font-size: 14px;
     color: #0E130B;
     
+}
+#menu-menu-1 .current-menu-item > a {
+    color: #76BA51; 
 }
 #menu-menu-1 li a:hover{
     color: #76BA51;
@@ -69,7 +73,7 @@ header{
 .horizontal-line{
     background-color: #B4C9A8;
     padding-top: 1px;
-    margin: 0px 65px 0px 65px;
+   
 }
 .mobile-heahder-wrapper{
     display: none;
@@ -83,6 +87,7 @@ header{
 @media screen and (max-width:767px){
     .container-header{
         display: none;
+        border-bottom: none;
     }
     .mobile-heahder-wrapper{
         display: block;

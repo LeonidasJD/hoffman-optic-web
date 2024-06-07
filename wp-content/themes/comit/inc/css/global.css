@@ -160,6 +160,15 @@ content: '';
 textarea{
     resize: none;
 }
+.no-scroll{
+    overflow: hidden;
+}
+.frm_message{
+    font-family: 'Glegoo';
+    text-align: center;
+}
+.ui-datepicker .ui-datepicker-prev:before {content: '\2193'!important;}
+.ui-datepicker .ui-datepicker-next:before {content: '\2191'!important;}
 @media screen and (max-width:2440px){
 .container-14{
         max-width:1920px;

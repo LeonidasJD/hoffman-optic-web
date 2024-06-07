@@ -15,15 +15,28 @@
     display: flex;
     justify-content: space-between;
 }
+.paralel-fileds-wrapper img{
+    height: 12px;
+    margin-top: 12px;
+    width: 2px;
+}
 #frm_field_59_container #field_5hgrh{
     border: 2px solid #76BA51!important;
     border-radius: 5px!important;
-    padding-top: 9px;
+    padding:7px 7px 7px 7px!important;
+    text-align: center;
+}
+#frm_field_59_container #field_5hgrh::placeholder{
+    color: #76BA51!important;
 }
 #frm_field_61_container #field_gatyk{
     border: 2px solid #76BA51!important;
     border-radius: 5px!important;
+    border-radius: 5px !important;
+    padding: 5px 7px 6px 7px !important;
+    text-align: center;
 }
+
 
 .post-text{
     width: 50%;
@@ -202,6 +215,7 @@
             padding-top: 0px;
         }
         
+        
     }
 
     /* RELATED SERVICE RESPONSIVE START */
@@ -223,6 +237,9 @@
             margin: 0px;
         }
         .paralel-fileds-wrapper p{
+            display: none;
+        }
+        .paralel-fileds-wrapper img{
             display: none;
         }
     }
