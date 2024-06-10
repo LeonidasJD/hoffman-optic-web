@@ -35,9 +35,9 @@ get_header();
             <div class="left-info">
             <h2>Our store in Neuenburg</h2>
         <ul>
-            <li><img src="/wp-content/uploads/2024/05/icon-_phone_.png" alt=""> <p><a href="tel:0763173606">07631-73606</a></p></li>
-            <li><img src="/wp-content/uploads/2024/05/icon-_mail_.png" alt=""><p><a href="mailto:neuenburg@hoffmann-optik.de">neuenburg@hoffmann-optik.de</a></p></li>
-            <li><img src="/wp-content/uploads/2024/05/icon-_clock-outline_.png" alt=""><p> 08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
+            <li><img src="/wp-content/uploads/2024/06/icon_phone_.webp" alt=""> <p><a href="tel:0763173606">07631-73606</a></p></li>
+            <li><img src="/wp-content/uploads/2024/06/icon_mail_.webp" alt=""><p><a href="mailto:neuenburg@hoffmann-optik.de">neuenburg@hoffmann-optik.de</a></p></li>
+            <li><img src="/wp-content/uploads/2024/06/icon_clock_outline_.webp" alt=""><p> 08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
     </div>
     <div class="button-wrapper"><button id="neuenburg-btn" class="book-now-btn button-type-3">Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
@@ -51,9 +51,9 @@ get_header();
             <div class="left-info">
             <h2>Our store in Müllheim  </h2>
         <ul>
-            <li><img src="/wp-content/uploads/2024/05/icon-_phone_.png" alt=""> <p><a href="tel:076313375">07631-3375</a></p></li>
-            <li><img src="/wp-content/uploads/2024/05/icon-_mail_.png" alt=""><p><a href="mailto:muellheim@hoffmann-optik.de">muellheim@hoffmann-optik.de</a></p></li>
-            <li><img src="/wp-content/uploads/2024/05/icon-_clock-outline_.png" alt=""><p>08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
+            <li><img src="/wp-content/uploads/2024/06/icon_phone_.webp" alt=""> <p><a href="tel:076313375">07631-3375</a></p></li>
+            <li><img src="/wp-content/uploads/2024/06/icon_mail_.webp" alt=""><p><a href="mailto:muellheim@hoffmann-optik.de">muellheim@hoffmann-optik.de</a></p></li>
+            <li><img src="/wp-content/uploads/2024/06/icon_clock_outline_.webp" alt=""><p>08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
     </div>
     <div class="button-wrapper"><button id="mullheim-btn" class="book-now-btn button-type-3">Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
@@ -80,7 +80,7 @@ get_header();
        
         <span class="heading-info-span">
         <p>We Provides always our best services for our clients</p>    
-        <a class="scale-link" href="/services/">Check services <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></a></span>
+        <a class="scale-link" href="/services/">Check services <img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a></span>
         
         </div>
         <div class="services-cards">
@@ -135,7 +135,7 @@ eiusmod tempor incididunt ut.
     <div class="our-product-under-wrapper">
         <div class="heading-product-info">
             <h2>Our Products</h2>
-            <p><a class="scale-link" href="/shop/">Check all products</a> <img src="/wp-content/uploads/2024/05/Vector-41.png"></p>
+            <p><a class="scale-link" href="/shop/">Check all products</a> <img src="/wp-content/uploads/2024/06/vector_4.webp"></p>
             
         </div>
         <?php
@@ -260,7 +260,7 @@ eiusmod tempor incididunt ut.
         <h2>Our News</h2>
         <span>
         <p>We Provides always our best insight for our clients  </p>
-        <a class="scale-link" href="/services/">Check news <img src="/wp-content/uploads/2024/05/Vector-41.png" alt=""></a>
+        <a class="scale-link" href="/services/">Check news <img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a>
         </span>
        
         </div>
@@ -326,7 +326,7 @@ eiusmod tempor incididunt ut.
         <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img class="swiper-icon" src="/wp-content/uploads/2024/05/Icon.png" alt="">
+        <img class="swiper-icon" src="/wp-content/uploads/2024/06/download.webp" alt="">
         <p class="swiper-text">Long established fact that a reader will be distracted
             by the readable content of a page when looking at it's
             layout. The point of using Lorem Ipsum</p>
