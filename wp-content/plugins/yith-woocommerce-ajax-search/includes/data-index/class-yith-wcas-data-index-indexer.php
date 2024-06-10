@@ -214,35 +214,34 @@ if ( ! class_exists( 'YITH_WCAS_Data_Index_Indexer' ) ) {
 
 			$is_purchasable    = 'variation' !== $product->get_type() ? $product->is_purchasable() : ywcas_is_variation_purchasable( $product );
 			$formatted_product = array(
-				'post_id'         => $data->ID,
-				'name'            => $product->get_type() === 'product_variation' ? $product->get_formatted_name() : $product->get_name(),
-				'description'     => $product->get_description(),
-				'summary'         => wp_strip_all_tags( $product->get_short_description() ),
-				'url'             => $product->get_permalink(),
-				'sku'             => $product->get_sku(),
-				'thumbnail'       => ywcas_get_product_thumbnail_url( $product ),
-				'min_price'       => $min_price,
-				'max_price'       => $max_price,
-				'onsale'          => $product->is_on_sale(),
+				'post_id'           => $data->ID,
+				'name'              => $product->get_type() === 'product_variation' ? $product->get_formatted_name() : $product->get_name(),
+				'description'       => $product->get_description(),
+				'summary'           => wp_strip_all_tags( $product->get_short_description() ),
+				'url'               => $product->get_permalink(),
+				'sku'               => $product->get_sku(),
+				'thumbnail'         => ywcas_get_product_thumbnail_url( $product ),
+				'min_price'         => $min_price,
+				'max_price'         => $max_price,
+				'onsale'            => $product->is_on_sale(),
 				'instock'           => $product->get_type() === 'variable' ? count( $product->get_available_variations() ) > 0 : $product->is_in_stock(),
-				'stock_quantity'  => empty( $stock_qty ) ? 0 : $stock_qty,
-				'is_purchasable'  => $is_purchasable,
-				'rating_count'    => $product->get_rating_count(),
-				'average_rating'  => $product->get_average_rating(),
-				'total_sales'     => $product->get_total_sales(),
-				'post_type'       => $data->post_type,
-				'post_parent'     => $data->post_parent,
-				'product_type'    => $product->get_type(),
-				'parent_category' => maybe_serialize( $this->get_parent_categories( $product, ywcas_get_language( $data->ID ) ) ),
-				'tags'            => maybe_serialize( $this->get_tags( $product ) ),
-				'custom_fields'   => $this->get_product_custom_fields( $product ),
-				'lang'            => ywcas_get_language( $data->ID ),
-				'featured'        => $product->is_featured(),
+				'stock_quantity'    => empty( $stock_qty ) ? 0 : $stock_qty,
+				'is_purchasable'    => $is_purchasable,
+				'rating_count'      => $product->get_rating_count(),
+				'average_rating'    => $product->get_average_rating(),
+				'total_sales'       => $product->get_total_sales(),
+				'post_type'         => $data->post_type,
+				'post_parent'       => $data->post_parent,
+				'product_type'      => $product->get_type(),
+				'parent_category'   => maybe_serialize( $this->get_parent_categories( $product, ywcas_get_language( $data->ID ) ) ),
+				'tags'              => maybe_serialize( $this->get_tags( $product ) ),
+				'custom_fields'     => $this->get_product_custom_fields( $product ),
+				'lang'              => ywcas_get_language( $data->ID ),
+				'featured'          => $product->is_featured(),
 				'custom_taxonomies' => maybe_serialize( apply_filters( 'ywcas_index_custom_taxonomies', array(), $product ) ),
 				'boost'             => $this->get_boost( $product ),
 
 			);
-
 
 			return apply_filters( 'yith_wcas_data_index_loockup_formatted_product', $formatted_product, $data );
 		}
@@ -265,7 +264,7 @@ if ( ! class_exists( 'YITH_WCAS_Data_Index_Indexer' ) ) {
 						'price' => $price,
 					)
 				);
-			}else{
+			} else {
 				$price = wc_get_price_excluding_tax(
 					$product,
 					array(
@@ -308,7 +307,7 @@ if ( ! class_exists( 'YITH_WCAS_Data_Index_Indexer' ) ) {
 			$parent     = $product->get_parent_id();
 			$product_id = 0 === $parent ? $product->get_id() : $parent;
 
-			$tags       = wp_get_object_terms(
+			$tags = wp_get_object_terms(
 				$product_id,
 				'product_tag',
 				array(
@@ -316,7 +315,6 @@ if ( ! class_exists( 'YITH_WCAS_Data_Index_Indexer' ) ) {
 					'exclude_tree' => true,
 				)
 			);
-
 
 			return apply_filters( 'ywcas_wpml_get_translated_terms_list_by_term_name', $tags, 'product_tag', ywcas_get_language( $product->get_id( 'edit' ) ) );
 		}
@@ -348,7 +346,7 @@ if ( ! class_exists( 'YITH_WCAS_Data_Index_Indexer' ) ) {
 		/**
 		 * Return the boost of product
 		 *
-		 * @param   WC_Product  $product  Product.
+		 * @param   WC_Product $product  Product.
 		 *
 		 * @return string
 		 * @since 2.1
@@ -450,7 +448,7 @@ if ( ! class_exists( 'YITH_WCAS_Data_Index_Indexer' ) ) {
 			$formatted_data = $this->get_formatted_data( $data );
 
 			if ( $formatted_data ) {
-				$inserted                   = YITH_WCAS_Data_Index_Lookup::get_instance()->insert( $formatted_data );
+				$inserted                    = YITH_WCAS_Data_Index_Lookup::get_instance()->insert( $formatted_data );
 				$additional_data_to_tokenize = $this->get_additional_data_to_tokenize( $data, $formatted_data['lang'] );
 
 				$formatted_data = ! empty( $additional_data_to_tokenize ) ? array_merge( $formatted_data, $additional_data_to_tokenize ) : $formatted_data;

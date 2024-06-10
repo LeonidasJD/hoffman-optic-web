@@ -112,7 +112,7 @@ if ( ! function_exists( 'yith_wcas_user_switch_to_block' ) ) {
 	 * @return bool
 	 */
 	function yith_wcas_user_switch_to_block() {
-		return  apply_filters( 'ywcas_user_switch_block', get_option( 'ywcas_user_switch_to_block', false ) );
+		return apply_filters( 'ywcas_user_switch_block', get_option( 'ywcas_user_switch_to_block', false ) );
 	}
 }
 
@@ -176,9 +176,9 @@ if ( ! function_exists( 'yith_wcas_save_default_shortcode_options' ) ) {
 		$shortcodes = YITH_WCAS_Settings::get_instance()->get_shortcodes_list();
 		if ( isset( $shortcodes['default'] ) ) {
 
-			$default           = $shortcodes['default']['options'];
-			$shortcodes['default']['options']['search-input']['placeholder']                     = get_option( 'yith_wcas_search_input_label', $default['search-input']['placeholder'] );
-			$shortcodes['default']['options']['search-results']['max-results']                   = get_option( 'yith_wcas_posts_per_page', $default['search-results']['max-results'] );
+			$default = $shortcodes['default']['options'];
+			$shortcodes['default']['options']['search-input']['placeholder']   = get_option( 'yith_wcas_search_input_label', $default['search-input']['placeholder'] );
+			$shortcodes['default']['options']['search-results']['max-results'] = get_option( 'yith_wcas_posts_per_page', $default['search-results']['max-results'] );
 
 		}
 

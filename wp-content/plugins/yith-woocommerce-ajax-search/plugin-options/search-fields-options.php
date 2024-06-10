@@ -38,10 +38,10 @@ $search_fields_tab = array(
 			'id'   => 'ywcas_search_fields_settings_end',
 		),
 		'section_search_index_settings'     => array(
-			'name'        => __( 'Search index', 'yith-woocommerce-ajax-search' ),
-			'type'        => 'title',
-			'desc'        => __( 'A search index helps your users quickly find information and products on your shop. It is designed to map search queries to documents or URLs that might appear in the results.', 'yith-woocommerce-ajax-search' ),
-			'id'          => 'ywcas_search_index_settings',
+			'name' => __( 'Search index', 'yith-woocommerce-ajax-search' ),
+			'type' => 'title',
+			'desc' => __( 'A search index helps your users quickly find information and products on your shop. It is designed to map search queries to documents or URLs that might appear in the results.', 'yith-woocommerce-ajax-search' ),
+			'id'   => 'ywcas_search_index_settings',
 		),
 		'schedule-index'                    => array(
 			'name'      => _x( 'Schedule indexing', 'Admin label option', 'yith-woocommerce-ajax-search' ),

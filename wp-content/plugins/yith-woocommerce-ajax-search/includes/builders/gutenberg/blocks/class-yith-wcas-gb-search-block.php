@@ -42,19 +42,6 @@ if ( ! class_exists( 'YITH_WCAS_Gb_Search_Block' ) ) {
 		}
 
 		/**
-		 * Register script and style assets for the block type before it is registered.
-		 *
-		 * This registers the scripts; it does not enqueue them.
-		 */
-		protected function register_block_type_assets() {
-			parent::register_block_type_assets();
-			$chunks        = $this->get_chunks_paths( $this->chunks_folder );
-			$vendor_chunks = $this->get_chunks_paths( 'vendors--search-blocks' );
-			$shared_chunks = [];
-			$this->register_chunk_translations( array_merge( $chunks, $vendor_chunks, $shared_chunks ) );
-		}
-
-		/**
 		 * Returns the appropriate asset path for current builds.
 		 *
 		 * @param string $filename Filename for asset path (without extension).
@@ -63,8 +50,8 @@ if ( ! class_exists( 'YITH_WCAS_Gb_Search_Block' ) ) {
 		 * @return  string             The generated path.
 		 */
 		public function get_block_asset_build_path( $filename, $type = 'js' ) {
-			if( 'css' !== $type ){
-				return  parent::get_block_asset_build_path($filename, $type );
+			if ( 'css' !== $type ) {
+				return parent::get_block_asset_build_path( $filename, $type );
 			}
 			return "assets/css/$filename.$type";
 		}
@@ -74,12 +61,12 @@ if ( ! class_exists( 'YITH_WCAS_Gb_Search_Block' ) ) {
 		 * @return array;
 		 */
 		public static function get_search_block_types() {
-			return [
+			return array(
 				'Search_Block',
 				'Input_Block',
 				'Filled_Block',
 				'Product_Results_Block',
-			];
+			);
 		}
 
 	}

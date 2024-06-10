@@ -118,10 +118,14 @@ if ( ! class_exists( 'YITH_WCAS_Settings' ) ) {
 					),
 				)
 			);
-			$search_fields = array_filter( $search_fields, array(
-				$this,
-				'filter_right_search_fields'
-			), ARRAY_FILTER_USE_BOTH );
+			$search_fields = array_filter(
+				$search_fields,
+				array(
+					$this,
+					'filter_right_search_fields',
+				),
+				ARRAY_FILTER_USE_BOTH
+			);
 
 			return apply_filters( 'ywcas_search_fields', $search_fields );
 		}
@@ -314,7 +318,7 @@ if ( ! class_exists( 'YITH_WCAS_Settings' ) ) {
 				'relatedLabel'           => $args['search-results']['related-label'],
 				'relatedPostType'        => $args['search-results']['related-to-show'],
 				'maxRelatedResults'      => $args['search-results']['related-limit'],
-				'relateBgColor'          => ! empty( $related_color['bgcolor'] ) ? $related_color['bgcolor']  : 'f1f1f1',
+				'relateBgColor'          => ! empty( $related_color['bgcolor'] ) ? $related_color['bgcolor'] : 'f1f1f1',
 			);
 
 			return $settings;
@@ -418,7 +422,7 @@ if ( ! class_exists( 'YITH_WCAS_Settings' ) ) {
 					'related-label'                 => __( 'Related content', 'yith-woocommerce-ajax-search' ),
 				),
 				'extra-options'  => array(
-					'icon-colors' => array(
+					'icon-colors'                    => array(
 						'color'       => '#000',
 						'color-hover' => '#000',
 					),
@@ -817,7 +821,7 @@ Separate multiple classes with spaces.',
 			return array(
 				'search-results' => array(
 					'info-to-show' => array(),
-				)
+				),
 			);
 		}
 	}

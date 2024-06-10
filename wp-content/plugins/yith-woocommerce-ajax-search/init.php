@@ -3,13 +3,13 @@
  * Plugin Name: YITH WooCommerce Ajax Search
  * Plugin URI: https://yithemes.com/themes/plugins/yith-woocommerce-ajax-search/
  * Description: <code><strong>YITH WooCommerce Ajax Search</strong></code> is the plugin that allows you to search for a specific product by inserting a few characters. Thanks to <strong>Ajax Search</strong>, users can quickly find the contents they are interested in without wasting time among site pages. <a href="https://yithemes.com/" target="_blank">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>.
- * Version: 2.4.1
+ * Version: 2.5.0
  * Author: YITH
  * Author URI: https://yithemes.com/
  * Text Domain: yith-woocommerce-ajax-search
  * Domain Path: /languages/
- * WC requires at least: 8.7
- * WC tested up to: 8.9
+ * WC requires at least: 8.8
+ * WC tested up to: 9.0
  *
  * @author YITH <plugins@yithemes.com>
  * @package YITH WooCommerce Ajax Search
@@ -71,7 +71,7 @@ if ( ! function_exists( 'yith_plugin_registration_hook' ) ) {
 
 register_activation_hook( __FILE__, 'yith_plugin_registration_hook' );
 
-! defined( 'YITH_WCAS_VERSION' ) && define( 'YITH_WCAS_VERSION', '2.4.1' );
+! defined( 'YITH_WCAS_VERSION' ) && define( 'YITH_WCAS_VERSION', '2.5.0' );
 ! defined( 'YITH_WCAS_FREE_INIT' ) && define( 'YITH_WCAS_FREE_INIT', plugin_basename( __FILE__ ) );
 ! defined( 'YITH_WCAS' ) && define( 'YITH_WCAS', true );
 ! defined( 'YITH_WCAS_FILE' ) && define( 'YITH_WCAS_FILE', __FILE__ );
@@ -111,7 +111,7 @@ function yith_ajax_search_constructor() {
 		}
 
 		add_action( 'admin_notices', 'yith_wcas_install_woocommerce_admin_notice' );
-	}else{
+	} else {
 		// Add support with HPOS system for WooCommerce 8.
 		add_action(
 			'before_woocommerce_init',
@@ -125,7 +125,7 @@ function yith_ajax_search_constructor() {
 
 		global $yith_wcas;
 		$yith_wcas = ywcas();
-		ywcas()->get_class_name('YITH_WCAS_Install')::init();
+		ywcas()->get_class_name( 'YITH_WCAS_Install' )::init();
 	}
 }
 

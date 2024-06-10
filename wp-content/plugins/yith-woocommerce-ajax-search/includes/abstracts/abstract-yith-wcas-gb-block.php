@@ -57,7 +57,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 *
 	 * @return string Rendered block type output.
 	 */
-	public function render_callback( $attributes = [], $content = '', $block = null ) {
+	public function render_callback( $attributes = array(), $content = '', $block = null ) {
 
 		$render_callback_attributes = $this->parse_render_callback_attributes( $attributes );
 		if ( ! is_admin() && ! WC()->is_rest_api_request() ) {
@@ -113,48 +113,6 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	}
 
 	/**
-	 * Injects Chunk Translations into the page so translations work for lazy loaded components.
-	 *
-	 * The chunk names are defined when creating lazy loaded components using webpackChunkName.
-	 *
-	 * @param string[] $chunks Array of chunk names.
-	 */
-	protected function register_chunk_translations( $chunks ) {
-		foreach ( $chunks as $chunk ) {
-			$handle = 'ywcas-blocks-' . $chunk . '-chunk';
-			$this->register_script( $handle, $this->get_block_asset_build_path( $chunk ), [], true );
-			wp_add_inline_script(
-				$this->get_block_type_script( 'handle' ),
-				wp_scripts()->print_translations( $handle, false ),
-				'before'
-			);
-			wp_deregister_script( $handle );
-		}
-	}
-
-	/**
-	 * Generate an array of chunks paths for loading translation.
-	 *
-	 * @param string $chunks_folder The folder to iterate over.
-	 *
-	 * @return string[] $chunks list of chunks to load.
-	 */
-	protected function get_chunks_paths( $chunks_folder ) {
-		$build_path = YITH_WCAS_BUILD_BLOCK_PATH;
-		$blocks     = [];
-		if ( ! is_dir( $build_path . $chunks_folder ) ) {
-			return [];
-		}
-		foreach ( new \RecursiveIteratorIterator( new \RecursiveDirectoryIterator( $build_path . $chunks_folder ) ) as $block_name ) {
-			$blocks[] = str_replace( $build_path, '', $block_name );
-		}
-
-		$chunks = preg_filter( '/.js/', '', $blocks );
-
-		return $chunks;
-	}
-
-	/**
 	 * Get the path to a block's metadata
 	 *
 	 * @param string $block_name The block to get metadata for.
@@ -178,12 +136,12 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 * @return string[] Chunks paths.
 	 */
 	protected function register_block_type() {
-		$block_settings = [
+		$block_settings = array(
 			'render_callback' => $this->get_block_type_render_callback(),
 			'editor_script'   => $this->get_block_type_editor_script( 'handle' ),
 			'editor_style'    => $this->get_block_type_editor_style(),
 			'style'           => $this->get_block_type_style(),
-		];
+		);
 
 		if ( isset( $this->api_version ) && '2' === $this->api_version ) {
 			$block_settings['api_version'] = 2;
@@ -265,7 +223,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 * @see $this->register_block_type()
 	 */
 	protected function get_block_type_render_callback() {
-		return [ $this, 'render_callback' ];
+		return array( $this, 'render_callback' );
 	}
 
 	/**
@@ -277,11 +235,11 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 * @see $this->register_block_type()
 	 */
 	protected function get_block_type_editor_script( $key = null ) {
-		$script = [
+		$script = array(
 			'handle'       => 'ywcas-' . $this->block_name . '-block',
 			'path'         => $this->get_block_asset_build_path( $this->block_name ),
-			'dependencies' => [ 'ywcas-blocks', 'accounting', 'jquery' ],
-		];
+			'dependencies' => array( 'ywcas-blocks', 'accounting', 'jquery' ),
+		);
 
 		return $key ? $script[ $key ] : $script;
 	}
@@ -305,11 +263,11 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 * @see $this->register_block_type()
 	 */
 	protected function get_block_type_script( $key = null ) {
-		$script = [
+		$script = array(
 			'handle'       => 'ywcas-' . $this->block_name . '-block-frontend',
 			'path'         => $this->get_block_asset_build_path( $this->block_name . '-frontend' ),
-			'dependencies' => ['accounting','jquery'],
-		];
+			'dependencies' => array( 'accounting', 'jquery' ),
+		);
 
 		return $key ? $script[ $key ] : $script;
 	}
@@ -320,10 +278,10 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 * @return string[]|null
 	 */
 	protected function get_block_type_style() {
-		
-		$this->register_style( 'ywcas-blocks-style-frontend', $this->get_block_asset_build_path( 'frontend', 'css' ), [], 'all', true );
 
-		return [ 'ywcas-blocks-style', 'wc-blocks-style','wc-blocks-style-all-products', 'ywcas-blocks-style-frontend' ];
+		$this->register_style( 'ywcas-blocks-style-frontend', $this->get_block_asset_build_path( 'frontend', 'css' ), array(), 'all', true );
+
+		return array( 'ywcas-blocks-style', 'wc-blocks-style', 'wc-blocks-style-all-products', 'ywcas-blocks-style-frontend' );
 	}
 
 	/**
@@ -333,7 +291,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 * @see $this->register_block_type()
 	 */
 	protected function get_block_type_supports() {
-		return [];
+		return array();
 	}
 
 	/**
@@ -342,7 +300,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 * @return array;
 	 */
 	protected function get_block_type_attributes() {
-		return [];
+		return array();
 	}
 
 	/**
@@ -351,7 +309,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 * @return array;
 	 */
 	protected function get_block_type_uses_context() {
-		return [];
+		return array();
 	}
 
 	/**
@@ -387,7 +345,6 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 *
 	 * @internal This prevents the block script being enqueued on all pages. It is only enqueued as needed. Note that
 	 * we intentionally do not pass 'script' to register_block_type.
-	 *
 	 */
 	protected function enqueue_assets( array $attributes, $content, $block ) {
 		if ( $this->enqueued_assets ) {
@@ -403,7 +360,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 *
 	 * @param array $attributes Any attributes that currently are available from the block.
 	 */
-	protected function enqueue_scripts( array $attributes = [] ) {
+	protected function enqueue_scripts( array $attributes = array() ) {
 		if ( null !== $this->get_block_type_script() ) {
 			wp_enqueue_script( $this->get_block_type_script( 'handle' ) );
 		}
@@ -428,7 +385,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 *
 	 * @since 2.1.0
 	 */
-	public function register_script( $handle, $relative_src, $dependencies = [], $has_i18n = true ) {
+	public function register_script( $handle, $relative_src, $dependencies = array(), $has_i18n = true ) {
 		$script_data = $this->get_script_data( $relative_src, $dependencies );
 
 		/**
@@ -439,7 +396,6 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 		 *
 		 * @return array
 		 * @since 2.1.0
-		 *
 		 */
 		$script_dependencies = apply_filters( 'ywcas_blocks_register_script_dependencies', $script_data['dependencies'], $handle );
 
@@ -464,7 +420,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 *
 	 * @since 2.5.0
 	 */
-	public function register_style( $handle, $relative_src, $deps = [], $media = 'all', $rtl = false ) {
+	public function register_style( $handle, $relative_src, $deps = array(), $media = 'all', $rtl = false ) {
 		$src = YITH_WCAS_URL . $relative_src;
 		$ver = YITH_WCAS_VERSION;
 		wp_register_style( $handle, $src, $deps, $ver, $media );
@@ -482,7 +438,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 *
 	 * @return array src, version and dependencies of the script.
 	 */
-	public function get_script_data( $relative_src, $dependencies = [] ) {
+	public function get_script_data( $relative_src, $dependencies = array() ) {
 		if ( ! $relative_src ) {
 			return array(
 				'src'          => '',
@@ -491,7 +447,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 			);
 		}
 		$asset_path = YITH_WCAS_DIR . str_replace( '.js', '.asset.php', $relative_src );
-		$asset      = file_exists( $asset_path ) ? require $asset_path : [];
+		$asset      = file_exists( $asset_path ) ? require $asset_path : array();
 
 		$src          = YITH_WCAS_URL . $relative_src;
 		$version      = ! empty( $asset['version'] ) ? $asset['version'] : YITH_WCAS_VERSION;
@@ -500,7 +456,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 		return array(
 			'src'          => $src,
 			'version'      => $version,
-			'dependencies' => $dependencies
+			'dependencies' => $dependencies,
 		);
 	}
 
@@ -524,7 +480,7 @@ abstract class Abstract_YITH_WCAS_Gb_Block {
 	 *
 	 * @return bool
 	 */
-	public function hasInnerBlock( $block_name, $inner_blocks ) {
+	public function has_inner_block( $block_name, $inner_blocks ) {
 		$inner_blocks_name = wp_list_pluck( $inner_blocks, 'blockName' );
 
 		return in_array( $block_name, $inner_blocks_name, true );

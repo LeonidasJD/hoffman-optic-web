@@ -146,18 +146,16 @@ if ( ! class_exists( 'YITH_WCAS_Install' ) ) {
 			$wpdb->query( "CREATE INDEX index_query_lang_search_date ON $wpdb->yith_wcas_query_log (query,lang,search_date DESC)" );
 
 			$token_index = $wpdb->get_row( "SHOW INDEX FROM {$wpdb->yith_wcas_index_token} WHERE column_name = 'token' and Key_name = 'token'" );
-			$primary_key = $wpdb->get_row( "SELECT constraint_name FROM information_schema.table_constraints WHERE  table_name = '{$wpdb->yith_wcas_index_relationship}' AND constraint_name = 'PRIMARY'");
+			$primary_key = $wpdb->get_row( "SELECT constraint_name FROM information_schema.table_constraints WHERE  table_name = '{$wpdb->yith_wcas_index_relationship}' AND constraint_name = 'PRIMARY'" );
 
 			if ( ! is_null( $token_index ) ) {
 				$wpdb->query( "ALTER TABLE {$wpdb->yith_wcas_index_token} DROP INDEX token;" );
 				update_option( 'ywcas_first_indexing', 'no' );
 			}
 
-			if( is_null( $primary_key ) ){
-				$wpdb->query("ALTER TABLE {$wpdb->yith_wcas_index_relationship} ADD PRIMARY KEY (token_id,post_id)" );
+			if ( is_null( $primary_key ) ) {
+				$wpdb->query( "ALTER TABLE {$wpdb->yith_wcas_index_relationship} ADD PRIMARY KEY (token_id,post_id)" );
 			}
-
-
 
 			self::maybe_update_table_fields();
 			update_option( 'yith_wcas_db_version', self::YITH_WCAS_DB_VERSION );
@@ -173,37 +171,36 @@ if ( ! class_exists( 'YITH_WCAS_Install' ) ) {
 			global $wpdb;
 			$updated = false;
 
-			if( self::table_has_field_type( $wpdb->yith_wcas_data_index_lookup, 'id','bigint(20)' ) ) {
-				$wpdb->query("TRUNCATE TABLE {$wpdb->yith_wcas_data_index_lookup}" );
-				$wpdb->query("ALTER TABLE {$wpdb->yith_wcas_data_index_lookup} DROP PRIMARY KEY" );
-				$wpdb->query("ALTER TABLE {$wpdb->yith_wcas_data_index_lookup} DROP COLUMN id" );
-				$wpdb->query("ALTER TABLE {$wpdb->yith_wcas_data_index_lookup} ADD PRIMARY KEY (post_id)" );
+			if ( self::table_has_field_type( $wpdb->yith_wcas_data_index_lookup, 'id', 'bigint(20)' ) ) {
+				$wpdb->query( "TRUNCATE TABLE {$wpdb->yith_wcas_data_index_lookup}" );
+				$wpdb->query( "ALTER TABLE {$wpdb->yith_wcas_data_index_lookup} DROP PRIMARY KEY" );
+				$wpdb->query( "ALTER TABLE {$wpdb->yith_wcas_data_index_lookup} DROP COLUMN id" );
+				$wpdb->query( "ALTER TABLE {$wpdb->yith_wcas_data_index_lookup} ADD PRIMARY KEY (post_id)" );
 				$updated = true;
-			}else{
-				$primary_key = $wpdb->get_row( "SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE  table_schema = schema() AND column_key = 'PRI' AND table_name = '{$wpdb->yith_wcas_data_index_lookup}' AND column_name = 'post_id'");
-				if( !$primary_key ){
-					$wpdb->query("ALTER TABLE {$wpdb->yith_wcas_data_index_lookup} ADD PRIMARY KEY (post_id)" );
+			} else {
+				$primary_key = $wpdb->get_row( "SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE  table_schema = schema() AND column_key = 'PRI' AND table_name = '{$wpdb->yith_wcas_data_index_lookup}' AND column_name = 'post_id'" );
+				if ( ! $primary_key ) {
+					$wpdb->query( "ALTER TABLE {$wpdb->yith_wcas_data_index_lookup} ADD PRIMARY KEY (post_id)" );
 					$updated = true;
 				}
 			}
 
-
-			if( self::table_has_field_type( $wpdb->yith_wcas_data_index_lookup, 'lang','varchar(10)' ) ) {
-				self::change_field_type($wpdb->yith_wcas_data_index_lookup, 'lang', 'varchar(20)');
+			if ( self::table_has_field_type( $wpdb->yith_wcas_data_index_lookup, 'lang', 'varchar(10)' ) ) {
+				self::change_field_type( $wpdb->yith_wcas_data_index_lookup, 'lang', 'varchar(20)' );
 				$updated = true;
 			}
 
-			if( self::table_has_field_type( $wpdb->yith_wcas_index_token, 'lang','varchar(10)' ) ) {
-				self::change_field_type($wpdb->yith_wcas_index_token, 'lang', 'varchar(20)');
+			if ( self::table_has_field_type( $wpdb->yith_wcas_index_token, 'lang', 'varchar(10)' ) ) {
+				self::change_field_type( $wpdb->yith_wcas_index_token, 'lang', 'varchar(20)' );
 				$updated = true;
 			}
 
-			if( self::table_has_field_type( $wpdb->yith_wcas_query_log, 'lang','varchar(10)' ) ) {
-				self::change_field_type($wpdb->yith_wcas_query_log, 'lang', 'varchar(20)');
+			if ( self::table_has_field_type( $wpdb->yith_wcas_query_log, 'lang', 'varchar(10)' ) ) {
+				self::change_field_type( $wpdb->yith_wcas_query_log, 'lang', 'varchar(20)' );
 				$updated = true;
 			}
 
-			if( $updated && 'yes' === get_option( 'ywcas_first_indexing', 'no' ) ) {
+			if ( $updated && 'yes' === get_option( 'ywcas_first_indexing', 'no' ) ) {
 				update_option( 'ywcas_first_indexing', 'no' );
 			}
 
@@ -220,11 +217,12 @@ if ( ! class_exists( 'YITH_WCAS_Install' ) ) {
 		 *
 		 * @return bool
 		 */
-		protected static function table_has_field_type ( $table_name, $field_name, $field_type ){
+		protected static function table_has_field_type( $table_name, $field_name, $field_type ) {
+			// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 			global $wpdb;
-
-			$res = $wpdb->get_row($wpdb->prepare( "SHOW COLUMNS FROM {$table_name} WHERE Field = %s AND type = %s ", $field_name, $field_type ) );
-			return !is_null( $res );
+			$res = $wpdb->get_row( $wpdb->prepare( "SHOW COLUMNS FROM {$table_name} WHERE Field = %s AND type = %s ", $field_name, $field_type ) );
+			// phpcs:enable
+			return ! is_null( $res );
 		}
 
 		/**
@@ -236,10 +234,10 @@ if ( ! class_exists( 'YITH_WCAS_Install' ) ) {
 		 *
 		 * @return bool
 		 */
-		protected static function change_field_type( $table_name, $field_name, $field_type) {
+		protected static function change_field_type( $table_name, $field_name, $field_type ) {
+			// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared,WordPress.DB.DirectDatabaseQuery.SchemaChange
 			global  $wpdb;
-
-			return $wpdb->query( "ALTER TABLE {$table_name} MODIFY {$field_name} {$field_type}");
+			return $wpdb->query( "ALTER TABLE {$table_name} MODIFY {$field_name} {$field_type}" );
 		}
 		/**
 		 * Check if the plugin is new or is an update.
@@ -262,7 +260,6 @@ if ( ! class_exists( 'YITH_WCAS_Install' ) ) {
 
 		/**
 		 * Update the options from the oldest version to 2.0.0
-		 *
 		 */
 		private static function update_to_2_0_0_version() {
 			yith_wcas_save_default_shortcode_options();

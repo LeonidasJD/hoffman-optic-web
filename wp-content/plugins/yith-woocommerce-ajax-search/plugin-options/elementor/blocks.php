@@ -1,7 +1,12 @@
 <?php
+/**
+ * This file allow the integration with Elementor
+ *
+ * @package YITH\Search\Elementor
+ */
 
 $blocks = array(
-	'yith-ywcas-widget'      => array(
+	'yith-ywcas-widget' => array(
 		'style'                        => 'ywcas-frontend',
 		'title'                        => esc_html_x( 'Classic Search', '[elementor]: block name', 'yith-woocommerce-ajax-search' ),
 		'description'                  => esc_html_x( 'Add the classic search block', '[elementor]: block description', 'yith-woocommerce-ajax-search' ),
@@ -14,8 +19,8 @@ $blocks = array(
 			esc_html_x( 'Search', '[elementor]: keywords', 'yith-woocommerce-ajax-search' ),
 			esc_html_x( 'Ajax Search Widget', '[elementor]: keywords', 'yith-woocommerce-ajax-search' ),
 		),
-		'attributes'                   => array()
-	)
+		'attributes'                   => array(),
+	),
 );
 
 return apply_filters( 'ywcas_elementor_blocks', $blocks );

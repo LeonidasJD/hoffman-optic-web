@@ -45,7 +45,7 @@ class YITH_WCAS_Data_Index_Updater {
 		add_action( 'woocommerce_update_product', array( $this, 'post_index_update' ), 100, 2 );
 		add_action( 'woocommerce_update_product_variation', array( $this, 'post_index_update' ), 100, 2 );
 
-		if( defined('YITH_WCAS_PREMIUM') ){
+		if ( defined( 'YITH_WCAS_PREMIUM' ) ) {
 			add_action( 'deleted_post', array( $this, 'post_index_delete' ), 100 );
 			add_action( 'save_post', array( $this, 'post_index_update' ), 100, 2 );
 		}
@@ -70,7 +70,7 @@ class YITH_WCAS_Data_Index_Updater {
 		$post = get_post( $post_id );
 		if ( $post ) {
 			ywcas()->indexer->delete( $post );
-			if(  $this->can_be_scheduled( $post ) ){
+			if ( $this->can_be_scheduled( $post ) ) {
 				ywcas()->indexer->schedule( $post_id, 0, array( $post_id ) );
 				$this->post_processed[] = $post_id;
 			}
@@ -81,7 +81,7 @@ class YITH_WCAS_Data_Index_Updater {
 	/**
 	 * Check if the product can be indexed
 	 *
-	 * @param WP_Post $post Current post
+	 * @param WP_Post $post Current post.
 	 *
 	 * @return bool
 	 */
@@ -89,11 +89,11 @@ class YITH_WCAS_Data_Index_Updater {
 
 		$can_be_scheduled = 'publish' === $post->post_status;
 
-		if( 'product' === $post->post_type ){
-			$can_be_scheduled = !has_term('exclude-from-search', 'product_visibility',  $post);
+		if ( 'product' === $post->post_type ) {
+			$can_be_scheduled = ! has_term( 'exclude-from-search', 'product_visibility', $post );
 		}
 
-		return apply_filters('ywcas_can_be_scheduled', $can_be_scheduled, $post);
+		return apply_filters( 'ywcas_can_be_scheduled', $can_be_scheduled, $post );
 	}
 
 	/**

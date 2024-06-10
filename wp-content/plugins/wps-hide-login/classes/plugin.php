@@ -633,6 +633,8 @@ class Plugin {
 	public function filter_wp_login_php( $url, $scheme = null ) {
 		global $pagenow;
 
+		$origin_url = $url;
+
 		if ( strpos( $url, 'wp-login.php?action=postpass' ) !== false ) {
 			return $url;
 		}
@@ -669,6 +671,13 @@ class Plugin {
 
 			}
 
+		}
+
+		if ( isset( $_POST['post_password'] ) ) {
+			global $current_user;
+			if ( is_wp_error( wp_authenticate_username_password( null, $current_user->user_login, $_POST['post_password'] ) ) ) {
+				return $origin_url;
+			}
 		}
 
 		return $url;

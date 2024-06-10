@@ -32,7 +32,7 @@ if ( ! function_exists( 'ywcas_get_product_thumbnail_url' ) ) {
 	 * @return string
 	 */
 	function ywcas_get_product_thumbnail_url( $product ) {
-		$thumb_id  = $product->get_image_id();
+		$thumb_id = $product->get_image_id();
 		$wc_thumb = array();
 		if ( ! empty( $thumb_id ) ) {
 			$thumb = wp_get_attachment_image_src( $thumb_id );
@@ -45,7 +45,7 @@ if ( ! function_exists( 'ywcas_get_product_thumbnail_url' ) ) {
 				$thumb_url       = array_shift( $thumb );
 				$wc_thumb['big'] = $thumb_url;
 			}
-		}else {
+		} else {
 			$wc_thumb['small'] = wc_placeholder_img_src( 'thumbnail' );
 			$wc_thumb['big']   = wc_placeholder_img_src();
 		}
@@ -558,13 +558,13 @@ if ( ! function_exists( 'ywcas_is_elementor_editor' ) ) {
 
 		// phpcs:disable WordPress.Security.NonceVerification.Recommended
 		return is_admin() && isset( $_REQUEST['action'] ) && in_array(
-				sanitize_text_field( wp_unslash( $_REQUEST['action'] ) ),
-				array(
-					'elementor',
-					'elementor_ajax',
-				),
-				true
-			);
+			sanitize_text_field( wp_unslash( $_REQUEST['action'] ) ),
+			array(
+				'elementor',
+				'elementor_ajax',
+			),
+			true
+		);
 	}
 }
 
@@ -576,23 +576,23 @@ if ( ! function_exists( 'ywcas_show_elementor_preview' ) ) {
 	 */
 	function ywcas_show_elementor_preview() {
 		?>
-        <div class="ywcas-elementor-input-field-wrapper" style="pointer-events: none;">
-            <div class="ywcas-input-field">
-                <input autocomplete="off"
-                       placeholder="<?php echo esc_html__( 'Search products...', 'yith-woocommerce-ajax-search' ); ?>"
-                       type="text" value=""/>
-                <div class="endAdornment">
-                    <div class="ywcas-submit-wrapper">
-                        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                             xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24"
-                             class="ywcas-submit-icon" focusable="false">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
+		<div class="ywcas-elementor-input-field-wrapper" style="pointer-events: none;">
+			<div class="ywcas-input-field">
+				<input autocomplete="off"
+					   placeholder="<?php echo esc_html__( 'Search products...', 'yith-woocommerce-ajax-search' ); ?>"
+					   type="text" value=""/>
+				<div class="endAdornment">
+					<div class="ywcas-submit-wrapper">
+						<svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+							 xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24"
+							 class="ywcas-submit-icon" focusable="false">
+							<path stroke-linecap="round" stroke-linejoin="round"
+								  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
 		<?php
 	}
 }

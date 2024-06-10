@@ -82,7 +82,6 @@ if ( ! class_exists( 'YITH_WCAS_Search' ) ) {
 						}
 						$query->set( 'post__in', $post_in );
 					}
-
 				} else {
 					$results = YITH_WCAS_Data_Search_Engine::get_instance()->search( $this->search_string, $search_on, 0, $lang, false, 0, 0, true );
 
@@ -101,7 +100,6 @@ if ( ! class_exists( 'YITH_WCAS_Search' ) ) {
 					$query->set( 's', '' );
 				}
 			}
-
 
 		}
 
@@ -149,7 +147,7 @@ if ( ! class_exists( 'YITH_WCAS_Search' ) ) {
 			}
 
 			// Register no results query string to statistic v2.1.0.
-			if ( isset( $results['totalResults'], $results['results'] ) && $results['totalResults'] === 0 && count( $results['results'] ) === 0 && apply_filters( 'ywcas_register_not_results_query', true ) ) {
+			if ( isset( $results['totalResults'], $results['results'] ) && 0 === $results['totalResults'] && count( $results['results'] ) === 0 && apply_filters( 'ywcas_register_not_results_query', true ) ) {
 				YITH_WCAS_Data_Search_Engine::get_instance()->get_logger_reference( $query, 0, 0, $lang );
 			}
 

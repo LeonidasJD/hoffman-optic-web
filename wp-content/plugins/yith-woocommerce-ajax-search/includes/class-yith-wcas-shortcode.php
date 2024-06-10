@@ -64,7 +64,7 @@ if ( ! class_exists( 'YITH_WCAS_Shortcode' ) ) {
 			$wc_get_template = function_exists( 'wc_get_template' ) ? 'wc_get_template' : 'woocommerce_get_template';
 			$wc_get_template( 'yith-woocommerce-ajax-search.php', $args, '', YITH_WCAS_DIR . 'templates/' );
 
-			return ob_get_clean();
+			return ob_get_clean(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		}
 
 		/**
@@ -108,9 +108,9 @@ if ( ! class_exists( 'YITH_WCAS_Shortcode' ) ) {
 
 			$method = "get_{$type}_block_code";
 
-			if( method_exists( $this, $method)){
+			if ( method_exists( $this, $method ) ) {
 				$block = $this->$method( $options );
-			}else{
+			} else {
 				$block = $this->get_classic_block_code( $options );
 			}
 
@@ -120,7 +120,7 @@ if ( ! class_exists( 'YITH_WCAS_Shortcode' ) ) {
 		/**
 		 * Return the block classic code
 		 *
-		 * @param array $options Options
+		 * @param array $options Options.
 		 *
 		 * @return string
 		 * @since 2.1.0
@@ -132,7 +132,7 @@ if ( ! class_exists( 'YITH_WCAS_Shortcode' ) ) {
 				'className' => $options['general']['custom_class'],
 			);
 
-			$block = '<!-- wp:yith/search-block ' . wp_json_encode( $block_options ) . '  -->';
+			$block  = '<!-- wp:yith/search-block ' . wp_json_encode( $block_options ) . '  -->';
 			$block .= '<div class="wp-block-yith-search-block alignwide ' . esc_attr( $block_options['className'] ) . '">';
 
 			// Input.
@@ -140,7 +140,6 @@ if ( ! class_exists( 'YITH_WCAS_Shortcode' ) ) {
 
 			// Filled block.
 			$block .= $this->get_filled_block_code_by_options( $options );
-
 
 			$block .= '</div><!-- /wp:yith/search-block -->';
 
@@ -180,7 +179,7 @@ if ( ! class_exists( 'YITH_WCAS_Shortcode' ) ) {
 					'bottomLeft'  => $border_radius,
 					'bottomRight' => $border_radius,
 				),
-				'submitStyle'             => $submit_options['search-style'] === 'both' ? 'iconText' : $submit_options['search-style'],
+				'submitStyle'             => 'both' === $submit_options['search-style'] ? 'iconText' : $submit_options['search-style'],
 				'submitContentColor'      => $submit_options['icon-colors']['icon'],
 				'submitContentHoverColor' => $submit_options['icon-colors']['icon-hover'],
 				'submitBgColor'           => $submit_options['icon-colors']['background'],
@@ -194,11 +193,11 @@ if ( ! class_exists( 'YITH_WCAS_Shortcode' ) ) {
 					'bottomLeft'  => $border_radius_button,
 					'bottomRight' => $border_radius_button,
 				),
-				'iconType'                => 'icon-' . $submit_options['icon-position']
+				'iconType'                => 'icon-' . $submit_options['icon-position'],
 
 			);
 
-			$block = '<!-- wp:yith/input-block ' . wp_json_encode( $block_options ) . ' -->';
+			$block  = '<!-- wp:yith/input-block ' . wp_json_encode( $block_options ) . ' -->';
 			$block .= '<div class="wp-block-yith-input-block"></div>';
 			$block .= '<!-- /wp:yith/input-block -->';
 
@@ -213,7 +212,7 @@ if ( ! class_exists( 'YITH_WCAS_Shortcode' ) ) {
 		 * @return string
 		 */
 		protected function get_filled_block_code_by_options( $options ) {
-			$block = '<!-- wp:yith/filled-block -->';
+			$block  = '<!-- wp:yith/filled-block -->';
 			$block .= '<div class="wp-block-yith-filled-block">';
 			$block .= self::get_product_results_block_code_by_options( $options );
 			$block .= '</div><!-- /wp:yith/filled-block -->';
@@ -258,7 +257,7 @@ if ( ! class_exists( 'YITH_WCAS_Shortcode' ) ) {
 				'hideFeaturedIfOnSale' => isset( $options['show-hide-featured-if-on-sale'] ) && 'yes' === $options['show-hide-featured-if-on-sale'],
 			);
 
-			$block = '<!-- wp:yith/product-results-block ' . wp_json_encode( $block_options ) . ' -->';
+			$block  = '<!-- wp:yith/product-results-block ' . wp_json_encode( $block_options ) . ' -->';
 			$block .= '<div class="wp-block-yith-product-results-block"></div>';
 			$block .= '<!-- /wp:yith/product-results-block -->';
 

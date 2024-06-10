@@ -19,9 +19,9 @@ class YITH_WCAS_Data_Index_Tokenizer {
 	/**
 	 * Tokenize the object.
 	 *
-	 * @param   int    $data_index_id  Data index id.
-	 * @param   array  $data           Content to index.
-	 * @param   string $data_type      Data type.
+	 * @param int    $data_index_id Data index id.
+	 * @param array  $data Content to index.
+	 * @param string $data_type Data type.
 	 *
 	 * @return void
 	 */
@@ -86,7 +86,7 @@ class YITH_WCAS_Data_Index_Tokenizer {
 	/**
 	 * Clear the content from shortcodes, html tags
 	 *
-	 * @param   string $content  Content to clean.
+	 * @param string $content Content to clean.
 	 *
 	 * @return string
 	 */
@@ -100,7 +100,7 @@ class YITH_WCAS_Data_Index_Tokenizer {
 	/**
 	 * Remove no useful arguments
 	 *
-	 * @param   array $data  Data.
+	 * @param array $data Data.
 	 *
 	 * @return array
 	 */
@@ -115,8 +115,8 @@ class YITH_WCAS_Data_Index_Tokenizer {
 	/**
 	 * Tokenize the content
 	 *
-	 * @param   string $content  Content.
-	 * @param   string $context  Context.
+	 * @param string $content Content.
+	 * @param string $context Context.
 	 *
 	 * @return array
 	 * @since 2.0.0
@@ -128,7 +128,7 @@ class YITH_WCAS_Data_Index_Tokenizer {
 	/**
 	 * Split content
 	 *
-	 * @param   string $content  Content to split.
+	 * @param string $content Content to split.
 	 *
 	 * @return array|false|string[]
 	 */
@@ -158,7 +158,7 @@ class YITH_WCAS_Data_Index_Tokenizer {
 	/**
 	 * Split a single content by dots
 	 *
-	 * @param   array $content  Content.
+	 * @param array $content Content.
 	 *
 	 * @return array
 	 */
@@ -178,7 +178,7 @@ class YITH_WCAS_Data_Index_Tokenizer {
 	/**
 	 * Remove dots at start and end of the screen
 	 *
-	 * @param   string $term  Term to process.
+	 * @param string $term Term to process.
 	 *
 	 * @return string
 	 */
@@ -196,7 +196,7 @@ class YITH_WCAS_Data_Index_Tokenizer {
 	/**
 	 * Return the stop words list
 	 *
-	 * @param   string  $lang  Language.
+	 * @param string $lang Language.
 	 *
 	 * @return array
 	 */
@@ -204,7 +204,7 @@ class YITH_WCAS_Data_Index_Tokenizer {
 		$stopwords = array();
 		$path      = apply_filters( 'yith_wcas_stop_words_path', YITH_WCAS_DIR . 'languages/stopwords/' . $lang );
 		if ( file_exists( $path ) ) {
-			$content   = file_get_contents( $path );
+			$content   = file_get_contents( $path ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
 			$stopwords = array_map( 'trim', explode( ',', $content ) );
 		}
 
@@ -214,8 +214,8 @@ class YITH_WCAS_Data_Index_Tokenizer {
 	/**
 	 * Calculate the frequency of token inside the document.
 	 *
-	 * @param   string $token     Token.
-	 * @param   array  $haystack  Array of terms on documents.
+	 * @param string $token Token.
+	 * @param array  $haystack Array of terms on documents.
 	 *
 	 * @return array
 	 * @since 2.0.0
@@ -245,7 +245,8 @@ class YITH_WCAS_Data_Index_Tokenizer {
 	/**
 	 * Add to the content the synonymous as string.
 	 *
-	 * @param   string $content  Content.
+	 * @param string $content Content.
+	 * @param string $lang The language.
 	 *
 	 * @return string
 	 */
@@ -270,6 +271,6 @@ class YITH_WCAS_Data_Index_Tokenizer {
 			}
 		}
 
-		return apply_filters('ywcas_get_synonyms', $additional_content, $content, $lang);
+		return apply_filters( 'ywcas_get_synonyms', $additional_content, $content, $lang );
 	}
 }

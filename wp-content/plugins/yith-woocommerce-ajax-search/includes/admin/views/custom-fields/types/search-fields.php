@@ -19,7 +19,7 @@ $search_fields = ywcas()->settings->get_search_fields();
 				class="colum-title"><?php echo esc_html_x( 'Field', 'Name of column field', 'yith-woocommerce-ajax-search' ); ?></th>
 
 			<th id="priority-zone"
-                class="colum-title"><?php echo esc_html_x( 'Priority', 'priority of the field', 'yith-woocommerce-ajax-search' ); ?></th>
+				class="colum-title"><?php echo esc_html_x( 'Priority', 'priority of the field', 'yith-woocommerce-ajax-search' ); ?></th>
 			<th id="actions" class="colum-title"></th>
 		</tr>
 		</thead>

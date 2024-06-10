@@ -63,7 +63,7 @@ if ( ! class_exists( 'YITH_WCAS_Ajax_Search_Widget' ) ) {
 				$filters_above  = ( isset( $instance['filters_above'] ) && $instance['filters_above'] ) ? 'class=filters-above' : '';
 				$shortcode_args = $template . ' ' . $filters_above;
 			} else {
-                wp_enqueue_script('ywcas-search-results-script');
+				wp_enqueue_script( 'ywcas-search-results-script' );
 				$preset         = empty( $instance['preset'] ) ? 'default' : $instance['preset'];
 				$shortcode_args = 'preset=' . $preset;
 			}
@@ -119,26 +119,26 @@ if ( ! class_exists( 'YITH_WCAS_Ajax_Search_Widget' ) ) {
 			$instance = wp_parse_args( (array) $instance, $defaults );
 			$title    = $instance['title'] ?? '';
 			?>
-            <p>
-                <label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php echo esc_html_x( 'Title:', '[Widget] The widget title', 'yith-woocommerce-ajax-search' ); ?></label>
-                <input type="text" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"
-                       name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>"
-                       value=" <?php echo esc_attr( $title ); ?>"/>
-            </p>
-            <p>
-                <label for="<?php echo esc_attr( $this->get_field_id( 'template' ) ); ?>"> <?php echo esc_html_x( 'Template wide', '[Widget] The widget arg', 'yith-woocommerce-ajax-search' ); ?></label>
-                <input type="checkbox" id="<?php echo esc_attr( $this->get_field_id( 'template' ) ); ?>"
-                       name="<?php echo esc_attr( $this->get_field_name( 'template' ) ); ?>"
-                       value="1" <?php checked( $instance['template'], 1 ); ?> />
+			<p>
+				<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php echo esc_html_x( 'Title:', '[Widget] The widget title', 'yith-woocommerce-ajax-search' ); ?></label>
+				<input type="text" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"
+					   name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>"
+					   value=" <?php echo esc_attr( $title ); ?>"/>
+			</p>
+			<p>
+				<label for="<?php echo esc_attr( $this->get_field_id( 'template' ) ); ?>"> <?php echo esc_html_x( 'Template wide', '[Widget] The widget arg', 'yith-woocommerce-ajax-search' ); ?></label>
+				<input type="checkbox" id="<?php echo esc_attr( $this->get_field_id( 'template' ) ); ?>"
+					   name="<?php echo esc_attr( $this->get_field_name( 'template' ) ); ?>"
+					   value="1" <?php checked( $instance['template'], 1 ); ?> />
 
-            </p>
-            <p>
-                <label for="<?php echo esc_attr( $this->get_field_id( 'filters_above' ) ); ?>"> <?php echo esc_html_x( 'Filters above', '[Widget] The widget arg', 'yith-woocommerce-ajax-search' ); ?></label>
-                <input type="checkbox" id="<?php echo esc_attr( $this->get_field_id( 'filters_above' ) ); ?>"
-                       name="<?php echo esc_attr( $this->get_field_name( 'filters_above' ) ); ?>"
-                       value="1" <?php checked( $instance['filters_above'], 1 ); ?> />
+			</p>
+			<p>
+				<label for="<?php echo esc_attr( $this->get_field_id( 'filters_above' ) ); ?>"> <?php echo esc_html_x( 'Filters above', '[Widget] The widget arg', 'yith-woocommerce-ajax-search' ); ?></label>
+				<input type="checkbox" id="<?php echo esc_attr( $this->get_field_id( 'filters_above' ) ); ?>"
+					   name="<?php echo esc_attr( $this->get_field_name( 'filters_above' ) ); ?>"
+					   value="1" <?php checked( $instance['filters_above'], 1 ); ?> />
 
-            </p>
+			</p>
 			<?php
 		}
 
@@ -164,25 +164,25 @@ if ( ! class_exists( 'YITH_WCAS_Ajax_Search_Widget' ) ) {
 				$title       = $instance['title'] ?? '';
 				$all_presets = ywcas()->settings->get_shortcodes_list();
 				?>
-                <p>
-                    <label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>">
-                        <strong><?php echo esc_html_x( 'Title:', '[Widget] The widget title', 'yith-woocommerce-ajax-search' ); ?></strong>
-                    </label>
-                    <input type="text" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"
-                           name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>"
-                           value=" <?php echo esc_attr( $title ); ?>"/>
-                </p>
-                <p>
-                    <label for="<?php echo esc_attr( $this->get_field_id( 'preset' ) ); ?>">
-                        <strong><?php echo esc_html_x( 'Search shortcode', '[Widget] The widget arg', 'yith-woocommerce-ajax-search' ); ?></strong>
-                        <select class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'preset' ) ); ?>"
-                                name="<?php echo esc_attr( $this->get_field_name( 'preset' ) ); ?>">
+				<p>
+					<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>">
+						<strong><?php echo esc_html_x( 'Title:', '[Widget] The widget title', 'yith-woocommerce-ajax-search' ); ?></strong>
+					</label>
+					<input type="text" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"
+						   name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>"
+						   value=" <?php echo esc_attr( $title ); ?>"/>
+				</p>
+				<p>
+					<label for="<?php echo esc_attr( $this->get_field_id( 'preset' ) ); ?>">
+						<strong><?php echo esc_html_x( 'Search shortcode', '[Widget] The widget arg', 'yith-woocommerce-ajax-search' ); ?></strong>
+						<select class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'preset' ) ); ?>"
+								name="<?php echo esc_attr( $this->get_field_name( 'preset' ) ); ?>">
 							<?php foreach ( $all_presets as $shortcode_preset => $shortcode ) : ?>
-                                <option value="<?php echo esc_attr( $shortcode_preset ); ?>" <?php selected( $shortcode_preset, $instance['preset'] ); ?>><?php echo esc_html( $shortcode['name'] ); ?></option>
+								<option value="<?php echo esc_attr( $shortcode_preset ); ?>" <?php selected( $shortcode_preset, $instance['preset'] ); ?>><?php echo esc_html( $shortcode['name'] ); ?></option>
 							<?php endforeach; ?>
-                        </select>
-                    </label>
-                </p>
+						</select>
+					</label>
+				</p>
 				<?php
 			}
 		}

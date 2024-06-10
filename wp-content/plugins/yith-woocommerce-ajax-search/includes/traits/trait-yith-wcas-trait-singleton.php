@@ -39,13 +39,13 @@ trait YITH_WCAS_Trait_Singleton {
 	 */
 	public static function get_instance() {
 
-		$calledClass = get_called_class();
+		$called_class = get_called_class();
 
-		if ( ! isset( static::$instance[ $calledClass ] ) ) {
-			static::$instance[ $calledClass ] = new $calledClass();
+		if ( ! isset( static::$instance[ $called_class ] ) ) {
+			static::$instance[ $called_class ] = new $called_class();
 		}
 
-		return static::$instance[ $calledClass ];
+		return static::$instance[ $called_class ];
 	}
 
 	/**

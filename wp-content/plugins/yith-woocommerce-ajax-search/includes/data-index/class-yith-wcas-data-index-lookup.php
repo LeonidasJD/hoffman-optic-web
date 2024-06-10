@@ -164,7 +164,7 @@ class YITH_WCAS_Data_Index_Lookup {
 	public function get_element_by_post_id( $id ) {
 		global $wpdb;
 		$instock = 'yes' === ywcas()->settings->get_hide_out_of_stock() ? array( 1 ) : array( 0, 1 );
-		return $wpdb->get_row( $wpdb->prepare( "SELECT * FROM $wpdb->yith_wcas_data_index_lookup  WHERE post_id = %d AND instock IN(" . implode( ",", $instock ) . ")", $id ), ARRAY_A );
+		return $wpdb->get_row( $wpdb->prepare( "SELECT * FROM $wpdb->yith_wcas_data_index_lookup  WHERE post_id = %d AND instock IN(" . implode( ',', $instock ) . ')', $id ), ARRAY_A );
 	}
 
 	/**
@@ -186,23 +186,22 @@ class YITH_WCAS_Data_Index_Lookup {
 	 * Return id of document of lookup by id
 	 *
 	 * @param string|bool $s Search key.
-	 * @param string $order Order of results.
-	 * @param int $limit Limit of value.
-	 * @param int $offset Offset.
+	 * @param string      $order Order of results.
+	 * @param int         $limit Limit of value.
+	 * @param int         $offset Offset.
 	 *
 	 * @return array
 	 * @since 2.1.0
 	 */
-	public function get_boosted_products( $s = false , $order = 'DESC', $limit = false, $offset = 0 ) {
+	public function get_boosted_products( $s = false, $order = 'DESC', $limit = false, $offset = 0 ) {
 		global $wpdb;
-		$limit_string = $limit ? ' LIMIT '. $limit : '';
+		$limit_string  = $limit ? ' LIMIT ' . $limit : '';
 		$offset_string = 0 === $offset ? '' : ' OFFSET ' . $offset;
-		if( $s ){
-			$result = $wpdb->get_results( "Select post_id, name, boost from $wpdb->yith_wcas_data_index_lookup WHERE boost > 0 and name LIKE '%".$s."%' ORDER BY boost $order  $limit_string $offset_string", ARRAY_A );
-		}else{
+		if ( $s ) {
+			$result = $wpdb->get_results( "Select post_id, name, boost from $wpdb->yith_wcas_data_index_lookup WHERE boost > 0 and name LIKE '%" . $s . "%' ORDER BY boost $order  $limit_string $offset_string", ARRAY_A );
+		} else {
 			$result = $wpdb->get_results( "Select post_id, name, boost from $wpdb->yith_wcas_data_index_lookup WHERE boost > 0 ORDER BY boost $order  $limit_string $offset_string", ARRAY_A );
 		}
-
 
 		return $result;
 	}

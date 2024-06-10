@@ -39,6 +39,6 @@ return array(
 		array(
 			'title'       => __( 'Use custom badges to enhance search results ', 'yith-woocommerce-ajax-search' ),
 			'description' => __( 'Show and customize the "On sale" badge to enhance products with a discount or the "Featured" badge for products marked as such on WooCommerce.', 'yith-woocommerce-ajax-search' ),
-		)
+		),
 	),
 );

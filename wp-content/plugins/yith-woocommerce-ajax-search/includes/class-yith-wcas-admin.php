@@ -81,7 +81,6 @@ if ( ! class_exists( 'YITH_WCAS_Admin' ) ) {
 			add_action( 'ywcas_show_statistic_tab', array( $this, 'show_statistic_tab' ) );
 			add_action( 'wp_ajax_yith_wcas_filter_statistic', array( $this, 'handle_filter_statistic' ) );
 
-
 		}
 
 		/**
@@ -213,7 +212,7 @@ if ( ! class_exists( 'YITH_WCAS_Admin' ) ) {
 				'general'       => array(
 					'title'       => __( 'General Options', 'yith-woocommerce-ajax-search' ),
 					'icon'        => 'settings',
-					'description' => __( 'Set the general options for the plugin behavior.', 'yith-woocommerce-ajax-search' )
+					'description' => __( 'Set the general options for the plugin behavior.', 'yith-woocommerce-ajax-search' ),
 				),
 				'search-fields' => array(
 					'title'       => __( 'Search Fields', 'yith-woocommerce-ajax-search' ),
@@ -424,7 +423,6 @@ if ( ! class_exists( 'YITH_WCAS_Admin' ) ) {
 				}
 			}
 
-
 			if ( isset( $shortcodes[ $slug ] ) ) {
 				$shortcodes[ $slug ]['name']    = $name;
 				$shortcodes[ $slug ]['options'] = $shortcode;
@@ -462,23 +460,25 @@ if ( ! class_exists( 'YITH_WCAS_Admin' ) ) {
 		 * @since 2.1.0
 		 */
 		public function show_statistic_tab() {
-			if ( isset( $_GET['page'] ) ) { //phpcs:ignore WordPress.Security.NonceVerification.Recommended
-				$page = sanitize_text_field( wp_unslash( $_GET['page'] ) ); //phpcs:ignore WordPress.Security.NonceVerification.Recommended
-				$tab  = isset( $_GET['tab'] ) ? sanitize_text_field( wp_unslash( $_GET['tab'] ) ) : '';  //phpcs:ignore WordPress.Security.NonceVerification.Recommended
-				if ( 'yith_wcas_panel' === $page && in_array( $tab, array( '', 'statistic' ) ) ) {
+			// phpcs:disable WordPress.Security.NonceVerification.Recommended
+			if ( isset( $_GET['page'] ) ) {
+				$page = sanitize_text_field( wp_unslash( $_GET['page'] ) );
+				$tab  = isset( $_GET['tab'] ) ? sanitize_text_field( wp_unslash( $_GET['tab'] ) ) : '';
+				if ( 'yith_wcas_panel' === $page && in_array( $tab, array( '', 'statistic' ), true ) ) {
 					if ( isset( $_GET['view_all'] ) ) {
 						if ( isset( $_GET['from'], $_GET['to'] ) ) {
 							$from = sanitize_text_field( wp_unslash( $_GET['from'] ) );
 							$to   = sanitize_text_field( wp_unslash( $_GET['to'] ) );
 						}
 
-						$type = sanitize_text_field( wp_unslash( $_GET['view_all'] ) );  //phpcs:ignore WordPress.Security.NonceVerification.Recommended
+						$type = sanitize_text_field( wp_unslash( $_GET['view_all'] ) );
 						include_once YITH_WCAS_INC . 'admin/views/panel/statistic-detail.php';
 					} else {
 						include_once YITH_WCAS_INC . 'admin/views/panel/statistic.php';
 					}
 				}
 			}
+			// phpcs:enable
 		}
 
 		/**
@@ -491,12 +491,12 @@ if ( ! class_exists( 'YITH_WCAS_Admin' ) ) {
 
 			check_ajax_referer( 'ywcas-search-statistic', 'security' );
 
-			$from     = sanitize_text_field( wp_unslash( $_POST['from'] ) );
-			$to       = sanitize_text_field( wp_unslash( $_POST['to'] ) );
-			$isDetail = sanitize_text_field( wp_unslash( $_POST['isDetail'] ) );
+			$from      = isset( $_POST['from'] ) ? sanitize_text_field( wp_unslash( $_POST['from'] ) ) : false;
+			$to        = isset( $_POST['to'] ) ? sanitize_text_field( wp_unslash( $_POST['to'] ) ) : false;
+			$is_detail = isset( $_POST['isDetail'] ) && sanitize_text_field( wp_unslash( $_POST['isDetail'] ) );
 
 			ob_start();
-			if ( isset( $_POST['view_all'] ) && $isDetail ) {
+			if ( isset( $_POST['view_all'] ) && $is_detail ) {
 				$type = sanitize_text_field( wp_unslash( $_POST['view_all'] ) );
 				include_once YITH_WCAS_INC . 'admin/views/panel/statistic-detail.php';
 			} else {

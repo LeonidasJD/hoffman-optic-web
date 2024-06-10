@@ -69,7 +69,6 @@ if ( ! class_exists( 'YITH_WCAS_Assets' ) ) {
 					if ( 'statistic' === $tab ) {
 						self::enqueue_script( 'ywcas-statistic' );
 					}
-
 				} else {
 					self::enqueue_script( 'ywcas-statistic' );
 				}
@@ -168,7 +167,7 @@ if ( ! class_exists( 'YITH_WCAS_Assets' ) ) {
 					'src'     => yit_load_js_file( YITH_WCAS_ASSETS_URL . '/js/admin/build/statistic.js' ),
 					'deps'    => array( 'jquery', 'jquery-blockui' ),
 					'version' => YITH_WCAS_VERSION,
-				)
+				),
 			);
 			foreach ( $admin_scripts as $handle => $admin_script ) {
 				self::register_script( $handle, $admin_script['src'], $admin_script['deps'], $admin_script['version'] );

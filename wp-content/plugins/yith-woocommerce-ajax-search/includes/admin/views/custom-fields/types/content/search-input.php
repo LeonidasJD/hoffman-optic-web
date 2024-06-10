@@ -11,14 +11,14 @@
 
 $curr_id            = isset( $is_placeholder ) && $is_placeholder ? '{{data.id}}' : $key;
 $search_field_types = ywcas_get_search_fields_type();
-if ( ! in_array( $field['type'], array_keys( $search_field_types ) ) ) {
+if ( ! in_array( $field['type'], array_keys( $search_field_types ), true ) ) {
 	return;
 }
 $disabled_options = apply_filters( 'ywcas_disable_search_input_options', array() );
 ?>
 
 <tr class="ywcas-search-field">
-    <td class="field">
+	<td class="field">
 		<span class="search-field-type">
 		<?php
 		yith_plugin_fw_get_field(
@@ -35,7 +35,7 @@ $disabled_options = apply_filters( 'ywcas_disable_search_input_options', array()
 		);
 		?>
 			</span>
-        <span class="search-field-type-condition" data-type="product_categories">
+		<span class="search-field-type-condition" data-type="product_categories">
 			<?php
 			yith_plugin_fw_get_field(
 				array(
@@ -57,7 +57,7 @@ $disabled_options = apply_filters( 'ywcas_disable_search_input_options', array()
 			);
 			?>
 		</span>
-        <span class="search-field-type-condition" data-type="product_tags">
+		<span class="search-field-type-condition" data-type="product_tags">
 			<?php
 			yith_plugin_fw_get_field(
 				array(
@@ -78,7 +78,7 @@ $disabled_options = apply_filters( 'ywcas_disable_search_input_options', array()
 			);
 			?>
 		</span>
-        <span class="search-field-type-list search-field-type-custom-field-list" data-type="custom_fields">
+		<span class="search-field-type-list search-field-type-custom-field-list" data-type="custom_fields">
 			<?php
 			yith_plugin_fw_get_field(
 				array(
@@ -93,7 +93,7 @@ $disabled_options = apply_filters( 'ywcas_disable_search_input_options', array()
 			);
 			?>
 		</span>
-        <span class="search-field-type-list search-field-type-product-attribute-list" data-type="product_attributes">
+		<span class="search-field-type-list search-field-type-product-attribute-list" data-type="product_attributes">
 			<?php
 			yith_plugin_fw_get_field(
 				array(
@@ -109,8 +109,8 @@ $disabled_options = apply_filters( 'ywcas_disable_search_input_options', array()
 			?>
 		</span>
 		<?php do_action( 'ywcas_search_input_field_template_conditions', $curr_id, $field ); ?>
-    </td>
-    <td class="priority">
+	</td>
+	<td class="priority">
 		<span class="search-field-priority">
 		<?php
 		yith_plugin_fw_get_field(
@@ -129,7 +129,7 @@ $disabled_options = apply_filters( 'ywcas_disable_search_input_options', array()
 		);
 		?>
 		</span>
-        <span class="search-field-type-list search-field-type-category-list " data-subtype="product_categories">
+		<span class="search-field-type-list search-field-type-category-list " data-subtype="product_categories">
 			<?php
 			yith_plugin_fw_get_field(
 				array(
@@ -148,7 +148,7 @@ $disabled_options = apply_filters( 'ywcas_disable_search_input_options', array()
 			);
 			?>
 			</span>
-        <span class="search-field-type-list search-field-type-tag-list" data-subtype="product_tags">
+		<span class="search-field-type-list search-field-type-tag-list" data-subtype="product_tags">
 			<?php
 
 			yith_plugin_fw_get_field(
@@ -170,8 +170,8 @@ $disabled_options = apply_filters( 'ywcas_disable_search_input_options', array()
 			?>
 		</span>
 		<?php do_action( 'ywcas_search_input_field_template_list', $curr_id, $field ); ?>
-    </td>
-    <td class="actions">
+	</td>
+	<td class="actions">
 		<?php
 		yith_plugin_fw_get_action_buttons(
 			array(
@@ -187,5 +187,5 @@ $disabled_options = apply_filters( 'ywcas_disable_search_input_options', array()
 			true
 		);
 		?>
-    </td>
+	</td>
 </tr>

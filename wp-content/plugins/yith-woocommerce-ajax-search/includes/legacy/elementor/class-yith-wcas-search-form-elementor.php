@@ -117,7 +117,6 @@ class YITH_WCAS_Search_Form_Elementor extends \Elementor\Widget_Base {
 			)
 		);
 
-
 		$this->end_controls_section();
 	}
 

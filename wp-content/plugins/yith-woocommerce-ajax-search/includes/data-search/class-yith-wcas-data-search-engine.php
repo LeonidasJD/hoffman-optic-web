@@ -64,14 +64,14 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Search for results
 		 *
-		 * @param   string  $query_string    Query string.
-		 * @param   array   $post_type       Post type.
-		 * @param   int     $category        Search in specific category.
-		 * @param   string  $lang            Language.
-		 * @param   bool    $limited         Limited Search.
-		 * @param   int     $page            The index to paginate the results.
-		 * @param   int     $num_of_results  Number of results.
-		 * @param   bool    $debug           Debug.
+		 * @param   string $query_string    Query string.
+		 * @param   array  $post_type       Post type.
+		 * @param   int    $category        Search in specific category.
+		 * @param   string $lang            Language.
+		 * @param   bool   $limited         Limited Search.
+		 * @param   int    $page            The index to paginate the results.
+		 * @param   int    $num_of_results  Number of results.
+		 * @param   bool   $debug           Debug.
 		 *
 		 * @return array
 		 */
@@ -93,8 +93,8 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 				$synonymous           = YITH_WCAS_Data_Index_Tokenizer::get_synonymous( $query_string, $lang );
 				$query_tokens         = $this->get_search_tokens( $synonymous, $lang );
 
-				$debug && $this->logger->log( 'Execution time 0 ' . ( hrtime( true ) - $start_search ) / 1e+9 );
-				$debug && $this->logger->log( 'Tokens ' . print_r( $query_tokens, 1 ) );
+				$debug && $this->logger->log( 'Execution time 0 ' . ( hrtime( true ) - $start_search ) / 1e+9 ); // phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_print_r
+				$debug && $this->logger->log( 'Tokens ' . print_r( $query_tokens, 1 ) ); // phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_print_r
 
 				$search_result_data = $this->get_search_results( $query_tokens, $post_type, $category, $lang );
 
@@ -152,10 +152,10 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Save the query inside the database and retrieve the id of the logger.
 		 *
-		 * @param   string  $query_string   Query string.
-		 * @param   int     $total_results  Number of result.
-		 * @param   int     $item_id        Item ID.
-		 * @param   string  $lang           Language.
+		 * @param   string $query_string   Query string.
+		 * @param   int    $total_results  Number of result.
+		 * @param   int    $item_id        Item ID.
+		 * @param   string $lang           Language.
 		 *
 		 * @return int
 		 */
@@ -181,10 +181,10 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Get results from tokens
 		 *
-		 * @param   array   $query_tokens  Tokens.
-		 * @param   string  $post_type     Post type.
-		 * @param   int     $category      Category.
-		 * @param   string  $lang          Current language.
+		 * @param   array  $query_tokens  Tokens.
+		 * @param   string $post_type     Post type.
+		 * @param   int    $category      Category.
+		 * @param   string $lang          Current language.
 		 *
 		 * @return array
 		 */
@@ -215,8 +215,8 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Add the score inside the results adding the boost.
 		 *
-		 * @param   array  $results         Results from lookup.
-		 * @param   array  $search_results  Results from relashionship.
+		 * @param   array $results         Results from lookup.
+		 * @param   array $search_results  Results from relashionship.
 		 *
 		 * @return array
 		 * @since 2.1.0
@@ -239,8 +239,8 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Return the fuzzy query string
 		 *
-		 * @param   array   $query_tokens  The token list.
-		 * @param   string  $lang          The language.
+		 * @param   array  $query_tokens  The token list.
+		 * @param   string $lang          The language.
 		 *
 		 * @return string|array
 		 */
@@ -257,10 +257,9 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 				}
 				$token_names = array();
 				$token       = substr( $query_token, 0, $this->fuzzy_prefix_length );
-				$token       .= '%';
+				$token      .= '%';
 
 				$token_results = YITH_WCAS_Data_Index_Token::get_instance()->search_similar_token( $token, $lang, $this->get_fuzzy_max_tokens() );
-
 
 				$tokens_grouped_by_distance_token = array();
 				if ( $token_results ) {
@@ -271,7 +270,6 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 							$tokens_grouped_by_distance_token[ $distance ][] = $token_result['token'];
 						}
 					}
-
 
 					if ( $tokens_grouped_by_distance_token ) {
 						asort( $tokens_grouped_by_distance_token );
@@ -295,10 +293,10 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Search data index for soundex strings
 		 *
-		 * @param   array   $query_tokens  Tokens.
-		 * @param   string  $post_type     Post Type.
-		 * @param   string  $lang          Current languages.
-		 * @param   int     $category      Category.
+		 * @param   array  $query_tokens  Tokens.
+		 * @param   string $post_type     Post Type.
+		 * @param   string $lang          Current languages.
+		 * @param   int    $category      Category.
 		 *
 		 * @return array
 		 */
@@ -338,7 +336,7 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Prepare the token for the query
 		 *
-		 * @param   string  $token  String to prepare.
+		 * @param   string $token  String to prepare.
 		 *
 		 * @return string
 		 */
@@ -349,9 +347,8 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Return the search tokens as array ordered from word length
 		 *
-		 * @param   string  $query_string  Query string.
-		 * @param   string  $lang          Language.
-		 *
+		 * @param   string $query_string  Query string.
+		 * @param   string $lang          Language.
 		 *
 		 * @return array
 		 */
@@ -372,8 +369,8 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Search data index for each token.
 		 *
-		 * @param   array   $query_tokens  List of tokens.
-		 * @param   string  $lang          Current languages.
+		 * @param   array  $query_tokens  List of tokens.
+		 * @param   string $lang          Current languages.
 		 *
 		 * @return array
 		 */
@@ -383,7 +380,6 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 			foreach ( $query_tokens as $query_token ) {
 				// searching the exact token.
 				$token_result_raw = YITH_WCAS_Data_Index_Token::get_instance()->search( $query_token, $lang );
-
 
 				$query_token = $this->prepare_token( $query_token );
 				// searching the generic token.
@@ -405,7 +401,7 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Cross the data index to find the better result
 		 *
-		 * @param   array  $data_index_by_tokens  Data index bu Token.
+		 * @param   array $data_index_by_tokens  Data index bu Token.
 		 *
 		 * @return array
 		 */
@@ -470,7 +466,6 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 								$parent                                 = $this->escape_result( $parent );
 								$main_results[ $result['post_parent'] ] = $parent;
 							}
-
 						}
 					} else {
 						if ( isset( $result['post_id'] ) ) {
@@ -498,7 +493,7 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 				switch ( $key ) {
 					case 'url':
 					case 'thumbnail':
-						if ( $key == 'thumbnail' ) {
+						if ( 'thumbnail' === $key ) {
 							$result[ $key ]['small'] = esc_url( $value['small'] );
 							$result[ $key ]['big']   = esc_url( $value['big'] );
 						} else {
@@ -527,15 +522,14 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Unserialize the result
 		 *
-		 * @param array $result The result
+		 * @param array $result The result.
 		 *
 		 * @return array
 		 */
 		protected function unserialize_result( $result ) {
-			$result['parent_category']   = !empty( $result['parent_category'] ) ? maybe_unserialize( $result['parent_category'] ) : array();
-			$result['tags']              = !empty( $result['tags'] ) ? maybe_unserialize( $result['tags'] ) : array();
-			$result['custom_taxonomies'] = !empty( $result['custom_taxonomies'] ) ? maybe_unserialize( $result['custom_taxonomies'] ) : array();
-
+			$result['parent_category']   = ! empty( $result['parent_category'] ) ? maybe_unserialize( $result['parent_category'] ) : array();
+			$result['tags']              = ! empty( $result['tags'] ) ? maybe_unserialize( $result['tags'] ) : array();
+			$result['custom_taxonomies'] = ! empty( $result['custom_taxonomies'] ) ? maybe_unserialize( $result['custom_taxonomies'] ) : array();
 
 			return $result;
 		}
@@ -543,7 +537,7 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 		/**
 		 * Get category info
 		 *
-		 * @param   array  $results  Results.
+		 * @param   array $results  Results.
 		 *
 		 * @return array
 		 */

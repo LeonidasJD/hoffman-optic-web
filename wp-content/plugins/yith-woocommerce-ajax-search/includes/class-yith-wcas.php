@@ -60,7 +60,7 @@ if ( ! class_exists( 'YITH_WCAS' ) ) {
 			add_action( 'init', array( $this, 'load_text_domain' ), 0 );
 			add_action( 'init', array( $this, 'load_compatibility' ), 20 );
 			add_action( 'rest_api_init', array( $this, 'register_ywcas_endpoint' ) );
-			add_action( 'widgets_init', array( $this, 'register_search_widget') );
+			add_action( 'widgets_init', array( $this, 'register_search_widget' ) );
 			add_action( 'after_setup_theme', array( $this, 'legacy_porto_customizations' ) );
 		}
 
@@ -77,12 +77,12 @@ if ( ! class_exists( 'YITH_WCAS' ) ) {
 				return;
 			}
 
-			$this->settings =  $this->get_class_name( 'YITH_WCAS_Settings' )::get_instance();
+			$this->settings = $this->get_class_name( 'YITH_WCAS_Settings' )::get_instance();
 
 			$indexer_class = $this->get_class_name( 'YITH_WCAS_Data_Index_Indexer' );
-			$this->indexer  = new $indexer_class();
+			$this->indexer = new $indexer_class();
 
-			$this->search   = YITH_WCAS_Search::get_instance();
+			$this->search = YITH_WCAS_Search::get_instance();
 			YITH_WCAS_Data_Index_Lookup::get_instance();
 			YITH_WCAS_Data_Index_Updater::get_instance();
 
@@ -93,7 +93,7 @@ if ( ! class_exists( 'YITH_WCAS' ) ) {
 
 			YITH_WCAS_Gutenberg_Blocks_Controller::get_instance();
 
-			if( class_exists('YITH_WCAS_Data_Search_Boost') ){
+			if ( class_exists( 'YITH_WCAS_Data_Search_Boost' ) ) {
 				YITH_WCAS_Data_Search_Boost::get_instance();
 			}
 
@@ -101,20 +101,18 @@ if ( ! class_exists( 'YITH_WCAS' ) ) {
 				$admin_name  = $this->get_class_name( 'YITH_WCAS_Admin' );
 				$this->admin = new $admin_name();
 
-				if( class_exists('YITH_WCAS_Privacy') ){
+				if ( class_exists( 'YITH_WCAS_Privacy' ) ) {
 					YITH_WCAS_Privacy::get_instance();
 				}
 
-				if( class_exists('YITH_WCAS_Admin_Boost') ){
+				if ( class_exists( 'YITH_WCAS_Admin_Boost' ) ) {
 					new YITH_WCAS_Admin_Boost();
 				}
-
 			}
 
 			if ( ! yith_wcas_is_fresh_block_installation() ) {
 				YITH_WCAS_Legacy_Manager::get_instance();
 			}
-
 
 		}
 
@@ -130,13 +128,13 @@ if ( ! class_exists( 'YITH_WCAS' ) ) {
 			}
 
 			// YITH Brands.
-			if ( defined( 'YITH_WCBR_PREMIUM_INIT' ) && !class_exists('YITH_WCAS_Brands_Add_On_Support') ) {
+			if ( defined( 'YITH_WCBR_PREMIUM_INIT' ) && ! class_exists( 'YITH_WCAS_Brands_Add_On_Support' ) ) {
 				require_once YITH_WCAS_INC . 'compatibility/class-yith-wcas-brands-add-on-support.php';
 				YITH_WCAS_Brands_Add_On_Support::get_instance();
 			}
 
 			// YITH Brands.
-			if ( class_exists( 'YITH_Vendors_Premium' ) && !class_exists('YITH_WCAS_Multi_Vendor_Support') ) {
+			if ( class_exists( 'YITH_Vendors_Premium' ) && ! class_exists( 'YITH_WCAS_Multi_Vendor_Support' ) ) {
 				require_once YITH_WCAS_INC . 'compatibility/class-yith-wcas-multi-vendor-support.php';
 				YITH_WCAS_Multi_Vendor_Support::get_instance();
 			}
@@ -241,7 +239,7 @@ if ( ! class_exists( 'YITH_WCAS' ) ) {
 			if ( defined( 'YITH_WCAS_PREMIUM' ) ) {
 				require_once YITH_WCAS_INC . 'rest-api/class-yith-wcas-rest-controller-premium.php';
 				$controller = new YITH_WCAS_REST_Controller_Premium();
-			}else{
+			} else {
 				$controller = new YITH_WCAS_REST_Controller();
 			}
 
@@ -254,8 +252,8 @@ if ( ! class_exists( 'YITH_WCAS' ) ) {
 		 * @return void
 		 */
 		public function register_search_widget() {
-			require_once YITH_WCAS_INC.'class-yith-wcas-search-widget.php';
-			register_widget('YITH_WCAS_Ajax_Search_Widget');
+			require_once YITH_WCAS_INC . 'class-yith-wcas-search-widget.php';
+			register_widget( 'YITH_WCAS_Ajax_Search_Widget' );
 		}
 
 		/**

@@ -25,11 +25,11 @@ abstract class Abstract_YITH_WCAS_Gb_InnerBlock extends Abstract_YITH_WCAS_Gb_Bl
 	 * fix the issue of missing translations in the inspector (in the Editor mode)
 	 */
 	protected function register_block_type() {
-		$block_settings = [
+		$block_settings = array(
 			'render_callback' => $this->get_block_type_render_callback(),
 			'editor_style'    => $this->get_block_type_editor_style(),
 			'style'           => $this->get_block_type_style(),
-		];
+		);
 
 		if ( isset( $this->api_version ) && '2' === $this->api_version ) {
 			$block_settings['api_version'] = 2;

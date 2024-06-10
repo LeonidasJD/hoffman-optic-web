@@ -183,7 +183,7 @@ if ( ! class_exists( 'YITH_WCAS_Legacy_Frontend' ) ) {
 				wp_register_script( 'yith_autocomplete', YITH_WCAS_URL . 'assets/js/legacy/yith-autocomplete' . $suffix . '.js', array( 'jquery' ), YITH_WCAS_VERSION, true );
 				wp_register_script( 'yith_wcas_jquery-autocomplete', YITH_WCAS_URL . 'assets/js/legacy/devbridge-jquery-autocomplete' . $suffix . '.js', array( 'jquery' ), YITH_WCAS_VERSION, true );
 
-				wp_register_script( 'yith_wcas_frontend', YITH_WCAS_URL . 'assets/js/legacy/frontend' . $suffix . '.js', array( 'jquery','yith_autocomplete' ), YITH_WCAS_VERSION, true );
+				wp_register_script( 'yith_wcas_frontend', YITH_WCAS_URL . 'assets/js/legacy/frontend' . $suffix . '.js', array( 'jquery', 'yith_autocomplete' ), YITH_WCAS_VERSION, true );
 
 				wp_localize_script(
 					'yith_wcas_frontend',

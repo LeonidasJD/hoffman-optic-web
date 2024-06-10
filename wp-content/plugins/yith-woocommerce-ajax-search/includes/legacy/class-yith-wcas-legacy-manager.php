@@ -24,15 +24,19 @@ if ( ! class_exists( 'YITH_WCAS_Legacy_Manager' ) ) {
 			if ( ! yith_wcas_user_switch_to_block() ) {
 				$this->init_legacy_wcas();
 
-
 				add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_scripts' ), 20 );
 				add_action( 'admin_print_footer_scripts', array( $this, 'show_popup' ), 25 );
 				add_action( 'admin_action_ywcas_do_widget_upgrade', array( $this, 'register_admin_action' ) );
 				add_filter( 'ywcas_search_fields_type', array( $this, 'remove_unsupported_search_fields' ), 99, 1 );
-				add_filter( 'ywcas_disable_search_input_options', array(
-					$this,
-					'add_disable_search_input_options'
-				), 99, 1 );
+				add_filter(
+					'ywcas_disable_search_input_options',
+					array(
+						$this,
+						'add_disable_search_input_options',
+					),
+					99,
+					1
+				);
 			}
 			YITH_WCAS_Elementor::get_instance();
 			add_action( 'init', array( $this, 'legacy_gutenberg_integration' ) );
@@ -134,7 +138,7 @@ if ( ! class_exists( 'YITH_WCAS_Legacy_Manager' ) ) {
 				die;
 			}
 
-			$options = get_option( "widget_yith_woocommerce_ajax_search", array() );
+			$options = get_option( 'widget_yith_woocommerce_ajax_search', array() );
 			foreach ( $options as $key => $option ) {
 				if ( is_array( $option ) ) {
 					unset( $options[ $key ]['template'] );
@@ -142,7 +146,7 @@ if ( ! class_exists( 'YITH_WCAS_Legacy_Manager' ) ) {
 					$options[ $key ]['preset'] = 'default';
 				}
 			}
-			update_option( "widget_yith_woocommerce_ajax_search", $options );
+			update_option( 'widget_yith_woocommerce_ajax_search', $options );
 			update_option( 'ywcas_user_switch_to_block', true );
 			wp_safe_redirect( $return_url );
 			die;

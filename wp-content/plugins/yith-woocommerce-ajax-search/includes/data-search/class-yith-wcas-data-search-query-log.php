@@ -46,7 +46,7 @@ class YITH_WCAS_Data_Search_Query_Log {
 	/**
 	 * Insert the log on database
 	 *
-	 * @param   array  $data  Array of value.
+	 * @param   array $data  Array of value.
 	 *
 	 * @return mixed
 	 */
@@ -60,9 +60,9 @@ class YITH_WCAS_Data_Search_Query_Log {
 	/**
 	 * Return the search history by user
 	 *
-	 * @param   int     $user_id  User id.
-	 * @param   string  $lang     Language.
-	 * @param   int     $limit    Limit.
+	 * @param   int    $user_id  User id.
+	 * @param   string $lang     Language.
+	 * @param   int    $limit    Limit.
 	 *
 	 * @return array
 	 */
@@ -75,7 +75,7 @@ class YITH_WCAS_Data_Search_Query_Log {
 	/**
 	 * Return all the search history by user
 	 *
-	 * @param   int  $user_id  User id.
+	 * @param   int $user_id  User id.
 	 *
 	 * @return array
 	 */
@@ -88,7 +88,7 @@ class YITH_WCAS_Data_Search_Query_Log {
 	/**
 	 * Return all the search history by user
 	 *
-	 * @param   int  $user_id  User id.
+	 * @param   int $user_id  User id.
 	 *
 	 * @return bool|int|mysqli_result|resource
 	 */
@@ -102,8 +102,8 @@ class YITH_WCAS_Data_Search_Query_Log {
 	/**
 	 * Return the popular searches
 	 *
-	 * @param   string  $lang   Language.
-	 * @param   int     $limit  Limit.
+	 * @param   string $lang   Language.
+	 * @param   int    $limit  Limit.
 	 *
 	 * @return array
 	 */
@@ -116,10 +116,10 @@ class YITH_WCAS_Data_Search_Query_Log {
 	/**
 	 * Return the top clicked products as ids and the number of click
 	 *
-	 * @param   string    $from    Date from.
-	 * @param   string    $to      Date to.
-	 * @param   int|bool  $limit   Limit of results.
-	 * @param   int       $offset  Offset of results.
+	 * @param   string   $from    Date from.
+	 * @param   string   $to      Date to.
+	 * @param   int|bool $limit   Limit of results.
+	 * @param   int      $offset  Offset of results.
 	 *
 	 * @return array
 	 * @since 2.1.0
@@ -127,9 +127,9 @@ class YITH_WCAS_Data_Search_Query_Log {
 	public static function get_top_clicked_products( $from = '', $to = '', $limit = false, $offset = 0 ) {
 		global $wpdb;
 
-		$where = ( '' !== $from ) ? " AND search_date > '".$from."' " : '';
-		$where .= ( '' !== $to ) ? " AND search_date < '".$to."' " : '';
-		$limit_string = $limit ? ' LIMIT '. $limit : '';
+		$where         = ( '' !== $from ) ? " AND search_date > '" . $from . "' " : '';
+		$where        .= ( '' !== $to ) ? " AND search_date < '" . $to . "' " : '';
+		$limit_string  = $limit ? ' LIMIT ' . $limit : '';
 		$offset_string = 0 === $offset ? '' : ' OFFSET ' . $offset;
 
 		return $wpdb->get_results( "SELECT clicked_product as product_id, COUNT( clicked_product ) as clicks FROM $wpdb->yith_wcas_query_log WHERE num_results > 0  AND clicked_product > 0  $where GROUP BY clicked_product ORDER BY COUNT( clicked_product ) DESC $limit_string $offset_string", ARRAY_A );
@@ -138,10 +138,10 @@ class YITH_WCAS_Data_Search_Query_Log {
 	/**
 	 * Return the top search query and the number of occurrences
 	 *
-	 * @param   string    $from    Date from.
-	 * @param   string    $to      Date to.
-	 * @param   int|bool  $limit   Limit of results.
-	 * @param   int       $offset  Offset of results.
+	 * @param   string   $from    Date from.
+	 * @param   string   $to      Date to.
+	 * @param   int|bool $limit   Limit of results.
+	 * @param   int      $offset  Offset of results.
 	 *
 	 * @return array
 	 * @since 2.1.0
@@ -149,22 +149,21 @@ class YITH_WCAS_Data_Search_Query_Log {
 	public static function get_top_searches( $from = '', $to = '', $limit = false, $offset = 0 ) {
 		global $wpdb;
 
-
-		$where = ( '' !== $from ) ? " AND search_date > '".$from."' " : '';
-		$where .= ( '' !== $to ) ? " AND search_date < '".$to."' " : '';
-		$limit_string = $limit ? ' LIMIT '. $limit : '';
+		$where         = ( '' !== $from ) ? " AND search_date > '" . $from . "' " : '';
+		$where        .= ( '' !== $to ) ? " AND search_date < '" . $to . "' " : '';
+		$limit_string  = $limit ? ' LIMIT ' . $limit : '';
 		$offset_string = 0 === $offset ? '' : ' OFFSET ' . $offset;
 
-		return $wpdb->get_results(  "SELECT query, COUNT(query) as searches FROM $wpdb->yith_wcas_query_log WHERE num_results > 0 $where GROUP BY query ORDER BY COUNT( query ) DESC $limit_string $offset_string", ARRAY_A );
+		return $wpdb->get_results( "SELECT query, COUNT(query) as searches FROM $wpdb->yith_wcas_query_log WHERE num_results > 0 $where GROUP BY query ORDER BY COUNT( query ) DESC $limit_string $offset_string", ARRAY_A );
 	}
 
 	/**
 	 * Return the top no results query and the number of occurrences
 	 *
-	 * @param   string    $from    Date from.
-	 * @param   string    $to      Date to.
-	 * @param   int|bool  $limit   Limit of results.
-	 * @param   int       $offset  Offset of results.
+	 * @param   string   $from    Date from.
+	 * @param   string   $to      Date to.
+	 * @param   int|bool $limit   Limit of results.
+	 * @param   int      $offset  Offset of results.
 	 *
 	 * @return array
 	 * @since 2.1.0
@@ -172,12 +171,12 @@ class YITH_WCAS_Data_Search_Query_Log {
 	public static function get_top_no_results( $from = '', $to = '', $limit = false, $offset = 0 ) {
 		global $wpdb;
 
-		$where = ( '' !== $from ) ? " AND search_date > '".$from."' " : '';
-		$where .= ( '' !== $to ) ? " AND search_date < '".$to."' " : '';
-		$limit_string = $limit ? ' LIMIT '. $limit : '';
+		$where         = ( '' !== $from ) ? " AND search_date > '" . $from . "' " : '';
+		$where        .= ( '' !== $to ) ? " AND search_date < '" . $to . "' " : '';
+		$limit_string  = $limit ? ' LIMIT ' . $limit : '';
 		$offset_string = 0 === $offset ? '' : ' OFFSET ' . $offset;
 
-		return $wpdb->get_results("SELECT query, COUNT(query) as no_results FROM $wpdb->yith_wcas_query_log WHERE num_results = 0 $where GROUP BY query ORDER BY COUNT( query ) DESC $limit_string $offset_string", ARRAY_A );
+		return $wpdb->get_results( "SELECT query, COUNT(query) as no_results FROM $wpdb->yith_wcas_query_log WHERE num_results = 0 $where GROUP BY query ORDER BY COUNT( query ) DESC $limit_string $offset_string", ARRAY_A );
 	}
 
 

@@ -9,13 +9,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$upgrade_url = wp_nonce_url( add_query_arg( 'action', 'ywcas_do_widget_upgrade', admin_url( 'admin.php' ) ), 'do_widget_upgrade' );
-$current_locale       = strtolower( substr( get_user_locale(), 0, 2 ) );
-if( 'it' === $current_locale ){
+$upgrade_url    = wp_nonce_url( add_query_arg( 'action', 'ywcas_do_widget_upgrade', admin_url( 'admin.php' ) ), 'do_widget_upgrade' );
+$current_locale = strtolower( substr( get_user_locale(), 0, 2 ) );
+if ( 'it' === $current_locale ) {
 	$video_url = '//youtu.be/9dnwk3KkQfk';
-}elseif( 'es' === $current_locale ){
+} elseif ( 'es' === $current_locale ) {
 	$video_url = '//youtu.be/tcKBnGbj-gM';
-}else{
+} else {
 	$video_url = '//youtu.be/mKgUsd5DMMA';
 }
 ?>
@@ -39,7 +39,7 @@ if( 'it' === $current_locale ){
 						_x( 'In this new version, you\'ll find the %1$s new features %2$s and an improved %1$scompatibility with the latest WooCommerce versions%2$s. Updating the current search module in your shop is a piece of cake: we will show you how to do that step by step in %3$sthis video.%4$s', 'Placeholders are HTML tags', 'yith-woocommerce-ajax-search' ),
 						'<strong>',
 						'</strong>',
-						'<a href="'.esc_url( $video_url ).'">',
+						'<a href="' . esc_url( $video_url ) . '">',
 						'</a>'
 					);
 					echo wp_kses_post( $desc );

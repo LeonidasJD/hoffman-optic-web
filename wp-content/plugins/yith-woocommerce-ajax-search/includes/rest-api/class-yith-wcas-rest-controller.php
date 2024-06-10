@@ -107,10 +107,10 @@ if ( ! class_exists( 'YITH_WCAS_REST_Controller' ) ) {
 		 * @return array Query parameters for the collection.
 		 */
 		public function get_collection_params() {
-			$params = parent::get_collection_params();
+			$params                    = parent::get_collection_params();
 			$params['page']['default'] = 0;
 			$params['page']['minimum'] = 0;
-			return  $params;
+			return $params;
 		}
 	}
 }

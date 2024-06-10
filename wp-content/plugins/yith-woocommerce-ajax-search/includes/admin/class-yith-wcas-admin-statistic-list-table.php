@@ -16,11 +16,30 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 	 * @since 2.1.0
 	 */
 	class YITH_WCAS_Admin_Statistic_List_Table extends WP_List_Table {
+		/**
+		 * The statistic type
+		 *
+		 * @var string
+		 */
 		protected $type = 'searched';
+		/**
+		 * Date from
+		 *
+		 * @var string
+		 */
 		protected $from = '';
+		/**
+		 * Date to
+		 *
+		 * @var string
+		 */
 		protected $to = '';
 
-
+		/**
+		 * Construct
+		 *
+		 * @param array $args The args.
+		 */
 		public function __construct( $args = array() ) {
 			parent::__construct( array() );
 			$this->type = $args['type'];
@@ -28,7 +47,12 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 			$this->to   = $args['to'] ? $args['to'] . ' 23:59:59' : '';
 		}
 
-		public function get_title(  ) {
+		/**
+		 * Get the statistics category
+		 *
+		 * @return string
+		 */
+		public function get_title() {
 			$title = '';
 			switch ( $this->type ) {
 				case 'searched':
@@ -41,11 +65,11 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 					$title = __( 'Searches with "No Results"', 'yith-woocommerce-ajax-search' );
 			}
 
-			return $title;
+			return esc_html( $title );
 		}
 
 		/**
-		 * Get sorttable columns.
+		 * Get sortable columns.
 		 *
 		 * @return array
 		 */
@@ -80,7 +104,6 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 					break;
 			}
 
-
 			return $columns;
 		}
 
@@ -88,6 +111,7 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 		 * Prepare items to show
 		 */
 		public function prepare_items() {
+			// phpcs:disable WordPress.Security.NonceVerification.Recommended
 			global $_wp_column_headers;
 			$screen     = get_current_screen();
 			$totalitems = array();
@@ -108,12 +132,12 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 			if ( empty( $totalitems ) ) {
 				$this->items = $totalitems;
 			} else {
-				$order = ! empty( $_GET['order'] ) ? $_GET['order'] : 'DESC';       //phpcs:ignore
+				$order = ! empty( $_GET['order'] ) ? sanitize_text_field( wp_unslash( $_GET['order'] ) ) : 'DESC';
 
 				$num_total_items = count( $totalitems );
 				$offset          = 0;
 				$perpage         = 20;
-				$paged           = ! empty( $_GET['paged'] ) ? $_GET['paged'] : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+				$paged           = ! empty( $_GET['paged'] ) ? sanitize_text_field( wp_unslash( $_GET['paged'] ) ) : '';
 
 				if ( empty( $paged ) || ! is_numeric( $paged ) || $paged <= 0 ) {
 					$paged = 1;
@@ -150,21 +174,21 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 					$this->items = array_reverse( $this->items, true );
 				}
 
-				$columns                           = $this->get_columns();
-				$hidden                            = array();
-				$sortable                          = $this->get_sortable_columns();
-				$this->_column_headers             = array( $columns, $hidden, $sortable );
-				$screen_id = $screen->id ?? 1;
+				$columns                          = $this->get_columns();
+				$hidden                           = array();
+				$sortable                         = $this->get_sortable_columns();
+				$this->_column_headers            = array( $columns, $hidden, $sortable );
+				$screen_id                        = $screen->id ?? 1;
 				$_wp_column_headers[ $screen_id ] = $columns;
 			}
-
+			// phpcs:enable
 		}
 
 		/**
 		 * Fill the columns.
 		 *
-		 * @param   object  $item         Current Object.
-		 * @param   string  $column_name  Current Column.
+		 * @param object $item Current Object.
+		 * @param string $column_name Current Column.
 		 *
 		 * @return string
 		 */
@@ -184,10 +208,18 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 					break;
 			}
 
-			return $content_column;
+			return esc_html( $content_column );
 
 		}
 
+		/**
+		 * Return the column content for searched statistics
+		 *
+		 * @param array  $item The item.
+		 * @param string $column_name The column name.
+		 *
+		 * @return string
+		 */
 		protected function get_column_content_for_searched( $item, $column_name ) {
 			switch ( $column_name ) {
 				case 'query':
@@ -195,8 +227,18 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 				case 'value':
 					return $item['searches'];
 			}
+
+			return '';
 		}
 
+		/**
+		 * Return the column content for item clicked
+		 *
+		 * @param array  $item The item.
+		 * @param string $column_name The column name.
+		 *
+		 * @return string
+		 */
 		protected function get_column_content_for_clicked( $item, $column_name ) {
 			switch ( $column_name ) {
 				case 'query':
@@ -206,8 +248,18 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 				case 'value':
 					return $item['clicks'];
 			}
+
+			return '';
 		}
 
+		/**
+		 * Return the column content for no results
+		 *
+		 * @param array  $item The item.
+		 * @param string $column_name The column name.
+		 *
+		 * @return string
+		 */
 		protected function get_column_content_for_no_result( $item, $column_name ) {
 			switch ( $column_name ) {
 				case 'query':
@@ -215,13 +267,22 @@ if ( ! class_exists( 'YITH_WCAS_Admin_Statistic_List_Table' ) ) {
 				case 'value':
 					return $item['no_results'];
 			}
+
+			return '';
 		}
 
+		/**
+		 * Show the no items message
+		 *
+		 * @return string
+		 */
+		public function no_items() {
 
-		public function no_items(  ) {
-			echo ' <div class="ywcas-empty-statistic-details">';
-			echo __('No items found', 'yith-woocommerce-ajax-search');
-			echo '</div>';
+			$div  = ' <div class="ywcas-empty-statistic-details">';
+			$div .= __( 'No items found', 'yith-woocommerce-ajax-search' );
+			$div .= '</div>';
+
+			return wp_kses_post( $div );
 		}
 	}
 }

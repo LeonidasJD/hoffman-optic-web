@@ -50,7 +50,7 @@ class YITH_WCAS_Data_Index_Query {
 	 *
 	 * @since 2.0.0
 	 */
-	public function __construct( $data_type = array('product') ) {
+	public function __construct( $data_type = array( 'product' ) ) {
 		if ( in_array( 'product', $data_type, true ) ) {
 			$this->get_products();
 		}

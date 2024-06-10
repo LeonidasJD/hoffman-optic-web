@@ -32,10 +32,14 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 		protected function init() {
 			add_action( 'init', array( $this, 'register_assets' ) );
 			add_action( 'init', array( $this, 'register_blocks' ) );
-			add_action( is_admin() ? 'admin_enqueue_scripts' : 'wp_print_footer_scripts', array(
-				$this,
-				'enqueue_asset_data'
-			), 1 );
+			add_action(
+				is_admin() ? 'admin_enqueue_scripts' : 'wp_print_footer_scripts',
+				array(
+					$this,
+					'enqueue_asset_data',
+				),
+				1
+			);
 			add_filter( 'render_block', array( $this, 'add_data_attributes' ), 10, 2 );
 			add_filter( 'block_categories_all', array( $this, 'block_category' ), 100, 2 );
 			add_filter( 'pre_load_script_translations', array( $this, 'script_translations' ), 10, 4 );
@@ -48,7 +52,7 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 		 */
 		public function register_assets() {
 			$build_url = YITH_WCAS_ASSETS_URL . '/js/blocks/build/';
-			wp_register_style( 'ywcas-blocks-editor-style', $build_url . 'ywcas-blocks-editor-style.css', [ 'wp-edit-blocks' ], YITH_WCAS_VERSION, 'all' );
+			wp_register_style( 'ywcas-blocks-editor-style', $build_url . 'ywcas-blocks-editor-style.css', array( 'wp-edit-blocks' ), YITH_WCAS_VERSION, 'all' );
 			$common_scripts = array(
 				'ywcas-block-settings'    => 'ywcas-settings.js',
 				'ywcas-blocks-data-store' => 'ywcas-blocks-data.js',
@@ -69,7 +73,6 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 				wp_register_script( $handle, $build_url . $file_name, $dependencies, $version, true );
 
 			}
-
 
 		}
 
@@ -180,7 +183,6 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 			 * @param array $allowed_namespaces List of namespaces.
 			 *
 			 * @since 5.9.0
-			 *
 			 */
 			$allowed_namespaces = array_merge( array( 'yith' ), (array) apply_filters( '__experimental_yith_ajax_search_blocks_add_data_attributes_to_namespace', array() ) );
 
@@ -192,7 +194,6 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 			 * @param array $allowed_namespaces List of namespaces.
 			 *
 			 * @since 5.9.0
-			 *
 			 */
 			$allowed_blocks = (array) apply_filters( '__experimental_yith_ajax_search_blocks_blocks_add_data_attributes_to_block', array() );
 
@@ -237,10 +238,14 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 
 			if ( 'yith-woocommerce-ajax-search' === $domain ) {
 
-				if ( in_array( $handle, array(
-					'ywcas-search-block-block',
-					'ywcas-overlay-search-block-block'
-				), true ) ) {
+				if ( in_array(
+					$handle,
+					array(
+						'ywcas-search-block-block',
+						'ywcas-overlay-search-block-block',
+					),
+					true
+				) ) {
 					$path = trailingslashit( YITH_WCAS_DIR . 'languages/' ) . 'js-i18n.php';
 					if ( file_exists( $path ) ) {
 						$translations = include $path;
@@ -276,38 +281,37 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 		 * @return mixed|null
 		 */
 		public function get_common_localize() {
-			return
-				apply_filters(
-					'ywcas_block_common_localize',
-					array(
-						'ajaxURL'                => WC_AJAX::get_endpoint( '%%endpoint%%' ),
-						'ajaxNonce'              => wp_create_nonce( 'yith_search_rest' ),
-						'wcData'                 => $this->get_wc_data(),
-						'ywcasBuildBlockURL'     => YITH_WCAS_ASSETS_URL . '/js/blocks/build/',
-						'siteURL'                => get_home_url(),
-						'lang'                   => ywcas_get_current_language(),
-						'addToCartLabel'         => apply_filters( 'ywcas_add_to_cart_label', __( 'Add to cart', 'yith-woocommerce-ajax-search' ) ),
-						'readMoreLabel'          => apply_filters( 'ywcas_read_more_label', _x( 'Read more', 'add to cart label for not purchasable products', 'yith-woocommerce-ajax-search' ) ),
-						'selectOptionsLabel'     => apply_filters( 'ywcas_select_options_label', _x( 'Select options', 'add to cart label for variable products', 'yith-woocommerce-ajax-search' ) ),
-						'inStockLabel'           => __( 'In stock', 'yith-woocommerce-ajax-search' ),
-						'outOfStockLabel'        => __( 'Out of stock', 'yith-woocommerce-ajax-search' ),
-						'skuLabel'               => __( 'SKU: ', 'yith-woocommerce-ajax-search' ),
-						'showAutoComplete'       => ywcas()->settings->get_is_autocomplete(),
-						'minChars'               => ywcas()->settings->get_min_chars(),
-						'classicDefaultSettings' => ywcas()->settings->get_classic_default_settings(),
-						'popularSearches'        => class_exists( 'YITH_WCAS_Search_History_Premium' ) ? YITH_WCAS_Search_History_Premium::get_instance()->get_popular_searches( ywcas_get_current_language() ) : array(),
-						'historySearches'        => class_exists( 'YITH_WCAS_Search_History_Premium' ) ? YITH_WCAS_Search_History_Premium::get_instance()->get_history( ywcas_get_current_language() ) : array(),
-						/* translators: %1$s is the amount of result %2$s is the query searched. */
-						'singleResultLabel'      => _x( '%1$s result for "%2$s"', '1 result for "shoes"', 'yith-woocommerce-ajax-search' ),
-						/* translators: %1$s is the amount of result %2$s is the query searched. */
-						'pluralResultLabel'      => _x( '%1$s results for "%2$s"', '3 results for "shoes"', 'yith-woocommerce-ajax-search' ),
-						/* translators: %s is the query searched. */
-						'fuzzyResults'           => _x( 'Results for "%s"', 'Results for "shoes"', 'yith-woocommerce-ajax-search' ),
-						'deleteAll'              => __( 'Delete all', 'yith-woocommerce-ajax-search' ),
-						'inCategoryString'       => _x( 'in', 'T-shirts in Woman Clothes', 'yith-woocommerce-ajax-search' ),
-						'mobileBreakPoint'       => apply_filters( 'ywcas_mobile_break_point', '600px' )
-					)
-				);
+			return apply_filters(
+				'ywcas_block_common_localize',
+				array(
+					'ajaxURL'                => WC_AJAX::get_endpoint( '%%endpoint%%' ),
+					'ajaxNonce'              => wp_create_nonce( 'yith_search_rest' ),
+					'wcData'                 => $this->get_wc_data(),
+					'ywcasBuildBlockURL'     => YITH_WCAS_ASSETS_URL . '/js/blocks/build/',
+					'siteURL'                => get_home_url(),
+					'lang'                   => ywcas_get_current_language(),
+					'addToCartLabel'         => apply_filters( 'ywcas_add_to_cart_label', __( 'Add to cart', 'yith-woocommerce-ajax-search' ) ),
+					'readMoreLabel'          => apply_filters( 'ywcas_read_more_label', _x( 'Read more', 'add to cart label for not purchasable products', 'yith-woocommerce-ajax-search' ) ),
+					'selectOptionsLabel'     => apply_filters( 'ywcas_select_options_label', _x( 'Select options', 'add to cart label for variable products', 'yith-woocommerce-ajax-search' ) ),
+					'inStockLabel'           => __( 'In stock', 'yith-woocommerce-ajax-search' ),
+					'outOfStockLabel'        => __( 'Out of stock', 'yith-woocommerce-ajax-search' ),
+					'skuLabel'               => __( 'SKU: ', 'yith-woocommerce-ajax-search' ),
+					'showAutoComplete'       => ywcas()->settings->get_is_autocomplete(),
+					'minChars'               => ywcas()->settings->get_min_chars(),
+					'classicDefaultSettings' => ywcas()->settings->get_classic_default_settings(),
+					'popularSearches'        => class_exists( 'YITH_WCAS_Search_History_Premium' ) ? YITH_WCAS_Search_History_Premium::get_instance()->get_popular_searches( ywcas_get_current_language() ) : array(),
+					'historySearches'        => class_exists( 'YITH_WCAS_Search_History_Premium' ) ? YITH_WCAS_Search_History_Premium::get_instance()->get_history( ywcas_get_current_language() ) : array(),
+					/* translators: %1$s is the amount of result %2$s is the query searched. */
+					'singleResultLabel'      => _x( '%1$s result for "%2$s"', '1 result for "shoes"', 'yith-woocommerce-ajax-search' ),
+					/* translators: %1$s is the amount of result %2$s is the query searched. */
+					'pluralResultLabel'      => _x( '%1$s results for "%2$s"', '3 results for "shoes"', 'yith-woocommerce-ajax-search' ),
+					/* translators: %s is the query searched. */
+					'fuzzyResults'           => _x( 'Results for "%s"', 'Results for "shoes"', 'yith-woocommerce-ajax-search' ),
+					'deleteAll'              => __( 'Delete all', 'yith-woocommerce-ajax-search' ),
+					'inCategoryString'       => _x( 'in', 'T-shirts in Woman Clothes', 'yith-woocommerce-ajax-search' ),
+					'mobileBreakPoint'       => apply_filters( 'ywcas_mobile_break_point', '600px' ),
+				)
+			);
 		}
 
 		/** -------------------------------------------------------
@@ -329,10 +333,16 @@ if ( ! class_exists( 'YITH_WCAS_Gutenberg_Blocks_Controller' ) ) {
 					'symbol'       => html_entity_decode( get_woocommerce_currency_symbol( $currency_code ) ),
 					'decimal_sep'  => esc_attr( wc_get_price_decimal_separator() ),
 					'thousand_sep' => esc_attr( wc_get_price_thousand_separator() ),
-					'format'       => html_entity_decode( str_replace( array( '%1$s', '%2$s' ), array(
-						'%s',
-						'%v'
-					), get_woocommerce_price_format() ) ), // For accounting JS.
+					'format'       => html_entity_decode(
+						str_replace(
+							array( '%1$s', '%2$s' ),
+							array(
+								'%s',
+								'%v',
+							),
+							get_woocommerce_price_format()
+						)
+					), // For accounting JS.
 				),
 				'placeholderImageSrc'  => wc_placeholder_img_src(),
 				'discountRoundingMode' => defined( 'WC_DISCOUNT_ROUNDING_MODE' ) && PHP_ROUND_HALF_UP === WC_DISCOUNT_ROUNDING_MODE ? 'half-up' : 'half-down',

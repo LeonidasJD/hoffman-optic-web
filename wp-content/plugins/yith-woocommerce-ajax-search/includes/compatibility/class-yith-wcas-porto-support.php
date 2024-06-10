@@ -2,11 +2,13 @@
 /**
  * Add support for Porto theme
  *
- * @since      2.0.0
- * @author     YITH
- * @package    YITH/Search
+ * @since  2.0
+ * @package YITH\Search
  */
 
+/**
+ * The Port class
+ */
 class YITH_WCAS_Porto_Support {
 	use YITH_WCAS_Trait_Singleton;
 
@@ -16,9 +18,9 @@ class YITH_WCAS_Porto_Support {
 	 * @since 2.0.0
 	 */
 	protected function __construct() {
-		if (  ! yith_wcas_is_fresh_block_installation() && ! yith_wcas_user_switch_to_block()  ) {
+		if ( ! yith_wcas_is_fresh_block_installation() && ! yith_wcas_user_switch_to_block() ) {
 			$this->init_legacy();
-		}else{
+		} else {
 			$this->init();
 		}
 	}
@@ -109,7 +111,6 @@ class YITH_WCAS_Porto_Support {
 		$show_categories = get_option( 'yith_wcas_show_category_list' );
 		$search_width    = 390;
 
-
 		if ( ( 'yes' === $show_type && 'no' === $show_categories ) || ( 'no' === $show_type && 'yes' === $show_categories ) ) {
 			$search_width = 260;
 		} elseif ( 'yes' === $show_type && 'yes' === $show_categories ) {
@@ -119,63 +120,63 @@ class YITH_WCAS_Porto_Support {
 		ob_start();
 		?>
 
-        .searchform div.yith-ajaxsearchform-container,
-        .searchform div.yith-ajaxsearchform-container .yith-ajaxsearchform-select {
-        display: flex;
-        }
+		.searchform div.yith-ajaxsearchform-container,
+		.searchform div.yith-ajaxsearchform-container .yith-ajaxsearchform-select {
+		display: flex;
+		}
 
-        .searchform div.yith-ajaxsearchform-container .search-navigation {
-        order: 1;
-        flex:1!important;
-        }
+		.searchform div.yith-ajaxsearchform-container .search-navigation {
+		order: 1;
+		flex:1!important;
+		}
 
-        .searchform div.yith-ajaxsearchform-container .yith-ajaxsearchform-select {
-        order: 2;
-        font-size: 0;
-        }
+		.searchform div.yith-ajaxsearchform-container .yith-ajaxsearchform-select {
+		order: 2;
+		font-size: 0;
+		}
 
-        .searchform div.yith-ajaxsearchform-container #yith-searchsubmit {
-        order: 3;
-        }
+		.searchform div.yith-ajaxsearchform-container #yith-searchsubmit {
+		order: 3;
+		}
 
-        .searchform div.yith-ajaxsearchform-container input {
-        border-right: <?php echo( ( 'simple' === $b['search-layout'] ) ? '1px solid ' . esc_html( $b['searchform-border-color'] ) . '!important' : 'none' ); ?>;
-        width: <?php echo esc_attr( $search_width ); ?>px!important;
-        max-width: 100%!important;
-        }
+		.searchform div.yith-ajaxsearchform-container input {
+		border-right: <?php echo( ( 'simple' === $b['search-layout'] ) ? '1px solid ' . esc_html( $b['searchform-border-color'] ) . '!important' : 'none' ); ?>;
+		width: <?php echo esc_attr( $search_width ); ?>px!important;
+		max-width: 100%!important;
+		}
 
-        .searchform div.yith-ajaxsearchform-container > .yith-ajaxsearchform-select select {
-        width: 130px!important;
-        background-image: url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/select-bg.svg)!important;
-        background-position-x: 96%!important;
-        background-position-y: 49%!important;
-        background-size: 26px 60px!important;
-        background-repeat: no-repeat!important;
-        background-attachment: initial!important;
-        background-origin: initial!important;
-        background-clip: initial!important;
-        }
+		.searchform div.yith-ajaxsearchform-container > .yith-ajaxsearchform-select select {
+		width: 130px!important;
+		background-image: url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/select-bg.svg)!important;
+		background-position-x: 96%!important;
+		background-position-y: 49%!important;
+		background-size: 26px 60px!important;
+		background-repeat: no-repeat!important;
+		background-attachment: initial!important;
+		background-origin: initial!important;
+		background-clip: initial!important;
+		}
 
-        .autocomplete-suggestions {
-        margin-top: <?php echo( ( 'simple' === $b['search-layout'] || 'large' === $b['search-layout'] ) ? '15px' : 0 ); ?>;
-        }
+		.autocomplete-suggestions {
+		margin-top: <?php echo( ( 'simple' === $b['search-layout'] || 'large' === $b['search-layout'] ) ? '15px' : 0 ); ?>;
+		}
 
 		<?php
 		$custom_css = ob_get_clean();
 		wp_add_inline_style( 'yith_wcas_frontend', $custom_css );
 		ob_start()
 		?>
-        jQuery(
-        function ( $ ) {
-        $( document ).on(
-        'yith_wcas_done',
-        function () {
-        $( '.search-toggle' ).addClass( 'opened' );
-        $( '.searchform' ).show();
-        }
-        );
-        }
-        );
+		jQuery(
+		function ( $ ) {
+		$( document ).on(
+		'yith_wcas_done',
+		function () {
+		$( '.search-toggle' ).addClass( 'opened' );
+		$( '.searchform' ).show();
+		}
+		);
+		}
+		);
 		<?php
 		$custom_js = ob_get_clean();
 		wp_add_inline_script( 'yith_wcas_frontend', $custom_js );
@@ -199,7 +200,7 @@ class YITH_WCAS_Porto_Support {
 	            
 	    }';
 
-		$js  = "jQuery(function ($) {
+		$js = "jQuery(function ($) {
                 $('.wp-block-yith-search-block').addClass('searchform');
                
                $('.searchform-popup .search-toggle i').on('click',function(e){
@@ -209,7 +210,7 @@ class YITH_WCAS_Porto_Support {
 
         })";
 
-		wp_add_inline_style('ywcas-frontend', $css);
-		wp_add_inline_script('ywcas-search-results-script', $js);
+		wp_add_inline_style( 'ywcas-frontend', $css );
+		wp_add_inline_script( 'ywcas-search-results-script', $js );
 	}
 }
