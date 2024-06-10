@@ -90,6 +90,36 @@ margin-top: 40px;
 .product-search-bar input:focus {
     outline: none;
 }
+.search-result-item__content{
+  flex-direction: column!important;
+}
+.search-result-item__summary{
+display: none !important;
+}
+.search-result-item__name {
+  text-align: center!important;
+  font-family: 'Glegoo'!important;
+}
+.wp-block-button__link{
+  background-color: #36641C!important;
+  border: none !important;
+  font-family: 'Glegoo';
+}
+.search-result-item__thumbnail {
+  text-align: center!important;
+}
+.search-result-item__thumbnail img{
+  width:80px !important;
+}
+.ywcas-input-field input{
+  font-family: 'Lato'!important;
+}
+.css-1b3m40g{
+font-family: 'Glegoo'!important;
+}
+.search-result-item__price,.css-13o7eu2{
+  display: none!important;
+}
 .product-search-bar input::placeholder{
     color: white;
     font-family: 'Lato';

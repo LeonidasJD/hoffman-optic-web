@@ -190,6 +190,7 @@ border-radius: 8px 8px 0px 0px ;
     }
     .about-us-hero-underwrapper h1{
         font-size: 27px;
+        width: 100%;
     }
 
 }

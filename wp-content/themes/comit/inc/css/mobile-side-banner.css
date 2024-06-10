@@ -53,3 +53,11 @@
     
     }
 
+    @media screen and (max-width: 360px) {
+        .mobile-side-banner-btn{
+            background-color: #76BA51;
+            padding: 10px 13px;
+            border-radius: 0px 0px 0px 6px;
+        }
+        }
+    
