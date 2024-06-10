@@ -63,12 +63,12 @@ content: '';
     width: 105%;
 }
 .button-type-2:hover{
-    color:#76BA51;
-    border-color: #76BA51;
+    color:#36641C;
+    border-color: #36641C;
 }
 
 .button-type-2:hover a{
-    color:#76BA51 ;
+    color:#36641C ;
 }
 .button-type-2:active {
     transform: translate(5px,5px);
@@ -135,7 +135,7 @@ content: '';
     border-radius: 50px;
 }
 .sticky-button-wrapper button{
-    background-color: #5B8E3F;
+    background-color: #36641C;
     border: none;
     border-radius: 50px;
     padding: 15px 20px;

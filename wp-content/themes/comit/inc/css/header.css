@@ -29,14 +29,14 @@ header{
     font-family: 'Lato';
     font-weight: 400;
     font-size: 14px;
-    color: #0E130B;
+    color: #000000;
     
 }
 #menu-menu-1 .current-menu-item > a {
-    color: #76BA51; 
+    color: #36641C; 
 }
 #menu-menu-1 li a:hover{
-    color: #76BA51;
+    color: #36641C;
 }
 #menu-menu-1 > li:nth-child(-n+4){
    margin-right: 30px;
@@ -60,7 +60,7 @@ header{
 } 
 .contact-button{
     border-radius: 4px;
-    background-color: #76BA51;
+    background-color: #36641C;
     padding: 8px 30px 8px 30px;
     border: solid 1px white;
     font-family: 'Lato';

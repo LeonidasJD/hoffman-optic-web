@@ -34,7 +34,7 @@
     font-family: inherit;
     font-size: 20px;
     background: white;
-    color: #76BA51;
+    color: #36641C;
     padding: 0.7em 1em;
     padding-left: 0.9em;
     display: flex;
@@ -58,13 +58,13 @@
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 500;
-    color: #76BA51;
+    color: #36641C;
 }
   .contact-btn svg {
     display: block;
     transform-origin: center center;
     transition: transform 0.3s ease-in-out;
-    color: #76BA51;
+    color: #36641C;
   }
   
   .contact-btn:hover .svg-wrapper {

@@ -29,7 +29,7 @@
     font-family: 'Lato';
     font-weight: 400;
     font-size: 16px;
-    color: #506A41;
+    color: #474747;
     line-height: 128%;
 }
 .hero-wrapper a{
@@ -38,7 +38,7 @@
     
 }
 .hero-button{
-    background-color: #76BA51;
+    background-color: #36641C;
     padding: 15px 25px 15px 25px;
     border: solid 1px white;
     border-radius: 6px;
@@ -181,7 +181,7 @@ background-size: cover;
     
 }
 .book-now-btn{
-    background-color: #76BA51;
+    background-color: #36641C;
     border: none;
     padding: 8px 25px 8px 25px;
     color: white;
@@ -236,10 +236,11 @@ background-size: cover;
     font-weight: 400;
     padding: 0px;
     margin: 0px;
+    color: #474747;
 }
 .scale-link{
     margin-left: 15px;
-    color: #76BA51;
+    color: #36641C;
     font-family: 'Lato';
     font-size: 16px;
     text-decoration: none;
@@ -275,7 +276,7 @@ background-size: cover;
 .service-card p{
     font-family: 'Lato';
     font-weight: 400;
-    color: #42464E;
+    color: #474747;
     font-size: 14px;
     max-width: 200px;
 }
@@ -316,7 +317,7 @@ background-size: cover;
 .heading-product-info p a{
     font-family: 'Lato';
     font-size: 16px;
-    color: #76BA51;
+    color: #36641C;
     font-weight: 400;
 }
 .heading-product-info p{
@@ -362,7 +363,7 @@ background-size: cover;
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 400;
-    color: #76BA51;
+    color: #36641C;
     text-decoration: underline;
 
 }
@@ -447,7 +448,7 @@ background-size: cover;
 }
 .form-wrapper{
     width: 60%;
-    border: 1px solid #76BA51;
+    border: 1px solid #36641C;
     border-radius:12px ;
     padding: 40px 50px 40px 50px;
     background-color: white;
@@ -466,7 +467,7 @@ background-size: cover;
     border-top: 0px!important;
     border-left: 0px!important;
     border-right: 0px!important;
-    border-bottom: 2px solid #76BA51!important;
+    border-bottom: 2px solid #36641C!important;
     border-radius: 0px!important;
     padding: 0px!important;
     font-family: 'Lato' !important;
@@ -484,7 +485,7 @@ background-size: cover;
     border-top: 0px!important;
     border-left: 0px!important;
     border-right: 0px!important;
-    border-bottom: 2px solid #76BA51!important;
+    border-bottom: 2px solid #36641C!important;
     border-radius: 0px!important;
 }
 
@@ -493,7 +494,7 @@ background-size: cover;
     border-top: 0px!important;
     border-left: 0px!important;
     border-right: 0px!important;
-    border-bottom: 2px solid #76BA51!important;
+    border-bottom: 2px solid #36641C!important;
     border-radius: 0px!important;
     font-family: 'Lato'!important;
     font-weight: 600!important;
@@ -505,7 +506,7 @@ background-size: cover;
     font-family: 'Lato'!important;
     font-weight: 600!important;
     font-size: 16px!important;
-    color: #42464E!important;
+    color: #0E130B!important;
 }
 
 .formidable-form select option{
@@ -543,22 +544,22 @@ background-size: cover;
     padding: 7px 7px 7px 7px!important;
     border-radius: 4px!important;
     width: 97% !important;
-    border: 2px solid #76BA51!important;
+    border: 2px solid #36641C!important;
     font-family: 'Lato'!important;
     font-weight: 600!important;
     font-size: 16px!important;
-    color: #76BA51!important;
+    color: #36641C!important;
     text-align: center!important;
     
 } 
 #field_r4twn::placeholder{
-    color: #76BA51!important;
+    color: #36641C!important;
 }
 #field_1sc3e{
     width: 100%!important;
 }
 #frm_field_80_container{
-    border: 2px solid #76BA51!important;
+    border: 2px solid #36641C!important;
     width: 156px;
     border-radius: 6px;
 }
@@ -566,7 +567,7 @@ background-size: cover;
     text-align: center;
 }
 #frm_field_80_container select{
-    color: #76BA51;
+    color: #36641C;
     border-bottom: none!important;
    
 }
@@ -586,8 +587,8 @@ background-size: cover;
     font-family: 'Lato';
     font-weight: 600;
     font-size: 16px;
-    color: #76BA51;
-    border: 2px solid #76BA51;
+    color: #36641C;
+    border: 2px solid #36641C;
 
 }
 .formidable-form button{
@@ -595,7 +596,7 @@ background-size: cover;
     font-weight: 400;
     font-size: 19px;
     color: white;
-    background-color: #76BA51;
+    background-color: #36641C;
     border: none;
     border-radius: 7px;
     padding: 15px 50px;
@@ -676,7 +677,7 @@ background-size: cover;
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 300;
-    color: #6D6D6D;
+    color: #474747;
 }
 /*OUR STORY NEWS CSS END*/
 
@@ -705,7 +706,7 @@ background-size: cover;
     font-family: 'Glegoo';
     font-size: 53px;
     font-weight: 400;
-    color: #76BA51;
+    color: #36641C;
     width: 75%;
 
 }
@@ -739,14 +740,14 @@ background-size: cover;
     font-family: 'Lato';
     font-size: 14px;
     font-weight: bold;
-    color: #76BA51;
+    color: #36641C;
     margin: 10px 0px 50px 0px;
   }
   .swiper-pagination-bullet {
-    background-color: #76BA51; /* Crvena boja */
+    background-color: #36641C; /* Crvena boja */
 }
 .swiper-button-prev:after,.swiper-button-next:after{
-color: #76BA51;
+color: #36641C;
 position: absolute;
     top: 408%;
     font-size: 15px;
