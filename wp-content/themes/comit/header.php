@@ -117,7 +117,7 @@
 	</div>
 	<div class="shop-wrapper-mob">
 	<p>Our store <br>in Neuchatel </p>
-	<button id="neu-button" class="book-now-menu">Book now <img src="/wp-content/uploads/2024/06/arrow-green.webp" alt=""></button>
+	<button id="neu-button" class="book-now-menu">Book now <img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></button>
 	</div>
 </div>
 <div class="book-now-section1">
@@ -126,7 +126,7 @@
 	</div>
 	<div class="shop-wrapper-mob">
 	<p>Our store <br>in Müllheim </p>
-	<button id="mull-button" class="book-now-menu">Book now <img src="/wp-content/uploads/2024/06/arrow-green.webp" alt=""></button>
+	<button id="mull-button" class="book-now-menu">Book now <img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></button>
 	</div>
 </div>
 
