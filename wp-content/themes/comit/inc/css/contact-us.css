@@ -83,7 +83,7 @@
     width: 1rem;
 }
 .info-button-app{
-    background-color: #76BA51;
+    background-color: #36641C;
     border-radius: 6px;
     text-align: center;
     max-width: 12rem;
@@ -146,7 +146,7 @@
 }
 .fields-wrapper input{
     border: none!important;
-    border-bottom: 2px solid #5B9356!important ;
+    border-bottom: 2px solid #36641C!important ;
     border-radius: 0px!important;
     font-family: 'Lato'!important;
     font-size: 14px;
@@ -158,20 +158,20 @@
     font-family: 'Lato'!important;
     font-size: 14px;
     font-weight: bold;
-    color: #63716D!important;
+    color: #0E130B!important;
 }
 .fields-wrapper select{
     border: none!important;
-    border-bottom: 2px solid #5B9356!important;
+    border-bottom: 2px solid #36641C!important;
     border-radius: 0px!important;
     font-family: 'Lato'!important;
     font-size: 14px;
     font-weight: bold;
-    color: #63716D!important;
+    color: #0E130B!important;
 }
 .form-subj input{
     border: none!important;
-    border-bottom: 2px solid #5B9356!important ;
+    border-bottom: 2px solid #36641C!important ;
     border-radius: 0px!important;
     font-family: 'Lato'!important;
     font-size: 14px;
@@ -182,7 +182,7 @@
     font-family: 'Lato'!important;
     font-size: 14px;
     font-weight: bold;
-    color: #63716D!important;
+    color: #0E130B!important;
 }
 #frm_field_33_container{
     display: flex;
@@ -198,7 +198,7 @@
 }
 .fields-wrapper textarea{
     border: none!important;
-    border-bottom: 2px solid #5B9356!important;
+    border-bottom: 2px solid #36641C!important;
     border-radius: 0px!important;
     font-family: 'Lato'!important;
     font-size: 14px;
@@ -209,10 +209,10 @@
     font-family: 'Lato'!important;
     font-size: 14px;
     font-weight: bold;
-    color: #63716D!important;
+    color: #0E130B!important;
 }
 #frm_field_33_container button{
-    background-color: #76BA51;
+    background-color: #36641C;
     border: none;
     border-radius: 6px;
     padding: 13px 26px;
@@ -226,7 +226,7 @@
 }
 
 .fields-wrapper .frm_checkbox input{
-    border: 1px solid #76BA51!important;
+    border: 1px solid #36641C!important;
 }
 .fields-wrapper .frm_checkbox label{
     font-family: 'Lato';

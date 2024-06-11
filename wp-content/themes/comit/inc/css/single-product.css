@@ -359,7 +359,7 @@
 }
 .form-single-product textarea{
     border: none!important;
-    border-bottom: 2px solid #5B9356!important;
+    border-bottom: 2px solid #36641C!important;
     border-radius: 0px!important;
     font-family: 'Lato'!important;
     font-weight: bold!important;
@@ -429,7 +429,7 @@
         max-width: 15px!important;
     }
     .single-product-form .form-buttons{
-        gap: 34px;
+        gap: 20px;
     }
     .wrapper-for-mobile{
         display: block;
@@ -441,6 +441,9 @@
 @media screen and (max-width:767px){
     .tab-description-wrapper{
         padding: 0px;
+    }
+    .single-tab-button{
+        margin-right: 30px;
     }
     .short-description p, .additional-information p{
         width: 100%;

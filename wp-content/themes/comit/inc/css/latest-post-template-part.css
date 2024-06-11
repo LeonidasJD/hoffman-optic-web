@@ -30,6 +30,9 @@
 }
 .latest-post-info{
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .lates-post-image img{
 width:6rem ;
@@ -40,7 +43,7 @@ height: 5rem;
     font-family: 'Lato';
     font-size: 16px;
     font-weight: bold;
-    color: #0e130bc9;
+    color: #0E130B;
     margin: 0px 0px 6px 0px;
 }
 .latest-post-info p{

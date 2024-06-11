@@ -15,7 +15,7 @@
     margin: 0px;
     font-family: 'Glegoo';
     font-size: 40px;
-    font-weight: 400;
+    font-weight: bold;
     color: #36641C;
     width: 23rem;
     line-height: 128.5%;
@@ -42,13 +42,13 @@
 .data-section-info h2{
     font-size: 26px;
     font-family: 'Glegoo';
-    font-weight: 400;
+    font-weight: bold;
     color: #0E130B;
 }
 .data-section-info p{
     font-family: 'Lato';
     font-size: 18px;
-    color: #474747;
+    color: #0E130B;
     font-weight: 400;
 }
 /*OUR MISSION SECTION CSS END*/

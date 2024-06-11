@@ -19,7 +19,7 @@
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 400;
-    color: #6D6D6D;
+    color: #0E130B!important;
     margin: 0px;
     max-width: 45rem;
 }
@@ -72,14 +72,14 @@
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 400;
-    color: #42464E;
+    color: #474747;
     margin-bottom: 25px;
     
  
     
 }
 .apply-card-text-button button{
-    background-color: #76BA51;
+    background-color: #36641C;
     border: none;
     border-radius: 4px;
     padding: 8px 26px;
@@ -142,9 +142,10 @@
 .modal-main {
     background-color: white; 
     padding: 20px; 
-    border-radius: 5px; 
+    border-radius: 12px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 30rem;
+    border: solid 2px #36641C;
   
 }
 .modal-main h2{
@@ -170,7 +171,7 @@
     border: none!important;
     border-bottom: solid 2px!important;
     border-radius: 0px!important;
-    border-color: #5B9356!important;
+    border-color: #36641C!important;
     font-family: 'Lato'!important;
     font-size: 14px!important;
     color: #6E716D !important;
@@ -185,7 +186,7 @@
     border: none!important;
     border-bottom: solid 2px!important;
     border-radius: 0px!important;
-    border-color: #5B9356!important;
+    border-color: #36641C!important;
     font-family: 'Lato'!important;
     font-size: 14px!important;
     font-weight: bold!important;
@@ -202,7 +203,7 @@
     border: none!important;
     border-bottom: solid 2px!important;
     border-radius: 0px!important;
-    border-color: #5B9356!important;
+    border-color: #36641C!important;
     font-family: 'Lato'!important;
     font-size: 14px!important;
     font-weight: bold!important;
@@ -219,13 +220,13 @@ margin-bottom: 30px;
     display: flex!important;
     flex-direction: row-reverse!important;
     justify-content: flex-end!important;
-    border: 1px solid #76BA51!important;
+    border: 1px solid #36641C!important;
     align-items: center!important;
     padding: 0px 13px 0px 13px!important;
     width: 10rem!important;
 }
 .frmsvg{
-    color: #76BA51!important;
+    color: #36641C!important;
     width: 1rem!important;
 
 }
@@ -235,7 +236,7 @@ margin-bottom: 30px;
 .dz-message button{
     font-size: 14px!important;
     font-family: 'Lato'!important;
-    color: #76BA51!important;
+    color: #36641C!important;
     font-weight: bold!important;
 }
 .frm_small_text{
@@ -356,7 +357,10 @@ margin-bottom: 30px;
     justify-content: center !important;
 }
 #frm_field_31_container .form-buttons{
-    gap: 35px;
+    gap: 20px;
+}
+.form-buttons > :first-child{
+    width: 11rem;
 }
 }
 /* MODAL RESPONSIVE END */

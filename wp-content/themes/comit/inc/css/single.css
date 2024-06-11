@@ -36,16 +36,17 @@ margin-top: 60px;
     margin: 0px;
     font-family: 'Glegoo';
     font-size: 26px;
-    font-weight: 400;
+    font-weight: bold;
     color: #0E130B;
     margin-top: 50px;
     margin-bottom: 35px;
+    line-height: 117%;
 }
 .post-section-subtitle h3{
     margin: 0px;
     font-family: 'Glegoo';
     font-size: 20px;
-    font-weight: 400;
+    font-weight: bold;
     color: #0E130B;
     margin-bottom: 25px;
 }
@@ -115,12 +116,13 @@ margin-top: 60px;
     font-family: 'Lato';
     font-weight: 400;
     font-size: 18px;
+    color: #0E130B;
 }
 
 .single-card-heading-excerpt p{
     font-family: 'Lato';
     font-size: 14px;
-    color: #6D6D6D;
+    color: #0E130B;
 }
 
 /*RELATED POST CSS END*/

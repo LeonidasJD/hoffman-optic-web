@@ -655,6 +655,7 @@ background-size: cover;
     max-width: 200px;
     margin-right: 30px;
     border-radius: 4px;
+    height: 180px;
 }
 .post-info p img{
     width: 12px;
@@ -676,7 +677,7 @@ background-size: cover;
 .post-info h3{
     font-family: 'Lato';
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     color: #0e130b;
 }
 /*OUR STORY NEWS CSS END*/
@@ -1055,6 +1056,7 @@ margin-right: 0px;
         margin-right: 0px;
         max-width: 100%;
         border-radius:4px;
+        height: auto;
     };
     .post-info p{
         margin: 15px 0px 0px 0px;

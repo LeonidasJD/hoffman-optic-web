@@ -18,6 +18,7 @@
     color: #336B15;
     max-width: 390px;
     line-height: 128%;
+    font-weight: bold;
 
 }
 /*HERO SECTION CSS END*/
@@ -66,7 +67,7 @@
     padding-bottom: 12px;
     font-family: 'Lato';
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     color: #0E130B;
     text-align: start;
 }
@@ -75,7 +76,7 @@
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 400;
-    color: #474747;
+    color: #0E130B;
     text-align: start;
 }
 .service-button{

@@ -1,7 +1,9 @@
-.site-footer{
-    
-    
-    
+
+.container-footer {
+    border-left: 1px solid;
+    border-image: linear-gradient(to bottom, #C6FFA7 0%, #318A00 100%) 1;
+    border-right: 1px solid;
+    border-image: linear-gradient(to bottom, #C6FFA7 0%, #318A00 100%) 1;
 }
 .container-footer{
     background-color: #0E130B;
@@ -101,6 +103,12 @@ color: white;
 
 /* RESPONSIVE START */
 @media screen and (max-width:767px) {
+    .container-footer {
+        border-left: 1px solid;
+        border-image: linear-gradient(to bottom, #2F4026 0%, #739A5B 53%,#2F4026 100%) 1;
+        border-right: 1px solid;
+        border-image: linear-gradient(to bottom, #2F4026 0%, #739A5B 53%,#2F4026 100%) 1;
+    }
     .footer-navi-section{
         padding: 0px;
         display: flex;

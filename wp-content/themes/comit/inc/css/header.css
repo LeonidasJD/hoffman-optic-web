@@ -81,6 +81,9 @@ header{
 .under-menu-wrapper{
     display: none;
 }
+.book-now-menu img{
+    width: 13px;
+}
 
 
 /* HEADER RESPONSIVE START */
@@ -137,7 +140,7 @@ width: 9.5rem;
     justify-content: space-between;
   }
 .header-contact-button a{
-    background-color: #76BA51;
+    background-color: #36641C;
     color: white;
     padding: 5px 15px;
     border-radius: 4px;
@@ -186,7 +189,7 @@ width: 1rem;
     line-height: 128.5%;
 }
 #menu-mobile-menu li:nth-last-child(-n+2) a {
-    color: #76BA51;
+    color: #36641C;
     font-weight: bold;
 }
 .shop-image-mob{
@@ -204,7 +207,7 @@ width: 1rem;
     padding-top: 70px;
 }
 .shop-wrapper-mob{
-    background-color: #76BA51;
+    background-color: #36641C;
     padding: 12px 10px;
     display: flex;
     justify-content: space-between;
@@ -229,7 +232,7 @@ width: 1rem;
     display: flex;
     align-items: center;
     gap: 6px;
-    color: #76BA51;
+    color: #36641C;
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 600;
