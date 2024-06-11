@@ -370,12 +370,24 @@ class Plugin {
 				admin_url( 'plugin-install.php' )
 			);
 
+			$details_url_wpboutik = add_query_arg(
+				array(
+					'tab'       => 'plugin-information',
+					'plugin'    => 'wpboutik',
+					'TB_iframe' => true,
+					'width'     => 722,
+					'height'    => 949,
+				),
+				admin_url( 'plugin-install.php' )
+			);
+
 			$out .= '<div id="whl_settings">';
 			$out .= sprintf( __( 'Need help? Try the <a href="%1$s" target="_blank">support forum</a>. This plugin is kindly brought to you by <a href="%2$s" target="_blank">WPServeur</a>', 'wps-hide-login' ), 'http://wordpress.org/support/plugin/wps-hide-login/', 'https://www.wpserveur.net/?refwps=14&campaign=wpshidelogin' ) . ' (' . __( 'WordPress specialized hosting', 'wps-hide-login' ) . ')';
 			$out .= '<br>' . __( 'Discover our other plugins:', 'wps-hide-login' ) . ' ';
 			$out .= __( 'the plugin', 'wps-hide-login' ) . ' <a href="' . $details_url_wpsbidouille . '" class="thickbox open-plugin-details-modal">' . __( 'WPS Bidouille', 'wps-hide-login' ) . '</a>';
 			$out .= ', ' . __( 'the plugin', 'wps-hide-login' ) . ' <a href="' . $details_url_wpscleaner . '" class="thickbox open-plugin-details-modal">' . __( 'WPS Cleaner', 'wps-hide-login' ) . '</a>';
-			$out .= ' ' . __( 'and', 'wps-hide-login' ) . ' <a href="' . $details_url_wpslimitlogin . '" class="thickbox open-plugin-details-modal">' . __( 'WPS Limit Login', 'wps-hide-login' ) . '</a>';
+			$out .= ' ' . __( 'and', 'wps-hide-login' ) . ' <a href="' . $details_url_wpslimitlogin . '" class="thickbox open-plugin-details-modal">' . __( 'WPS Limit Login', 'wps-hide-login' ) . '</a>.';
+			$out .= '<br>' . __( 'You want to find out how to simplify ecommerce with WordPress, try', 'wps-hide-login' ) . ' <a href="' . $details_url_wpboutik . '" class="thickbox open-plugin-details-modal">' . __( 'WPBoutik', 'wps-hide-login' ) . '</a>.';
 			$out .= '</div>';
 
 		}

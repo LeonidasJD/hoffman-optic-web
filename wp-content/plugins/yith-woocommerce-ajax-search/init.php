@@ -3,7 +3,7 @@
  * Plugin Name: YITH WooCommerce Ajax Search
  * Plugin URI: https://yithemes.com/themes/plugins/yith-woocommerce-ajax-search/
  * Description: <code><strong>YITH WooCommerce Ajax Search</strong></code> is the plugin that allows you to search for a specific product by inserting a few characters. Thanks to <strong>Ajax Search</strong>, users can quickly find the contents they are interested in without wasting time among site pages. <a href="https://yithemes.com/" target="_blank">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>.
- * Version: 2.5.0
+ * Version: 2.5.1
  * Author: YITH
  * Author URI: https://yithemes.com/
  * Text Domain: yith-woocommerce-ajax-search
@@ -71,7 +71,7 @@ if ( ! function_exists( 'yith_plugin_registration_hook' ) ) {
 
 register_activation_hook( __FILE__, 'yith_plugin_registration_hook' );
 
-! defined( 'YITH_WCAS_VERSION' ) && define( 'YITH_WCAS_VERSION', '2.5.0' );
+! defined( 'YITH_WCAS_VERSION' ) && define( 'YITH_WCAS_VERSION', '2.5.1' );
 ! defined( 'YITH_WCAS_FREE_INIT' ) && define( 'YITH_WCAS_FREE_INIT', plugin_basename( __FILE__ ) );
 ! defined( 'YITH_WCAS' ) && define( 'YITH_WCAS', true );
 ! defined( 'YITH_WCAS_FILE' ) && define( 'YITH_WCAS_FILE', __FILE__ );

@@ -494,8 +494,8 @@ if ( ! class_exists( 'YITH_WCAS_Data_Search_Engine' ) ) {
 					case 'url':
 					case 'thumbnail':
 						if ( 'thumbnail' === $key ) {
-							$result[ $key ]['small'] = esc_url( $value['small'] );
-							$result[ $key ]['big']   = esc_url( $value['big'] );
+							$result[ $key ]['small'] = is_array( $value['small'] ) ? $value['small'] : esc_url( $value['small'] );
+							$result[ $key ]['big']   = is_array( $value['big'] ) ? $value['big'] : esc_url( $value['big'] );
 						} else {
 							$result[ $key ] = esc_url( $value );
 						}

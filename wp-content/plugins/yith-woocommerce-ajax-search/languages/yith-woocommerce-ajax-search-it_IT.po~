@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: YITH WooCommerce Ajax Search Premium\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
 "ajax-search\n"
-"POT-Creation-Date: 2024-06-11T10:40:28+00:00\n"
+"POT-Creation-Date: 2024-06-06T09:27:36+00:00\n"
 "PO-Revision-Date: 2020-03-20 08:22+0100\n"
 "Last-Translator: \n"
 "Language-Team: Yithemes <plugins@yithemes.com>\n"
@@ -18,10 +18,12 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
 
 #. Plugin URI of the plugin
+#: init.php
 msgid "https://yithemes.com/themes/plugins/yith-woocommerce-ajax-search/"
 msgstr ""
 
 #. Description of the plugin
+#: init.php
 msgid ""
 "<code><strong>YITH WooCommerce Ajax Search</strong></code> is the plugin "
 "that allows you to search for a specific product by inserting a few "
