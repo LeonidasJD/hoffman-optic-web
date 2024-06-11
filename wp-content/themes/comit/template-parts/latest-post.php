@@ -21,7 +21,7 @@
                          </div>
                             <div class="latest-post-info">
                             <h2><?php the_title(); ?></h2>
-                            <p> <?php echo get_the_date();?></p>
+                           
                             <a class="read-more-link" href="<?php echo get_permalink(); ?>">Read more</a>
                             </div>
                             
