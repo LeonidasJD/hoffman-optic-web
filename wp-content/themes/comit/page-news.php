@@ -33,7 +33,7 @@
                 </div>
                 <a href="<?php echo get_permalink(); ?>">
                 <div class="post-info">
-                    <p><img src="/wp-content/uploads/2024/05/Vector.png"> <?php echo get_the_date(); ?></p>
+                    <p ><img src="/wp-content/uploads/2024/05/Vector.png"> <?php echo get_the_date(); ?></p>
                     <h2><?php the_title(); ?></h2>
                     <h3><?php echo get_the_excerpt(); ?></h3>
                 </div></a>
@@ -46,8 +46,8 @@
         echo paginate_links(array(
             'total' => $blog_posts->max_num_pages,
             'current' => max(1, $paged),
-            'prev_text' => ($paged > 1) ? '<img src="/wp-content/uploads/2024/05/Vector-1.png" alt="prev arrow">' : '<img src="/wp-content/uploads/2024/05/Vector-1.png" alt="prev arrow">',
-            'next_text' => '<img src="/wp-content/uploads/2024/05/2.png" alt="next arrow">',
+            'prev_text' => ($paged > 1) ? '<img src="/wp-content/uploads/2024/06/vector222.webp" alt="prev arrow">' : '<img src="/wp-content/uploads/2024/05/Vector-1.png" alt="prev arrow">',
+            'next_text' => '<img src="/wp-content/uploads/2024/06/vector22.webp" alt="next arrow">',
             'show_all' => true,
             
         ));
