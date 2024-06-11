@@ -63,7 +63,7 @@
 			<h2>Social media</h2>
 			<ul class="social-icon-ul">
 				<li><a href="#"><img src="/wp-content/uploads/2024/05/Frame-4.png" alt="facebook icon"></a></li>
-				<li><a href="#"><img src="/wp-content/uploads/2024/05/Frame-3.png" alt="instagram icon"></a></li>
+				<li><a href="https://www.instagram.com/hoffmannoptik_markgraeflerland/"><img src="/wp-content/uploads/2024/05/Frame-3.png" alt="instagram icon"></a></li>
 			</ul>
 			</div>
 		</section>
