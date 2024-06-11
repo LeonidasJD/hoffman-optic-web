@@ -50,19 +50,19 @@ if (have_posts()) {
                         $image_path = '';
                         switch ($counter) {
                             case 1:
-                                $image_path = "/wp-content/uploads/2024/05/Frame-956222.png";
+                                $image_path = "/wp-content/uploads/2024/06/frame_9564.webp";
                                 break;
                             case 2:
-                                $image_path = "/wp-content/uploads/2024/05/Frame-956.png";
+                                $image_path = "/wp-content/uploads/2024/06/frame_956.webp";
                                 break;
                             case 3:
-                                $image_path = "/wp-content/uploads/2024/05/Frame-95623.png";
+                                $image_path = "/wp-content/uploads/2024/06/frame_9563.webp";
                                 break;
                             case 4:
-                                $image_path = "/wp-content/uploads/2024/05/Frame-9563.png";
+                                $image_path = "/wp-content/uploads/2024/06/frame_9562.webp";
                                 break;
                             case 5:
-                                $image_path = "/wp-content/uploads/2024/05/12.png";
+                                $image_path = "/wp-content/uploads/2024/06/1.webp";
                                 break;
                             default:
                                 break;

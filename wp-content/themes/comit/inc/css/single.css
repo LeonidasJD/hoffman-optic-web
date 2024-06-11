@@ -24,7 +24,7 @@
     margin: 0px;
     font-family: 'Lato';
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 400;
     color: #353535;
     margin-left: 20px;
 }
@@ -74,7 +74,7 @@ margin-top: 60px;
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 400;
-    color: #6D6D6D;
+    color: #474747;
     max-width: 43rem;
 }
 .related-news-cards-wrapper{
@@ -95,6 +95,8 @@ margin-top: 60px;
 .related-card-img img{
     width: 12rem;
     margin-right: 30px;
+    border-radius: 4px;
+    height: 11rem;
 }
 .related-news-card-info{
     margin: auto;

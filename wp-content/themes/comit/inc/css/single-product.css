@@ -8,9 +8,18 @@
 
 /*PRODUCT GALERY CSS START*/
 .product-gallery{
-    background-color: #F6F7FB;
+    background-color: white;
+    border: 2px solid #D4DED0;
     border-radius: 10px;
     padding: 0px 18px 0px 18px;
+}
+.wpgs-lightbox-icon::before{
+    content: url('/wp-content/uploads/2024/06/Vector11.svg')!important;
+    width: 20px!important;
+    height: 20px!important;
+    top: 40px!important;
+    right: 30px;
+    display: block!important;
 }
 .woo-product-gallery-slider{
     max-width: 40rem;
@@ -50,6 +59,7 @@
 }
 .wpgs-for .slick-arrow::before, .wpgs-nav .slick-prev::before, .wpgs-nav .slick-next::before{
     color: #76BA51!important;
+    display: none;
 }
 /* 
 .zoomtoo-container{
@@ -102,7 +112,7 @@
 .product-info button{
     
     width: 13rem;
-    background-color: #76BA51;
+    background-color: #36641C;
     border: none;
     border-radius: 4px;
     padding: 10px 26px;
@@ -119,7 +129,7 @@
 .product-description{
     font-family: 'Lato';
     font-size: 16px;
-    color: #6D6D6D;
+    color: #474747;
     line-height: 128%;
     font-weight: 400;
     margin: 0px;
@@ -150,7 +160,7 @@
     margin: 0px;
     font-family: 'Lato';
     font-size: 16px;
-    color: #76BA51;
+    color: #36641C;
 
 }
 .single-attribute p{
@@ -223,7 +233,7 @@
     margin: 0px;
 }
 .head-and-text-related p{
-    color: #6D6D6D;
+    color: #474747;
     font-size: 16px;
     font-family: 'Lato';
     font-weight: 400;
@@ -264,7 +274,7 @@
 .related-single-product-card p a{
     font-family: 'Lato';
     font-size: 14px;
-    color: #76BA51;
+    color: #36641C;
     font-weight: 400;
     margin: 0px;
 }
@@ -322,7 +332,7 @@
     font-family: 'Glegoo';
     font-size: 18px;
     font-weight: 400;
-    color: #336B15;
+    color: #36641C;
 }
 .related-modal-heading p{
     margin: 0px;
@@ -337,7 +347,7 @@
 }
 .form-single-product input{
     border: none!important;
-    border-bottom: 2px solid #5B9356!important;
+    border-bottom: 2px solid #36641C!important;
     border-radius: 0px!important;
     margin-bottom: 0px!important;
     font-family: 'Lato'!important;
@@ -394,6 +404,9 @@
         gap: 0px;
         padding: 50px 10px;
     }
+    .wpgs-for .slick-arrow::before, .wpgs-nav .slick-prev::before, .wpgs-nav .slick-next::before{
+        display: block;
+    }
     .wpgs-nav .slick-next,.wpgs-nav .slick-prev{
         margin-top: 5px;
     }
@@ -449,6 +462,14 @@
         display: flex;
         flex-direction: column;
         padding-top: 35px;
+    }
+    .wpgs-lightbox-icon::before{
+        content: url('/wp-content/uploads/2024/06/Vector11.svg')!important;
+        width: 20px!important;
+        height: 20px!important;
+        top: 15px!important;
+        right: 18px;
+        display: block!important;
     }
     .head-and-text-related h2{
         font-size: 26px;

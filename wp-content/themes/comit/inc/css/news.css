@@ -10,6 +10,12 @@
     display: flex;
     gap: 135px;
 }
+.news-date{
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 400;
+    color: #474747; 
+}
 .posts-section-wrapper{
     /* width:38rem ; */
 }

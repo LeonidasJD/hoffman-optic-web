@@ -34,6 +34,7 @@
 .lates-post-image img{
 width:6rem ;
 border-radius: 4px;
+height: 5rem;
 }
 .latest-post-info h2{
     font-family: 'Lato';

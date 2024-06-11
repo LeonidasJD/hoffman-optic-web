@@ -46,7 +46,7 @@
     font-family: 'Glegoo';
     font-size: 16px;
     font-weight: 400;
-    color: #42464E;
+    color: #36641C;
     text-align: center;
 }
 .category-image-wrapper{
@@ -170,8 +170,9 @@ font-family: 'Glegoo'!important;
     border-radius: 5px;
 }
 .bapf_head i img{
-    width: 2rem;
+    width: 2.1rem;
     margin-right: 20px;
+    border-radius: 5px 0px 0px 5px;
 
 }
 .bapf_head h3{
@@ -179,7 +180,7 @@ font-family: 'Glegoo'!important;
     font-family: 'Lato';
     font-size: 20px;
     font-weight: 600;
-    color: #76BA51;
+    color: #36641C;
 }
 .bapf_head h3 i {
     vertical-align: middle; 
@@ -270,6 +271,9 @@ font-family: 'Glegoo'!important;
     font-weight: 400;
     color: #0E130B;
   }
+  .woocommerce ul.products li.product .button{
+    color:#36641C!important ;
+  }
   .product_type_simple{
     background-color: white!important;
     float: right;
@@ -299,7 +303,7 @@ font-family: 'Glegoo'!important;
     color: white!important;
   }
   .woocommerce nav.woocommerce-pagination ul li a.prev {
-    background-image: url('/wp-content/uploads/2024/05/Vector-1.png'); /* Path to your custom left arrow image */
+    background-image: url('/wp-content/uploads/2024/06/vector222.webp'); /* Path to your custom left arrow image */
     background-size: 8px 16px;
     background-repeat: no-repeat;
     background-position: center;
@@ -307,7 +311,7 @@ font-family: 'Glegoo'!important;
 }
 
 .woocommerce nav.woocommerce-pagination ul li a.next {
-    background-image: url('/wp-content/uploads/2024/05/2.png'); /* Path to your custom right arrow image */
+    background-image: url('/wp-content/uploads/2024/06/vector22.webp'); /* Path to your custom right arrow image */
     background-size: 8px 16px;
     background-repeat: no-repeat;
     background-position: center;

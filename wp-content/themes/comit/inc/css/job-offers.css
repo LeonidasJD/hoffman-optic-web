@@ -248,7 +248,7 @@ margin-bottom: 30px;
     margin-bottom: 0px!important;
 }
 .form-buttons > :first-child{
-    background-color: #76BA51;
+    background-color: #36641C;
     border: none;
     color: white;
     padding: 13px 42px;
@@ -261,8 +261,8 @@ margin-bottom: 30px;
 .form-buttons > :last-child{
     width: 9rem;
     border-radius: 6px;
-    border: 2px solid #76BA51;
-    color: #76BA51;
+    border: 2px solid #36641C;
+    color: #36641C;
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 400;

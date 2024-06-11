@@ -21,16 +21,16 @@
     width: 2px;
 }
 #frm_field_59_container #field_5hgrh{
-    border: 2px solid #76BA51!important;
+    border: 2px solid #36641C!important;
     border-radius: 5px!important;
     padding:7px 7px 7px 7px!important;
     text-align: center;
 }
 #frm_field_59_container #field_5hgrh::placeholder{
-    color: #76BA51!important;
+    color: #36641C!important;
 }
 #frm_field_61_container #field_gatyk{
-    border: 2px solid #76BA51!important;
+    border: 2px solid #36641C!important;
     border-radius: 5px!important;
     border-radius: 5px !important;
     padding: 5px 7px 6px 7px !important;
@@ -56,6 +56,7 @@
     font-size: 20px;
     font-weight: 400;
     margin: 0px 0px 15px 0px;
+    color: #474747;
 }
 .services-section-description p{
     font-family: 'Lato';
@@ -64,6 +65,7 @@
     margin: 0px;
     line-height: 128%;
     margin-bottom: 40px;
+    color: #474747;
 }
 .services-section-image img{
     max-width: 740px;
@@ -91,7 +93,7 @@
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 400;
-    color: #6D6D6D;
+    color: #474747;
     max-width: 43rem;
     margin: 20px 0px 40px 0px;
 }
@@ -140,7 +142,7 @@
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 400;
-    color: #0E130B;
+    color: #474747;
     text-align: start;
 }
 .related-service-button{
@@ -152,7 +154,7 @@
     font-family: 'Lato';
     font-size: 14px;
     text-decoration: underline;
-    color: #76BA51;
+    color: #36641C;
 }
 /*RELATED SERVICES SECTION CSS END*/
 
