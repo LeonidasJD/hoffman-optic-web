@@ -81,6 +81,10 @@ color: white;
     background-color: white;
   
 }
+.footer-white-section div {
+    display: flex;
+    justify-content: space-between;
+}
 .footer-white-section p{
     font-family: 'Glegoo';
     font-weight: 400;
@@ -136,6 +140,17 @@ color: white;
     margin-top: 10px;
     margin-bottom: 20px;
     width: 200px;
+    }
+    .footer-white-section {
+        padding: 20px 30px 20px 30px;
+    }
+    .footer-white-section p{
+        text-align: center;
+    }
+    .footer-white-section div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
     }
 }
 /* RESPONSIVE END */

@@ -35,9 +35,10 @@
     justify-content: center;
 }
 .lates-post-image img{
-width:6rem ;
+width:92px ;
 border-radius: 4px;
-height: 5rem;
+height: 92px;
+object-fit: cover;
 }
 .latest-post-info h2{
     font-family: 'Lato';

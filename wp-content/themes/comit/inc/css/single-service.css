@@ -13,7 +13,7 @@
 }
 .paralel-fileds-wrapper{
     display: flex;
-    justify-content: space-between;
+    gap: 25px;
 }
 .paralel-fileds-wrapper img{
     height: 12px;
@@ -23,7 +23,7 @@
 #frm_field_59_container #field_5hgrh{
     border: 2px solid #36641C!important;
     border-radius: 5px!important;
-    padding:7px 7px 7px 7px!important;
+    padding:9px 7px 9px 7px!important;
     text-align: center;
 }
 #frm_field_59_container #field_5hgrh::placeholder{
@@ -90,6 +90,12 @@
     color: #0E130B;
     margin:0px;
 }
+.related-service-card-info h3{
+    font-family: 'Lato';
+    text-align: start;
+    color: #0E130B;
+    font-size: 20px;
+}
 .related-services-section-wrapper p{
     font-family: 'Lato';
     font-size: 16px;
@@ -110,7 +116,6 @@
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    height: 33.5rem;
     margin-bottom: 40px;
     overflow: hidden;
     cursor: pointer;
@@ -223,8 +228,26 @@
 
     /* RELATED SERVICE RESPONSIVE START */
     @media screen and (max-width:767px){
+        .related-services-section-wrapper h2{
+            text-align: center;
+            font-size: 24px;
+        }
+        .related-service-card-info h3{
+            padding-bottom: 12px;
+            font-family: 'Lato';
+            font-size: 20px;
+            font-weight: bold;
+            color: #0E130B;
+            text-align: start;
+        }
+        .related-services-underhead{
+            margin: 20px 10px 0px 10px!important;
+        }
+        .related-services-section-wrapper p{
+            margin: 20px 0px 0px 0px;
+        }
         .container0related-services-section{
-            margin-top: 78px;
+            margin-top: 55px;
         }
         .related-services-section-wrapper{
             padding: 0px;

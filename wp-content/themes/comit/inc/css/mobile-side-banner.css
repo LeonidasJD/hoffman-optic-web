@@ -12,6 +12,10 @@
         transform: translateX(100%); /* Pomeri element van ekrana */
         animation: slideIn 1s ease-out forwards; /* Dodaj animaciju */
         animation-delay: 1s;
+        border-left: 2px solid white;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        border-radius: 6px;
     }
     @keyframes slideIn {
         0% {
@@ -55,7 +59,7 @@
 
     @media screen and (max-width: 360px) {
         .mobile-side-banner-btn{
-            background-color: #76BA51;
+            background-color: #36641C;
             padding: 10px 13px;
             border-radius: 0px 0px 0px 6px;
         }

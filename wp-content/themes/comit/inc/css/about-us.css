@@ -215,7 +215,7 @@ border-radius: 8px 8px 0px 0px ;
         font-size: 17px;
     }
     .data-section-img{
-        display: block;
+        display: flex;
         margin-top: 50px;
         }
         .data-section-img img{

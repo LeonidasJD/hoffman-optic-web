@@ -656,6 +656,7 @@ background-size: cover;
     margin-right: 30px;
     border-radius: 4px;
     height: 180px;
+    object-fit: cover;
 }
 .post-info p img{
     width: 12px;
@@ -1057,6 +1058,7 @@ margin-right: 0px;
         max-width: 100%;
         border-radius:4px;
         height: auto;
+        
     };
     .post-info p{
         margin: 15px 0px 0px 0px;
