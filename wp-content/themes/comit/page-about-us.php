@@ -28,7 +28,7 @@
         
         
     </div>
-    <div class="data-section-img"><img src="/wp-content/uploads/2024/06/mask_group.webp" ></div>
+    <div class="data-section-img"><img src="/wp-content/uploads/2024/06/slika.webp" ></div>
 </section>
     </div>
 </div>
