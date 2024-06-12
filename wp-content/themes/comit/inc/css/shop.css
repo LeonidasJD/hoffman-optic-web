@@ -22,7 +22,7 @@
 /*CATEGORY LIST CSS START*/
 .category-list{
     display: flex;
-    gap: 56px;
+    gap:36px;
     list-style-type: none;
 }
 .category-item:hover img {
@@ -162,6 +162,7 @@ font-family: 'Glegoo'!important;
 .woocommerce-result-count{
     display: none!important;
 }
+
 .bapf_head{
     background-color: #E2E6E0;
     display: flex;
@@ -373,6 +374,7 @@ background-color: white!important;
     padding: 10px 10px 24px 10px;
     background-color: #F5F5F5;
     }
+    
     .category-list{
       padding: 0px;
       display: flex;
@@ -401,7 +403,7 @@ background-color: white!important;
     .category-image-wrapper img{
       width: 3rem;
     }
-
+   
 }
 /* CATEGORY AND SEARCH RESPONSIVE END */
 
@@ -443,12 +445,19 @@ background-color: white!important;
   .product-section{
     padding-bottom: 126px;
   }
+  .products li:hover{
+    box-shadow: none;
+    transform: translateY(-5px);
+  }
   
   #filterss{
     display: none;
   }
   .woocommerce-ordering{
     display: none;
+  }
+  .woocommerce-ordering{
+    display: none ;
   }
   .products{
     display: grid;

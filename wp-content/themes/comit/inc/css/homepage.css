@@ -7,7 +7,7 @@
     padding: 20px 0px 20px 0px;
 }
 .under-hero-wrapper{
-    background-image: url('/wp-content/uploads/2024/05/business-finance-and-employment-female-successfu-2023-11-27-05-22-51-utc-1.png');
+    background-image: url('/wp-content/uploads/2024/06/business_finance_and_employment_female_successfu_2023_11_27_05_22_51_utc_1-scaled.webp');
     background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -820,6 +820,7 @@ position: absolute;
     }
     .hero-mob-image img{
         width: 100%;
+        border-radius: 0px 0px 6px 6px;
     }
     #field_r4twn{
         width: 100%!important;
@@ -865,11 +866,11 @@ position: absolute;
         border: 1px solid white;
     }
     .book-div-left{
-        border-radius: 4px;
+        border-radius: 6px;
     }
     .book-div-right{
         margin-left: 0px;
-        border-radius: 4px;
+        border-radius: 6px;
     }
     }
     
@@ -1091,7 +1092,7 @@ margin-right: 0px;
     width: 100%;
 }
 .frm_fields_container input{
-    padding: 4px!important;
+    padding: 0px!important;
 }
 .frm_fields_container select{
     padding: 0px!important;

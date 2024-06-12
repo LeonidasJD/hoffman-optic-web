@@ -13,12 +13,14 @@
 }
 .paralel-fileds-wrapper{
     display: flex;
+    justify-content: space-between;
     gap: 25px;
 }
 .paralel-fileds-wrapper img{
     height: 12px;
     margin-top: 12px;
-    width: 2px;
+    width: 3px;
+    margin-right: 4px;
 }
 #frm_field_59_container #field_5hgrh{
     border: 2px solid #36641C!important;
@@ -106,8 +108,7 @@
 }
 .related-services-cards-wrapper{
     display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+    
 }
 .related-single-service-card{
     width: calc(32.33% - 15px);
@@ -119,6 +120,7 @@
     margin-bottom: 40px;
     overflow: hidden;
     cursor: pointer;
+    margin-right: 1rem;
 }
 .related-single-service-card img{
     width: 100%;
@@ -256,6 +258,7 @@
             display: flex;
             flex-direction: column;
             padding: 54px 10px 85px 10px;
+            gap: 0.75rem;
         }
         .related-single-service-card{
             width: 100%;

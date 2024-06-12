@@ -119,3 +119,8 @@ object-fit: cover;
 .side-banner-wrapper a:hover{
     border: 2px solid #76BA51;
 }
+@media screen and (max-width: 767px){
+    .latest-news-heading{
+        background-color: #EFEFEF;
+    }
+}
