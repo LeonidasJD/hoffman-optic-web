@@ -33,14 +33,14 @@ get_header();
     <div class="book-div-left">
         <div class="left-wrapper">
             <div class="left-info">
-            <h2>Our store in Neuenburg</h2>
+            <h2>Geschäft Neuenburg</h2>
         <ul>
             <li><img src="/wp-content/uploads/2024/06/icon_phone_.webp" alt=""> <p><a href="tel:0763173606">07631-73606</a></p></li>
             <li><img src="/wp-content/uploads/2024/06/icon_mail_.webp" alt=""><p><a href="mailto:neuenburg@hoffmann-optik.de">neuenburg@hoffmann-optik.de</a></p></li>
             <li><img src="/wp-content/uploads/2024/06/icon_clock_outline_.webp" alt=""><p> 08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
     </div>
-    <div class="button-wrapper"><button id="neuenburg-btn" class="book-now-btn button-type-3">Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
+    <div class="button-wrapper"><button id="neuenburg-btn" class="book-now-btn button-type-3">Termin buchen<img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
         </div>
         
         
@@ -49,14 +49,14 @@ get_header();
    
     <div class="left-wrapper">
             <div class="left-info">
-            <h2>Our store in Müllheim  </h2>
+            <h2>Geschäft Müllheim</h2>
         <ul>
             <li><img src="/wp-content/uploads/2024/06/icon_phone_.webp" alt=""> <p><a href="tel:076313375">07631-3375</a></p></li>
             <li><img src="/wp-content/uploads/2024/06/icon_mail_.webp" alt=""><p><a href="mailto:muellheim@hoffmann-optik.de">muellheim@hoffmann-optik.de</a></p></li>
             <li><img src="/wp-content/uploads/2024/06/icon_clock_outline_.webp" alt=""><p>08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
     </div>
-    <div class="button-wrapper"><button id="mullheim-btn" class="book-now-btn button-type-3">Book now <img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
+    <div class="button-wrapper"><button id="mullheim-btn" class="book-now-btn button-type-3">Termin buchen<img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
         </div>
        
     </div>
@@ -76,11 +76,11 @@ get_header();
     <div class="our-service-under-wrapper">
         <div class="section-divider"><img src="/wp-content/uploads/2024/06/ellipse_11-1.webp" alt=""></div>
         <div class="heading-info">
-        <h2>Our Services</h2>
+        <h2>Unsere Leistungen</h2>
        
         <span class="heading-info-span">
-        <p>We Provides always our best services for our clients</p>    
-        <a class="scale-link" href="/services/">Check services <img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a></span>
+        <p>Hoffmannoptik bietet Ihnen</p>    
+        <a class="scale-link" href="/services/">Leistungen prüfen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a></span>
         
         </div>
         <div class="services-cards">
@@ -134,8 +134,8 @@ eiusmod tempor incididunt ut.
     <section class="our-product-section-wrapper">
     <div class="our-product-under-wrapper">
         <div class="heading-product-info">
-            <h2>Our Products</h2>
-            <p><a class="scale-link" href="/shop/">Check all products</a> <img src="/wp-content/uploads/2024/06/vector_4.webp"></p>
+            <h2>Unsere Produkte</h2>
+            <p><a class="scale-link" href="/shop/">Produkt prüfen</a> <img src="/wp-content/uploads/2024/06/vector_4.webp"></p>
             
         </div>
         <?php
@@ -163,7 +163,7 @@ eiusmod tempor incididunt ut.
             }
             ?>
             <h2><?php the_title(); ?></h2>
-            <p><a href="<?php echo get_permalink() ?>">Read more</a></p>
+            <p><a href="<?php echo get_permalink() ?>">Mehr</a></p>
                 </div>
              </a>
              
@@ -201,7 +201,7 @@ eiusmod tempor incididunt ut.
                             }
                             ?>
                             <h2><?php the_title(); ?></h2>
-                            <p><a href="<?php echo get_permalink(); ?>">Read more</a></p>
+                            <p><a href="<?php echo get_permalink(); ?>">Mehr</a></p>
                         </div>
                     </a>
                 </div>
@@ -257,10 +257,11 @@ eiusmod tempor incididunt ut.
     <section class="our-news-section-wrapper">
     <div class="our-news-under-wrapper">
     <div class="heading-info heading-info-news">
-        <h2>Our News</h2>
+        <h2>Unsere nachrichten
+        </h2>
         <span>
         <p>We Provides always our best insight for our clients  </p>
-        <a class="scale-link" href="/services/">Check news <img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a>
+        <a class="scale-link" href="/services/">Nachrichten prüfen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a>
         </span>
        
         </div>
@@ -300,7 +301,7 @@ eiusmod tempor incididunt ut.
                 
             </div>
             <div class="form-wrapper">
-                <h2>Schedule an appointment</h2>
+                <h2>Termin Buchen</h2>
                 <div class="formidable-form">
             <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 2 ) ); ?>
             </div>
