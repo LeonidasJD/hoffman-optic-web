@@ -111,6 +111,7 @@ margin-top: 60px;
 }
 .single-news-date img{
     margin-right: 5px;
+    width: 13px;
 }
 .single-card-heading-excerpt h2{
     font-family: 'Lato';
@@ -130,6 +131,9 @@ margin-top: 60px;
 /* RESPONSIVE CSS START */
 /* SINGLE POST INFO RESPONSIVE START */
 @media screen and (max-width: 768px) {
+    .single-post-info-wrapper{
+        background-color: #FFFFFF;
+    }
     .single-post-info-underwrapper{
         padding: 30px 10px 56px 10px;
         display: flex;
