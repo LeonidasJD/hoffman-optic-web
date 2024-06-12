@@ -163,7 +163,7 @@
 <?php get_footer(); ?>
 
 <script>
-    
+var moreTeamBtnWrapper =document.querySelector('.more-team-button-wrapper');
 var moreTeamBtn = document.getElementById('more-team-btn');
 var moreTeamSvg =document.getElementById('more-team-svg');
 var isExpanded = false;
@@ -189,8 +189,15 @@ moreTeamBtn.addEventListener('click', function() {
 
    if(isExpanded){
     moreTeamSvg.style.transform = 'rotate(180deg)';
+    moreTeamBtnWrapper.style.marginTop = '0px';
    }else{
     moreTeamSvg.style.transform = 'rotate(0deg)';
+    moreTeamBtnWrapper.style.marginTop = '-210px';
+    window.scrollBy({
+    top: -1500, 
+    behavior: 'smooth'
+  });
+
    }
 });
 </script>
