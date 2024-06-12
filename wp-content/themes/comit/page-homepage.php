@@ -333,8 +333,30 @@ eiusmod tempor incididunt ut.
         <img class="swiper-person-img" src="/wp-content/uploads/2024/05/testimonial-01.jpg.png" alt="">
         <h4>Joerg Porter</h4>
       </div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">
+        <img class="swiper-icon" src="/wp-content/uploads/2024/06/download.webp" alt="">
+        <p class="swiper-text">Long established fact that a reader will be distracted
+            by the readable content of a page when looking at it's
+            layout. The point of using Lorem Ipsum</p>
+        <img class="swiper-person-img" src="/wp-content/uploads/2024/06/t01.webp" alt="">
+        <h4>Jennie Johnson</h4>
+      </div>
+      <div class="swiper-slide">
+        <img class="swiper-icon" src="/wp-content/uploads/2024/06/download.webp" alt="">
+        <p class="swiper-text">Long established fact that a reader will be distracted
+            by the readable content of a page when looking at it's
+            layout. The point of using Lorem Ipsum</p>
+        <img class="swiper-person-img" src="/wp-content/uploads/2024/06/t02.webp" alt="">
+        <h4>John Mat</h4>
+      </div>
+      <div class="swiper-slide">
+        <img class="swiper-icon" src="/wp-content/uploads/2024/06/download.webp" alt="">
+        <p class="swiper-text">Long established fact that a reader will be distracted
+            by the readable content of a page when looking at it's
+            layout. The point of using Lorem Ipsum</p>
+        <img class="swiper-person-img" src="/wp-content/uploads/2024/06/t03.webp" alt="">
+        <h4>Maria Webber</h4>
+      </div>
       
     </div>
     <div class="swiper-button-next"></div>
@@ -384,6 +406,11 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      autoplay: {
+    delay: 3000, 
+    disableOnInteraction: true, 
+  },
+  loop:true,
     });
 
 /**SWIPER LOGIC END */
@@ -396,7 +423,6 @@ var swiper = new Swiper(".mySwiperProduct", {
       },
       spaceBetween: 10,
       slidesPerView:1.2,
-      
     });
 
 /**SWIPER PRODUCT MOBILE LOGIC END*/
