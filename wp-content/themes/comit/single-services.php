@@ -76,7 +76,7 @@
     <section class="related-services-section-wrapper">
     <div class="related-services-section-underwrapper">
         <h2>Related services</h2>
-        <p>Dignissim massa duis eget turpis fringilla nam ridiculus ultricies urna vehicula fusce. Elit interdum urna iaculis leo sit pharetra vel. Vitae letius luctus lacinia rhoncus penatibus per.</p>
+        <p class="related-services-underhead">Dignissim massa duis eget turpis fringilla nam ridiculus ultricies urna vehicula fusce. Elit interdum urna iaculis leo sit pharetra vel. Vitae letius luctus lacinia rhoncus penatibus per.</p>
         <div class="related-services-cards-wrapper">
 
         <?php 
@@ -98,7 +98,7 @@
                 <div class="related-single-service-card">
                     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                     <div class="related-service-card-info">
-                    <h2><?php echo get_the_title(); ?></h2>
+                    <h3><?php echo get_the_title(); ?></h3>
                     <p><?php echo get_the_excerpt(); ?></p>
                     <div class="related-service-button"><a href="<?php echo get_permalink(); ?>">Read more</a></div>
                     
