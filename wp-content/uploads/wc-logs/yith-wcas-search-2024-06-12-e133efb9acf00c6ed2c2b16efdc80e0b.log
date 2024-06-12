@@ -1,0 +1,9 @@
+2024-06-12T11:23:14+00:00 NOTICE Start search for clear CONTEXT: {"_legacy":true}
+2024-06-12T11:23:14+00:00 NOTICE Execution time 0 0.0606296 CONTEXT: {"_legacy":true}
+2024-06-12T11:23:14+00:00 NOTICE Tokens Array
+(
+    [0] => clear
+)
+ CONTEXT: {"_legacy":true}
+2024-06-12T11:23:15+00:00 NOTICE Execution time 1 0.2928396 CONTEXT: {"_legacy":true}
+2024-06-12T11:23:15+00:00 NOTICE Execution time 0.3233993 CONTEXT: {"_legacy":true}
