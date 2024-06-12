@@ -14,7 +14,7 @@
 	<div class="container-14">
 	<footer id="colophon" class="site-footer">
 		<section class="footer-logo-section">
-			<div><img src="/wp-content/uploads/2024/05/logotype-2.png" alt="footer logo"></div>
+			<div><img src="/wp-content/uploads/2024/06/footer-logo.webp" alt="footer logo"></div>
 		</section>
 		<section class="footer-navi-section">
 			<div>

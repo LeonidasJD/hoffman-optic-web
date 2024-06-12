@@ -67,7 +67,7 @@
             'theme_location' => 'menu-1'
         ) 
     );  ?></div>
-		<div class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/uploads/2024/05/logotype-1.png" alt=""></a></div>
+		<div class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/uploads/2024/06/logo-heder.webp" alt=""></a></div>
 		<div class="button-wrapper">
 			<a class="button-type-1 shop-button" href="/shop/">Products</a>
 			<a class="button-type-2 contact-button" href="/contact-us/">Contact</a>
