@@ -122,7 +122,7 @@ get_header();
                 </div>
                 
                <div class="related-news-card-info">
-                  <p class="single-news-date"><img src="/wp-content/uploads/2024/05/22.png"><?php echo get_the_date(); ?></p>
+                  <p class="single-news-date"><img src="/wp-content/uploads/2024/06/green-clock.webp"><?php echo get_the_date(); ?></p>
                   <div class="single-card-heading-excerpt">
                   <h2><?php echo get_the_title(); ?></h2>
                <p><?php echo get_the_excerpt(); ?></p>
