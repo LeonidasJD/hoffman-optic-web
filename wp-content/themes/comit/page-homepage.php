@@ -283,7 +283,7 @@ eiusmod tempor incididunt ut.
                             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                          </div>
                             <div class="post-info">
-                            <p><img src="/wp-content/uploads/2024/05/Vector.png"> <?php echo get_the_date();?></p>
+                            <p><img src="/wp-content/uploads/2024/06/green-clock.webp"> <?php echo get_the_date();?></p>
                             <h2><?php the_title(); ?></h2>
                             <h3><?php echo get_the_excerpt();?></h3>
                             </div>
