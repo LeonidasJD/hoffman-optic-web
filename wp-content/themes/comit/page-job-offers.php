@@ -86,11 +86,64 @@
 <!--POSITION TO APPLY SECTION   END-->
 
 <!--MODAL SECTION   START-->
+
+<!-- MODAL 1 START -->
 <section class="modal-wrapper">
 <div class="modal-underwrapper">
     <div class="modal-main">
         <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
-        <h2>Job application form</h2>
+        <h2>Job application form for Master optician</h2>
+        <div class="job-application-form-wrapper">
+        <div class="job-offer-form">
+        <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 11 ) ); ?>
+        </div>
+        </div>
+    </div>
+</div>
+    
+</section>
+<!-- MODAL 1 END -->
+
+<!-- MODAL 2 START -->
+<section class="modal-wrapper">
+<div class="modal-underwrapper">
+    <div class="modal-main">
+        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
+        <h2>Job application form for Optometrist</h2>
+        <div class="job-application-form-wrapper">
+        <div class="job-offer-form">
+        <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 9 ) ); ?>
+        </div>
+        </div>
+    </div>
+</div>
+    
+</section>
+<!-- MODAL 2 END -->
+
+<!-- MODAL 3 START -->
+<section class="modal-wrapper">
+<div class="modal-underwrapper">
+    <div class="modal-main">
+        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
+        <h2>Job application form for Apprenticeship</h2>
+        <div class="job-application-form-wrapper">
+        <div class="job-offer-form">
+        <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 10 ) ); ?>
+        </div>
+        </div>
+    </div>
+</div>
+    
+</section>
+<!-- MODAL 3 END -->
+
+<!-- MODAL 4 START -->
+<section class="modal-wrapper">
+<div class="modal-underwrapper">
+    <div class="modal-main">
+        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
+        <h2>Job application form for Student internship</h2>
         <div class="job-application-form-wrapper">
         <div class="job-offer-form">
         <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 6 ) ); ?>
@@ -100,7 +153,7 @@
 </div>
     
 </section>
-
+<!-- MODAL 4 END -->
 <!--MODAL SECTION   END-->
 
 
@@ -129,26 +182,42 @@
 
 $(document).ready(function(){
 
-/**OTVARANJE MODALA */
-    $('.apply-here-btn').each(function(index){
-        $(this).click(function(){
-            var btnNumber =index;
-            $('.modal-wrapper').show();
+/**OTVARANJE I ZATVARANJE  MODALA */ 
+
+
+
+    
+    const applyButtons = document.querySelectorAll('.apply-here-btn');
+    const modals =document.querySelectorAll('.modal-wrapper');
+    const exitIcons = document.querySelectorAll('.exit-icon-wrapper');
+    const cancelButtons = document.querySelectorAll('.cancel-button ');
+
+
+    applyButtons.forEach((button, index) => {
+        button.addEventListener('click', () => {
+            
+            modals[index].style.display = 'block';
             document.body.classList.add('no-scroll');
-
+            
         });
-    }); 
+    });
 
-
-/**ZATVARANJE MODALA */
-    $('.exit-icon').click(function(){
-        $('.modal-wrapper').hide();
+   
+   exitIcons.forEach(function(icon,index){
+    icon.addEventListener('click', () => {
+        modals[index].style.display = 'none';
         document.body.classList.remove('no-scroll');
     });
-    $('.cancel-button').click(function(){
-        $('.modal-wrapper').hide();
+   });
+
+   cancelButtons.forEach(function(cancelButton,index){
+    cancelButton.addEventListener('click', () => {
+        modals[index].style.display = 'none';
         document.body.classList.remove('no-scroll');
     });
+   })
+
+   
 });
-
+/**OTVARANJE I ZATVARANJE  MODALA **/ 
 </script>
