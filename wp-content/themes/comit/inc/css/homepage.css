@@ -970,6 +970,10 @@ position: absolute;
         display: block;
         padding-top: 45px;
     }
+    .single-product-card:hover{
+        box-shadow: none;
+        transform: translateY(-5px);
+    }
     .mySwiperProduct .single-product-card{
         border-radius: 4px;
         width: 100%;

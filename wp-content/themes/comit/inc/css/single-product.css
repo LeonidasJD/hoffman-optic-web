@@ -12,6 +12,7 @@
     border: 2px solid #D4DED0;
     border-radius: 10px;
     padding: 0px 18px 0px 18px;
+    /* width: 100%; */
 }
 .wpgs-lightbox-icon::before{
     content: url('/wp-content/uploads/2024/06/Vector11.svg')!important;
@@ -60,6 +61,10 @@
 .wpgs-for .slick-arrow::before, .wpgs-nav .slick-prev::before, .wpgs-nav .slick-next::before{
     color: #76BA51!important;
     display: none;
+}
+.slick-track{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
 }
 /* 
 .zoomtoo-container{
@@ -393,11 +398,17 @@
 #frm_field_35_container{
     margin-bottom: 0px!important;
 }
+.if-no-related-products{
+    margin-top: 30px;
+    font-family: 'Glegoo';
+    color: #a70909;
+}
 /* RELATED MODAL CSS END */
 
 /* GREEN BANNER MOBILE START */
 .wrapper-for-mobile{
     display: none;
+    
 }
 /* GREEN BANNER MOBILE END */
 
@@ -408,12 +419,12 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 0px;
-        padding: 110px 10px;
+        padding: 50px 10px;
     }
     .slick-dots.wpgs-dots{
         display: block!important; 
-        position: absolute;
-        top: 150%;
+        /* position: absolute;
+        top: 150%; */
    }
    .slick-dots li button:before{
     width: 14px!important;
@@ -423,6 +434,7 @@
 
    .product-gallery{
     border: 0px;
+    padding: 0px;
    }
     .wpgs-for .slick-arrow::before, .wpgs-nav .slick-prev::before, .wpgs-nav .slick-next::before{
         display: block;
@@ -460,7 +472,9 @@
     .wrapper-for-mobile{
         display: block;
     }
-
+    .slick-dots{
+        bottom:-190px!important;
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -472,13 +486,13 @@
 @media screen and (max-width: 430px){
     .wpgs-nav .slick-next,.wpgs-nav .slick-prev{
         position: absolute;
-        top: 112%;
+        top: 94%;
     }
 }
 @media screen and (max-width: 414px){
     .wpgs-nav .slick-next,.wpgs-nav .slick-prev{
         position: absolute;
-        top: 103%;
+        top: 94%;
     }
 }
 @media screen and (max-width: 390px){
@@ -490,12 +504,15 @@
 @media screen and (max-width: 360px){
     .wpgs-nav .slick-next,.wpgs-nav .slick-prev{
         position: absolute;
-        top: 89%;
+        top: 95%;
     }
 }
 
 /* TAB SECTION RESPONSIVE START */
 @media screen and (max-width:767px){
+    .container-tabs-product-desc{
+        margin-top: 110px;
+    }
     .tab-description-wrapper{
         padding: 0px;
     }
@@ -544,6 +561,10 @@
     .related-modal-main{
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .related-single-product-card:hover{
+        box-shadow: none;
+        transform: translateY(-5px);
     }
 }
 /* RELATED PRODUCTS RESPONSIVE END */
