@@ -172,14 +172,14 @@ font-family: 'Glegoo'!important;
 }
 .bapf_head i img{
     width: 2.1rem;
-    margin-right: 20px;
+    margin-right: 10px;
     border-radius: 5px 0px 0px 5px;
 
 }
 .bapf_head h3{
     margin: 0px;
     font-family: 'Lato';
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: #36641C;
 }
@@ -236,7 +236,7 @@ font-family: 'Glegoo'!important;
 .rotated-icon {
     transform: rotate(180deg);
   }
-
+  /* border-image: linear-gradient(to bottom, #C6FFA7 0%, #318A00 100%) 1; */
 .products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -255,7 +255,13 @@ font-family: 'Glegoo'!important;
     box-shadow: -6px 9px 20px 0px #42464E;
     transform: translateY(-5px);
   }
-  
+  .woocommerce-loop-product__title{
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, #FFFFFF 0%, #F4F4F4 50%, #FFFFFF 100%) 1;
+  }
+  .woocommerce ul.products li.product a img{
+    margin: 0px!important;
+  }
   .product {
     border: 1px solid #ccc;
     padding: 10px;
