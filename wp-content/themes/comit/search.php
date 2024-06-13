@@ -71,6 +71,10 @@ get_header();
         <?php echo do_shortcode('[br_filter_single filter_id=295]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=297]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=298]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=456]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=457]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=458]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=480]'); ?>
 
 
         </div>
