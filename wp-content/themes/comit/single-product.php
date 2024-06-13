@@ -193,7 +193,7 @@ if (have_posts()) {
             echo '</div>';
             wp_reset_postdata();
         } else {
-            echo 'There are no related products.';
+            echo '<div class="if-no-related-products">There are no related products.</div>';
         }
     } else {
         echo 'Current product has no categories.';
