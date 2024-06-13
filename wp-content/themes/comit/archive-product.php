@@ -73,6 +73,10 @@ get_header();
         <?php echo do_shortcode('[br_filter_single filter_id=295]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=297]'); ?>
         <?php echo do_shortcode('[br_filter_single filter_id=298]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=456]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=457]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=458]'); ?>
+        <?php echo do_shortcode('[br_filter_single filter_id=480]'); ?>
        
 
         </div>
@@ -143,6 +147,7 @@ get_footer();
 
 
 <script>
+    // SHOW AND HIDE FILTERS ON MOBILE START
 var moreFilterBtn = document.getElementById('more-filters-btn');
 var filterSection = document.getElementById('filterss');
 var moreFiltersIcon = document.getElementById('more-filters-img');
@@ -167,4 +172,5 @@ moreFilterBtn.addEventListener('click', function() {
         
     }
 });
+// SHOW AND HIDE FILTERS ON MOBILE END
 </script>
