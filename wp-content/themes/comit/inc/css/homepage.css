@@ -354,6 +354,8 @@ background-size: cover;
     font-size: 18px;
     font-weight: 400;
     color: #42464E;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, #FFFFFF 0%, #F4F4F4 50%, #FFFFFF 100%) 1;
 }
 .single-product-card p{
     text-align: end;
