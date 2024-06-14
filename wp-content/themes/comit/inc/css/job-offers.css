@@ -367,9 +367,13 @@ margin-bottom: 30px;
 #frm_field_31_container .form-buttons{
     gap: 20px;
 }
+.form-buttons{
+    gap: 20px;
+}
 .form-buttons > :first-child{
     width: 11rem;
 }
+
 }
 /* MODAL RESPONSIVE END */
 
