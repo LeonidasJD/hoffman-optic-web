@@ -227,7 +227,7 @@ if (have_posts()) {
     <div class="related-modal-main">
         <div id="icon-exit" class="exit-icon"><img src="/wp-content/uploads/2024/05/Frame-876.png"></div>
         <div class="related-modal-heading">
-            <h3>You are booking:</h3>
+            <h3>Sie buchen:</h3>
             <p><?php echo the_title() ?></p>
         </div>
         <div class="single-product-form">

@@ -94,7 +94,7 @@ get_header(); ?>
 <div class="modal-underwrapper">
     <div class="modal-main">
         <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
-        <h2>Job application form for Master optician</h2>
+        <h2>Bewerbungsformular für Master optician</h2>
         <div class="job-application-form-wrapper">
         <div class="job-offer-form">
         <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 11 ) ); ?>
@@ -111,7 +111,7 @@ get_header(); ?>
 <div class="modal-underwrapper">
     <div class="modal-main">
         <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
-        <h2>Job application form for Optometrist</h2>
+        <h2>Bewerbungsformular für Optometrist</h2>
         <div class="job-application-form-wrapper">
         <div class="job-offer-form">
         <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 9 ) ); ?>
@@ -128,7 +128,7 @@ get_header(); ?>
 <div class="modal-underwrapper">
     <div class="modal-main">
         <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
-        <h2>Job application form for Apprenticeship</h2>
+        <h2>Bewerbungsformular für Apprenticeship</h2>
         <div class="job-application-form-wrapper">
         <div class="job-offer-form">
         <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 10 ) ); ?>
@@ -145,7 +145,7 @@ get_header(); ?>
 <div class="modal-underwrapper">
     <div class="modal-main">
         <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
-        <h2>Job application form for Student internship</h2>
+        <h2>Bewerbungsformular für Student internship</h2>
         <div class="job-application-form-wrapper">
         <div class="job-offer-form">
         <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 6 ) ); ?>
