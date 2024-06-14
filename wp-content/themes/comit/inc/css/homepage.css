@@ -341,6 +341,7 @@ background-size: cover;
     text-align: center;
     background-color: white;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-radius: 4px;
 }
 .single-product-card:hover{
     box-shadow: -6px 9px 20px 0px #42464E;
@@ -348,6 +349,7 @@ background-size: cover;
 }
 .single-product-card img{
     width: 100%;
+    border-radius: 4px;
 }
 .single-product-card h2{
     font-family: 'Glegoo';

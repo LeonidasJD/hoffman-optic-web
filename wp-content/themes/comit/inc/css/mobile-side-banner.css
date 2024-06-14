@@ -28,7 +28,7 @@
     .mobile-side-banner-info{
         background-color: #5B9356;
         padding: 18px 7px;
-        border-radius: 6px 0px 0px 0px;
+        border-radius: 3px 0px 0px 0px;
     }
     .mobile-side-banner-info p{
         margin: 0px;
@@ -41,7 +41,7 @@
     .mobile-side-banner-btn{
         background-color: #36641C;
         padding: 10px 17px;
-        border-radius: 0px 0px 0px 6px;
+        border-radius: 0px 0px 0px 3px;
     }
     .mobile-side-banner-btn a{
         font-family: 'Lato';

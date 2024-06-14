@@ -136,8 +136,7 @@ display: none;
 }
 .team-members-cards{
     display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 .single-team-member-card{
