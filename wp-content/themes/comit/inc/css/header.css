@@ -34,7 +34,7 @@ header{
 }
 #menu-menu-1 .current-menu-item > a {
     color: #36641C;
-    box-shadow: 0px 2px 0px 0px #36641C;
+    box-shadow: 0px 2px 0px 0px #36641C!important;
 }
 #menu-menu-1 li a:hover{
     color: #36641C;

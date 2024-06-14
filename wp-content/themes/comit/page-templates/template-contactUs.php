@@ -1,4 +1,5 @@
 <?php
+//Template Name: Contact Us
 get_header()?>
 <!--CONTACT HEADING SECTION START-->
 <div class="container-contact-heading">
@@ -6,7 +7,7 @@ get_header()?>
     <section class="contact-us-heading-section-wrapper">
     <div class="contact-us-heading-section-underwrapper">
         <div class="contact-us-heading">
-            <h1>Contact</h1>
+            <h1>Kontakt</h1>
             <p>Use our contact form, write an email or call the store directly:</p>
         </div>
     </div>

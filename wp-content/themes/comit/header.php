@@ -69,8 +69,8 @@
     );  ?></div>
 		<div class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/uploads/2024/06/logo-heder.webp" alt=""></a></div>
 		<div class="button-wrapper">
-			<a class="button-type-1 shop-button" href="/shop/">Products</a>
-			<a class="button-type-2 contact-button" href="/contact-us/">Contact</a>
+			<a class="button-type-1 shop-button" href="/shop/">Produkte</a>
+			<a class="button-type-2 contact-button" href="/kontakt/">Kontakt</a>
 		</div>
 			</div>
 			<!-- <div class="horizontal-line"></div> -->

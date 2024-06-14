@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php
+//Template Name:Job Offers
+get_header(); ?>
 <!--HERO SECTION START-->
 <section class="job-offers-hero-wrapper">
     <div class="job-offers-hero-under-wrapper">

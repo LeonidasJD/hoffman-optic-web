@@ -222,3 +222,83 @@ add_action('init','our_team_custom_post_type');
 /**OUR TEAM CUSTOM POST TYPE END */
 
 add_theme_support( 'woocommerce' );
+
+
+
+
+// LOGIN PAGE STYLED START 
+add_action('login_enqueue_scripts', 'getNewLoginPage');
+
+function getNewLoginPage(){
+	?>
+	<style>
+		.web-logo{
+			display: flex;
+			justify-content: center;
+			padding-top: 120px !important;
+		}
+		.web-logo img{
+			width: 20rem;
+		}
+		#login h1{
+			display: none;
+		}
+	.login-action-login{
+		background-image: url('/wp-content/uploads/2024/06/business_finance_and_employment-scaled.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+	#login-message{
+		border-radius: 12px;
+    border: 2px solid #36641C !important;
+    box-shadow: -5px 6px 15px 10px rgba(0, 0, 0, .04);
+	}
+	#login-message p{
+		font-weight: 500;
+    color: #0E130B;
+	}
+	#loginform{
+		border-radius: 12px;
+		border: 2px solid #36641C!important;
+		box-shadow: -5px 6px 15px 10px rgba(0, 0, 0, .04);
+		display: flex;
+		flex-direction: column;
+	}
+	#loginform label{
+		font-family: 'Glegoo',sans-serif;
+		color: #0E130B;
+		font-weight: bold;
+	}
+	#loginform input{
+		border-color: #36641C!important;
+	}
+	#loginform input:focus{
+		border-color: #36641C!important;
+	}
+	.wp-core-ui .button.button-large{
+		background-color: #36641C!important;
+		width: 100%;
+		margin-top: 30px;
+	}
+	.dashicons-visibility:before{
+		color:#36641C;
+	}
+	.login #nav,.login #backtoblog {
+		padding: 0px!important;
+	}
+	.login #nav a,.login #backtoblog a{
+		color: #36641C;
+    font-weight: 500;
+	}
+	</style>
+
+	<html>
+		<div class="web-logo">
+		<img src="/wp-content/uploads/2024/06/footer-logo.webp" alt="">
+		</div>
+		
+	</html>
+	<?php
+}
+// LOGIN PAGE STYLED END

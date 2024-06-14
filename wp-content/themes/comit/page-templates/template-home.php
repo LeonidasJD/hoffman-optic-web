@@ -1,4 +1,5 @@
 <?php
+// Template Name:Home
 get_header();
 ?>
 <!--HERO SECTION START-->

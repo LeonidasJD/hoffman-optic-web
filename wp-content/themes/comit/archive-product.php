@@ -7,7 +7,7 @@ get_header();
     <section class="shop-category-section-wrapper">
     <div class="shop-category-section-underwrapper">
         <div class="search-div">
-            <h1>Our products</h1>
+            <h1>Unsere produkte</h1>
             <div class="product-search-bar">
                 <div class="test"> <?php echo do_shortcode('[yith_woocommerce_ajax_search preset=default]'); ?></div>
 
@@ -111,7 +111,7 @@ get_header();
         do_action( 'woocommerce_after_shop_loop' );
     }
     ?>
-    
+   
 </div>
 
 

@@ -1,5 +1,7 @@
 
-<?php get_header(); ?>
+<?php
+//Template Name:News
+get_header(); ?>
 <!--HERO SECTION START-->
 <section class="job-offers-hero-wrapper">
     <div class="job-offers-hero-under-wrapper">

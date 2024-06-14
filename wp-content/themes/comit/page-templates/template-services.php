@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php 
+// Template Name:Services
+get_header(); ?>
 <!--HERO SECTION START-->
 <div class="container-services-hero">
     <div class="container-14">

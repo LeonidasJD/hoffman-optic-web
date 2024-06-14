@@ -1,0 +1,9 @@
+2024-06-14T09:43:28+00:00 NOTICE Start search for elit CONTEXT: {"_legacy":true}
+2024-06-14T09:43:28+00:00 NOTICE Execution time 0 0.175479 CONTEXT: {"_legacy":true}
+2024-06-14T09:43:28+00:00 NOTICE Tokens Array
+(
+    [0] => elit
+)
+ CONTEXT: {"_legacy":true}
+2024-06-14T09:43:28+00:00 NOTICE Execution time 1 0.2825559 CONTEXT: {"_legacy":true}
+2024-06-14T09:43:28+00:00 NOTICE Execution time 0.304312 CONTEXT: {"_legacy":true}

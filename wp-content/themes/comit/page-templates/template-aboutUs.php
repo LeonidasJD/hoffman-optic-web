@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php
+//Template Name: About Us
+get_header(); ?>
 <!--HERO SECTION START-->
 <div class="container-hero-about-us">
     <div class="container-14">
