@@ -91,7 +91,7 @@ get_header(); ?>
         <?php 
         $our_team_args = array(
             'post_type' => 'our-team',
-            'post_per-page' => '-1',
+            'posts_per_page' => '-1',
             'order' => 'ASC',
         );
         $team_members = new WP_query($our_team_args);
