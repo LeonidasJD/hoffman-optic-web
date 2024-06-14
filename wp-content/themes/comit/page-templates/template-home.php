@@ -10,7 +10,7 @@ get_header();
     <div class="hero-info">
         <h1>Service that'll make <br>you see us with new eyes</h1>
         <p>We Provides always our best services for our clients</p>
-        <button class="hero-button button-type-2"><a href="/contact-us/">Schedule an eye exam today!</a></button>
+        <button class="hero-button button-type-2"><a href="/kontakt/">Schedule an eye exam today!</a></button>
         
     </div>
     <div class="hero-mob-image">

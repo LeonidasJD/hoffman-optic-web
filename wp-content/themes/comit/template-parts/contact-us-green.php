@@ -28,6 +28,6 @@
 <script>
 var contactButton =document.getElementById('contact-button');
 contactButton.addEventListener('click', function(){
-    window.location.href = '/contact-us/';
+    window.location.href = '/kontakt/';
 });
 </script>
