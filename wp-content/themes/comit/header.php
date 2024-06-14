@@ -23,9 +23,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
+
 <!--FONTS END-->
 
 <!--OPEN STREET MAPS START-->
@@ -42,9 +40,7 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!--SWIPER JS END-->
 
-<!-- FONT AWESOME START -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
- <!-- FONT AWESOME END -->
+
 
 
 	<?php wp_head(); ?>
@@ -116,7 +112,7 @@
 		
 	</div>
 	<div class="shop-wrapper-mob">
-	<p>Our store <br>in Neuchatel </p>
+	<p>Geschäft <br>in Neuchatel </p>
 	<button id="neu-button" class="book-now-menu">Book now <img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></button>
 	</div>
 </div>
@@ -125,7 +121,7 @@
 		
 	</div>
 	<div class="shop-wrapper-mob">
-	<p>Our store <br>in Müllheim </p>
+	<p>Geschäft <br>in Müllheim </p>
 	<button id="mull-button" class="book-now-menu">Book now <img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></button>
 	</div>
 </div>
