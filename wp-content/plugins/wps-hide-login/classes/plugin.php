@@ -687,7 +687,7 @@ class Plugin {
 
 		if ( isset( $_POST['post_password'] ) ) {
 			global $current_user;
-			if ( is_wp_error( wp_authenticate_username_password( null, $current_user->user_login, $_POST['post_password'] ) ) ) {
+			if ( ! is_user_logged_in() && is_wp_error( wp_authenticate_username_password( null, $current_user->user_login, $_POST['post_password'] ) ) ) {
 				return $origin_url;
 			}
 		}
