@@ -18,7 +18,7 @@
 		</section>
 		<section class="footer-navi-section">
 			<div>
-				<h2>Menu</h2>
+				<h2>Menü</h2>
 				<nav>
 					<?php wp_nav_menu( 
         array( 
@@ -29,7 +29,7 @@
 			</div>
 			<div class="footer-divider"></div>
 			<div>
-			<h2>Work hours</h2>
+			<h2>Arbeitsstunden</h2>
 			<ul>
 				<li><p>Montag-Freitag</p></li>
 				<li><p>08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
@@ -39,7 +39,7 @@
 			</div>
 			<div class="footer-divider"></div>
 			<div>
-			<h2>Locations</h2>
+			<h2>Standorte</h2>
 			<ul>
 				<li>
 					<p>Geschäft: Müllheim</p>
@@ -60,7 +60,7 @@
 			</div>
 			<div class="footer-divider"></div>
 			<div>
-			<h2>Social media</h2>
+			<h2>Sozialen Medien</h2>
 			<ul class="social-icon-ul">
 				<li><a href="#"><img src="/wp-content/uploads/2024/05/Frame-4.png" alt="facebook icon"></a></li>
 				<li><a href="https://www.instagram.com/hoffmannoptik_markgraeflerland/"><img src="/wp-content/uploads/2024/05/Frame-3.png" alt="instagram icon"></a></li>
@@ -71,7 +71,7 @@
 	</footer><!-- #colophon -->
 	</div>
 	<section class="footer-white-section">
-			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p> <p>Privacy policy</p></div>
+			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p> <p>Privacy & policy</p></div>
 		</section>
 </div>
 	
