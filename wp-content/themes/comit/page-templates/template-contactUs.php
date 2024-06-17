@@ -29,14 +29,20 @@ get_header()?>
                     <p><img src="/wp-content/uploads/2024/06/group11.webp"> Werderstraße 45, 79379 Müllheim</p>
                     <p><img src="/wp-content/uploads/2024/06/icon_mail_.webp"><a href="mailTo: muellheim@hoffmann-optik.de"> muellheim@hoffmann-optik.de</a></p>
                     <p><img src="/wp-content/uploads/2024/06/icon_phone_.webp"> <a href="tel:076313375">07631-3375</a></p>
-                    <div class="info-button-app button-type-3"><a href="https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start"target="_blank" >Book an appointment <img src="/wp-content/uploads/2024/05/icon-_clock-outline_-2.png"></a></div>
+                    <div class="info-button-app button-type-3"><a href="https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start"target="_blank" >Book an appointment <svg class="clock-svg" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.5332 6.47534V14.2112H19.2691" stroke="white" stroke-width="1.80097" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.7559 23.6084C18.8309 23.6084 23.7559 18.6835 23.7559 12.6084C23.7559 6.53326 18.8309 1.6084 12.7559 1.6084C6.68072 1.6084 1.75586 6.53326 1.75586 12.6084C1.75586 18.6835 6.68072 23.6084 12.7559 23.6084Z" stroke="white" stroke-width="1.80097" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></div>
                 </div>
                 <div class="info-card">
                     <h2>Shop - Neuchâtel</h2>
                     <p><img src="/wp-content/uploads/2024/06/group11.webp"> Rebstraße 4, 79395 Neuenburg am Rhein</p>
                     <p><img src="/wp-content/uploads/2024/06/icon_mail_.webp"> <a href="mailTo:neuenburg@hoffmann-optik.de">neuenburg@hoffmann-optik.de</a></p>
                     <p><img src="/wp-content/uploads/2024/06/icon_phone_.webp"><a href="tel:0763173606">07631-73606</a> </p>
-                    <div class="info-button-app button-type-3"><a href="https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start"target="_blank">Book an appointment <img src="/wp-content/uploads/2024/05/icon-_clock-outline_-2.png"></a></div>
+                    <div class="info-button-app button-type-3"><a href="https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start"target="_blank">Book an appointment <svg class="clock-svg" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.5332 6.47534V14.2112H19.2691" stroke="white" stroke-width="1.80097" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.7559 23.6084C18.8309 23.6084 23.7559 18.6835 23.7559 12.6084C23.7559 6.53326 18.8309 1.6084 12.7559 1.6084C6.68072 1.6084 1.75586 6.53326 1.75586 12.6084C1.75586 18.6835 6.68072 23.6084 12.7559 23.6084Z" stroke="white" stroke-width="1.80097" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></div>
                 </div>
             </div>
             <div class="contact-form-wrapper">
@@ -129,6 +135,29 @@ function calculateZoomLevel() {
         return 13; 
     }
 }
+
+// KADA ODABEREMO OPCIJU IZ DROPDOWNA ONDA OPCIJA BUDE BOLD START
+const dropdownStandortContact = document.getElementById('field_18euj');
+
+dropdownStandortContact.addEventListener('change', function() {
+  if (dropdownStandortContact.value === "") {
+    dropdownStandortContact.classList.remove('change-select');
+  } else {
+    dropdownStandortContact.classList.add('change-select');
+  }
+});
+
+const dropdownServiceContact = document.getElementById('field_6tvru');
+
+dropdownServiceContact.addEventListener('change', function() {
+  if (dropdownServiceContact.value === "") {
+    dropdownServiceContact.classList.remove('change-select');
+  } else {
+    dropdownServiceContact.classList.add('change-select');
+  }
+});
+
+// KADA ODABEREMO OPCIJU IZ DROPDOWNA ONDA OPCIJA BUDE BOLD END
 
 </script>
 

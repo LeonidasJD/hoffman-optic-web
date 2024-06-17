@@ -174,4 +174,36 @@ $( function() {
     $("#field_5hgrh" ).datepicker({ minDate: 0, maxDate: "+12M" });
   } );
   // OGRANICAVANJE DA SE ODABERE DATUM U PROSLOSTI U FORMI START
+
+
+  // KADA ODABEREMO OPCIJU IZ DROPDOWNA ONDA OPCIJA BUDE BOLD START
+  const dropdownSingleService = document.getElementById('field_8njfd');
+
+  dropdownSingleService.addEventListener('change', function() {
+  if (dropdownSingleService.value === "") {
+    dropdownSingleService.classList.remove('change-select');
+  } else {
+    dropdownSingleService.classList.add('change-select');
+  }
+});
+
+  const dropdownSingleHour = document.getElementById('field_kvh2f_H');
+
+  dropdownSingleHour.addEventListener('change', function() {
+  if (dropdownSingleHour.value === "") {
+    dropdownSingleHour.classList.remove('change-select');
+  } else {
+    dropdownSingleHour.classList.add('change-select');
+  }
+});
+const dropdownSingleMinute = document.getElementById('field_kvh2f_m');
+
+dropdownSingleMinute.addEventListener('change', function() {
+  if (dropdownSingleMinute.value === "") {
+    dropdownSingleMinute.classList.remove('change-select');
+  } else {
+    dropdownSingleMinute.classList.add('change-select');
+  }
+});
+// KADA ODABEREMO OPCIJU IZ DROPDOWNA ONDA OPCIJA BUDE BOLD END
 </script>

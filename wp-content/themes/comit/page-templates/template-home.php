@@ -41,7 +41,9 @@ get_header();
             <li><img src="/wp-content/uploads/2024/06/icon_clock_outline_.webp" alt=""><p> 08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
     </div>
-    <div class="button-wrapper"><button id="neuenburg-btn" class="book-now-btn button-type-3">Termin buchen<img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
+    <div class="button-wrapper"><button id="neuenburg-btn" class="book-now-btn button-type-3">Termin buchen<svg class="arrow-svg"  width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464467C9.97631 0.269205 9.65973 0.269205 9.46447 0.464467C9.2692 0.659729 9.2692 0.976312 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM-4.37114e-08 4.5L13 4.5L13 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z" fill="white"/>
+</svg></button></div>
         </div>
         
         
@@ -57,7 +59,9 @@ get_header();
             <li><img src="/wp-content/uploads/2024/06/icon_clock_outline_.webp" alt=""><p>08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
         </ul>
     </div>
-    <div class="button-wrapper"><button id="mullheim-btn" class="book-now-btn button-type-3">Termin buchen<img src="/wp-content/uploads/2024/05/Vector-4.png" alt="arrow"></button></div>
+    <div class="button-wrapper"><button id="mullheim-btn" class="book-now-btn button-type-3">Termin buchen<svg class="arrow-svg"  width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464467C9.97631 0.269205 9.65973 0.269205 9.46447 0.464467C9.2692 0.659729 9.2692 0.976312 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM-4.37114e-08 4.5L13 4.5L13 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z" fill="white"/>
+</svg></button></div>
         </div>
        
     </div>
@@ -81,7 +85,7 @@ get_header();
        
         <span class="heading-info-span">
         <p>Hoffmannoptik bietet Ihnen</p>    
-        <a class="scale-link" href="/services/">Leistungen prüfen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a></span>
+        <a class="scale-link" href="/leistungen/">Leistungen prüfen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a></span>
         
         </div>
         <div class="services-cards">
@@ -262,7 +266,7 @@ eiusmod tempor incididunt ut.
         </h2>
         <span>
         <p>We Provides always our best insight for our clients  </p>
-        <a class="scale-link" href="/services/">Nachrichten prüfen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a>
+        <a class="scale-link" href="/leistungen/">Nachrichten prüfen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a>
         </span>
        
         </div>
@@ -322,7 +326,7 @@ eiusmod tempor incididunt ut.
     <section class="testimonial-section-wrapper">
     <div class="testimonial-section-under-wrapper">
         <div class="heading-undersec">
-            <h2>WHAT OUR PATIENT’S Think about us?</h2>
+            <h2>WHAT OUR PATIENT’S THINK ABOUT US?</h2>
         </div>
         <div class="testimonial-undersec">
         <div class="swiper mySwiper">
@@ -496,4 +500,46 @@ $( function() {
 
 //POSTAVLJANJE LOGIKE DA KORISNIK NE MOZE DA ODABERE DATUM U PROSLOTSTI NA FORMI END
 
+// KADA ODABEREMO OPCIJU IZ DROPDOWNA ONDA OPCIJA BUDE BOLD START
+const dropdownStandortHome = document.getElementById('field_3cari');
+
+dropdownStandortHome.addEventListener('change', function() {
+  if (dropdownStandortHome.value === "") {
+    dropdownStandortHome.classList.remove('change-select');
+  } else {
+    dropdownStandortHome.classList.add('change-select');
+  }
+});
+
+
+const dropdownServicetHome = document.getElementById('field_coxqx');
+
+dropdownServicetHome.addEventListener('change', function() {
+  if (dropdownServicetHome.value === "") {
+    dropdownServicetHome.classList.remove('change-select');
+  } else {
+    dropdownServicetHome.classList.add('change-select');
+  }
+});
+
+const dropdownHourHome = document.getElementById('field_lddwq_H');
+
+dropdownHourHome.addEventListener('change', function() {
+  if (dropdownHourHome.value === "") {
+    dropdownHourHome.classList.remove('change-select');
+  } else {
+    dropdownHourHome.classList.add('change-select');
+  }
+});
+
+const dropdownMinuteHome = document.getElementById('field_lddwq_m');
+
+dropdownMinuteHome.addEventListener('change', function() {
+  if (dropdownMinuteHome.value === "") {
+    dropdownMinuteHome.classList.remove('change-select');
+  } else {
+    dropdownMinuteHome.classList.add('change-select');
+  }
+});
+// KADA ODABEREMO OPCIJU IZ DROPDOWNA ONDA OPCIJA BUDE BOLD END
 </script>

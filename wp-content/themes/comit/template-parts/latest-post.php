@@ -1,5 +1,5 @@
 <div class="latest-news-heading">
-        <h2>Latest news</h2>
+        <h2>Aktuelle Themen</h2>
     </div>
     <!--LATEST BLOG SECTION START-->
     <div class="lates-news-wrapper">
@@ -22,7 +22,7 @@
                             <div class="latest-post-info">
                             <h2><?php the_title(); ?></h2>
                            
-                            <a class="read-more-link" href="<?php echo get_permalink(); ?>">Read more</a>
+                            <a class="read-more-link" href="<?php echo get_permalink(); ?>">Lesen</a>
                             </div>
                             
                         </div>
