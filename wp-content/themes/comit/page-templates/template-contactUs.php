@@ -27,14 +27,14 @@ get_header()?>
                 <div class="info-card">
                     <h2>Shop - Müllheim</h2>
                     <p><img src="/wp-content/uploads/2024/06/group11.webp"> Werderstraße 45, 79379 Müllheim</p>
-                    <p><img src="/wp-content/uploads/2024/06/icon_mail_.webp"> muellheim@hoffmann-optik.de</p>
+                    <p><img src="/wp-content/uploads/2024/06/icon_mail_.webp"><a href="mailTo: muellheim@hoffmann-optik.de"> muellheim@hoffmann-optik.de</a></p>
                     <p><img src="/wp-content/uploads/2024/06/icon_phone_.webp"> <a href="tel:076313375">07631-3375</a></p>
                     <div class="info-button-app button-type-3"><a href="https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start"target="_blank" >Book an appointment <img src="/wp-content/uploads/2024/05/icon-_clock-outline_-2.png"></a></div>
                 </div>
                 <div class="info-card">
                     <h2>Shop - Neuchâtel</h2>
                     <p><img src="/wp-content/uploads/2024/06/group11.webp"> Rebstraße 4, 79395 Neuenburg am Rhein</p>
-                    <p><img src="/wp-content/uploads/2024/06/icon_mail_.webp"> neuenburg@hoffmann-optik.de</p>
+                    <p><img src="/wp-content/uploads/2024/06/icon_mail_.webp"> <a href="mailTo:neuenburg@hoffmann-optik.de">neuenburg@hoffmann-optik.de</a></p>
                     <p><img src="/wp-content/uploads/2024/06/icon_phone_.webp"><a href="tel:0763173606">07631-73606</a> </p>
                     <div class="info-button-app button-type-3"><a href="https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start"target="_blank">Book an appointment <img src="/wp-content/uploads/2024/05/icon-_clock-outline_-2.png"></a></div>
                 </div>

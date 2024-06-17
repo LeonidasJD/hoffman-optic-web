@@ -14,7 +14,7 @@ get_header();
             $blog_post_id_cur = get_the_ID()
 				?> 
 				<div class="post-date">
-				<img src="/wp-content/uploads/2024/05/22.png">
+				<img src="/wp-content/uploads/2024/06/green-clock.webp">
 				<p><?php echo get_the_date(); ?></p>
 				</div>
 				
