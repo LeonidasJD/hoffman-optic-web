@@ -84,6 +84,8 @@ content: '';
     text-align: center;
     transition: .3s;
     z-index: 1;
+    border: 1px solid #36641C;
+    
    
    }
    .button-type-3:before{
@@ -94,20 +96,32 @@ content: '';
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
-    background: #6D6D6D;
+    background: white;
     transition: .5s ease;
     display: block;
     z-index: -1;
+    
    }
    .button-type-3:hover:before{
        width: 105%;
    }
    .button-type-3:hover{
-       color:white;
+       color:#36641C;
+       
+       
        
    }
+   .button-type-3:hover .arrow-svg path{
+    fill: #36641C;
+    
+   }
+   .button-type-3:hover .clock-svg path{
+    stroke:#36641C ;
+    
+   }
+   
    .button-type-3:hover a{
-       color:white ;
+       color:#36641C ;
    }
    .button-type-3:active {
        transform: translate(5px,5px);
@@ -147,6 +161,9 @@ content: '';
 }
 /* STICY BACK TO TOP BUTTON CSS END */
 
+.change-select{
+    font-weight: 600!important;
+}
 
 /* BANNER KOJI IZADJE AKO NE POPUNIMO SVA POLJA U FORMI I ISPISUJE PORUKU START */
 .frm_error_style{

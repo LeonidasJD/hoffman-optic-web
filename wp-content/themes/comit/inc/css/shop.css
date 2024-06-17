@@ -253,7 +253,7 @@ font-family: 'Glegoo'!important;
     
   }
   .products li:hover{
-    box-shadow: -6px 9px 20px 0px #42464E;
+    box-shadow: -6px 9px 20px 0px #36641C;
     transform: translateY(-5px);
   }
   .woocommerce-loop-product__title{
