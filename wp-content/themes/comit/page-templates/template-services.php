@@ -24,7 +24,7 @@ get_header(); ?>
         <?php 
         $services_card_args= array(
             'post_type' =>'services',
-            'posts_per_page' =>'9'
+            'posts_per_page' =>'-1'
         );
 
         $services = new WP_Query( $services_card_args );
@@ -39,7 +39,8 @@ get_header(); ?>
                     <div class="service-card-info">
                     <h2><?php echo get_the_title(); ?></h2>
                     <p><?php echo get_the_excerpt(); ?></p>
-                    <div class="service-button"><a href="<?php echo get_permalink(); ?>">Read more</a></div>
+                    <div class="service-button"><a href="<?php echo get_permalink(); ?>">Mehr über</a>
+                </div>
                     
                     </div>
                     
