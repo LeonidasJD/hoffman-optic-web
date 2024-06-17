@@ -40,6 +40,9 @@
     margin-bottom: 47px;
     
 }
+.with_frm_style .frm_primary_label{
+    padding: 0px 0px 1px 0px!important;
+}
 #frm_field_60_container{
     display: flex!important;
     justify-content: center!important;
@@ -54,13 +57,20 @@
 #field_8njfd{
     padding: 0px!important;
 }
+
 #frm_field_81_container{
     border: 2px solid #36641C!important;
     width: 156px;
     border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 #frm_field_81_container .frm_time_wrap{
-    text-align: center;
+    
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
 }
 #frm_field_81_container select{
     color: #36641C;

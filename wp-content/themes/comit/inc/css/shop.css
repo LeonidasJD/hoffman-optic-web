@@ -225,6 +225,7 @@ font-family: 'Glegoo'!important;
     color: #AAAAAA;
     font-family: 'Lato';
     font-weight: 400;
+    padding: 3px;
 }
 .woocommerce-ordering select{
     border: none;
@@ -390,6 +391,7 @@ background-color: white!important;
       flex-direction: row;
       flex-wrap: wrap;
       gap: 36px;
+      justify-content: center;
     }
     .category-item{
       max-width: 5.5rem;

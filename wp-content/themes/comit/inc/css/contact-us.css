@@ -151,7 +151,8 @@
     font-family: 'Lato'!important;
     font-size: 14px;
     font-weight: bold;
-    color: #6E716D!important;
+    color: #42464e !important;
+    font-weight: bold !important;
     padding: 0px!important;
     
 }
@@ -168,7 +169,7 @@
     font-family: 'Lato'!important;
     font-size: 14px;
     font-weight: bold;
-    color: #0E130B!important;
+    color: #42464e !important;
     padding: 0px;
 }
 .form-subj input{
@@ -205,7 +206,8 @@
     font-family: 'Lato'!important;
     font-size: 14px;
     padding: 0px;
-    color: #63716D!important;
+    color: #42464e !important;
+    font-weight: bold !important;
 }
 .fields-wrapper textarea::placeholder{
     font-family: 'Lato'!important;

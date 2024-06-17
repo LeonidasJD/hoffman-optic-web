@@ -363,8 +363,8 @@
     margin-bottom: 0px!important;
     font-family: 'Lato'!important;
     font-size: 14px!important;
-    color: #6E716D !important;
-    padding: 0px!important;
+    color: #42464e !important;
+    font-weight: bold !important;
 }
 #field_avsnp{
     display: none!important;
@@ -376,7 +376,8 @@
     font-family: 'Lato'!important;
     font-weight: bold!important;
     font-size: 14px!important;
-    color: #0E130B!important;
+    color: #42464e !important;
+    font-weight: bold !important;
     padding: 0px!important;
 }
 .form-single-product input::placeholder,.form-single-product textarea::placeholder{

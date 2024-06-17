@@ -178,7 +178,8 @@
     border-color: #36641C!important;
     font-family: 'Lato'!important;
     font-size: 14px!important;
-    color: #6E716D !important;
+    color: #42464e !important;
+    font-weight: bold !important;
     padding: 0px !important;
 }
 .job-offer-form input::placeholder{
@@ -194,8 +195,8 @@
     border-color: #36641C!important;
     font-family: 'Lato'!important;
     font-size: 14px!important;
-    color: #6E716D !important;
-    padding-left: 5px!important;
+    color: #42464e !important;
+    font-weight: bold !important;
 }
 .job-offer-form textarea::placeholder{
     font-family: 'Lato'!important;
