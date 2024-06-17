@@ -90,7 +90,7 @@ background-size: cover;
 }
 .left-wrapper{
     border-top: 1px solid white;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 15px 15px 15px;
 }
     
 
@@ -177,7 +177,7 @@ background-size: cover;
 .button-wrapper{
     display: flex;
     align-items: flex-end;
-    padding-bottom: 25px;
+    
     
 }
 .book-now-btn{
@@ -256,7 +256,7 @@ background-size: cover;
     display: flex;
     justify-content: space-between;
     margin-top:35px;
-    
+    border-radius: 6px;
     box-shadow: -5px 5px 10px rgba(-10, 10, 0, 0.1);
     background-color: white;
 }

@@ -28,6 +28,7 @@
     padding: 35px 45px 0px 45px;
     background-color: white;
     box-shadow: -20px 24px 46px -20px #EDEEEC;
+    border-radius: 6px;
 }
 .post-form-title{
     font-family: 'Glegoo';
