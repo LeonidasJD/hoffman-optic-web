@@ -147,6 +147,7 @@ content: '';
     top: 80%;
     left: 95%;
     border-radius: 50px;
+    z-index: 999;
 }
 .sticky-button-wrapper button{
     background-color: #36641C;

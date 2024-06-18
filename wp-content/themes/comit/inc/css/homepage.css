@@ -658,7 +658,7 @@ background-size: cover;
     transform: translateY(-5px);
 }
 .post-image img{
-    max-width: 200px;
+    width: 200px;
     margin-right: 30px;
     border-radius: 4px;
     height: 180px;
@@ -1067,9 +1067,9 @@ margin-right: 0px;
     }
     .post-image img{
         margin-right: 0px;
-        max-width: 100%;
+        width: 100%;
         border-radius:4px;
-        height: auto;
+        height: 182px;
         
     };
     .post-info p{

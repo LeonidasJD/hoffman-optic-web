@@ -55,8 +55,9 @@
 .services-cards-wrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Ravnomeerno rasporedkuje elemente */
-    margin: -7.5px; 
+    justify-content: space-between;
+    
+    
 }
 .single-service-card{
     width: calc(32.33% - 15px); /* Postavlja sirinu svake kartice tako da bude 25% širine roditeljskog kontejnera sa 15px razmaka */

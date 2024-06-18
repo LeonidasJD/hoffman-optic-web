@@ -32,6 +32,7 @@
 .post-section-image img{
 width:46rem ;
 margin-top: 60px;
+border-radius: 6px;
 }
 .post-single-section-title h2{
     margin: 0px;
@@ -52,6 +53,12 @@ margin-top: 60px;
     margin-bottom: 25px;
 }
 .post-section-description p{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    color: #0E130B;
+}
+.post-section-description ol{
     font-family: 'Lato';
     font-size: 18px;
     font-weight: 400;
