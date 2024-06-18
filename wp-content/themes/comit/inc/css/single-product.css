@@ -22,8 +22,13 @@ visibility: hidden;
     width: 20px!important;
     height: 20px!important;
     top: 40px!important;
-    right: 30px;
+    right: 30px!important;
     display: block!important;
+}
+@-moz-document url-prefix() {
+    .wpgs-lightbox-icon::before {
+        right: -630px !important;
+    }
 }
 .woo-product-gallery-slider{
     max-width: 40rem;
@@ -554,6 +559,11 @@ visibility: hidden;
         top: 15px!important;
         right: 18px;
         display: block!important;
+    }
+    @-moz-document url-prefix() {
+        .wpgs-lightbox-icon::before {
+            right: -380px !important;
+        }
     }
     .head-and-text-related h2{
         font-size: 26px;
