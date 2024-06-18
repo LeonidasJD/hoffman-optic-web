@@ -332,7 +332,8 @@
 /* MAP SECTION RESPONSIVE START */
 @media screen and (max-width:767px){
     .map-section-wrapper{
-        padding-bottom: 60px;
+        margin-bottom: 60px;
+        border-bottom: 2px solid #76BA51;
     }
 }
 /* MAP SECTION RESPONSIVE END */
