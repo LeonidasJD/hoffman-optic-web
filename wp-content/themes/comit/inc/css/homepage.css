@@ -1061,6 +1061,7 @@ margin-right: 0px;
         display: flex;
         flex-direction: column;
         padding: 0px 10px;
+        align-items: flex-start;
     }
     .post-image{
         width: 100%;

@@ -127,10 +127,35 @@
     font-family: 'Lato';
     margin: -7px 0px -7px 0px;
 }
+.leaflet-popup-content p a{
+    color: #3C582C;
+    border: 1px solid #3C582C;
+    border-radius: 4px;
+    padding: 5px;
+}
+.leaflet-popup-content p:last-of-type {
+    margin-top: 5px;
+}
 .leaflet-popup-content b{
     font-family: 'Lato';
     margin: 0px;
 }
+#scroll-overlay{
+    display: none;
+    position: absolute;
+    font-family: 'Lato';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    z-index: 1000;
+}
+
 /*MAP CSS END*/
 
 /*CONTACT US FORM CSS START*/

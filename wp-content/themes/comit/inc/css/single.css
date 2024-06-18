@@ -197,6 +197,9 @@ border-radius: 6px;
         display: flex;
         flex-direction: column;
     }
+    .related-news-card-info{
+        margin: 0px;
+    }
     .side-banner-wrapper{
         width: auto;
     }
@@ -210,7 +213,7 @@ border-radius: 6px;
         height: 6rem;
     }
     .latest-news-heading h2{
-        font-size: 25px;
+        font-size: 21px;
     }
     
     .related-news-cards-wrapper .related-card-img img{
