@@ -139,6 +139,8 @@ content: '';
 
 /* STICY BACK TO TOP BUTTON CSS START */
 .sticky-button-wrapper{
+    visibility: hidden;
+    opacity: 0;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -148,6 +150,7 @@ content: '';
     left: 95%;
     border-radius: 50px;
     z-index: 999;
+    transition: opacity 0.3s ease, visibility 0.3s ease, linear 0.3s;
 }
 .sticky-button-wrapper button{
     background-color: #36641C;

@@ -344,7 +344,7 @@ background-size: cover;
     border-radius: 4px;
 }
 .single-product-card:hover{
-    box-shadow: -6px 9px 20px 0px #36641C;
+    box-shadow: -6px 9px 20px 0px #36641c2e;
     transform: translateY(-5px);
 }
 .single-product-card img{

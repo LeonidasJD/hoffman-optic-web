@@ -258,7 +258,7 @@ visibility: hidden;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 .related-single-product-card:hover{
-    box-shadow: -6px 9px 20px 0px #36641C;
+    box-shadow: -6px 9px 20px 0px #36641c2e;
     transform: translateY(-5px);
 }
 .related-products-wrapper{
