@@ -33,8 +33,9 @@ get_header(); ?>
             while($services->have_posts()){
                 $services->the_post();
                 ?> 
-                <a href="<?php echo get_permalink(); ?>">
+                
                 <div class="single-service-card">
+                <a href="<?php echo get_permalink(); ?>">
                     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                     <div class="service-card-info">
                     <h2><?php echo get_the_title(); ?></h2>
@@ -43,9 +44,9 @@ get_header(); ?>
                 </div>
                     
                     </div>
-                    
+                    </a>
                 </div>
-                </a>
+                
                
                 <?php
             }

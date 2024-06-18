@@ -266,7 +266,7 @@ eiusmod tempor incididunt ut.
         </h2>
         <span>
         <p>We Provides always our best insight for our clients  </p>
-        <a class="scale-link" href="/leistungen/">Nachrichten prüfen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a>
+        <a class="scale-link" href="/neuigkeiten/">Nachrichten prüfen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a>
         </span>
        
         </div>
