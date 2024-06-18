@@ -29,6 +29,7 @@
 <!--OPEN STREET MAPS START-->
 <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-mouseposition/Leaflet.MousePosition.min.js"></script>
 <!--OPEN STREET MAPS END-->
 
 <!--SWIPER JS START-->
