@@ -1,0 +1,9 @@
+2024-06-18T14:24:40+00:00 NOTICE Start search for best CONTEXT: {"_legacy":true}
+2024-06-18T14:24:40+00:00 NOTICE Execution time 0 0.309413 CONTEXT: {"_legacy":true}
+2024-06-18T14:24:40+00:00 NOTICE Tokens Array
+(
+    [0] => best
+)
+ CONTEXT: {"_legacy":true}
+2024-06-18T14:24:40+00:00 NOTICE Execution time 1 0.5103835 CONTEXT: {"_legacy":true}
+2024-06-18T14:24:40+00:00 NOTICE Execution time 0.5315144 CONTEXT: {"_legacy":true}
