@@ -64,6 +64,12 @@ border-radius: 6px;
     font-weight: 400;
     color: #0E130B;
 }
+.post-image-description{
+    font-family: 'Lato';
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
 /*POST INFO CSS END*/
 
 
