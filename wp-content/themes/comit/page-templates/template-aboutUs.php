@@ -113,8 +113,11 @@ get_header(); ?>
 
             <div class="single-team-member-info">
                 <div class="single-team-member-info-wrapper">
-                <div class="team-member-name"><h3><?php echo $member_name ?></h3></div>
-            <div class="team-member-occupation"><p><?php echo $member_occupation ?></p></div>
+                    <div class="team-name-and-occupation-wrapper">
+                    <div class="team-member-name"><h3><?php echo $member_name ?></h3></div>
+                    <div class="team-member-occupation"><p><?php echo $member_occupation ?></p></div>
+                    </div>
+                
             <div class="team-member-title"><p><?php echo $member_title ?></p></div>
                 </div>
            
