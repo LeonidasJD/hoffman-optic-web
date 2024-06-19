@@ -184,7 +184,7 @@ display: none;
 }
 
 .single-team-member-info-wrapper{
-    padding: 80px 20px 20px 20px;
+    padding: 150px 20px 20px 20px;
     background-image: linear-gradient(to bottom, #ffffff00 0%, #fffffff0 55%, #ffffff 100%);
     width: 100%;
 }
@@ -217,9 +217,14 @@ display: none;
     left: 0;
     width: 100%;
     text-align: start;
-    transition: bottom 0.2s ease;
+    transition: bottom 0.3s ease;
    
     
+}
+.team-name-and-occupation-wrapper{
+    position: absolute;
+    bottom: 10px;
+    transition: bottom 0.3s ease;
 }
 .single-team-member-card:hover{
     cursor: pointer;
@@ -232,6 +237,9 @@ display: none;
     bottom: 0px;
     opacity: 1;
     
+}
+.single-team-member-card:hover .team-name-and-occupation-wrapper{
+    bottom: 70px;
 }
 
 #more-team-btn{
@@ -358,7 +366,9 @@ display: none;
         
         
     }
-    
+    .team-name-and-occupation-wrapper{
+        bottom:73px;
+    }
     .more-team-button-wrapper{
         display: flex;
             text-align: center;
