@@ -29,6 +29,7 @@ get_header();
                      $post_section_subtitle = get_sub_field('post_section_subtitle');
                      $post_section_description = get_sub_field('post_section_description');
                      $post_section_image = get_sub_field('post_section_image');
+                     $post_image_description = get_sub_field('image_description');
 
 					
 
@@ -57,6 +58,11 @@ get_header();
                      if(!empty($post_section_image)){
                         ?>
                         <div class="post-section-image"><img src="<?php echo $post_section_image ?>"></div>
+                        <?php
+                     }
+                     if(!empty($post_image_description)){
+                        ?>
+                        <div class="post-image-description"><p><?php echo $post_image_description ?></p></div>
                         <?php
                      }
 
