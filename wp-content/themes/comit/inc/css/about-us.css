@@ -211,9 +211,9 @@ display: none;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 .team-member-title {
-    position: absolute;
-    bottom: -35px;
-    opacity: 0;
+    position: relative;
+    bottom: -70px;
+    opacity: 1;
     left: 0;
     width: 100%;
     text-align: start;
