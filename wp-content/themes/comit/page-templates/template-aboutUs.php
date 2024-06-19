@@ -109,15 +109,15 @@ get_header(); ?>
             $extra_class = $index > 3 ? 'hidden' : '';
 
             ?> 
-            <div class="single-team-member-card <?php echo $extra_class; ?>" data-index="<?php echo $index; ?>" >
-                
-                <div class="team-member-image">
-                    <img src="<?php echo $member_image ?>" alt="">
-            </div>
+            <div class="single-team-member-card <?php echo $extra_class; ?>" data-index="<?php echo $index; ?>" style="background-image:url(<?php echo $member_image ?>)">
+
             <div class="single-team-member-info">
-            <div class="team-member-name"><h3><?php echo $member_name ?></h3></div>
+                <div class="single-team-member-info-wrapper">
+                <div class="team-member-name"><h3><?php echo $member_name ?></h3></div>
             <div class="team-member-occupation"><p><?php echo $member_occupation ?></p></div>
             <div class="team-member-title"><p><?php echo $member_title ?></p></div>
+                </div>
+           
             </div>
             
             </div>
@@ -196,7 +196,7 @@ moreTeamBtn.addEventListener('click', function() {
     moreTeamSvg.style.transform = 'rotate(0deg)';
     moreTeamBtnWrapper.style.marginTop = '-210px';
     window.scrollBy({
-    top: -1500, 
+    top: -3500, 
     behavior: 'smooth'
   });
 
