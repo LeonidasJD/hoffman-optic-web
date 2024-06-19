@@ -194,9 +194,9 @@ moreTeamBtn.addEventListener('click', function() {
     moreTeamBtnWrapper.style.marginTop = '0px';
    }else{
     moreTeamSvg.style.transform = 'rotate(0deg)';
-    moreTeamBtnWrapper.style.marginTop = '-210px';
+    moreTeamBtnWrapper.style.marginTop = '-410px';
     window.scrollBy({
-    top: -3500, 
+    top: -1500, 
     behavior: 'smooth'
   });
 
