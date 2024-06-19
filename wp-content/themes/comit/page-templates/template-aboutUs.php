@@ -199,7 +199,7 @@ moreTeamBtn.addEventListener('click', function() {
     moreTeamSvg.style.transform = 'rotate(0deg)';
     moreTeamBtnWrapper.style.marginTop = '-410px';
     window.scrollBy({
-    top: -1500, 
+    top: -3500, 
     behavior: 'smooth'
   });
 
