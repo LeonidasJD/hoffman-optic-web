@@ -148,14 +148,45 @@ display: none;
     flex-direction: column;
     margin-bottom: 45px;
     box-shadow: -6px 6px 19px 0px #F9F9F9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 332px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
 }
-.single-team-member-card img{
-width: 100%;
-border-radius: 8px 8px 0px 0px ;
-}
+
 .single-team-member-info{
-    padding: 20px 20px;
     text-align: start;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-image: none;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1; /* Održavajte elemente iznad pozadinske slike */
+    transition: opacity 0.3s ease;
+
+}
+.single-team-member-info::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, white, #ffffff00 90%);
+    opacity: 0; /* Početno stanje: nevidljivo */
+    transition: opacity 0.3s ease; /* Tranzicija za glatko pojavljivanje */
+    z-index: -1; /* Pozicionirajte pozadinsku sliku iza teksta */
+}
+
+.single-team-member-info-wrapper{
+    padding: 80px 20px 20px 20px;
+    background-image: linear-gradient(to bottom, #ffffff00 0%, #fffffff0 55%, #ffffff 100%);
+    width: 100%;
 }
 .single-team-member-info h3{
     margin: 0px;
@@ -167,10 +198,42 @@ border-radius: 8px 8px 0px 0px ;
 .single-team-member-info p{
     font-family: 'Lato';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     color: black;
     margin:14px 0px 0px 0px;
 }
+.team-member-name{
+    transform: translateY(0%); 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.team-member-occupation{
+    transform: translateY(0%); 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.team-member-title {
+    position: absolute;
+    bottom: -35px;
+    opacity: 0;
+    left: 0;
+    width: 100%;
+    text-align: start;
+    transition: bottom 0.2s ease;
+   
+    
+}
+.single-team-member-card:hover{
+    cursor: pointer;
+}
+.single-team-member-card:hover .single-team-member-info::after {
+    opacity: 1; /* Prikazuje pozadinsku sliku */
+}
+.single-team-member-card:hover .team-member-title {
+    position: relative;
+    bottom: 0px;
+    opacity: 1;
+    
+}
+
 #more-team-btn{
     display: none;
 }
@@ -272,9 +335,9 @@ border-radius: 8px 8px 0px 0px ;
     }
     .single-team-member-card{
         width: 100%;
+        height: 332px;
         margin-bottom: 24px;
         opacity: 1;
-        height: auto;
         transition: opacity 0.5s ease, height 0.5s ease;
         
        
@@ -285,7 +348,16 @@ border-radius: 8px 8px 0px 0px ;
         overflow: hidden;
         padding: 0; /* Dodatno osiguranje da nema prostora */
     }
-
+    .team-member-title {
+        position: relative;
+        left: 0;
+        opacity: 1;
+        bottom: 0;
+        width: 100%;
+        text-align: start;
+        
+        
+    }
     
     .more-team-button-wrapper{
         display: flex;
