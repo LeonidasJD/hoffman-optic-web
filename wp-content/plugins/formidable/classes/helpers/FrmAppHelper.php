@@ -33,7 +33,7 @@ class FrmAppHelper {
 	 *
 	 * @var string
 	 */
-	public static $plug_version = '6.10';
+	public static $plug_version = '6.11';
 
 	/**
 	 * @var bool
@@ -1167,9 +1167,7 @@ class FrmAppHelper {
 				$icon = explode( ' ', $icon );
 				$icon = reset( $icon );
 			}
-			$icon = '<svg class="frmsvg' . esc_attr( $class ) . '"' . $html_atts . '>
-				<use xlink:href="#' . esc_attr( $icon ) . '" />
-			</svg>';
+			$icon = '<svg class="frmsvg' . esc_attr( $class ) . '"' . $html_atts . '><use xlink:href="#' . esc_attr( $icon ) . '" /></svg>';
 		}
 
 		if ( $echo ) {
@@ -3287,7 +3285,6 @@ class FrmAppHelper {
 			'empty_fields'         => __( 'Please complete the preceding required fields before uploading a file.', 'formidable' ),
 			'focus_first_error'    => self::should_focus_first_error(),
 			'include_alert_role'   => self::should_include_alert_role_on_field_errors(),
-			'include_update_field' => self::should_include_update_field_function(),
 			'include_resend_email' => self::should_include_resend_email_code(),
 		);
 
@@ -3407,21 +3404,6 @@ class FrmAppHelper {
 	 */
 	public static function should_include_alert_role_on_field_errors() {
 		return (bool) apply_filters( 'frm_include_alert_role_on_field_errors', true );
-	}
-
-	/**
-	 * As of 6.10 the frmUpdateField function is now included in Pro.
-	 * This was originally included in Lite but was removed because the feature is only supoprted in Pro.
-	 *
-	 * @since 6.10
-	 *
-	 * @return bool
-	 */
-	private static function should_include_update_field_function() {
-		if ( ! self::pro_is_installed() ) {
-			return false;
-		}
-		return ! self::meets_min_pro_version( '6.9.2' );
 	}
 
 	/**
