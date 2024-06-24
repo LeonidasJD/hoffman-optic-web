@@ -4,7 +4,7 @@ Tags: additional variation image, product gallery slider,woocommerce product gal
 Requires at least: 5.0
 Requires PHP: 7.4
 Tested up to:  6.5.3
-Stable tag: 2.3.8
+Stable tag: 2.3.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -131,6 +131,14 @@ we're using this 'woocommerce_before_single_product_summary' this hook to overri
 
 
 == Changelog ==
+
+= 2.3.9 - 11-Jun-24 =
+* Added: Compatibility support for Astra Pro
+* Added: New filter for removing the featured image from the gallery.
+* Fixed: Remove CSS code that conflicts with slick slider
+* Fixed: Missing dependencies jQuery csf
+* Support for WooCommerce 9.0.x
+
 
 = 2.3.8 - 1-Jun-24 =
 * Fixed: Slider conflict with DIvi theme

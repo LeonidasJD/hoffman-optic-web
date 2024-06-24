@@ -18,7 +18,7 @@
   $.wpgs_variation_images.init();
 
   $(document).ready(function () {
-    console.log('Experimental Feature: Additional Variation Images is current Active');
+    console.log('Additional Variation Images is current Active');
   });
 
 

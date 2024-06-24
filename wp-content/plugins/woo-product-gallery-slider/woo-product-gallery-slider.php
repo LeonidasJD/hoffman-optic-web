@@ -5,16 +5,16 @@
  * Plugin Name:       Product Gallery Slider for WooCommerce
  * Plugin URI:        https://wordpress.org/plugins/woo-product-gallery-slider/
  * Description:       Best product image gallery slider for WooCommerce. It shows your WooCommerce products with an image carousel slider. Beautiful style, increase sales and get customer attention.
- * Version:           2.3.8
+ * Version:           2.3.9
  * Author:            Codeixer
  * Author URI:        http://codeixer.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       woo-product-gallery-slider
  * Domain Path:       /languages
- * Tested up to: 6.5.3
+ * Tested up to: 6.5.4
  * WC requires at least: 3.9
- * WC tested up to: 8.9.1
+ * WC tested up to: 9.0.1
  * Requires PHP: 7.4
  * Requires Plugin: WooCommerce
  */
@@ -64,7 +64,7 @@ final class CI_WPGS {
 	 *
 	 * @var string
 	 */
-	const version = '2.3.7';
+	const version = '2.3.9';
 
 	private function __construct() {
 		register_activation_hook( __FILE__, array( $this, 'activation' ) );

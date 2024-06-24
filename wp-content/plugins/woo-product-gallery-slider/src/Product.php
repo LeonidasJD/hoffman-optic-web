@@ -54,6 +54,7 @@ class Product {
 		if ( function_exists( 'woostify_version' ) || wpgs_get_option( 'check_divi_builder' ) == '1' ) {
 			remove_action( 'woocommerce_before_single_product_summary', array( $this, 'wpgs_product_image' ), 20 );
 		}
+		add_filter( 'astra_addon_override_single_product_layout', '__return_false' );
 	}
 
 	/**
@@ -108,7 +109,7 @@ class Product {
 
 			$variation_markup = $this->wpgs_variation_images->html_markup( $variation_image_id, $thumbnails );
 
-		}else {
+		} else {
 			$variation_markup = $this->wpgs_variation_images->html_markup( $product->get_image_id(), $thumbnails );
 		}
 		if ( $variation_cache_data && ! array_key_exists( $variation_id, $variation_cache_data ) ) {

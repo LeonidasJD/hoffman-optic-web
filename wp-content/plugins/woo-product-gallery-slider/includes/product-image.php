@@ -40,7 +40,6 @@ do_action( 'wpgs_before_image_gallery' );
 
 		<?php
 
-
 		echo '<div class="wpgs-for">';
 		if ( has_post_thumbnail() ) {
 
@@ -78,17 +77,20 @@ do_action( 'wpgs_before_image_gallery' );
 			$lightbox_src = wc_get_product_attachment_props( $post_thumbnail_id );
 
 			$img_caption = get_the_title( $post_thumbnail_id );
+		if ( apply_filters( 'wpgs_show_featured_image_in_gallery', true ) ) {
 
-		if ( '1' == $gallery_options['lightbox_picker'] ) {
-			$html .= '<div class="woocommerce-product-gallery__image single-product-main-image">';
-			$html .= '<a class="wpgs-lightbox-icon" data-caption="' . $img_caption . '" data-fancybox="wpgs-lightbox"  href="' . $lightbox_src['url'] . '"     data-mobile=["clickContent:close","clickSlide:close"] 	data-click-slide="close" 	data-animation-effect="fade" 	data-loop="true"     data-infobar="' . $lightbox_img_count . '"     data-hash="false" >' . $image . '</a></div>';
+			if ( '1' == $gallery_options['lightbox_picker'] ) {
+				$html .= '<div class="woocommerce-product-gallery__image single-product-main-image">';
+				$html .= '<a class="wpgs-lightbox-icon" data-caption="' . $img_caption . '" data-fancybox="wpgs-lightbox"  href="' . $lightbox_src['url'] . '"     data-mobile=["clickContent:close","clickSlide:close"] 	data-click-slide="close" 	data-animation-effect="fade" 	data-loop="true"     data-infobar="' . $lightbox_img_count . '"     data-hash="false" >' . $image . '</a></div>';
 
-			echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $html, $post_thumbnail_id );
+			} else {
+				$html .= '<div class="woocommerce-product-gallery__image single-product-main-image">' . $image . '</div>';
 
-		} else {
-			$html .= '<div class="woocommerce-product-gallery__image single-product-main-image">' . $image . '</div>';
-			echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $html, $post_thumbnail_id );
+			}
 		}
+
+			echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $html, $post_thumbnail_id );
+
 
 		if ( $attachment_ids ) {
 			foreach ( $attachment_ids as $attachment_id ) {
@@ -109,13 +111,13 @@ do_action( 'wpgs_before_image_gallery' );
 				$attachment_html = '';
 				if ( '1' == $gallery_options['lightbox_picker'] ) {
 					$attachment_html .= '<div><a class="wpgs-lightbox-icon" data-fancybox="wpgs-lightbox"                 data-caption="' . $img_caption . '"                 href="' . $lightbox_src['url'] . '" data-mobile=["clickContent:close","clickSlide:close"] 				data-click-slide="close" 				data-animation-effect="fade" 				data-loop="true"                 data-hash="false"                 data-infobar="' . $lightbox_img_count . '"                 >' . $thumbnail_image . '</a></div>';
-					echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $attachment_html, $post_thumbnail_id );
 
 				} else {
 					$attachment_html .= '<div>' . $thumbnail_image . '</div>';
-					echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $attachment_html, $post_thumbnail_id );
-
 				}
+
+				echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $attachment_html, $post_thumbnail_id );
+
 			}
 		}
 			echo '</div>';
@@ -152,9 +154,9 @@ do_action( 'wpgs_before_image_gallery' );
 				);
 
 			}
-
-			echo '<div>' . $image . '</div>';
-
+			if ( apply_filters( 'wpgs_show_featured_image_in_gallery', true ) ) {
+						echo '<div>' . $image . '</div>';
+			}
 			foreach ( $attachment_ids as $attachment_id ) {
 				$thumbnail_image = wp_get_attachment_image(
 					$attachment_id,

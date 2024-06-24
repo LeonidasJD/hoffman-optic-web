@@ -17,8 +17,9 @@ if ( ! class_exists( 'WPGS_Variation_images' ) ) {
 		}
 
 		public function wpgs_load_custom_admin_js() {
+			$screen = get_current_screen();
 			// Enqueue the JavaScript file only in the admin area
-			if ( is_admin() ) {
+			if ( is_admin() && 'product' == $screen->id ) {
 				wp_enqueue_script( 'wpgs-public', WPGS_ROOT_URL . 'assets/js/admin.js', array( 'jquery', 'csf' ), CIPG_VERSION, true );
 			}
 		}

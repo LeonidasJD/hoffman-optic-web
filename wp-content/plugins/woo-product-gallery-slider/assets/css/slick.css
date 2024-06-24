@@ -140,7 +140,7 @@
 }
 .wpgs-for.slick-initialized,
 .wpgs-nav.slick-initialized {
-    display: block;
+    display: block !important;
 }
 .wpgs-nav .slick-slide {
     border: 1px solid;
@@ -180,7 +180,4 @@
         display: none;
         
     }
-}
-.woocommerce div.product div.images .woocommerce-product-gallery__image {
-    padding: 0 !important;
 }
