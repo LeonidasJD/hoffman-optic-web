@@ -91,7 +91,7 @@ get_header();
         <div class="services-cards">
 
         <div class="service-card">
-            <img src="/wp-content/uploads/2024/05/Icon1.png" >
+            <img src="/wp-content/uploads/2024/06/vector-1.webp" >
             <h2>Eye care</h2>
             <p>Enhancing Your Vision sit
 ametcon sec tetur adipisicing
@@ -99,7 +99,7 @@ eiusmod tempor incididunt ut.
             </p>
         </div>
         <div class="service-card">
-        <img src="/wp-content/uploads/2024/05/Icon2.png" >
+        <img src="/wp-content/uploads/2024/06/glasses-1.webp" >
             <h2>Eyes check</h2>
             <p>Enhancing Your Vision sit
 ametcon sec tetur adipisicing
@@ -107,7 +107,7 @@ eiusmod tempor incididunt ut.
             </p>
         </div>
         <div class="service-card">
-        <img src="/wp-content/uploads/2024/05/Icon3.png" >
+        <img src="/wp-content/uploads/2024/06/icon2.webp" >
             <h2>Fashionable glasses</h2>
             <p>Enhancing Your Vision sit
 ametcon sec tetur adipisicing
@@ -115,7 +115,7 @@ eiusmod tempor incididunt ut.
             </p>
         </div>
         <div class="service-card">
-        <img src="/wp-content/uploads/2024/05/Icon4.png" >
+        <img src="/wp-content/uploads/2024/06/icon3.webp" >
             <h2>Contact lens </h2>
             <p>Enhancing Your Vision sit
 ametcon sec tetur adipisicing
@@ -336,7 +336,7 @@ eiusmod tempor incididunt ut.
         <p class="swiper-text">Long established fact that a reader will be distracted
             by the readable content of a page when looking at it's
             layout. The point of using Lorem Ipsum</p>
-        <img class="swiper-person-img" src="/wp-content/uploads/2024/05/testimonial-01.jpg.png" alt="">
+        <img class="swiper-person-img" src="/wp-content/uploads/2024/06/testimonial_01_jpg.webp" alt="">
         <h4>Joerg Porter</h4>
       </div>
       <div class="swiper-slide">

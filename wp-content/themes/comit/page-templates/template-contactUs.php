@@ -107,8 +107,8 @@ var mapOptions = {
         map.addLayer(layer);
 
         var pins = [
-            { lat: 47.80862931900462, lng: 7.627458655660443, iconUrl: '/wp-content/uploads/2024/05/Group-4333-e1715854868437.png', title: 'Shop - Müllheim', descriptions: ['Werderstraße 45, 79379 Müllheim', 'muellheim@hoffmann-optik.de', '07631-3375','<a href="https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start" target="_blank">Termin buchen</a>'] },
-            { lat: 47.81415188935085, lng: 7.56236392336521, iconUrl: '/wp-content/uploads/2024/05/Group-4333-e1715854868437.png', title: 'Shop - Neuchâtel', descriptions: ['Rebstraße 4, 79395 Neuenburg am Rhein', 'neuenburg@hoffmann-optik.de', '07631-73606','<a href="https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start" target="_blank">Termin buchen</a>'] },
+            { lat: 47.80862931900462, lng: 7.627458655660443, iconUrl: '/wp-content/uploads/2024/06/group_43.webp', title: 'Shop - Müllheim', descriptions: ['Werderstraße 45, 79379 Müllheim', 'muellheim@hoffmann-optik.de', '07631-3375','<a href="https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start" target="_blank">Termin buchen</a>'] },
+            { lat: 47.81415188935085, lng: 7.56236392336521, iconUrl: '/wp-content/uploads/2024/06/group_43.webp', title: 'Shop - Neuchâtel', descriptions: ['Rebstraße 4, 79395 Neuenburg am Rhein', 'neuenburg@hoffmann-optik.de', '07631-73606','<a href="https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start" target="_blank">Termin buchen</a>'] },
         ];
 
         // Dodavanje pinova na mapu
@@ -121,7 +121,7 @@ var mapOptions = {
             }
             var pinIcon = L.icon({
                 iconUrl: pin.iconUrl,
-                iconSize: [40, 50],
+                iconSize: [70, 90],
                 iconAnchor: [20, 40],
                 popupAnchor: [0, -40]
             });

@@ -38,7 +38,7 @@ get_header(); ?>
             <p>Master optician lorem ipsum sit
             ametcon sec tetur adipisicing
             eiusmod tempor incididunt ut.</p>
-            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
+            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/06/vector_4-1.webp" alt=""></button>
             </div>
             
         </div>
@@ -49,7 +49,7 @@ get_header(); ?>
             <p>Optometrist lorem ipsum sit
             ametcon sec tetur adipisicing
             eiusmod tempor incididunt ut.</p>
-            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
+            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/06/vector_4-1.webp" alt=""></button>
             </div>
             
         </div>
@@ -61,7 +61,7 @@ get_header(); ?>
             <p>Apprenticeship lorem ipsum sit
             ametcon sec tetur adipisicing
             eiusmod tempor incididunt ut.</p>
-            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
+            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/06/vector_4-1.webp" alt=""></button>
             </div>
             
         </div>
@@ -72,7 +72,7 @@ get_header(); ?>
             <p>Student internship lorem ipsum sit
             ametcon sec tetur adipisicing
             eiusmod tempor incididunt ut.</p>
-            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/05/Vector-4-1.png" alt=""></button>
+            <button class="apply-here-btn button-type-3">Apply here <img src="/wp-content/uploads/2024/06/vector_4-1.webp" alt=""></button>
             </div>
             
         </div>
@@ -93,7 +93,7 @@ get_header(); ?>
 <section class="modal-wrapper">
 <div class="modal-underwrapper">
     <div class="modal-main">
-        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
+        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/06/frame_876.webp" ></span>
         <h2>Bewerbungsformular für Master optician</h2>
         <div class="job-application-form-wrapper">
         <div class="job-offer-form">
@@ -110,7 +110,7 @@ get_header(); ?>
 <section class="modal-wrapper">
 <div class="modal-underwrapper">
     <div class="modal-main">
-        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
+        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/06/frame_876.webp" ></span>
         <h2>Bewerbungsformular für Optometrist</h2>
         <div class="job-application-form-wrapper">
         <div class="job-offer-form">
@@ -127,7 +127,7 @@ get_header(); ?>
 <section class="modal-wrapper">
 <div class="modal-underwrapper">
     <div class="modal-main">
-        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
+        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/06/frame_876.webp" ></span>
         <h2>Bewerbungsformular für Apprenticeship</h2>
         <div class="job-application-form-wrapper">
         <div class="job-offer-form">
@@ -144,7 +144,7 @@ get_header(); ?>
 <section class="modal-wrapper">
 <div class="modal-underwrapper">
     <div class="modal-main">
-        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/05/Frame-876.png" ></span>
+        <span class="exit-icon-wrapper"><img class="exit-icon" src="/wp-content/uploads/2024/06/frame_876.webp" ></span>
         <h2>Bewerbungsformular für Student internship</h2>
         <div class="job-application-form-wrapper">
         <div class="job-offer-form">

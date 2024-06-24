@@ -41,7 +41,7 @@
     <p>If you have questions, feel free to call us anytime!</p>
     <a href="tel:076313375">07631-3375</a>
     <div class="side-image">
-    <img src="/wp-content/uploads/2024/05/logotype-1-1.png" >
+    <img src="/wp-content/uploads/2024/06/logotype_1.webp" >
     </div>
     
 </div>
