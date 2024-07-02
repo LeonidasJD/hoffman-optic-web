@@ -113,8 +113,7 @@ get_header();
 An eine neue Brille werden viele Ansprüche gestellt: Selbstverständlich sollte man damit perfekt sehen können, sie sollte gut zur eigenen Gesichtsform passen, sie sollte dem eigenen individuellen Geschmack entsprechen und die Beratung zur Brille sollte freundlich und fachkompetent sein. Eine Brille ist dementsprechend immer das Ergebnis Deiner persönlichen Wünsche und Vorstellungen. Bei Hoffmannoptik stellen wir uns gerne all Deinen Ansprüchen, denn ganzheitliches Denken ist unser Trumpf!<br><br>
 Welche Brille darf es sein?<br><br>
 Bei uns findet jeder seine perfekte Brille – für die ganze Familie, für jeden Anlass, für jeden individuellen Bedarf. Mit oder ohne Sehstärke. Erzähl uns einfach Dir!<br><br>
-Benötigst Du eine Brille für die Ferne, für die Nähe, für den Alltag (zum Beispiel eine Gleitsichtbrille) oder für besondere Aktivitäten, wie beispielsweise bei anspruchsvoller Arbeit am Computer? Soll es eine modische Sonnenbrille werden, oder benötigst Du eine robuste Sportbrille, weil Du regelmäßig Outdoor-Sport betreibst? Hast Du spezielle Bedürfnisse? Wir können Dir auch Arbeitsschutzbrillen mit Sehstärke anfertigen.
-Auch Kinder finden bei uns eine große Auswahl an Kinderbrillen. 
+
 
             </p>
         </div>

@@ -6,7 +6,8 @@ get_header(); ?>
     <div class="container-14">
     <section class="hero-services-section-wrapper">
     <div class="hero-services-section-under-wrapper">
-        <h1>We accompany you and we educate in your process, whatever be the objective.</h1>
+        <h1>Perfekter Service für Deine Augen!
+        </h1>
     </div>
 </section>
     </div>
