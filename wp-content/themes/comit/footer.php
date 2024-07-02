@@ -1,4 +1,4 @@
-<?php
+<a?php
 /**
  * The template for displaying the footer
  *
@@ -71,7 +71,7 @@
 	</footer><!-- #colophon -->
 	</div>
 	<section class="footer-white-section">
-			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p> <p>Impressum und Datenschutz</p></div>
+			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p> <p>Impressum und <a href="/datenschutz">Datenschutz</a></p></div>
 		</section>
 </div>
 	
