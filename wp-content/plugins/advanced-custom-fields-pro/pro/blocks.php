@@ -513,6 +513,7 @@ function acf_get_block_back_compat_attribute_key_array() {
  * @return  string The block HTML.
  */
 function acf_render_block_callback( $attributes, $content = '', $wp_block = null ) {
+
 	$is_preview = false;
 	$post_id    = get_the_ID();
 
@@ -680,6 +681,7 @@ function acf_rendered_block( $attributes, $content = '', $is_preview = false, $p
  * @return  void|string
  */
 function acf_render_block( $attributes, $content = '', $is_preview = false, $post_id = 0, $wp_block = null, $context = false ) {
+
 	// Prepare block ensuring all settings and attributes exist.
 	$block = acf_prepare_block( $attributes );
 	if ( ! $block ) {
@@ -868,7 +870,8 @@ function acf_enqueue_block_type_assets( $block_type ) {
  */
 function acf_ajax_fetch_block() {
 	// Validate ajax request.
-	if ( ! acf_verify_ajax() ) {
+	$render_capability = apply_filters( 'acf/blocks/render_capability', 'edit_posts' );
+	if ( ! acf_verify_ajax() || ! current_user_can( $render_capability ) ) {
 		wp_send_json_error();
 	}
 
