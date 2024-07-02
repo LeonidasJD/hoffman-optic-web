@@ -89,6 +89,8 @@
     max-width: 12rem;
     padding: 13px 50px;
     box-shadow: -5px 4px 11px 3px #e1e7de;
+    display: flex;
+    justify-content: center;
 
 }
 .info-button-app a svg{

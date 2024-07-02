@@ -23,6 +23,13 @@
     margin: 0px;
     max-width: 45rem;
 }
+.welcome-info-section-underwrapper ul li{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E130B !important;
+    margin: 0px 0px 5px 0px;
+}
 .welcome-info-section-underwrapper > :nth-child(2) {
     margin-bottom: 15px;
 }
@@ -49,7 +56,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-   
+    width: 297px;
     
 }
 .apply-card-text-button{
@@ -105,11 +112,32 @@
     border-left: 1px solid #E6E6E6; 
   }
 
-  .position-apply-cards-wrapper > :nth-child(1) .apply-card-text-button p,
-  .position-apply-cards-wrapper > :nth-child(2) .apply-card-text-button p,
-  .position-apply-cards-wrapper > :nth-child(4) .apply-card-text-button p {
-    margin-top: 27px;
+  .apply-card-text-button ul{
+    list-style-type: circle;
+    padding: 0px 0px 0px 20px;
+    margin-top: 0px;
   }
+  .apply-card-text-button ul li{
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    color: #474747;
+  }
+  .apply-card-button-wrapper{
+    display: flex;
+    flex-grow: 1;
+  }
+  /* .position-apply-cards-wrapper > :nth-child(1) .apply-card-text-button p{
+    margin-top: 0px;
+  }
+  .position-apply-cards-wrapper > :nth-child(2) .apply-card-text-button p{
+
+  } */
+  .position-apply-cards-wrapper .single-position-appy-card:nth-of-type(2) .apply-card-text-button{
+    margin-top: 20px;
+  }
+  
 
   .job-form-example{
     display: none;
@@ -333,6 +361,15 @@ margin-bottom: 30px;
         border-radius: 4px;
 
     }  
+    .apply-card-button-wrapper{
+        display: flex;
+        flex-grow: 1;
+        width: 100%;
+        justify-content: center;
+    }
+    .apply-card-text-button ul{
+        margin-bottom: 25px;
+    }
     .position-apply-cards-wrapper > :nth-child(n+2){
         border: none;
     }
@@ -342,7 +379,7 @@ margin-bottom: 30px;
     .apply-card-text-button {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     }
     .apply-card-text-button p{
         text-align: center;
