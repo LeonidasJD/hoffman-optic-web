@@ -1,7 +1,7 @@
 <!-- Contact us green template part-->
 
 <div class="contact-us-banner-underwrapper">
-    <h2>If you have questions, feel free to contact us anytime</h2>
+    <h2>Hast Du Fragen rund um das Thema sehen? Dann melde Dich bei uns</h2>
     <!-- <span><a href="/contact-us/">Contact us</a> <img src="/wp-content/uploads/2024/05/bi_send-fill.png" alt=""></span> -->
     <button id="contact-button" class="contact-btn">
   <div class="svg-wrapper-1">
@@ -20,7 +20,7 @@
       </svg>
     </div>
   </div>
-  <span>Contact us</span>
+  <span>Anfrage </span>
 </button>
       
 </div>

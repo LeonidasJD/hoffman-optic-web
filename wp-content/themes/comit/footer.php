@@ -29,7 +29,7 @@
 			</div>
 			<div class="footer-divider"></div>
 			<div>
-			<h2>Arbeitsstunden</h2>
+			<h2>Öffnungszeiten</h2>
 			<ul>
 				<li><p>Montag-Freitag</p></li>
 				<li><p>08:30 - 13:00 & 14:00 - 18:00 Uhr</p></li>
@@ -71,7 +71,7 @@
 	</footer><!-- #colophon -->
 	</div>
 	<section class="footer-white-section">
-			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p> <p>Privacy & policy</p></div>
+			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p> <p>Impressum und Datenschutz</p></div>
 		</section>
 </div>
 	

@@ -8,9 +8,9 @@ get_header();
     <section class="hero-wrapper">
     <div class="under-hero-wrapper">
     <div class="hero-info">
-        <h1>Service that'll make <br>you see us with new eyes</h1>
-        <p>We Provides always our best services for our clients</p>
-        <button class="hero-button button-type-2"><a href="/kontakt/">Schedule an eye exam today!</a></button>
+        <h1>Hoffmannoptik – Perfektion<br> für Deine Augen!</h1>
+        <p>Wir verbinden Mode mit optimalem Sehen!</p>
+        <button class="hero-button button-type-2"><a href="/kontakt/">Buche noch heute einen Termin</a></button>
         
     </div>
     <div class="hero-mob-image">
@@ -84,42 +84,51 @@ get_header();
         <h2>Unsere Leistungen</h2>
        
         <span class="heading-info-span">
-        <p>Hoffmannoptik bietet Ihnen</p>    
-        <a class="scale-link" href="/leistungen/">Leistungen prüfen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a></span>
+        <p>Hoffmannoptik – perfekter Service für Deine Augen! </p>    
+        <a class="scale-link" href="/leistungen/">Unsere Leistungen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a></span>
         
         </div>
         <div class="services-cards">
 
         <div class="service-card">
-            <img src="/wp-content/uploads/2024/06/vector-1.webp" >
-            <h2>Eye care</h2>
-            <p>Enhancing Your Vision sit
-ametcon sec tetur adipisicing
-eiusmod tempor incididunt ut.
+            <img src="/wp-content/uploads/2024/07/eye-icon.webp" >
+            <h2>Augen-Vorsorge</h2>
+            <p>Deine Sehanalyse für gutes und gesundes Sehen!<br><br>
+            Unser Augen-Vorsorgeprogramm erweitert die Augenglasbestimmung um ein umfangreiches optometrisches Vorsorge-Screening.<br><br> Das Ziel ist, neben möglichen verordnungsrelevanten Sehfehlern auch eventuelle Auffälligkeiten am Auge zu erkennen, welche einer zusätzlichen fachärztlichen Untersuchung bedürfen. Unsere fachübergreifende Zusammenarbeit ermöglicht uns, zu einer ganzheitlichen Augengesundheit unserer Kundinnen und Kunden beizutragen. 
             </p>
         </div>
         <div class="service-card">
         <img src="/wp-content/uploads/2024/06/glasses-1.webp" >
-            <h2>Eyes check</h2>
-            <p>Enhancing Your Vision sit
-ametcon sec tetur adipisicing
-eiusmod tempor incididunt ut.
+            <h2>Sehtest - Sehanalyse</h2>
+            <p>Exakte Bestimmung Deiner Fehlsichtigkeit
+            Eine ganzheitliche Augenglasbestimmung, steht für eine umfassende und kompetente Sehberatung, die hohe Kriterien erfüllt.<br><br> Hierbei kommen die neuesten Sehtests und Messgeräte zum Einsatz. Dabei nutzen wir unsere intensive, fachübergreifende Ausbildung und umfassende Erfahrung, die individuellen Anforderungen eines jeden Kunden an das Sehen zu verstehen, zu analysieren und optimale Lösungen anzubieten.<br><br> Alle Messungen werden verständlich dokumentiert und sorgfältig archiviert. So dass eine interdisziplinäre, fachübergreifende Zusammenarbeit möglich ist.
+
             </p>
         </div>
         <div class="service-card">
         <img src="/wp-content/uploads/2024/06/icon2.webp" >
-            <h2>Fashionable glasses</h2>
-            <p>Enhancing Your Vision sit
-ametcon sec tetur adipisicing
-eiusmod tempor incididunt ut.
+            <h2>Fassungsberatung</h2>
+            <p>
+            Die Brille ist unsere Leidenschaft!<br><br>
+An eine neue Brille werden viele Ansprüche gestellt: Selbstverständlich sollte man damit perfekt sehen können, sie sollte gut zur eigenen Gesichtsform passen, sie sollte dem eigenen individuellen Geschmack entsprechen und die Beratung zur Brille sollte freundlich und fachkompetent sein. Eine Brille ist dementsprechend immer das Ergebnis Deiner persönlichen Wünsche und Vorstellungen. Bei Hoffmannoptik stellen wir uns gerne all Deinen Ansprüchen, denn ganzheitliches Denken ist unser Trumpf!<br><br>
+Welche Brille darf es sein?<br><br>
+Bei uns findet jeder seine perfekte Brille – für die ganze Familie, für jeden Anlass, für jeden individuellen Bedarf. Mit oder ohne Sehstärke. Erzähl uns einfach Dir!<br><br>
+Benötigst Du eine Brille für die Ferne, für die Nähe, für den Alltag (zum Beispiel eine Gleitsichtbrille) oder für besondere Aktivitäten, wie beispielsweise bei anspruchsvoller Arbeit am Computer? Soll es eine modische Sonnenbrille werden, oder benötigst Du eine robuste Sportbrille, weil Du regelmäßig Outdoor-Sport betreibst? Hast Du spezielle Bedürfnisse? Wir können Dir auch Arbeitsschutzbrillen mit Sehstärke anfertigen.
+Auch Kinder finden bei uns eine große Auswahl an Kinderbrillen. 
+
             </p>
         </div>
         <div class="service-card">
         <img src="/wp-content/uploads/2024/06/icon3.webp" >
-            <h2>Contact lens </h2>
-            <p>Enhancing Your Vision sit
-ametcon sec tetur adipisicing
-eiusmod tempor incididunt ut.
+            <h2>Kontaktlinsen-Anpassung </h2>
+            <p>
+            Deine optimalen Kontaktlinsen für jeden Augenblick.<br><br>
+Mit Kontaktlinsen können wir geradezu jede Sehschwäche korrigieren. Das funktioniert nur, weil es Kontaktlinsen in einer großen Vielzahl unterschiedlicher Typen gibt.<br><br>
+Je nach Art der Fehlsichtigkeit, Hornhaut-Krümmung, individuellen Sehanspuch und der Zusammensetzung des Tränenfilms sind für jeden Menschen verschiedene Linsen geeignet. <br><br>
+Um für dich die optimale Lösung zu finden, lass dich gerne von uns ausführlich beraten und vereinbaren hierfür einen Termin.
+Du trägst bereits Kontaktlinsen und möchtest diese kontrollieren und erneuern lassen. Gerne kannst Du auch hierfür einen Termin vereinbaren.
+Profitiere von unserer langjährigen Erfahrung in der professionellen Kontaktlinsenanpassung.
+
             </p>
         </div>
         </div>
@@ -140,7 +149,7 @@ eiusmod tempor incididunt ut.
     <div class="our-product-under-wrapper">
         <div class="heading-product-info">
             <h2>Unsere Produkte</h2>
-            <p><a class="scale-link" href="/shop/">Produkt prüfen</a> <img src="/wp-content/uploads/2024/06/vector_4.webp"></p>
+            <p><a class="scale-link" href="/shop/">Produkt lesen</a> <img src="/wp-content/uploads/2024/06/vector_4.webp"></p>
             
         </div>
         <?php
@@ -195,6 +204,7 @@ eiusmod tempor incididunt ut.
         if ($products->have_posts()) {
             while ($products->have_posts()) {
                 $products->the_post();
+                
         ?>
                 <div class="swiper-slide">
                     <a href="<?php echo get_permalink(); ?>">
@@ -243,11 +253,20 @@ eiusmod tempor incididunt ut.
     <img src="/wp-content/uploads/2024/06/frame_1115.webp" alt="">
         <div class="our-story-info">
             
-            <h2>Our Story</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Mauris risus adipiscing felis iaculis. Sed massa odio eget nullam ornare felis vitae urna risus. Id suspendisse nullam facilisi sed amet. Cursus sed aliquam gravida in nec id. Interdum nisi at ac eu arcu id viverra pellentesque accumsan. Et commodo enim suspendisse maecenas. Auctor velit diam  </p>
-            <h3>Our Mission</h3>
-            <p>Eros placerat ut consequat in tellus enim. Egestas sed viverra ut volutpat velit a adipiscing. Auctor vitae odio sagittis faucibus turpis. Diam tempor euismod dictumst facilisi. </p>
-            <p>Eros placerat ut consequat in tellus enim. Egestas sed viverra ut volutpat velit a adipiscing. Auctor vitae odio sagittis faucibus turpis. Diam tempor euismod dictumst facilisi. </p>
+            <h2>Gutes Sehen ist<br> unsere Leidenschaft!
+            </h2>
+            <p>In unserem augenoptisches Kompetenzzentrum stehen Dir hoch qualifizierte Augenoptiker-Meister für eine exakte Überprüfung Deiner Augen zur Verfügung. Wir bieten Dir eine sorgfältige Vermessung Deiner Augen unter ganzheitlichen Aspekten. Unser Augenmerk liegt dabei in der Analyse der visuellen Wahrnehmung und deren Verbesserung durch eine Brille, Kontaktlinsen oder vergrößernden Sehhilfen (Lupen).
+            </p>
+            <br>
+            <p>Gerne beraten Dich unsere Augenoptikerinnen zum Thema aktuelle Brillenmode, den für Dich passenden Brillengläsern, Sonnenbrillen und Kontaktlinsen.
+Unser Augenfürsorge-Programm erweitert die Augenglasbestimmung um ein umfangreiches optometrisches Vorsorge-Screening. Das Ziel ist, neben möglichen verordnungsrelevanten Sehfehlern auch eventuelle Auffälligkeiten am Auge zu erkennen, welche einer zusätzlichen fachärztlichen Untersuchung bedürfen. Unsere fachübergreifende Zusammenarbeit ermöglicht es uns, zu einer ganzheitlichen Augengesundheit unserer Kundinnen und Kunden beizutragen.
+</p>
+            <h3>Unsere Mission ist Deine Zufriedenheit.
+            </h3>
+            <p>Das Team von Hoffmannoptik, steht Dir bei allen Fragen rund um das Sehen, deine Augengesundheit und die aktuelle Brillenmode zur Verfügung.
+Alle Mitarbeiter sind ausgebildete Augenoptiker oder Augenoptikermeister, die mit höchster Präzision und Herzblut ihren Beruf ausüben. Jede Brille wird mit handwerklichem Geschick und höchstem Qualitätsbewusstsein gefertigt und ist damit ein Unikat.
+</p>
+            
         </div>
     </div>
 </section>
@@ -265,8 +284,8 @@ eiusmod tempor incididunt ut.
         <h2>Unsere nachrichten
         </h2>
         <span>
-        <p>We Provides always our best insight for our clients  </p>
-        <a class="scale-link" href="/neuigkeiten/">Nachrichten prüfen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a>
+        <p>Wir informieren Dich über aktuelle Angebote und News  </p>
+        <a class="scale-link" href="/neuigkeiten/">Nachrichten lesen<img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></a>
         </span>
        
         </div>
@@ -326,7 +345,7 @@ eiusmod tempor incididunt ut.
     <section class="testimonial-section-wrapper">
     <div class="testimonial-section-under-wrapper">
         <div class="heading-undersec">
-            <h2>WHAT OUR PATIENT’S THINK ABOUT US?</h2>
+            <h2>WAS KUNDEN ÜBER UNSERE ARBEIT SAGEN. </h2>
         </div>
         <div class="testimonial-undersec">
         <div class="swiper mySwiper">
