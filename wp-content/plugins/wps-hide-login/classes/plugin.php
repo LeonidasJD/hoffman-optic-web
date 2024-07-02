@@ -693,7 +693,7 @@ class Plugin {
 		}
 
 		if ( ! is_user_logged_in() ) {
-			if ( (  is_plugin_active( 'gravityforms/gravityforms.php' ) || ( is_multisite() && is_plugin_active_for_network( 'gravityforms/gravityforms.php' ) ) ) && isset( $_GET['gf_page'] ) ) {
+			if ( file_exists( WP_CONTENT_DIR . '/plugins/gravityforms/gravityforms.php' ) && isset( $_GET['gf_page'] ) ) {
 				return $origin_url;
 			}
 		}
