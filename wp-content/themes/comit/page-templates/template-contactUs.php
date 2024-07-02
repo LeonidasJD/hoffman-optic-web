@@ -26,7 +26,7 @@ get_header()?>
         <div class="info-and-form-divs">
             <div class="contact-info-wrapper">
                 <div class="info-card">
-                    <h2>Shop - Müllheim</h2>
+                    <h2>Geschäft - Müllheim</h2>
                     <p><img src="/wp-content/uploads/2024/06/group11.webp"> Werderstraße 45, 79379 Müllheim</p>
                     <p><img src="/wp-content/uploads/2024/06/icon_mail_.webp"><a href="mailTo: muellheim@hoffmann-optik.de"> muellheim@hoffmann-optik.de</a></p>
                     <p><img src="/wp-content/uploads/2024/06/icon_phone_.webp"> <a href="tel:076313375">07631-3375</a></p>
@@ -36,7 +36,7 @@ get_header()?>
 </svg></a></div>
                 </div>
                 <div class="info-card">
-                    <h2>Shop - Neuchâtel</h2>
+                    <h2>Geschäft - Neuchâtel</h2>
                     <p><img src="/wp-content/uploads/2024/06/group11.webp"> Rebstraße 4, 79395 Neuenburg am Rhein</p>
                     <p><img src="/wp-content/uploads/2024/06/icon_mail_.webp"> <a href="mailTo:neuenburg@hoffmann-optik.de">neuenburg@hoffmann-optik.de</a></p>
                     <p><img src="/wp-content/uploads/2024/06/icon_phone_.webp"><a href="tel:0763173606">07631-73606</a> </p>

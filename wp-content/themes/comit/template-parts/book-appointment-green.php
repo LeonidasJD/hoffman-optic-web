@@ -12,7 +12,7 @@
 </svg>
     </div>
   </div>
-  <span>Book your appointment</span>
+  <span>Termin buchen</span>
 </button>
 </div>
 
