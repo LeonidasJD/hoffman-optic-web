@@ -322,11 +322,12 @@ background-size: cover;
 }
 .heading-product-info p{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 .heading-product-info p img{
     width: 15px;
     margin-left: 5px;
+    margin-bottom: 4px;
 }
 .products-wrapper {
     display: flex;
@@ -398,7 +399,9 @@ background-size: cover;
     font-size: 48px;
     color: white;
     font-weight: 400;
-    margin: 0px;
+    margin: 0px 0px 14px 0px;
+    line-height: 128%;
+   
     
 }
 .our-story-info h3{
