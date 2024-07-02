@@ -81,6 +81,9 @@ color: white;
     background-color: white;
   
 }
+.footer-white-section a{
+    color: #0E130B;
+}
 .footer-white-section div {
     display: flex;
     justify-content: space-between;

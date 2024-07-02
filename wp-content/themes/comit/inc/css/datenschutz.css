@@ -1,0 +1,50 @@
+.datenschutz-wrapper{
+    padding: 0px 65px 0px 65px;
+}
+.datenschutz-wrapper h1{
+    font-family: 'Lato';
+    font-size: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.daten-divider{
+    padding-top: 2px;
+    background-color:#36641C ;
+}
+.datenschutz-wrapper p{
+    font-family: 'Lato';
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.text-section-wrapper{
+    padding: 0px 65px 0px 65px;
+}
+.text-section-wrapper h2{
+    font-family: 'Lato';
+    font-size: 35px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+}
+.text-section-wrapper h3{
+    font-family: 'Lato';
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+}
+.text-section-wrapper p{
+    font-family: 'Lato';
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+.text-section-wrapper ul li{
+    font-family: 'Lato';
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
