@@ -70,6 +70,15 @@
     margin-bottom: 40px;
     color: #0E130B;
 }
+.services-section-description ul li{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 128%;
+    
+    color: #0E130B;
+}
 .services-section-description a{
     color: #36641C;
     font-weight: bold;
