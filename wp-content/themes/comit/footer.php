@@ -71,7 +71,7 @@
 	</footer><!-- #colophon -->
 	</div>
 	<section class="footer-white-section">
-			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p> <p>Impressum und <a href="/datenschutz">Datenschutz</a></p></div>
+			<div><p>Copyright © 2024 Hoffmannoptik. All rights reserved</p> <p><a href="/impressum">Impressum</a> und <a href="/datenschutz">Datenschutz</a></p></div>
 		</section>
 </div>
 	
