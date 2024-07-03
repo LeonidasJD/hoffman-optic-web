@@ -48,3 +48,10 @@
     color: black;
     font-weight: 400;
 }
+.text-section-wrapper ol li{
+    font-family: 'Lato';
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    padding-top: 10px;
+}
