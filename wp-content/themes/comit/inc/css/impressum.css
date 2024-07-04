@@ -29,3 +29,13 @@
 .impressum-content a{
     color: #36641C;
 }
+
+@media screen and (max-width: 767px) {
+    .impresum-heading h2{
+        font-size: 23px;
+        text-align: center;
+    }
+    .impressum-content p{
+        font-size: 16px;
+    }
+}
