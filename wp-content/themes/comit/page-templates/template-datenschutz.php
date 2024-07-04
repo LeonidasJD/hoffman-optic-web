@@ -214,16 +214,182 @@ Weitere Informationen zu Zweck und Umfang der Datenerhebung und ihrer Verarbeitu
             Sie können die Teilnahme an diesem Tracking-Verfahren auf verschiedene Weise verhindern: a) durch eine entsprechende Einstellung Ihrer Browser-Software, insbesondere führt die Unterdrückung von Drittcookies dazu, dass Sie keine Anzeigen von Drittanbietern erhalten; b) durch Deaktivierung der Cookies für Conversion-Tracking, indem Sie Ihren Browser so einstellen, dass Cookies von der Domain „www.googleadservices.com“ blockiert werden, https://www.google.de/settings/ads, wobei diese Einstellung gelöscht wird, wenn Sie Ihre Cookies löschen; c) durch Deaktivierung der interessenbezogenen Anzeigen der Anbieter, die Teil der Selbstregulierungs-Kampagne „About Ads“ sind, über den Link http://www.aboutads.info/choices, wobei diese Einstellung gelöscht wird, wenn Sie Ihre Cookies löschen; d) durch dauerhafte Deaktivierung in Ihren Browsern Firefox, Internetexplorer oder Google Chrome unter dem Link http://www.google.com/settings/ads/plugin. Wir weisen Sie darauf hin, dass Sie in diesem Fall gegebenenfalls nicht alle Funktionen dieses Angebots vollumfänglich nutzen können.<br><br>
             Rechtsgrundlage für die Verarbeitung Ihrer Daten ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO. Weitere Informationen zu DoubleClick by Google erhalten Sie unter https://www.google.de/doubleclick und http://support.google.com/adsense/answer/2839090, sowie zum Datenschutz bei Google allgemein: https://www.google. de/intl/de/policies/privacy. Alternativ können Sie die Webseite der Network Advertising Initiative (NAI) unter http://www.networkadvertising.org besuchen. Google hat sich dem EU-US Privacy Shield unterworfen, https://www.privacyshield.gov/EU-US-Framework.
 Cookieauflistung<br><br>
-Kategorie: Notwendig (1)
+Kategorie:<br><br>  Notwendig (1)
 Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie Seitennavigation
 und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig
 funktionieren.<br><br>
 
+<table>
+        <thead>
+            <tr>
+                <th>Cookie-Name</th>
+                <th>Anbieter</th>
+                <th>Typ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>___cfduid</td>
+                <td>knightlab.com</td>
+                <td>HTTP</td>
+            </tr>
+        </tbody>
+    </table>
 
+<p>Kategorie: Statistiken (7)<br><br>
+Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren, indem
+Informationen anonym gesammelt und gemeldet werden.
+
+<table>
+        <thead>
+            <tr>
+                <th>Cookie-Name</th>
+                <th>Anbieter</th>
+                <th>Typ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>_ga</td>
+                <td>knightlab.com</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>_ga</td>
+                <td>optik-nosch.de</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>_gat</td>
+                <td>knightlab.com</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>_gat</td>
+                <td>optik-nosch.de</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>_gid</td>
+                <td>knightlab.com</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>_gid</td>
+                <td>optik-nosch.de</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>Collect</td>
+                <td>google-analytics.com</td>
+                <td>Pixel</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Kategorie: Marketing (16)<br><br>
+Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu folgen. Die Absicht ist, Anzeigen zu zeigen, die
+relevant und ansprechend für den einzelnen Benutzer sind und daher wertvoller für Publisher und werbetreibende
+Drittparteien sind.
+
+<table>
+        <thead>
+            <tr>
+                <th>Cookie-Name</th>
+                <th>Anbieter</th>
+                <th>Typ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>_fbp</td>
+                <td>optik-nosch.de</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>Fr</td>
+                <td>facebook.com</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>GPS</td>
+                <td>youtube.com</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>DIE</td>
+                <td>doubleclick.net</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>PREF</td>
+                <td>youtube.com</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>r/collect</td>
+                <td>doubleclick.net</td>
+                <td>Pixel</td>
+            </tr>
+            <tr>
+                <td>test_cookie</td>
+                <td>doubleclick.net</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>Tr</td>
+                <td>facebook.com</td>
+                <td>Pixel</td>
+            </tr>
+            <tr>
+                <td>VISITOR_INFO1_LIVE</td>
+                <td>youtube.com</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>YSC</td>
+                <td>youtube.com</td>
+                <td>HTTP</td>
+            </tr>
+            <tr>
+                <td>yt-remote-cast-installed</td>
+                <td>youtube.com</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>yt-remote-connected-devices</td>
+                <td>youtube.com</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>yt-remote-device-id</td>
+                <td>youtube.com</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>yt-remote-fast-check-period</td>
+                <td>youtube.com</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>yt-remote-session-app</td>
+                <td>youtube.com</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>yt-remote-session-name</td>
+                <td>youtube.com</td>
+                <td>HTML</td>
+            </tr>
+        </tbody>
+    </table>
+</p>
+</p>
 
 
 </p>
             </div>
+            
     </div>
  </div>
  <!-- TEXT SECTION END -->
