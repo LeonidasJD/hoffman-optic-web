@@ -31,6 +31,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .impressum-container-wrapper h1{
+        font-size: 35px;
+    }
     .impresum-heading h2{
         font-size: 23px;
         text-align: center;

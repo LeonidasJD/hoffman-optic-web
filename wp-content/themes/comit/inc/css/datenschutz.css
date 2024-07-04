@@ -69,3 +69,28 @@ table, th, td{
     font-weight: 400;
     padding-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .datenschutz-wrapper h1{
+        font-size: 35px;
+    }
+    .datenschutz-wrapper p{
+        font-size: 23px;
+        text-align: center;
+    }
+    .text-section-wrapper{
+    padding: 0px 10px 0px 10px;
+    }
+    .text-section-wrapper h2{
+        font-size: 23px;
+    }
+    .text-section-wrapper h3{
+        font-size: 20px;
+    }
+    .daten ol, .daten ul{
+        padding: 0px;
+    }
+    .daten table{
+        width: 100%;
+    }
+}
