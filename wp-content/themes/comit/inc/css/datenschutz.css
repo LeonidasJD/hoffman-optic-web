@@ -19,6 +19,20 @@
     display: flex;
     justify-content: center;
 }
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.daten table{
+    width: 50%;
+    border: 1px solid black;
+}
+.daten table td,.daten table th{
+    text-align: center;
+    font-family: 'Lato';
+    width: 50px;
+
+}
 .text-section-wrapper{
     padding: 0px 65px 0px 65px;
 }
